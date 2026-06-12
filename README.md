@@ -1,36 +1,38 @@
-# Script Matters
+# BanglishBench
 
-This repository contains the public thesis materials for:
+BanglishBench is a public benchmark release for measuring how reliably large
+language models handle Latin-script Banglish compared with native-script Bangla
+and English.
 
-**Script Matters: Measuring Latin-Script Banglish Robustness in Bangla LLMs**
+The benchmark is centered on paired script views: the same underlying item is
+evaluated across Bangla, reviewed Banglish, and English variants so that script
+choice is measured directly instead of being mixed with item difficulty.
 
-The main thesis source is in `Thesis Template UG/`. The compiled thesis PDF is:
+## Repository Layout
 
-`Thesis Template UG/buetcseugthesis.pdf`
+- `data/slices/`: benchmark slices, manifests, review queues, and public evaluation inputs.
+- `results/tables/`: compact result tables used in the public report.
+- `results/analysis/`: curated analysis outputs for robustness checks and diagnostics.
+- `reports/`: public experiment notes, dataset cards, and reproducibility summaries.
+- `scripts/`: analysis and artifact-generation scripts.
+- `paper/`: source and compiled PDF for the technical report.
 
-## Repository Contents
+Local credentials, raw model outputs, API payloads, Kaggle job assets, slide
+decks, virtual environments, and LaTeX build byproducts are intentionally
+excluded from the repository.
 
-- `Thesis Template UG/chapters/`: thesis chapter sources.
-- `Thesis Template UG/figures/`: thesis figures.
-- `reports/`: written experiment reports and reproducibility notes.
-- `results/tables/`: curated thesis-facing result tables.
-- `results/analysis/`: curated analysis CSV outputs.
-- `data/slices/`: public evaluation and review slices used by the study.
-- `scripts/`: analysis, audit, and table/figure generation scripts.
-- `presentation/`: defense presentation source and public assets.
+## Technical Report
 
-Local credentials, raw model runs, API payloads, Kaggle job assets, virtual
-environments, and LaTeX build byproducts are intentionally excluded by
-`.gitignore`.
+The report source is in `paper/`, and the compiled PDF is:
 
-## Build
+`paper/banglishbench-report.pdf`
 
-From the thesis directory:
+To rebuild:
 
 ```bash
-cd "Thesis Template UG"
-pdflatex -interaction=nonstopmode -halt-on-error buetcseugthesis.tex
-pdflatex -interaction=nonstopmode -halt-on-error buetcseugthesis.tex
+cd paper
+pdflatex -interaction=nonstopmode -halt-on-error banglishbench-report.tex
+pdflatex -interaction=nonstopmode -halt-on-error banglishbench-report.tex
 ```
 
 ## Key Artifacts
@@ -41,3 +43,10 @@ pdflatex -interaction=nonstopmode -halt-on-error buetcseugthesis.tex
 - BEnQA 974-row scale summary: `reports/benqa_human_gold_974_scale_summary.md`
 - Dataset card: `reports/dataset_card_validation200.md`
 - Reproducibility manifest: `reports/reproducibility_artifact_manifest.md`
+
+## License
+
+Code is released under the MIT License. Benchmark data, reports, figures, and
+other written materials created by the author are released under CC BY 4.0,
+except for third-party source datasets or materials, which remain under their
+original licenses.

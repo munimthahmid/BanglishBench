@@ -1,4 +1,0 @@
-Model,Mode,Bangla,Banglish,English,Decision
-Qwen3-8B,8-bit,blocked,blocked,blocked,Do not retry on P100; bitsandbytes backend blocked.
-Mistral-7B-Instruct-v0.3,8-bit pilot20,3/20,4/20,4/20,Diagnostic only; weak and slow.
-Indic-Gemma-2B Navarasa,"fp16 pilot20, Alpaca wrapper",4/20,3/20,5/20,Diagnostic only; parseable but around chance.

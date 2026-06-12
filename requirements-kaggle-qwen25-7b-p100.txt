@@ -1,5 +1,0 @@
-accelerate==0.33.0
-protobuf
-safetensors
-sentencepiece
-transformers==4.43.4

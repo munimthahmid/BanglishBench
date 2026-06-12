@@ -1,4 +1,4 @@
-# Publication whitelist for the thesis repository.
+# Publication whitelist for the BanglishBench repository.
 # Everything is ignored by default. Only source, curated artifacts, and
 # reproducibility materials explicitly unignored below are eligible for Git.
 
@@ -7,43 +7,28 @@
 # Repository metadata and public docs
 !/.gitignore
 !/README.md
-!/requirements*.txt
+!/LICENSE
+!/DATA_LICENSE.md
+!/NOTICE.md
 
-# Main thesis book source and final PDF
-!/Thesis Template UG/
-/Thesis Template UG/**
-!/Thesis Template UG/**/
-!/Thesis Template UG/README
-!/Thesis Template UG/README.bangla
-!/Thesis Template UG/buetcseugthesis.tex
-!/Thesis Template UG/buetcseugthesis.sty
-!/Thesis Template UG/buetcseugthesis.bib
-!/Thesis Template UG/buetcseugthesisbibliography.tex
-!/Thesis Template UG/buetcseugthesisabstract.tex
-!/Thesis Template UG/buetcseugthesisacknowledgement.tex
-!/Thesis Template UG/usebangla.sty
-!/Thesis Template UG/buetcseugthesis.pdf
-!/Thesis Template UG/chapters/**/*.tex
-!/Thesis Template UG/figures/**
-!/Thesis Template UG/inputs/**/*.tex
-!/Thesis Template UG/parameters/**/*.txt
+# Technical report source and compiled PDF
+!/paper/
+/paper/**
+!/paper/**/
+!/paper/banglishbench-report.tex
+!/paper/banglishbench.sty
+!/paper/references.bib
+!/paper/references.tex
+!/paper/abstract.tex
+!/paper/acknowledgements.tex
+!/paper/usebangla.sty
+!/paper/banglishbench-report.pdf
+!/paper/chapters/**/*.tex
+!/paper/figures/**
+!/paper/inputs/**/*.tex
+!/paper/parameters/**/*.txt
 
-# Defense/presentation source and public assets
-!/presentation/
-/presentation/**
-!/presentation/**/
-!/presentation/README.md
-!/presentation/main.tex
-!/presentation/theme.tex
-!/presentation/buetlogo.png
-!/presentation/main.pdf
-!/presentation/img/**
-!/defense_presentation/
-/defense_presentation/**
-!/defense_presentation/**/
-!/defense_presentation/main.tex
-
-# Thesis reports and public figures
+# Public reports and figures
 !/reports/
 /reports/**
 !/reports/**/
@@ -105,6 +90,10 @@ kaggle*.txt
 kaggle (*).json
 claude_conversation.txt
 gpu_config.txt
+presentation/
+defense_presentation/
+sample_presentation/
+requirements-kaggle*.txt
 
 # Virtual environments, caches, and build products
 .venv*/
@@ -144,5 +133,39 @@ data/raw/
 data/processed/
 data/pilot*/
 kaggle_jobs/
-sample_presentation/
 literature/code/
+
+# Internal drafts, planning notes, and local execution runbooks
+reports/chapter_*_draft.md
+reports/*thesis*.md
+reports/continuous_research_checkpoint_*.md
+reports/*kaggle*.md
+reports/*runbook*.md
+reports/*cost_plan*.md
+reports/post_v5_compute_budget.md
+reports/post_v5_rerun*.md
+reports/validation200_v5_next_session_brief.md
+reports/validation200_v5_review_resume_card.md
+reports/script_matters_paper_draft.md
+reports/next_experiment_decision_queue.md
+reports/open_model_next_experiment_plan.md
+reports/research_log_compactness_check.md
+results/analysis/thesis_*.csv
+results/analysis/post_v5_compute_budget.csv
+results/analysis/post_v5_kaggle_job_plan.csv
+results/analysis/validation200_v5_next_session_brief.csv
+results/analysis/validation200_v5_review_resume_card.csv
+results/analysis/pilot20_*.csv
+results/tables/diagnostic_model_pilots.csv
+results/tables/thesis_tables.md
+scripts/build_pilot.py
+scripts/build_post_v5_compute_budget.py
+scripts/build_post_v5_kaggle_job_plan.py
+scripts/build_thesis_*.py
+scripts/build_v5_next_session_brief.py
+scripts/check_thesis_*.py
+scripts/compile_thesis_draft.py
+scripts/export_v5_review_resume_card.py
+scripts/kaggle_with_account.py
+scripts/prepare_kaggle*.py
+scripts/run_eval_kaggle.py

@@ -39,14 +39,14 @@
 \parindent 0.0mm		  
 
 
-% Read and store student names in DB
+% Read and store author/supervisor metadata.
 \RequirePackage{datatool}
 \DTLloaddb[noheader]{ThesisStudents}{parameters/students.txt}
 \DTLloaddb[noheader]{Supervisor}{parameters/supervisor.txt}
 
-% Thesis parameters
-\def\thesistitle{\input{parameters/thesistitle.txt}\unskip}
-\def\thesisdate{\input{parameters/thesisdate.txt}\unskip}
+% Report parameters
+\def\thesistitle{\input{parameters/report-title.txt}\unskip}
+\def\thesisdate{\input{parameters/report-date.txt}\unskip}
 
 % Thesis title page 
 \def\thesistitlepage{
@@ -187,13 +187,13 @@
   % \thesiscertificationpage
 
   \cleardoublepage
-  \input {buetcseugthesisacknowledgement.tex}
+  \input {acknowledgements.tex}
 
   \cleardoublepage
   \listsandtoc
   
   \cleardoublepage
-  \input{buetcseugthesisabstract.tex}
+  \input{abstract.tex}
 }
 
 
@@ -235,14 +235,14 @@
   \vfill\vfill\vfill\vfill\vfill
   \sffamily
 
-  Generated using Undegraduate Thesis \LaTeX\xspace Template,
+  Generated using a BUET CSE \LaTeX\xspace report template,
   Version~\rcsInfoRevision. \cse, \buet, Dhaka, Bangladesh.
 
   \bigskip
 
   \settimeformat{ampmtime}
 
-  This thesis was generated on~\today\xspace at~\currenttime.
+  This report was generated on~\today\xspace at~\currenttime.
 
   \vfill
 
