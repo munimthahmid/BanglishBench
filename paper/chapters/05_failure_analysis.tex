@@ -63,7 +63,7 @@ These examples should not be read as a separate test. They are explanatory evide
 
 \section{Error Taxonomy: Why Banglish Fails}
 
-The recoverability counts say that failures are not random difficulty, but they do not say what goes wrong. To answer the ``but why does it fail?'' question, we code every one of the 164 recoverable BEnQA reviewed-Banglish misses across the three Qwen models into four categories using documented deterministic rules (\path{scripts/analyze_banglish_error_taxonomy.py}). Because these are recoverable misses, the model demonstrably can answer the item in Bangla or English, so each category isolates a failure introduced by the romanization itself rather than item difficulty.
+The recoverability counts say that failures are not random difficulty, but they do not say what goes wrong. To answer the ``but why does it fail?'' question, we code every one of the 164 recoverable BEnQA reviewed-Banglish misses across the three Qwen models into four categories using documented deterministic rules (\url{https://github.com/munimthahmid/BanglishBench/blob/main/scripts/analyze_banglish_error_taxonomy.py}). Because these are recoverable misses, the model demonstrably can answer the item in Bangla or English, so each category isolates a failure introduced by the romanization itself rather than item difficulty.
 
 \begin{table}[H]
 \centering
@@ -92,6 +92,6 @@ The categories are nearly balanced, which is itself informative: there is no sin
 
 \textbf{Romanized-word ambiguity (31\%)} is the residual category where ordinary Bangla words become ambiguous in Latin script and shift the model toward a wrong but plausible option. \texttt{benqa\_10th-Physics\_0280} asks for copper's resistivity (\texttt{tamar rodhokotto}); the numeric options differ only at the second significant figure, and the model picks the wrong value under Banglish while answering correctly in English.
 
-\textbf{Option-format failure (1\%)} is rare here: only two recoverable misses produce an unparseable answer. The reviewed Banglish field almost always yields a clean A--D letter, so the gap is overwhelmingly about choosing the wrong option, not about violating the answer contract --- which rules out a trivial parsing explanation. Full per-item codings are in \path{reports/banglish_error_taxonomy.md}.
+\textbf{Option-format failure (1\%)} is rare here: only two recoverable misses produce an unparseable answer. The reviewed Banglish field almost always yields a clean A--D letter, so the gap is overwhelmingly about choosing the wrong option, not about violating the answer contract --- which rules out a trivial parsing explanation. Full per-item codings are in \url{https://github.com/munimthahmid/BanglishBench/blob/main/reports/banglish_error_taxonomy.md}.
 
 \endinput

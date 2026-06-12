@@ -65,7 +65,7 @@ Groq Llama 3.3 70B & Secondary & 92/200 & 56/200 & 111/200 & -18.0 pts & -27.5 p
 
 GPT-5.5 low is the strongest boundary case. Under strict scoring it nearly closes the Banglish-vs-Bangla gap: 172/200 Bangla versus 169/200 Banglish. Under secondary scoring, Banglish is slightly ahead of Bangla. This is an important limitation on the main claim. With enough capability and answer recovery, the reviewed-Banglish gap can nearly disappear on the validation-200 set.
 
-The McNemar exact tests make the panel contrast precise. GPT-5.5's strict Bangla-versus-Banglish discordance is 6 losses against 3 gains ($p = 0.51$): statistically indistinguishable from no gap. Every other API row is significant after Holm correction across the panel ($p < 0.0001$ for Gemini, Claude, DeepSeek, and Groq under strict scoring), with conditional odds ratios from 3.9 (Groq) to 9.1 (DeepSeek). The full per-panel tables are in \path{reports/mcnemar_script_gaps.md}.
+The McNemar exact tests make the panel contrast precise. GPT-5.5's strict Bangla-versus-Banglish discordance is 6 losses against 3 gains ($p = 0.51$): statistically indistinguishable from no gap. Every other API row is significant after Holm correction across the panel ($p < 0.0001$ for Gemini, Claude, DeepSeek, and Groq under strict scoring), with conditional odds ratios from 3.9 (Groq) to 9.1 (DeepSeek). The full per-panel tables are in \url{https://github.com/munimthahmid/BanglishBench/blob/main/reports/mcnemar_script_gaps.md}.
 
 But that is not the whole frontier story. Gemini 3.5 Flash reduces the gap but retains a strict deficit. Claude Sonnet 4.6 has high absolute accuracy but still scores 32 items lower on reviewed Banglish than on Bangla under strict scoring. It also produces more long and multiline answers under an answer-only prompt, which creates format-compliance and cost issues. DeepSeek V4 Flash and Groq-hosted Llama 3.3 70B retain large Banglish deficits.
 
@@ -133,7 +133,7 @@ Groq Llama 3.3 70B & -26.2* & -24.0* & -24.3* & -9.9* & -32.0* \\
 }
 
 \smallskip
-{\footnotesize Full per-subject accuracy and discordant-pair tables: \path{reports/benqa_human_gold_974_subject_breakdown.md}.}
+{\footnotesize Full per-subject accuracy and discordant-pair tables: \url{https://github.com/munimthahmid/BanglishBench/blob/main/reports/benqa_human_gold_974_subject_breakdown.md}.}
 \end{table}
 
 The breakdown reveals a consistent structure. For every frontier model, the Banglish gap is smallest on Math and largest on the text-heavy science subjects, with Biology and Science often worst. GPT-5.5's Math gap is statistically indistinguishable from zero ($-3.6$ points, $p = 0.28$) while its Biology gap is $-17.9$ points ($p < 0.0001$). DeepSeek loses around 38--40 points on the science subjects but 13.5 on Math. The pattern matches the mechanism the thesis proposes: romanization damages lexical grounding of Bangla terminology, and items whose content survives in symbolic or numeric form are less exposed. The script gap is therefore not uniform difficulty inflation; it concentrates where the question depends on reading romanized Bangla words.
