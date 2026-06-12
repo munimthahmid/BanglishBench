@@ -1,0 +1,5 @@
+split,model,prompt_mode,variant,n,unique_items,correct,accuracy,parsed_empty,mean_seconds,total_seconds
+dev,Qwen/Qwen2.5-3B-Instruct,banglish_self_normalize,banglish_clean,50,50,10,0.2,3,5.8448,292.2418
+dev,Qwen/Qwen3-4B-Instruct-2507,banglish_self_normalize,banglish_clean,50,50,5,0.1,23,11.7432,587.1577
+test,Qwen/Qwen2.5-3B-Instruct,banglish_self_normalize,banglish_clean,150,150,41,0.2733,8,5.5114,826.7109
+test,Qwen/Qwen3-4B-Instruct-2507,banglish_self_normalize,banglish_clean,150,150,16,0.1067,68,11.6664,1749.9536

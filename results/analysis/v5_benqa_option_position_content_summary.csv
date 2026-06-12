@@ -1,0 +1,5 @@
+section,model,n,gold_is_longest,D_longest_n,D_longest_and_gold_D,D_composite_n,A_longest_weighted,B_longest_weighted,C_longest_weighted,D_longest_weighted,correct,pred_D,pred_D_when_D_longest,pred_D_when_D_not_longest,D_not_longest_n,pred_is_longest,pred_is_composite,correct_when_pred_is_longest,correct_when_pred_is_not_longest
+item_features,all_items,144,76,98,29,25,24.25,27.58,28.58,63.58,,,,,,,,,
+model,Qwen2.5-3B,144,,98,,,,,,,41,39,30,9,46,82,25,19,22
+model,Qwen2.5-7B 8-bit,144,,98,,,,,,,47,25,20,5,46,82,24,29,18
+model,Qwen3-4B,144,,98,,,,,,,47,111,81,30,46,97,25,34,13

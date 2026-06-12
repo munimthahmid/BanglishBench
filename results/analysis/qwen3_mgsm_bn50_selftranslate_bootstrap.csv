@@ -1,0 +1,2 @@
+label,n,left_correct,right_correct,left_accuracy,right_accuracy,delta_right_minus_left,ci95_low,ci95_high,bootstrap_p_opposite_direction,left_filter,right_filter,key_columns,samples,seed
+qwen3_mgsm_selftranslate_minus_baseline,50,5,2,0.1,0.04,-0.06,-0.16,0.02,0.1187,model=Qwen/Qwen3-4B-Instruct-2507;variant=banglish_clean;prompt_mode=baseline,model=Qwen/Qwen3-4B-Instruct-2507;variant=banglish_clean;prompt_mode=banglish_self_translate_en,id,10000,42

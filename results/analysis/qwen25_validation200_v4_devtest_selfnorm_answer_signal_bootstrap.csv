@@ -1,0 +1,5 @@
+split,comparison,heuristic,n,left_correct,right_correct,left_accuracy,right_accuracy,delta_right_minus_left,ci95_low,ci95_high,bootstrap_p_opposite_direction,samples,seed
+dev,baseline_vs_routed,selfnorm_if_after_nonempty,50,7,11,0.14,0.22,0.08,-0.02,0.2,0.1002,10000,42
+dev,selfnorm_vs_routed,selfnorm_if_after_nonempty,50,10,11,0.2,0.22,0.02,0.0,0.06,0.3727,10000,42
+test,baseline_vs_routed,selfnorm_if_after_nonempty,150,31,43,0.2067,0.2867,0.08,0.0067,0.1533,0.0159,10000,42
+test,selfnorm_vs_routed,selfnorm_if_after_nonempty,150,41,43,0.2733,0.2867,0.0133,0.0,0.0333,0.1358,10000,42

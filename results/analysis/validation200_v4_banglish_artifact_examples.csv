@@ -1,0 +1,21 @@
+field,pattern_name,id,snippet
+banglish_clean,tb_virama_b,benqa_10th-Physics_0084,sthir obosthan theke somotborone bostur jekono somoyer beg bostur o
+banglish_clean,tb_virama_b,benqa_12th-Math-II_0230,5 ekok durotbe A o B bindute kriyarot 9 ebong 5 ekok 
+banglish_clean,tb_virama_b,benqa_10th-Physics_0130,manobodeher ghonotb kot? i. kontrol rod thake ii. bipul por
+banglish_clean,tb_virama_b,benqa_10th-Physics_0280,tamar rodhokotb konoti? A. 1.6 \times 10^{-8}\Omega m B
+banglish_clean,oja_loanword,benqa_10th-Biology_0277,motin tamak patay ek dhoroner mojaik rog dekhote pel. ullikhit roger bhair
+banglish_clean,oja_loanword,benqa_10th-Biology_0215,C_{6}H_{12}O_{6}\xarrowright{enojaim}C_{3}H_{4}O_{3} uddipoker prokriyati-
+banglish_clean,ksh_heavy,benqa_12th-Biology-I_0265,"' byoboharik klase ekoti nomunar poryobekshon kore dekholo metajailem kendrer dike,"
+banglish_clean,ksh_heavy,banglamath_0522,ar choora rasta thakole rastabade jomir kshetrofol kot Return only the final answer
+banglish_clean,ksh_heavy,banglamath_0541,ore 3 mitar choora rasta thakole rastar kshetrofol kot Return only the final answer
+banglish_clean,ksh_heavy,benqa_8th-Math_0190,mitar bistrit ekoti rasta achhe. rastar kshetrofol kot? A. 325 borgomitar B. 375 bo
+banglish_clean,ksh_heavy,benqa_12th-Math-I_0342,"shonotir kon bindute ongkit sporshok x-oksher somantoral? A. \left ( \frac{-1}{2}, "
+banglish_clean,ksh_heavy,benqa_10th-Math-II_0367,ekoti niropeksh chhokka ekobar nikshep kora hole moulik
+banglish_clean,ksh_heavy,benqa_12th-Physics-I_0256,somoyer sapekshe ontokolon kore sorol chhondit goti-som
+banglish_clean,ksh_heavy,benqa_10th-Chemistry_0191,astik toirite byobohrit hoy iii. 'B' opeksha kom sokriy nicher konoti sothik? A. i 
+banglish_noisy,tb_virama_b,benqa_10th-Physics_0084,sthir obosthan theke somotborone bostur jekono somoyer beg bostur o
+banglish_noisy,tb_virama_b,benqa_12th-Math-II_0230,5 ekok durotbe A o B bindute kriyarot 9 ebong 5 ekok 
+banglish_noisy,tb_virama_b,benqa_10th-Physics_0130,manobodeher ghonotb kot? i. kontrol rod thake ii. bipul por
+banglish_noisy,tb_virama_b,benqa_10th-Physics_0280,tamar rodhokotb konoti? A. 1.6 \times 10^{-8}\Omega m B
+banglish_noisy,oja_loanword,benqa_10th-Biology_0277,motin tamak patay ek dhoroner mojaik rog dekote pel. ullikit roger vairase
+banglish_noisy,oja_loanword,benqa_10th-Biology_0215,C_{6}H_{12}O_{6}\xarrowright{enojaim}C_{3}H_{4}O_{3} uddipoker prokriyati-

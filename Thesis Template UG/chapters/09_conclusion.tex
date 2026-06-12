@@ -1,0 +1,9 @@
+\chapter{Conclusion}
+
+Script choice matters for Bangla LLM evaluation. On a controlled Bangla/Banglish/English validation set, reviewed Latin-script Banglish is less reliable than native Bengali script and English for compact Qwen models. The gap survives targeted review, the strict-197 sensitivity check, tokenization audits, recoverability analysis, and Holm-corrected McNemar exact tests. Frontier models reduce the gap unevenly: GPT-5.5 nearly closes it on the 200-item core, but Claude, DeepSeek, and Groq preserve clear deficits under the same protocol. A 1,000-row human review audit adds a 974-row accepted/edited BEnQA gold extension, and full runs with Qwen2.5-3B, Gemini 3.5 Flash, GPT-5.5, Claude Sonnet 4.6, DeepSeek V4 Flash, and Groq-hosted Llama 3.3 70B all reproduce a statistically significant reviewed-Banglish deficit outside the 200-item reviewed core --- including GPT-5.5, whose near-closure on the core does not persist at scale.
+
+Mitigation remains unresolved on both sides of the model. Inference-time normalization and generated-view routing are brittle, and a training-side LoRA adapter with eval-disjoint romanized supervision narrows the gap only slightly and not significantly, without regressing the other scripts. The orthographic weakness is therefore deeper than a light adaptation patch can close.
+
+The broader lesson is practical. Banglish should not be treated as informal noise that models will automatically handle. For Bangla users, Latin-script input is a real access path. Robust evaluation must measure it directly, and robust mitigation must preserve task structure, answer format, and script equivalence rather than assuming that larger models or simple normalization will solve the problem.
+
+\endinput

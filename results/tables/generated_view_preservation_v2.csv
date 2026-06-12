@@ -1,0 +1,5 @@
+Model,Dataset,n,Options changed,Digit sequence changed,Formulas changed,Line count changed,Extra answer markers,Gate implication
+Qwen2.5-7B 8-bit,banglamath,56,0,6,0,56,0,Reject generated view on option/digit/formula/answer-marker failures.
+Qwen2.5-7B 8-bit,benqa,144,10,25,5,64,21,Reject generated view on option/digit/formula/answer-marker failures.
+Qwen3-4B,banglamath,56,0,1,0,56,0,Reject generated view on option/digit/formula/answer-marker failures.
+Qwen3-4B,benqa,144,3,14,1,108,5,Reject generated view on option/digit/formula/answer-marker failures.

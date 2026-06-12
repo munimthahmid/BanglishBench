@@ -1,0 +1,19 @@
+model,dataset,comparison,left_script,right_script,n,clusters,left_correct,right_correct,delta_right_minus_left,cluster_ci95_low,cluster_ci95_high,cluster_bootstrap_p_opposite_direction,gains,losses,iterations,seed,cluster_definition
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,200,16,54,41,-0.065,-0.1386,0.0108,0.0555,15,28,10000,20260532,BEnQA subject plus BanglaMATH grade
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,200,16,71,41,-0.15,-0.2324,-0.0699,0.0001,15,45,10000,20260533,BEnQA subject plus BanglaMATH grade
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,144,13,49,41,-0.0556,-0.1575,0.042,0.151,15,23,10000,20260534,BEnQA subject plus BanglaMATH grade
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,144,13,66,41,-0.1736,-0.2727,-0.0699,0.0003,15,40,10000,20260535,BEnQA subject plus BanglaMATH grade
+Qwen2.5-3B,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,56,3,5,0,-0.0893,-0.15,0.0,0.0386,0,5,10000,20260536,BEnQA subject plus BanglaMATH grade
+Qwen2.5-3B,banglamath,banglish_minus_english,English,Reviewed Banglish,56,3,5,0,-0.0893,-0.2,0.0,0.0375,0,5,10000,20260537,BEnQA subject plus BanglaMATH grade
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,200,16,65,47,-0.09,-0.1514,-0.0312,0.0023,19,37,10000,20260538,BEnQA subject plus BanglaMATH grade
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,200,16,94,47,-0.235,-0.3333,-0.1443,0.0,13,60,10000,20260539,BEnQA subject plus BanglaMATH grade
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,144,13,60,47,-0.0903,-0.1678,-0.0139,0.0112,19,32,10000,20260540,BEnQA subject plus BanglaMATH grade
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,144,13,86,47,-0.2708,-0.3862,-0.1597,0.0,13,52,10000,20260541,BEnQA subject plus BanglaMATH grade
+Qwen2.5-7B 8-bit,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,56,3,5,0,-0.0893,-0.15,0.0,0.0364,0,5,10000,20260542,BEnQA subject plus BanglaMATH grade
+Qwen2.5-7B 8-bit,banglamath,banglish_minus_english,English,Reviewed Banglish,56,3,8,0,-0.1429,-0.3,-0.05,0.0,0,8,10000,20260543,BEnQA subject plus BanglaMATH grade
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,200,16,80,49,-0.155,-0.2363,-0.0841,0.0,8,39,10000,20260544,BEnQA subject plus BanglaMATH grade
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,200,16,88,49,-0.195,-0.2903,-0.1075,0.0,13,52,10000,20260545,BEnQA subject plus BanglaMATH grade
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,144,13,76,47,-0.2014,-0.2847,-0.1119,0.0,8,37,10000,20260546,BEnQA subject plus BanglaMATH grade
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,144,13,82,47,-0.2431,-0.3427,-0.1259,0.0,13,48,10000,20260547,BEnQA subject plus BanglaMATH grade
+Qwen3-4B,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,56,3,4,2,-0.0357,-0.1,0.0,0.297,0,2,10000,20260548,BEnQA subject plus BanglaMATH grade
+Qwen3-4B,banglamath,banglish_minus_english,English,Reviewed Banglish,56,3,6,2,-0.0714,-0.15,0.0,0.038,0,4,10000,20260549,BEnQA subject plus BanglaMATH grade

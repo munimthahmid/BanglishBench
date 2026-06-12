@@ -1,0 +1,2 @@
+request_id,id,dataset,answer_type,variant,gold,parsed,secondary_parsed,secondary_reason,raw_excerpt
+banglamath_0552::english::baseline,banglamath_0552,banglamath,short_answer,english,৪৫০০ বর্গগজ,"4,500 square yards","4,500 square yards",short_extended_unit,"4,500 square yards"

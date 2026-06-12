@@ -1,0 +1,9 @@
+section,scope,scope_label,n,qwen3_correct,qwen3_D,qwen3_wrong_D,qwen3_same_as_q25_agreement,qwen3_switches_from_q25_agreement,qwen3_invalid
+scope_summary,all,All BEnQA rows,144,47,111,77,28,33,3
+scope_summary,q25_both_valid,Both Qwen2.5 Banglish predictions are valid,142,47,109,75,28,33,3
+scope_summary,q25_agree,Qwen2.5 models agree on Banglish,61,22,44,29,28,33,0
+scope_summary,q25_agree_non_d,Qwen2.5 models agree on non-D Banglish,42,14,26,18,10,32,0
+scope_summary,q25_agree_d,Qwen2.5 models agree on D Banglish,19,8,18,11,18,1,0
+scope_summary,q25_correct_agree,Qwen2.5 models are correct and agree,22,11,15,8,11,11,0
+scope_summary,q25_correct_agree_non_d,Qwen2.5 models are correct and agree on non-D,15,4,8,8,4,11,0
+scope_summary,q25_correct_agree_d,Qwen2.5 models are correct and agree on D,7,7,7,0,7,0,0

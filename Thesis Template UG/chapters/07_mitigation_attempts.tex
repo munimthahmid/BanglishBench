@@ -1,0 +1,70 @@
+\chapter{Mitigation Attempts}
+
+The mitigation story should be honest. The thesis does not yet have a general solution, and that negative result is still useful: it prevents the evaluation problem from being hidden behind a fragile prompt wrapper.
+
+\section{Self-normalization}
+
+Same-model self-normalization asks the model to rewrite Banglish into Bangla and then answer. It helps one model and hurts another.
+
+\begin{table}[H]
+\centering
+\caption{Self-normalization on validation-200 v3}
+\label{tab:selfnorm}
+\small
+\begin{tabular}{llll}
+\hline
+Model & Clean Banglish baseline & Self-normalized & Delta \\
+\hline
+Qwen2.5-3B & 38/200 & 51/200 & +6.5 pts \\
+Qwen3-4B & 46/200 & 21/200 & -12.5 pts \\
+\hline
+\end{tabular}%
+\end{table}
+
+The Qwen2.5-3B gain is real but brittle. It includes 27 gains and 14 losses, and the rewrite audit shows option, digit, and formula preservation errors. The Qwen3-4B result is more severe: accuracy collapses even though surface preservation counters look better. This means the procedure changes model decision behavior, not just text quality.
+
+The conclusion is simple: self-normalization is not a general Banglish solution.
+
+\subsection{Generated alternate-script views}
+
+A stronger mitigation idea is to generate alternate script views and route only when views agree. This is attractive because the cross-script oracle shows that many Banglish misses are recoverable under Bangla or English. But the deployable version cannot use gold benchmark views. It must generate those views reliably.
+
+The generated-view audits show why this is hard.
+
+Raw deterministic Bangla transliterators corrupt MCQ option labels. Protected variants reduce some failures, but earlier versions fail tightened formula-expression gates. A formulaish-token protected-v3 wrapper repairs the hard preservation gate on the small dev audit, but answer gains remain small and uncertain. A guarded generated-English repair passes preservation gates, but 15/36 rows fall back to the source Banglish text. Agreement routing is too sparse: it misses most generated-view oracle recoveries.
+
+The correct claim is therefore negative:
+
+\textbf{Generated-view routing is promising, but current cheap generated views are not reliable enough for a held-out mitigation claim.}
+
+This matters because it prevents overclaiming. The thesis diagnoses a real orthographic robustness problem and shows that naive mitigation is brittle.
+
+\section{Training-Side Mitigation: LoRA Adaptation}
+
+The previous mitigations act at inference time. A stronger question is whether a small amount of romanized supervision can close the gap from the training side. We train two LoRA adapters on Qwen2.5-3B-Instruct (rank 16, $\alpha=32$, dropout 0.05, on all attention and MLP projections; 0.96\% of parameters; two epochs, fp16). The training data is a BEnQA pool of 3{,}739 items whose source rows are disjoint from both the frozen validation-200 v5 core and the 1{,}000-row extension, with the disjointness asserted in code before any file is written. Arm A trains on Banglish-only completions; arm B trains on a 1:1:1 Bangla/Banglish/English mix, which tests whether balanced supervision avoids forgetting the other scripts. A held-out 200-item dev split (never trained) verifies that learning occurred.
+
+On the dev split the adapters do learn: arm A raises Banglish from 63/200 to 75/200 ($+6.0$ points) and arm B raises it to 70/200, with neither Bangla nor English regressing (arm B improves all three views). The dev Banglish gains are positive but not individually significant (arm A McNemar $p = 0.19$), so the sanity check passes without overclaiming.
+
+The decisive test is the frozen validation-200 v5 triad, rerun with each merged adapter under the same prompt manifest and parser.
+
+\begin{table}[H]
+\centering
+\caption{LoRA adaptation on the frozen validation-200 v5 triad. The gap is reviewed Banglish minus Bangla. Deltas versus base are paired; none is statistically significant.}
+\label{tab:lora}
+\small
+\begin{tabular}{lllll}
+\hline
+Condition & Bangla & Banglish & English & Banglish -- Bangla gap \\
+\hline
+Base (no adapter) & 54/200 & 41/200 & 71/200 & -6.5 pts \\
+Arm A (Banglish-only) & 57/200 & 46/200 & 69/200 & -5.5 pts \\
+Arm B (mixed 1:1:1) & 55/200 & 47/200 & 76/200 & -4.0 pts \\
+\hline
+\end{tabular}%
+\end{table}
+
+Both adapters move the gap modestly toward zero --- from $-6.5$ points at base to $-5.5$ (arm A) and $-4.0$ (arm B) --- and, importantly, neither Bangla nor English regresses, so there is no catastrophic forgetting. But the movement is small and not statistically significant: the paired Banglish gain over base is $+2.5$ points for arm A (CI $[-3.5, +8.5]$, $p = 0.50$) and $+3.0$ points for arm B (CI $[-2.5, +8.5]$, $p = 0.36$). Moreover, arm B lifts Banglish, Bangla, and English together, which is the signature of general task adaptation rather than script-specific mitigation. Full numbers are in \path{reports/lora_mitigation_results.md}.
+
+The honest reading follows the success gates set before the experiment. This is not a positive mitigation result: the Banglish gap interval does not exclude zero, and the dev-split gains do not translate into a significant frozen-slice reduction. It is a partial, adaptation-level effect at most. As a negative mitigation result it is informative: light, eval-disjoint LoRA supervision --- the natural first training-side fix --- narrows the Banglish gap only slightly and not reliably, which strengthens rather than weakens the thesis. The orthographic weakness is deeper than a small romanized-supervision patch can close, and a genuine fix likely requires more romanized pretraining exposure or architecture-level changes, not a light adapter at fine-tuning time.
+
+\endinput

@@ -1,0 +1,20 @@
+request_id,id,dataset,answer_type,variant,gold,parsed,secondary_parsed,secondary_reason,raw_excerpt
+banglamath_0182::banglish_clean::baseline,banglamath_0182,banglamath,short_answer,banglish_clean,৬০০ টাকা,600,600,short_numeric_only,600
+banglamath_0183::banglish_clean::baseline,banglamath_0183,banglamath,short_answer,banglish_clean,৩০ দিন,30 din,30 din,short_extended_unit,30 din
+banglamath_0184::banglish_clean::baseline,banglamath_0184,banglamath,short_answer,banglish_clean,১২০০০ টাকা,12000,12000,short_numeric_only,12000
+banglamath_0184::english::baseline,banglamath_0184,banglamath,short_answer,english,১২০০০ টাকা,12000,12000,short_numeric_only,12000
+banglamath_0189::banglish_clean::baseline,banglamath_0189,banglamath,short_answer,banglish_clean,৬ জন পুরুষ,6,6,short_numeric_only,6
+banglamath_0189::english::baseline,banglamath_0189,banglamath,short_answer,english,৬ জন পুরুষ,6,6,short_numeric_only,6
+banglamath_0226::bangla::baseline,banglamath_0226,banglamath,short_answer,bangla,২৫০ টাকা,২৫০,২৫০,short_numeric_only,২৫০
+banglamath_0227::banglish_clean::baseline,banglamath_0227,banglamath,short_answer,banglish_clean,৭.৫ কিমি,7.5,7.5,short_numeric_only,7.5
+banglamath_0227::english::baseline,banglamath_0227,banglamath,short_answer,english,৭.৫ কিমি,7.5 km,7.5 km,short_extended_unit,7.5 km
+banglamath_0231::english::baseline,banglamath_0231,banglamath,short_answer,english,২০ টাকা,20,20,short_numeric_only,20
+banglamath_0521::english::baseline,banglamath_0521,banglamath,short_answer,english,৭০ মিটার,70,70,short_numeric_only,70
+banglamath_0540::banglish_clean::baseline,banglamath_0540,banglamath,short_answer,banglish_clean,২১ মিটার,21,21,short_numeric_only,21
+banglamath_0540::english::baseline,banglamath_0540,banglamath,short_answer,english,২১ মিটার,: 21,: 21,short_numeric_only,"To find the length, let's denote the width as w. Since the length is three times the width, the length = 3w. The area of a room is given by length * width. So, we have the equat..."
+banglamath_0542::english::baseline,banglamath_0542,banglamath,short_answer,english,৩৪০০ টাকা,3400.,3400.,short_numeric_only,"To find the total cost, first, calculate the perimeter of the garden: 2 * (44m + 24m) = 2 * 68m = 136m. The total cost is 136m * 25 Taka/m = 3400 Taka. The answer is 3400."
+banglamath_0552::banglish_clean::baseline,banglamath_0552,banglamath,short_answer,banglish_clean,৪৫০০ বর্গগজ,4500,4500,short_numeric_only,4500
+banglamath_0552::english::baseline,banglamath_0552,banglamath,short_answer,english,৪৫০০ বর্গগজ,4500 square yards,4500 square yards,short_extended_unit,4500 square yards
+banglamath_0553::bangla::baseline,banglamath_0553,banglamath,short_answer,bangla,১১২৫টি,1125,1125,short_numeric_only,1125
+banglamath_0553::banglish_clean::baseline,banglamath_0553,banglamath,short_answer,banglish_clean,১১২৫টি,1125,1125,short_numeric_only,1125
+banglamath_0553::english::baseline,banglamath_0553,banglamath,short_answer,english,১১২৫টি,1125,1125,short_numeric_only,1125

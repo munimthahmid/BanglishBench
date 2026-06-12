@@ -1,0 +1,4 @@
+generator,n,mean_cer,median_cer,mean_sequence_similarity,mean_bengali_ratio,exact_match
+protected_phonetic_bangla,36,0.0906,0.0665,0.8915,0.4036,0
+protected_bnbphoneticparser,36,0.1235,0.1032,0.8598,0.3925,1
+protected_fms_byte_mbart,36,0.1855,0.1928,0.8103,0.3839,1

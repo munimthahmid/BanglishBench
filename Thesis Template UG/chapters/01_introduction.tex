@@ -1,0 +1,49 @@
+\chapter{Introduction}
+
+Bangla is normally written in Bengali script. In everyday digital use, however, many speakers also write Bengali-language content with Latin characters. This Latin-script form is often called Banglish. It appears in messaging, search queries, comments, reviews, and informal learning contexts, often because Latin keyboards are convenient or because the surrounding conversation is already code-mixed. For a Bangla-facing language model, this means the same user intent can arrive through more than one written form.
+
+That small interface detail can matter. A student may ask the same science question in Bangla script, in English, or in Banglish. A model may answer one version and fail another, even though the gold answer has not changed. If we only evaluate native-script Bangla and English, this access gap can remain hidden.
+
+This thesis asks a simple question:
+
+\textbf{If the task and gold answer are held fixed, does changing the script to Latin-script Banglish change model reliability?}
+
+This is not the same as asking whether Bangla is hard for LLMs. Existing Bengali benchmarks already show that Bangla evaluation is important. BEnQA evaluates Bengali and English science questions from Bangladeshi educational material \cite{shafayat-etal-2024-benqa}. BanglaMATH evaluates Bengali math word problems \cite{banglamath2025}. Other work expands Bengali evaluation across reading comprehension, multitask knowledge, cultural understanding, inference, safety, and social interaction \cite{banglaquad2024,bnmmlu2025,bluck2025,nctbqa2026,bnli2025,banglasocialbench2026}. These benchmarks establish that Bengali LLM evaluation is active and necessary.
+
+The missing piece is narrower. Most benchmarks do not ask whether the same Bangla content remains answerable when written in Banglish. This matters because Banglish is not an academic curiosity. BanglaTLit documents romanized Bangla as a large back-transliteration problem with substantial spelling variation \cite{fahim-etal-2024-banglatlit}. BanglishRev, BAN-TH, BnSentMix, MixSarc, and other datasets show that Bangla-English, code-mixed, and transliterated Bangla appear in reviews, social media, sentiment, hate-speech, humor, and sarcasm settings \cite{banglishrev2024,banth2024,bnsentmix2024,mixsarc2026}. Romanized Indic language identification is itself treated as an infrastructure problem \cite{bhashaabhijnaanam2023}. If models fail on Banglish, then a large class of users can receive lower-quality answers even when their request is semantically equivalent to a request the model can answer in another script.
+
+We therefore frame Banglish as an \textbf{orthographic access problem}. The central claim is not that Banglish is always harder for every model or every item. The claim is that script choice is a measurable robustness variable: it can change accuracy, strict answer compliance, recoverability, and cost under controlled conditions.
+
+The study is built around three design principles.
+
+First, evaluation must be paired. We preserve the same item id and gold answer across Bangla, reviewed Banglish, and English variants. Aggregate accuracy alone is not enough; we need to know whether the same item becomes wrong under one script and correct under another.
+
+Second, the Banglish variant must be audited. A rule-based romanizer is useful for controlled construction, but it can introduce unnatural or ambiguous forms. We therefore freeze a reviewed-v5 validation slice after targeted human review of high-impact Banglish rows. We also keep a strict policy for flagged source quality issues and report a stricter 197-row sensitivity view.
+
+Third, stronger models should be treated as a boundary test, not as a shortcut. If GPT-5.5 nearly closes the gap, that does not invalidate the robustness finding; it tells us where the current boundary is. Conversely, if Claude, DeepSeek, or Groq-hosted Llama still show Banglish deficits, then model or provider prestige alone is not a reliable guarantee of Banglish robustness.
+
+In the following chapters, we first describe the paired benchmark construction and scoring protocol. We then present the main validation-200 result, test whether it survives review and tokenization controls, examine recoverable failures, and finally study hosted frontier models, the larger BEnQA extension, natural code-mixed text, and mitigation attempts.
+
+\section{Contributions}
+
+This thesis makes five contributions.
+
+\begin{enumerate}
+\item \textbf{A paired Bangla/Banglish/English evaluation protocol.} We evaluate the
+same curriculum-style QA and math items in three script views while preserving the item id, answer type, and gold answer.
+
+\item \textbf{A reviewed gold-core validation set.} The main validation-200 v5 slice
+contains 144 BEnQA and 56 BanglaMATH items. Its reviewed Banglish field is frozen after a targeted review pass, and all main claims use the same all-200 denominator.
+
+\item \textbf{Evidence that Banglish failure is not just cleanup or token length.} Human
+review changes scores only slightly. Tokenization audits show that reviewed Banglish is shorter than native Bangla for the audited Qwen tokenizers, and recoverable Banglish misses are not the longest Banglish prompts.
+
+\item \textbf{A frontier and scale boundary.} A five-model API panel shows that GPT-5.5
+nearly closes the gap on the 200-item core, but Gemini, Claude, DeepSeek, and Groq show different residual failure profiles. A 1,000-row human review audit creates a 974-row accepted/edited BEnQA gold extension, with full triad runs for Qwen2.5-3B, Gemini 3.5 Flash, GPT-5.5, Claude Sonnet 4.6, DeepSeek V4 Flash, and Groq-hosted Llama 3.3 70B. At this scale, every model --- including GPT-5.5 --- shows a statistically significant reviewed-Banglish deficit.
+
+\item \textbf{Negative mitigation evidence.} Self-normalization, generated Bengali
+views, and generated English views do not produce a general deployable solution. Preservation gates are necessary, and current cheap generated views are too unstable for a held-out routing claim. A training-side LoRA adapter, trained on romanized supervision disjoint from both evaluation sets, narrows the gap only slightly and not significantly, indicating the weakness is deeper than light adaptation.
+
+\end{enumerate}
+
+\endinput

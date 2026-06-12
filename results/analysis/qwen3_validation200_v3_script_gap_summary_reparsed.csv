@@ -1,0 +1,13 @@
+model,dataset,task_type,pattern,n
+Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,all_correct,1
+Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,all_wrong,50
+Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,banglish_drop_vs_bangla_english,3
+Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,english_only_correct,2
+Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,all_correct,29
+Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,all_wrong,42
+Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,bangla_drop_vs_banglish_english,3
+Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,bangla_only_correct,7
+Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,banglish_drop_vs_bangla_english,32
+Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,banglish_only_correct,5
+Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,english_only_correct,18
+Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,english_wrong_only,8

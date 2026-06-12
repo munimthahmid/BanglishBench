@@ -1,0 +1,118 @@
+section,model,variant,variant_label,subject,n,correct,invalid,valid_n,pred_A,pred_B,pred_C,pred_D,gold_A,gold_B,gold_C,gold_D,majority_option,majority_share,d_share,gold_d_share,option_entropy,tvd_pred_vs_gold,majority_d
+subject_variant,Qwen2.5-3B,bangla,Bangla,Biology,12,5,0,12,3,6,1,2,3,2,5,2,B,0.5,0.1667,0.1667,0.8648,0.3333,False
+subject_variant,Qwen2.5-3B,bangla,Bangla,Biology-I,11,3,0,11,2,5,0,4,4,2,3,2,B,0.4545,0.3636,0.1818,0.7475,0.4545,False
+subject_variant,Qwen2.5-3B,bangla,Bangla,Biology-II,11,3,0,11,4,1,1,5,3,4,3,1,D,0.4545,0.4545,0.0909,0.8384,0.4545,False
+subject_variant,Qwen2.5-3B,bangla,Bangla,Chemistry,11,3,0,11,2,4,1,4,3,2,1,5,B,0.3636,0.3636,0.4545,0.9115,0.1818,False
+subject_variant,Qwen2.5-3B,bangla,Bangla,Chemistry-I,11,4,0,11,1,5,2,3,1,3,2,5,B,0.4545,0.2727,0.4545,0.895,0.1818,False
+subject_variant,Qwen2.5-3B,bangla,Bangla,Chemistry-II,11,2,0,11,1,3,1,6,3,2,5,1,D,0.5455,0.5455,0.0909,0.8086,0.5455,True
+subject_variant,Qwen2.5-3B,bangla,Bangla,Math,11,5,0,11,0,6,3,2,1,3,4,3,B,0.5455,0.1818,0.2727,0.7177,0.2727,False
+subject_variant,Qwen2.5-3B,bangla,Bangla,Math-I,11,3,0,11,2,4,3,2,2,5,2,2,B,0.3636,0.1818,0.1818,0.9681,0.0909,False
+subject_variant,Qwen2.5-3B,bangla,Bangla,Math-II,11,6,0,11,2,2,6,1,2,0,4,5,C,0.5455,0.0909,0.4545,0.8429,0.3636,False
+subject_variant,Qwen2.5-3B,bangla,Bangla,Physics,11,5,0,11,1,3,3,4,2,2,2,5,D,0.3636,0.3636,0.4545,0.9338,0.1818,False
+subject_variant,Qwen2.5-3B,bangla,Bangla,Physics-I,11,4,0,11,1,0,4,6,2,2,4,3,D,0.5455,0.5455,0.2727,0.6611,0.2727,True
+subject_variant,Qwen2.5-3B,bangla,Bangla,Physics-II,11,2,0,11,2,1,3,5,1,5,2,3,D,0.4545,0.4545,0.2727,0.895,0.3636,False
+subject_variant,Qwen2.5-3B,bangla,Bangla,Science,11,4,0,11,2,5,3,1,2,3,4,2,B,0.4545,0.0909,0.1818,0.895,0.1818,False
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Biology,12,0,0,12,4,3,1,4,3,2,5,2,A,0.3333,0.3333,0.1667,0.9277,0.3333,False
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Biology-I,11,2,0,11,0,4,1,6,4,2,3,2,D,0.5455,0.5455,0.1818,0.6611,0.5455,True
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Biology-II,11,4,0,11,1,7,2,1,3,4,3,1,B,0.6364,0.0909,0.0909,0.7456,0.2727,False
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Chemistry,11,4,0,11,1,5,1,4,3,2,1,5,B,0.4545,0.3636,0.4545,0.8384,0.2727,False
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Chemistry-I,11,2,0,11,3,4,1,3,1,3,2,5,B,0.3636,0.2727,0.4545,0.9338,0.2727,False
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Chemistry-II,11,5,0,11,3,2,3,3,3,2,5,1,A,0.2727,0.2727,0.0909,0.9904,0.1818,False
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Math,11,3,0,11,2,7,0,2,1,3,4,3,B,0.6364,0.1818,0.2727,0.6546,0.4545,False
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Math-I,11,3,0,11,3,3,2,3,2,5,2,2,A,0.2727,0.2727,0.1818,0.9904,0.1818,False
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Math-II,11,5,0,11,1,5,4,1,2,0,4,5,B,0.4545,0.0909,0.4545,0.8384,0.4545,False
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Physics,11,4,0,11,1,6,2,2,2,2,2,5,B,0.5455,0.1818,0.4545,0.8429,0.3636,False
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Physics-I,11,5,0,11,1,3,4,3,2,2,4,3,C,0.3636,0.2727,0.2727,0.9338,0.0909,False
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Physics-II,11,3,0,11,0,2,5,4,1,5,2,3,C,0.4545,0.3636,0.2727,0.7475,0.3636,False
+subject_variant,Qwen2.5-3B,banglish_clean,Reviewed Banglish,Science,11,1,0,11,2,5,1,3,2,3,4,2,B,0.4545,0.2727,0.1818,0.895,0.2727,False
+subject_variant,Qwen2.5-3B,english,English,Biology,12,3,0,12,3,3,1,5,3,2,5,2,D,0.4167,0.4167,0.1667,0.9125,0.3333,False
+subject_variant,Qwen2.5-3B,english,English,Biology-I,11,7,0,11,3,3,2,3,4,2,3,2,A,0.2727,0.2727,0.1818,0.9904,0.1818,False
+subject_variant,Qwen2.5-3B,english,English,Biology-II,11,6,0,11,4,5,0,2,3,4,3,1,B,0.4545,0.1818,0.0909,0.7475,0.2727,False
+subject_variant,Qwen2.5-3B,english,English,Chemistry,11,7,0,11,1,2,3,5,3,2,1,5,D,0.4545,0.4545,0.4545,0.895,0.1818,False
+subject_variant,Qwen2.5-3B,english,English,Chemistry-I,11,5,0,11,2,3,0,6,1,3,2,5,D,0.5455,0.5455,0.4545,0.7177,0.1818,True
+subject_variant,Qwen2.5-3B,english,English,Chemistry-II,11,6,0,11,5,1,2,3,3,2,5,1,A,0.4545,0.2727,0.0909,0.895,0.3636,False
+subject_variant,Qwen2.5-3B,english,English,Math,11,8,0,11,1,3,4,3,1,3,4,3,C,0.3636,0.2727,0.2727,0.9338,0.0,False
+subject_variant,Qwen2.5-3B,english,English,Math-I,11,2,0,11,1,3,2,5,2,5,2,2,D,0.4545,0.4545,0.1818,0.895,0.2727,False
+subject_variant,Qwen2.5-3B,english,English,Math-II,11,3,0,11,2,6,2,1,2,0,4,5,B,0.5455,0.0909,0.4545,0.8429,0.5455,False
+subject_variant,Qwen2.5-3B,english,English,Physics,11,7,0,11,1,5,3,2,2,2,2,5,B,0.4545,0.1818,0.4545,0.895,0.3636,False
+subject_variant,Qwen2.5-3B,english,English,Physics-I,11,5,0,11,0,2,4,5,2,2,4,3,D,0.4545,0.4545,0.2727,0.7475,0.1818,False
+subject_variant,Qwen2.5-3B,english,English,Physics-II,11,3,0,11,3,3,3,2,1,5,2,3,A,0.2727,0.1818,0.2727,0.9904,0.2727,False
+subject_variant,Qwen2.5-3B,english,English,Science,11,4,0,11,2,4,3,2,2,3,4,2,B,0.3636,0.1818,0.1818,0.9681,0.0909,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Biology,12,5,0,12,3,4,5,0,3,2,5,2,C,0.4167,0.0,0.1667,0.7773,0.1667,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Biology-I,11,6,0,11,7,0,4,0,4,2,3,2,A,0.6364,0.0,0.1818,0.4728,0.3636,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Biology-II,11,6,0,11,3,3,3,2,3,4,3,1,A,0.2727,0.1818,0.0909,0.9904,0.0909,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Chemistry,11,3,0,11,2,5,4,0,3,2,1,5,B,0.4545,0.0,0.4545,0.7475,0.5455,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Chemistry-I,11,5,0,11,2,6,0,3,1,3,2,5,B,0.5455,0.2727,0.4545,0.7177,0.3636,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Chemistry-II,11,5,0,11,5,2,3,1,3,2,5,1,A,0.4545,0.0909,0.0909,0.895,0.1818,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Math,11,5,0,11,3,3,2,3,1,3,4,3,A,0.2727,0.2727,0.2727,0.9904,0.1818,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Math-I,11,5,0,11,4,3,2,2,2,5,2,2,A,0.3636,0.1818,0.1818,0.9681,0.1818,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Math-II,11,2,0,11,3,5,3,0,2,0,4,5,B,0.4545,0.0,0.4545,0.7697,0.5455,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Physics,11,4,0,11,1,5,5,0,2,2,2,5,B,0.4545,0.0,0.4545,0.6743,0.5455,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Physics-I,11,6,0,11,1,3,6,1,2,2,4,3,C,0.5455,0.0909,0.2727,0.8086,0.2727,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Physics-II,11,3,0,11,1,4,3,3,1,5,2,3,B,0.3636,0.2727,0.2727,0.9338,0.0909,False
+subject_variant,Qwen2.5-7B 8-bit,bangla,Bangla,Science,11,5,0,11,1,2,5,3,2,3,4,2,C,0.4545,0.2727,0.1818,0.895,0.1818,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Biology,12,6,0,12,3,4,4,1,3,2,5,2,B,0.3333,0.0833,0.1667,0.9277,0.1667,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Biology-I,11,2,0,11,1,4,1,5,4,2,3,2,D,0.4545,0.4545,0.1818,0.8384,0.4545,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Biology-II,11,5,0,11,2,5,1,3,3,4,3,1,B,0.4545,0.2727,0.0909,0.895,0.2727,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Chemistry,11,1,1,10,3,4,3,0,3,2,1,5,B,0.3636,0.0,0.4545,0.7855,0.4091,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Chemistry-I,11,2,0,11,2,3,3,3,1,3,2,5,B,0.2727,0.2727,0.4545,0.9904,0.1818,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Chemistry-II,11,4,0,11,4,5,1,1,3,2,5,1,B,0.4545,0.0909,0.0909,0.8384,0.3636,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Math,11,2,0,11,3,6,1,1,1,3,4,3,B,0.5455,0.0909,0.2727,0.8086,0.4545,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Math-I,11,6,0,11,4,5,0,2,2,5,2,2,B,0.4545,0.1818,0.1818,0.7475,0.1818,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Math-II,11,2,0,11,2,6,2,1,2,0,4,5,B,0.5455,0.0909,0.4545,0.8429,0.5455,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Physics,11,5,0,11,3,3,4,1,2,2,2,5,C,0.3636,0.0909,0.4545,0.9338,0.3636,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Physics-I,11,5,1,10,1,5,2,2,2,2,4,3,B,0.4545,0.1818,0.2727,0.8805,0.3182,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Physics-II,11,2,0,11,2,4,2,3,1,5,2,3,B,0.3636,0.2727,0.2727,0.9681,0.0909,False
+subject_variant,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,Science,11,5,0,11,3,3,3,2,2,3,4,2,A,0.2727,0.1818,0.1818,0.9904,0.0909,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Biology,12,9,0,12,5,3,3,1,3,2,5,2,A,0.4167,0.0833,0.1667,0.9125,0.25,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Biology-I,11,8,0,11,5,3,1,2,4,2,3,2,A,0.4545,0.1818,0.1818,0.895,0.1818,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Biology-II,11,6,0,11,4,3,2,2,3,4,3,1,A,0.3636,0.1818,0.0909,0.9681,0.1818,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Chemistry,11,6,0,11,1,5,1,4,3,2,1,5,B,0.4545,0.3636,0.4545,0.8384,0.2727,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Chemistry-I,11,7,0,11,1,6,2,2,1,3,2,5,B,0.5455,0.1818,0.4545,0.8429,0.2727,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Chemistry-II,11,9,0,11,4,3,4,0,3,2,5,1,A,0.3636,0.0,0.0909,0.7863,0.1818,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Math,11,9,0,11,2,2,3,4,1,3,4,3,D,0.3636,0.3636,0.2727,0.9681,0.1818,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Math-I,11,6,0,11,4,3,1,3,2,5,2,2,A,0.3636,0.2727,0.1818,0.9338,0.2727,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Math-II,11,2,0,11,3,4,4,0,2,0,4,5,B,0.3636,0.0,0.4545,0.7863,0.4545,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Physics,11,8,0,11,1,5,2,3,2,2,2,5,B,0.4545,0.2727,0.4545,0.895,0.2727,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Physics-I,11,6,0,11,1,2,6,2,2,2,4,3,C,0.5455,0.1818,0.2727,0.8429,0.1818,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Physics-II,11,4,0,11,1,4,3,3,1,5,2,3,B,0.3636,0.2727,0.2727,0.9338,0.0909,False
+subject_variant,Qwen2.5-7B 8-bit,english,English,Science,11,6,0,11,3,4,3,1,2,3,4,2,B,0.3636,0.0909,0.1818,0.9338,0.1818,False
+subject_variant,Qwen3-4B,bangla,Bangla,Biology,12,5,0,12,5,1,2,4,3,2,5,2,A,0.4167,0.3333,0.1667,0.8921,0.3333,False
+subject_variant,Qwen3-4B,bangla,Bangla,Biology-I,11,6,0,11,3,1,1,6,4,2,3,2,D,0.5455,0.5455,0.1818,0.8086,0.3636,True
+subject_variant,Qwen3-4B,bangla,Bangla,Biology-II,11,6,0,11,1,2,3,5,3,4,3,1,D,0.4545,0.4545,0.0909,0.895,0.3636,False
+subject_variant,Qwen3-4B,bangla,Bangla,Chemistry,11,7,0,11,2,2,1,6,3,2,1,5,D,0.5455,0.5455,0.4545,0.8429,0.0909,True
+subject_variant,Qwen3-4B,bangla,Bangla,Chemistry-I,11,7,0,11,1,2,3,5,1,3,2,5,D,0.4545,0.4545,0.4545,0.895,0.0909,False
+subject_variant,Qwen3-4B,bangla,Bangla,Chemistry-II,11,7,0,11,3,1,4,3,3,2,5,1,C,0.3636,0.2727,0.0909,0.9338,0.1818,False
+subject_variant,Qwen3-4B,bangla,Bangla,Math,11,5,1,10,0,1,2,7,1,3,4,3,D,0.6364,0.6364,0.2727,0.5784,0.4091,True
+subject_variant,Qwen3-4B,bangla,Bangla,Math-I,11,5,2,9,1,2,0,6,2,5,2,2,D,0.5455,0.5455,0.1818,0.6122,0.4545,True
+subject_variant,Qwen3-4B,bangla,Bangla,Math-II,11,6,1,10,1,2,1,6,2,0,4,5,D,0.5455,0.5455,0.4545,0.7855,0.3182,True
+subject_variant,Qwen3-4B,bangla,Bangla,Physics,11,8,0,11,1,5,2,3,2,2,2,5,B,0.4545,0.2727,0.4545,0.895,0.2727,False
+subject_variant,Qwen3-4B,bangla,Bangla,Physics-I,11,6,0,11,0,0,4,7,2,2,4,3,D,0.6364,0.6364,0.2727,0.4728,0.3636,True
+subject_variant,Qwen3-4B,bangla,Bangla,Physics-II,11,3,0,11,1,2,2,6,1,5,2,3,D,0.5455,0.5455,0.2727,0.8429,0.2727,True
+subject_variant,Qwen3-4B,bangla,Bangla,Science,11,5,0,11,1,3,4,3,2,3,4,2,C,0.3636,0.2727,0.1818,0.9338,0.0909,False
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Biology,12,3,0,12,0,0,1,11,3,2,5,2,D,0.9167,0.9167,0.1667,0.2069,0.75,True
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Biology-I,11,3,0,11,0,1,1,9,4,2,3,2,D,0.8182,0.8182,0.1818,0.4329,0.6364,True
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Biology-II,11,1,0,11,0,0,1,10,3,4,3,1,D,0.9091,0.9091,0.0909,0.2197,0.8182,True
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Chemistry,11,4,0,11,1,0,0,10,3,2,1,5,D,0.9091,0.9091,0.4545,0.2197,0.4545,True
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Chemistry-I,11,5,0,11,0,0,1,10,1,3,2,5,D,0.9091,0.9091,0.4545,0.2197,0.4545,True
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Chemistry-II,11,2,0,11,0,0,4,7,3,2,5,1,D,0.6364,0.6364,0.0909,0.4728,0.5455,True
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Math,11,2,1,10,0,0,1,9,1,3,4,3,D,0.8182,0.8182,0.2727,0.2345,0.5909,True
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Math-I,11,4,1,10,0,2,1,7,2,5,2,2,D,0.6364,0.6364,0.1818,0.5784,0.5,True
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Math-II,11,8,1,10,0,0,3,7,2,0,4,5,D,0.6364,0.6364,0.4545,0.4406,0.2273,True
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Physics,11,6,0,11,1,3,2,5,2,2,2,5,D,0.4545,0.4545,0.4545,0.895,0.0909,False
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Physics-I,11,4,0,11,0,0,2,9,2,2,4,3,D,0.8182,0.8182,0.2727,0.342,0.5455,True
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Physics-II,11,2,0,11,0,0,1,10,1,5,2,3,D,0.9091,0.9091,0.2727,0.2197,0.6364,True
+subject_variant,Qwen3-4B,banglish_clean,Reviewed Banglish,Science,11,3,0,11,1,1,2,7,2,3,4,2,D,0.6364,0.6364,0.1818,0.7456,0.4545,True
+subject_variant,Qwen3-4B,english,English,Biology,12,4,0,12,2,2,2,6,3,2,5,2,D,0.5,0.5,0.1667,0.8962,0.3333,False
+subject_variant,Qwen3-4B,english,English,Biology-I,11,6,0,11,2,3,1,5,4,2,3,2,D,0.4545,0.4545,0.1818,0.895,0.3636,False
+subject_variant,Qwen3-4B,english,English,Biology-II,11,4,0,11,4,2,0,5,3,4,3,1,D,0.4545,0.4545,0.0909,0.7475,0.4545,False
+subject_variant,Qwen3-4B,english,English,Chemistry,11,8,0,11,1,3,1,6,3,2,1,5,D,0.5455,0.5455,0.4545,0.8086,0.1818,True
+subject_variant,Qwen3-4B,english,English,Chemistry-I,11,9,0,11,1,3,2,5,1,3,2,5,D,0.4545,0.4545,0.4545,0.895,0.0,False
+subject_variant,Qwen3-4B,english,English,Chemistry-II,11,8,0,11,4,2,4,1,3,2,5,1,A,0.3636,0.0909,0.0909,0.9115,0.0909,False
+subject_variant,Qwen3-4B,english,English,Math,11,6,1,10,2,0,3,5,1,3,4,3,D,0.4545,0.4545,0.2727,0.7427,0.3182,False
+subject_variant,Qwen3-4B,english,English,Math-I,11,5,2,9,1,2,2,4,2,5,2,2,D,0.3636,0.3636,0.1818,0.9183,0.2727,False
+subject_variant,Qwen3-4B,english,English,Math-II,11,5,4,7,2,0,2,3,2,0,4,5,D,0.2727,0.2727,0.4545,0.7783,0.1818,False
+subject_variant,Qwen3-4B,english,English,Physics,11,9,1,10,1,3,2,4,2,2,2,5,D,0.3636,0.3636,0.4545,0.9232,0.1364,False
+subject_variant,Qwen3-4B,english,English,Physics-I,11,6,0,11,0,0,4,7,2,2,4,3,D,0.6364,0.6364,0.2727,0.4728,0.3636,True
+subject_variant,Qwen3-4B,english,English,Physics-II,11,4,0,11,1,0,4,6,1,5,2,3,D,0.5455,0.5455,0.2727,0.6611,0.4545,True
+subject_variant,Qwen3-4B,english,English,Science,11,8,0,11,1,5,4,1,2,3,4,2,B,0.4545,0.0909,0.1818,0.8384,0.1818,False

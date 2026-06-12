@@ -1,0 +1,6 @@
+model,dataset,variant,prompt_mode,change,n
+Qwen/Qwen2.5-3B-Instruct,banglamath,banglish_clean,baseline,same_wrong,40
+Qwen/Qwen2.5-3B-Instruct,benqa,banglish_clean,baseline,gain,1
+Qwen/Qwen2.5-3B-Instruct,benqa,banglish_clean,baseline,loss,3
+Qwen/Qwen2.5-3B-Instruct,benqa,banglish_clean,baseline,same_correct,17
+Qwen/Qwen2.5-3B-Instruct,benqa,banglish_clean,baseline,same_wrong,39

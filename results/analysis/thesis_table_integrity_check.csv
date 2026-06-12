@@ -1,0 +1,87 @@
+artifact,check,status,detail
+results/tables/main_script_gap_validation200_v5.csv,exists,ok,present
+results/tables/main_script_gap_validation200_v5.csv,row_count,ok,rows=3 expected=3
+results/tables/main_script_gap_validation200_v5.csv,headers,ok,"Model,Slice,Bangla,Reviewed Banglish,English,Banglish-Bangla,Banglish-English,Interpretation"
+results/tables/main_script_gap_validation200.csv,exists,ok,present
+results/tables/main_script_gap_validation200.csv,row_count,ok,rows=3 expected=3
+results/tables/main_script_gap_validation200.csv,headers,ok,"Model,Family,Slice,Bangla,Banglish,English,Banglish-Bangla,Banglish-English,Interpretation"
+results/tables/model_family_scaling_validation200.csv,exists,ok,present
+results/tables/model_family_scaling_validation200.csv,row_count,ok,rows=7 expected=7
+results/tables/model_family_scaling_validation200.csv,headers,ok,"Model,Family,Slice,Bangla,Banglish,English,Banglish-Bangla,Banglish-English,Interpretation"
+results/tables/selfnorm_validation200.csv,exists,ok,present
+results/tables/selfnorm_validation200.csv,row_count,ok,rows=3 expected=3
+results/tables/selfnorm_validation200.csv,headers,ok,"Model,Slice,Baseline,Self-normalized,Delta,95% CI,Direction p"
+results/tables/answer_signal_routing_test150.csv,exists,ok,present
+results/tables/answer_signal_routing_test150.csv,row_count,ok,rows=2 expected=2
+results/tables/answer_signal_routing_test150.csv,headers,ok,"Model,Rule,Baseline,Always selfnorm,Routed,Routed-Baseline,Routed-Selfnorm,BEnQA routed gain,BanglaMATH routed gain"
+results/tables/cross_script_answer_agreement.csv,exists,ok,present
+results/tables/cross_script_answer_agreement.csv,row_count,ok,rows=3 expected=3
+results/tables/cross_script_answer_agreement.csv,headers,ok,"Model,Banglish,Agreement route,Route-Banglish,Oracle,Oracle-Banglish"
+results/tables/generated_view_preservation_v2.csv,exists,ok,present
+results/tables/generated_view_preservation_v2.csv,row_count,ok,rows=4 expected=4
+results/tables/generated_view_preservation_v2.csv,headers,ok,"Model,Dataset,n,Options changed,Digit sequence changed,Formulas changed,Line count changed,Extra answer markers,Gate implication"
+results/tables/deterministic_generated_view_smokes.csv,exists,ok,present
+results/tables/deterministic_generated_view_smokes.csv,row_count,ok,rows=10 expected=10
+results/tables/deterministic_generated_view_smokes.csv,headers,ok,"Generator,Protection,Dataset,Target view,n,Hard fails,Option failures,Digit failures,Formula failures,Extra answer markers,Latin fragment warnings,Decision"
+results/tables/generated_bn_candidate_preservation.csv,exists,ok,present
+results/tables/generated_bn_candidate_preservation.csv,row_count,ok,rows=11 expected=11
+results/tables/generated_bn_candidate_preservation.csv,headers,ok,"Generator,Protection,Dataset,Target view,n,Hard fails,Option failures,Digit failures,Formula failures,Extra answer markers,Latin fragment warnings,Decision"
+results/tables/generated_bn_reference_similarity_dev50.csv,exists,ok,present
+results/tables/generated_bn_reference_similarity_dev50.csv,row_count,ok,rows=3 expected=3
+results/tables/generated_bn_reference_similarity_dev50.csv,headers,ok,"Rank,Generator,n,Mean CER,Median CER,Mean sequence similarity,Mean Bengali ratio,Exact matches,Decision"
+results/tables/generated_bn_answer_audit_dev50.csv,exists,ok,present
+results/tables/generated_bn_answer_audit_dev50.csv,row_count,ok,rows=18 expected=18
+results/tables/generated_bn_answer_audit_dev50.csv,headers,ok,"Model,Variant,n,Correct,Accuracy,Delta vs Banglish,Delta 95% CI (pts),Direction p,Parsed empty,Gate hard fails,Eligible n,Eligible baseline,Eligible generated,Decision"
+results/tables/generated_view_agreement_route_dev.csv,exists,ok,present
+results/tables/generated_view_agreement_route_dev.csv,row_count,ok,rows=3 expected=3
+results/tables/generated_view_agreement_route_dev.csv,headers,ok,"Route,n,Banglish,Generated-BN,Generated-EN,Routed,Routed-Banglish,Routed items,EN gate fallbacks,Decision"
+results/tables/v5_benqa_option_permutation_dev50.csv,exists,ok,present
+results/tables/v5_benqa_option_permutation_dev50.csv,row_count,ok,rows=2 expected=2
+results/tables/v5_benqa_option_permutation_dev50.csv,headers,ok,"Model,Source items,Identity pred D,Identity wrong D,Rotated identity-D rows,Remain label D,Follow original D content,Semantic match vs identity,Exact semantic-equivariant items,Decision"
+results/tables/bnsentmix_external_validation.csv,exists,ok,present
+results/tables/bnsentmix_external_validation.csv,row_count,ok,rows=3 expected=3
+results/tables/bnsentmix_external_validation.csv,headers,ok,"Model,Rows,Valid outputs,Correct,Accuracy,Macro-F1,Positive recall,Negative recall,Neutral recall,Mixed recall,Interpretation"
+results/tables/bnsentmix_model_complementarity.csv,exists,ok,present
+results/tables/bnsentmix_model_complementarity.csv,row_count,ok,rows=6 expected=6
+results/tables/bnsentmix_model_complementarity.csv,headers,ok,"Result,Count,Delta,Interpretation"
+results/tables/bnsentmix_routing_devtest.csv,exists,ok,present
+results/tables/bnsentmix_routing_devtest.csv,row_count,ok,rows=3 expected=3
+results/tables/bnsentmix_routing_devtest.csv,headers,ok,"Protocol,Selected result,Baseline context,Post-hoc context,Interpretation"
+results/tables/diagnostic_model_pilots.csv,exists,ok,present
+results/tables/diagnostic_model_pilots.csv,row_count,ok,rows=3 expected=3
+results/tables/diagnostic_model_pilots.csv,headers,ok,"Model,Mode,Bangla,Banglish,English,Decision"
+results/tables/real_banglish_distribution.csv,exists,ok,present
+results/tables/real_banglish_distribution.csv,row_count,ok,rows=4 expected=4
+results/tables/real_banglish_distribution.csv,headers,ok,"Source,Rows,Mean chars,Mean words,Mean Latin ratio,Digit row share,Mixed-script share"
+results/tables/auto_suggested_banglish_sensitivity.csv,exists,ok,present
+results/tables/auto_suggested_banglish_sensitivity.csv,row_count,ok,rows=2 expected=2
+results/tables/auto_suggested_banglish_sensitivity.csv,headers,ok,"Model,v3 Banglish,v4 Banglish,Auto-suggested,Auto-v4,Gains,Losses"
+results/tables/v5_reviewed_banglish_sensitivity.csv,exists,ok,present
+results/tables/v5_reviewed_banglish_sensitivity.csv,row_count,ok,rows=3 expected=3
+results/tables/v5_reviewed_banglish_sensitivity.csv,headers,ok,"Model,v4 Banglish,v5 reviewed,v5-v4,Test split v5-v4,Gains,Losses,Decision"
+results/tables/v5_bad_row_policy_sensitivity.csv,exists,ok,present
+results/tables/v5_bad_row_policy_sensitivity.csv,row_count,ok,rows=9 expected=9
+results/tables/v5_bad_row_policy_sensitivity.csv,headers,ok,"Model,Comparison,Policy,Left,Right,Delta,Gains,Losses"
+results/tables/thesis_tables.md,exists,ok,present
+results/tables/thesis_tables.md,section_Frozen V5 Main Script Gap,ok,Frozen V5 Main Script Gap
+results/tables/thesis_tables.md,section_Main Script Gap,ok,Main Script Gap
+results/tables/thesis_tables.md,section_Model Family And Scaling,ok,Model Family And Scaling
+results/tables/thesis_tables.md,section_Self-Normalization,ok,Self-Normalization
+results/tables/thesis_tables.md,section_Answer-Signal Routing,ok,Answer-Signal Routing
+results/tables/thesis_tables.md,section_Cross-Script Answer Agreement,ok,Cross-Script Answer Agreement
+results/tables/thesis_tables.md,section_Generated-View Preservation Gates,ok,Generated-View Preservation Gates
+results/tables/thesis_tables.md,section_Deterministic Generated-View Smokes,ok,Deterministic Generated-View Smokes
+results/tables/thesis_tables.md,section_Generated-BN Candidate Preservation,ok,Generated-BN Candidate Preservation
+results/tables/thesis_tables.md,section_Generated-BN Reference Similarity Dev50,ok,Generated-BN Reference Similarity Dev50
+results/tables/thesis_tables.md,section_Generated-BN Answer Audit Dev50,ok,Generated-BN Answer Audit Dev50
+results/tables/thesis_tables.md,section_Generated-View Agreement Route Dev,ok,Generated-View Agreement Route Dev
+results/tables/thesis_tables.md,section_V5 BEnQA Option Permutation Dev50,ok,V5 BEnQA Option Permutation Dev50
+results/tables/thesis_tables.md,section_BnSentMix External Validation,ok,BnSentMix External Validation
+results/tables/thesis_tables.md,section_BnSentMix Model Complementarity,ok,BnSentMix Model Complementarity
+results/tables/thesis_tables.md,section_BnSentMix Routing Dev-Test,ok,BnSentMix Routing Dev-Test
+results/tables/thesis_tables.md,section_Diagnostic Model Pilots,ok,Diagnostic Model Pilots
+results/tables/thesis_tables.md,section_Real Banglish Distribution,ok,Real Banglish Distribution
+results/tables/thesis_tables.md,section_Auto-Suggested Banglish Sensitivity,ok,Auto-Suggested Banglish Sensitivity
+results/tables/thesis_tables.md,section_V5 Reviewed Banglish Sensitivity,ok,V5 Reviewed Banglish Sensitivity
+results/tables/thesis_tables.md,section_V5 Flagged-Bad Policy Sensitivity,ok,V5 Flagged-Bad Policy Sensitivity
+results/tables/thesis_tables.md,regen_command,ok,python3 scripts/build_thesis_tables.py

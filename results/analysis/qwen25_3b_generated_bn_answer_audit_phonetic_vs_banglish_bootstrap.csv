@@ -1,0 +1,2 @@
+label,n,left_correct,right_correct,left_accuracy,right_accuracy,delta_right_minus_left,ci95_low,ci95_high,bootstrap_p_opposite_direction,left_filter,right_filter,key_columns,samples,seed
+qwen25_phonetic_generated_bn_vs_banglish,36,8,14,0.2222,0.3889,0.1667,0.0,0.3333,0.0303,variant=banglish_clean,variant=generated_bn_phonetic_protected,id,10000,42

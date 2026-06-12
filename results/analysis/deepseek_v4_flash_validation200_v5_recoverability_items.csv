@@ -1,0 +1,40 @@
+request_id,id,dataset,answer_type,variant,gold,parsed,secondary_parsed,secondary_reason,raw_excerpt
+banglamath_0183::bangla::baseline,banglamath_0183,banglamath,short_answer,bangla,৩০ দিন,30,30,short_numeric_only,30
+banglamath_0183::english::baseline,banglamath_0183,banglamath,short_answer,english,৩০ দিন,30,30,short_numeric_only,30
+banglamath_0184::banglish_clean::baseline,banglamath_0184,banglamath,short_answer,banglish_clean,১২০০০ টাকা,12000,12000,short_numeric_only,12000
+banglamath_0185::banglish_clean::baseline,banglamath_0185,banglamath,short_answer,banglish_clean,২০০ কেজি,200,200,short_numeric_only,200
+banglamath_0185::english::baseline,banglamath_0185,banglamath,short_answer,english,২০০ কেজি,200 kg,200 kg,short_extended_unit,200 kg
+banglamath_0187::bangla::baseline,banglamath_0187,banglamath,short_answer,bangla,১৪০ জন,১৪০,১৪০,short_numeric_only,১৪০
+banglamath_0187::banglish_clean::baseline,banglamath_0187,banglamath,short_answer,banglish_clean,১৪০ জন,140,140,short_numeric_only,140
+banglamath_0187::english::baseline,banglamath_0187,banglamath,short_answer,english,১৪০ জন,140,140,short_numeric_only,140
+banglamath_0189::bangla::baseline,banglamath_0189,banglamath,short_answer,bangla,৬ জন পুরুষ,৬ জন,৬ জন,short_numeric_only,৬ জন
+banglamath_0189::banglish_clean::baseline,banglamath_0189,banglamath,short_answer,banglish_clean,৬ জন পুরুষ,6,6,short_numeric_only,6
+banglamath_0189::english::baseline,banglamath_0189,banglamath,short_answer,english,৬ জন পুরুষ,6,6,short_numeric_only,6
+banglamath_0226::bangla::baseline,banglamath_0226,banglamath,short_answer,bangla,২৫০ টাকা,250,250,short_numeric_only,250
+banglamath_0226::banglish_clean::baseline,banglamath_0226,banglamath,short_answer,banglish_clean,২৫০ টাকা,250,250,short_numeric_only,250
+banglamath_0226::english::baseline,banglamath_0226,banglamath,short_answer,english,২৫০ টাকা,250,250,short_numeric_only,250
+banglamath_0227::english::baseline,banglamath_0227,banglamath,short_answer,english,৭.৫ কিমি,7.5 km,7.5 km,short_extended_unit,7.5 km
+banglamath_0231::banglish_clean::baseline,banglamath_0231,banglamath,short_answer,banglish_clean,২০ টাকা,20,20,short_numeric_only,20
+banglamath_0232::bangla::baseline,banglamath_0232,banglamath,short_answer,bangla,২০০ টাকা,200,200,short_numeric_only,200
+banglamath_0232::banglish_clean::baseline,banglamath_0232,banglamath,short_answer,banglish_clean,২০০ টাকা,200,200,short_numeric_only,200
+banglamath_0233::english::baseline,banglamath_0233,banglamath,short_answer,english,৭ দিন,7,7,short_numeric_only,7
+banglamath_0234::banglish_clean::baseline,banglamath_0234,banglamath,short_answer,banglish_clean,৬ দিন,6,6,short_numeric_only,6
+banglamath_0234::english::baseline,banglamath_0234,banglamath,short_answer,english,৬ দিন,6,6,short_numeric_only,6
+banglamath_0518::banglish_clean::baseline,banglamath_0518,banglamath,short_answer,banglish_clean,১৫০ মিটার,150,150,short_numeric_only,150
+banglamath_0518::english::baseline,banglamath_0518,banglamath,short_answer,english,১৫০ মিটার,150,150,short_numeric_only,150
+banglamath_0521::bangla::baseline,banglamath_0521,banglamath,short_answer,bangla,৭০ মিটার,৭০,৭০,short_numeric_only,পরিসীমা = ২ × (দৈর্ঘ্য + প্রস্থ) = ২ × (২০ + ১৫) = ২ × ৩৫ = ৭০ মিটার। ৭০
+banglamath_0521::banglish_clean::baseline,banglamath_0521,banglamath,short_answer,banglish_clean,৭০ মিটার,70 mitar,70 mitar,short_extended_unit,70 mitar
+banglamath_0521::english::baseline,banglamath_0521,banglamath,short_answer,english,৭০ মিটার,70 meters,70 meters,short_extended_unit,70 meters
+banglamath_0540::banglish_clean::baseline,banglamath_0540,banglamath,short_answer,banglish_clean,২১ মিটার,21,21,short_numeric_only,21
+banglamath_0540::english::baseline,banglamath_0540,banglamath,short_answer,english,২১ মিটার,21,21,short_numeric_only,21
+banglamath_0542::banglish_clean::baseline,banglamath_0542,banglamath,short_answer,banglish_clean,৩৪০০ টাকা,3400,3400,short_numeric_only,3400
+banglamath_0552::english::baseline,banglamath_0552,banglamath,short_answer,english,৪৫০০ বর্গগজ,4500 square yards,4500 square yards,short_extended_unit,4500 square yards
+banglamath_0553::bangla::baseline,banglamath_0553,banglamath,short_answer,bangla,১১২৫টি,১১২৫,১১২৫,short_numeric_only,১১২৫
+banglamath_0553::banglish_clean::baseline,banglamath_0553,banglamath,short_answer,banglish_clean,১১২৫টি,1125,1125,short_numeric_only,1125
+banglamath_0553::english::baseline,banglamath_0553,banglamath,short_answer,english,১১২৫টি,1125,1125,short_numeric_only,1125
+banglamath_0558::english::baseline,banglamath_0558,banglamath,short_answer,english,২০ মিটার,20,20,short_numeric_only,20
+banglamath_1693::banglish_clean::baseline,banglamath_1693,banglamath,short_answer,banglish_clean,24,The number is 24.,The number is 24.,short_numeric_only,Let the number be \( x \). \[ \frac{1}{3}x + \frac{1}{4}x = 14 \] \[ \frac{4x + 3x}{12} = 14 \] \[ \frac{7x}{12} = 14 \] \[ 7x = 168 \] \[ x = 24 \] The number is 24.
+banglamath_1698::bangla::baseline,banglamath_1698,banglamath,short_answer,bangla,১৩ টা,13,13,short_numeric_only,13
+banglamath_1698::english::baseline,banglamath_1698,banglamath,short_answer,english,১৩ টা,13,13,short_numeric_only,13
+banglamath_1703::bangla::baseline,banglamath_1703,banglamath,short_answer,bangla,৩৬টি,৩৬,৩৬,short_numeric_only,৩৬
+banglamath_1703::english::baseline,banglamath_1703,banglamath,short_answer,english,৩৬টি,36,36,short_numeric_only,36

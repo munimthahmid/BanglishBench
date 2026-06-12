@@ -1,0 +1,19 @@
+model,dataset,comparison,baseline_script,candidate_script,n,baseline_correct,candidate_correct,delta_candidate_minus_baseline,banglish_gains,banglish_losses,discordant_pairs,ties_both_correct,ties_both_wrong,exact_sign_p_two_sided,exact_sign_p_banglish_lower,loss_to_gain_ratio_haldane
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,200,54,41,-0.065,15,28,43,26,131,0.065994,0.032997,1.8387
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,200,71,41,-0.15,15,45,60,26,114,0.000135,6.7e-05,2.9355
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,144,49,41,-0.0556,15,23,38,26,80,0.255875,0.127938,1.5161
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,144,66,41,-0.1736,15,40,55,26,63,0.001016,0.000508,2.6129
+Qwen2.5-3B,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,56,5,0,-0.0893,0,5,5,0,51,0.0625,0.03125,11.0
+Qwen2.5-3B,banglamath,banglish_minus_english,English,Reviewed Banglish,56,5,0,-0.0893,0,5,5,0,51,0.0625,0.03125,11.0
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,200,65,47,-0.09,19,37,56,28,116,0.022241,0.011121,1.9231
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,200,94,47,-0.235,13,60,73,34,93,0.0,0.0,4.4815
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,144,60,47,-0.0903,19,32,51,28,65,0.091915,0.045957,1.6667
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,144,86,47,-0.2708,13,52,65,34,45,1e-06,1e-06,3.8889
+Qwen2.5-7B 8-bit,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,56,5,0,-0.0893,0,5,5,0,51,0.0625,0.03125,11.0
+Qwen2.5-7B 8-bit,banglamath,banglish_minus_english,English,Reviewed Banglish,56,8,0,-0.1429,0,8,8,0,48,0.007812,0.003906,17.0
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,200,80,49,-0.155,8,39,47,41,112,6e-06,3e-06,4.6471
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,200,88,49,-0.195,13,52,65,36,99,1e-06,1e-06,3.8889
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,144,76,47,-0.2014,8,37,45,39,60,1.5e-05,8e-06,4.4118
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,144,82,47,-0.2431,13,48,61,34,49,8e-06,4e-06,3.5926
+Qwen3-4B,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,56,4,2,-0.0357,0,2,2,2,52,0.5,0.25,5.0
+Qwen3-4B,banglamath,banglish_minus_english,English,Reviewed Banglish,56,6,2,-0.0714,0,4,4,2,50,0.125,0.0625,9.0

@@ -1,0 +1,7 @@
+split,model,prompt_mode,variant,n,unique_items,correct,accuracy,parsed_empty,mean_seconds,total_seconds
+dev,Qwen/Qwen3-1.7B,baseline,bangla,50,50,11,0.22,7,1.6266,81.3278
+dev,Qwen/Qwen3-1.7B,baseline,banglish_clean,50,50,11,0.22,3,0.7735,38.676
+dev,Qwen/Qwen3-1.7B,baseline,english,50,50,20,0.4,6,1.0279,51.3961
+test,Qwen/Qwen3-1.7B,baseline,bangla,150,150,23,0.1533,27,1.8608,279.1131
+test,Qwen/Qwen3-1.7B,baseline,banglish_clean,150,150,25,0.1667,12,0.854,128.0993
+test,Qwen/Qwen3-1.7B,baseline,english,150,150,41,0.2733,24,1.2826,192.3902

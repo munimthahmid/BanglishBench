@@ -1,0 +1,5 @@
+model,dataset,variant,prompt_mode,change,n
+Qwen/Qwen3-4B-Instruct-2507,banglamath,banglish_clean,baseline,same_correct,1
+Qwen/Qwen3-4B-Instruct-2507,banglamath,banglish_clean,baseline,same_wrong,39
+Qwen/Qwen3-4B-Instruct-2507,benqa,banglish_clean,baseline,same_correct,17
+Qwen/Qwen3-4B-Instruct-2507,benqa,banglish_clean,baseline,same_wrong,43

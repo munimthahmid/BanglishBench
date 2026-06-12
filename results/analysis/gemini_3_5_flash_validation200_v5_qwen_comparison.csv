@@ -1,0 +1,6 @@
+model,score_mode,n,bangla,banglish_clean,english,banglish_minus_bangla_points,banglish_minus_english_points
+Qwen2.5-3B,strict,200,54,41,71,-6.5,-15.0
+Qwen2.5-7B 8-bit,strict,200,65,47,94,-9.0,-23.5
+Qwen3-4B,strict,200,80,49,88,-15.5,-19.5
+Gemini 3.5 Flash,strict,200,163,136,144,-13.5,-4.0
+Gemini 3.5 Flash,secondary,200,170,161,165,-4.5,-2.0

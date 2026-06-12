@@ -1,0 +1,4 @@
+Model,Slice,Baseline,Self-normalized,Delta,95% CI,Direction p
+Qwen2.5-3B,validation_200_v3,38/200,51/200,+6.5 pts,"[+0.5, +13.0]",0.0236
+Qwen2.5-7B 8-bit,validation_200_v4,48/200,47/200,-0.5 pts,"[-7.0, +6.5]",0.4699
+Qwen3-4B,validation_200_v3,46/200,21/200,-12.5 pts,"[-19.5, -5.5]",0.0001

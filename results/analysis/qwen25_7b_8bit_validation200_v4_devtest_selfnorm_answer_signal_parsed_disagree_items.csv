@@ -1,0 +1,201 @@
+split,model,id,dataset,task_type,answer_type,gold,heuristic,used_selfnorm,before_correct,after_correct,routed_correct,change_vs_baseline,before_parsed,after_parsed,routed_parsed
+test,,banglamath_0181,banglamath,short_answer,short_answer,সময় কমে যায়,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,24,কাজের পোরিমান ওপরিবর্তীতে থাকলে লোক সংখ্যা বরাবর সময�! বাড�! হবে।,কাজের পোরিমান ওপরিবর্তীতে থাকলে লোক সংখ্যা বরাবর সময�! বাড�! হবে।
+test,,banglamath_0182,banglamath,short_answer,short_answer,৬০০ টাকা,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,420,৩৫০ টাকা,৩৫০ টাকা
+test,,banglamath_0183,banglamath,short_answer,short_answer,৩০ দিন,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,60,10,10
+test,,banglamath_0184,banglamath,short_answer,short_answer,১২০০০ টাকা,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,13333.33,10000,10000
+test,,banglamath_0185,banglamath,short_answer,short_answer,২০০ কেজি,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,30,80,80
+dev,,banglamath_0186,banglamath,short_answer,short_answer,২২ ১/২ দিন,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,25,10díaś,10díaś
+dev,,banglamath_0187,banglamath,short_answer,short_answer,১৪০ জন,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,240,40,40
+test,,banglamath_0188,banglamath,short_answer,short_answer,১৫ ঘণ্টা,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,15,120,120
+test,,banglamath_0189,banglamath,short_answer,short_answer,৬ জন পুরুষ,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,6,6,6
+test,,banglamath_0226,banglamath,short_answer,short_answer,২৫০ টাকা,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,300,110,110
+test,,banglamath_0227,banglamath,short_answer,short_answer,৭.৫ কিমি,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,3,3.2,3.2
+test,,banglamath_0228,banglamath,short_answer,short_answer,২/৫,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,40% के साधारण ब्याज प्रकाशित कরने वाला होता था,40 ÷ 100 = 0.4,40 ÷ 100 = 0.4
+test,,banglamath_0229,banglamath,short_answer,short_answer,1.5,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,3七年五个月,200%,200%
+test,,banglamath_0230,banglamath,short_answer,short_answer,20%,selfnorm_if_parsed_disagree,True,False,True,True,gain,25125,20%,20%
+test,,banglamath_0231,banglamath,short_answer,short_answer,২০ টাকা,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,কটা Yoshi Moto Moto Royer Kroyomuly Kot,200 টাকা,200 টাকা
+dev,,banglamath_0232,banglamath,short_answer,short_answer,২০০ টাকা,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,1435.29,1480 টাকা,1480 টাকা
+test,,banglamath_0233,banglamath,short_answer,short_answer,৭ দিন,selfnorm_if_parsed_disagree,True,False,True,True,gain,35,7Days,7Days
+dev,,banglamath_0234,banglamath,short_answer,short_answer,৬ দিন,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,25,6.67 দিনে,6.67 দিনে
+test,,banglamath_0236,banglamath,short_answer,short_answer,১২ টাকা,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,120,30টাকা,30টাকা
+test,,banglamath_0237,banglamath,short_answer,short_answer,৬৪ টাকা,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,32,192 টাকা,192 টাকা
+dev,,banglamath_0518,banglamath,short_answer,short_answer,১৫০ মিটার,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,200,1200 মিটার,1200 মিটার
+dev,,banglamath_0519,banglamath,short_answer,short_answer,৭৫০০ বর্গমিটার,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,300,3750mtsquared,3750mtsquared
+dev,,banglamath_0521,banglamath,short_answer,short_answer,৭০ মিটার,selfnorm_if_parsed_disagree,True,False,True,True,gain,2.5,70 মিটার,70 মিটার
+dev,,banglamath_0522,banglamath,short_answer,short_answer,১৭৬ বর্গমিটার,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,2 mitar choora rasta thakole rastabade jomir kshetrofol kot,4 বর্গমিটার,4 বর্গমিটার
+test,,banglamath_0526,banglamath,short_answer,short_answer,৩০ বর্গ মিটার,selfnorm_if_parsed_disagree,True,False,True,True,gain,30,30 বর্গমিটার,30 বর্গমিটার
+test,,banglamath_0531,banglamath,short_answer,short_answer,৫ মেট্রিক টন ৫০৭ কেজি ৭০০ গ্রাম,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,1610,38500 গ্রাম,38500 গ্রাম
+test,,banglamath_0532,banglamath,short_answer,short_answer,১ মেট্রিক টন ৭৫০ কেজি,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,1.75,১. ৭ মেটরিক টন,১. ৭ মেটরিক টন
+test,,banglamath_0533,banglamath,short_answer,short_answer,৬৬৬ মেট্রিক টন ৬৬৬ কেজি ৬৬৬ গ্রাম (প্রায়),selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,10000,না,না
+test,,banglamath_0538,banglamath,short_answer,short_answer,৩৮৪ বর্গ মিটার,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,100,12000,12000
+dev,,banglamath_0539,banglamath,short_answer,short_answer,১৪৭ বর্গমিটার,selfnorm_if_parsed_disagree,True,False,True,True,gain,146,147 বর্গ মিটার,147 বর্গ মিটার
+test,,banglamath_0540,banglamath,short_answer,short_answer,২১ মিটার,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,210.6,21,21
+test,,banglamath_0541,banglamath,short_answer,short_answer,৪৪৪ বর্গমিটার,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,20,4032平方米,4032平方米
+test,,banglamath_0542,banglamath,short_answer,short_answer,৩৪০০ টাকা,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,20,4400 টাকা,4400 টাকা
+test,,banglamath_0549,banglamath,short_answer,short_answer,৪৫০ বর্গমিটার,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,20.43,4125 平方米,4125 平方米
+test,,banglamath_0550,banglamath,short_answer,short_answer,২২৫৬.২৫ বর্গমিটার,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,soman porisima bishisht borgakar mather kshetrofol kot,1303.28,1303.28
+test,,banglamath_0552,banglamath,short_answer,short_answer,৪৫০০ বর্গগজ,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,4500,36750 वर्ग गज,36750 वर्ग गज
+test,,banglamath_0553,banglamath,short_answer,short_answer,১১২৫টি,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,2250,1125,1125
+test,,banglamath_0557,banglamath,short_answer,short_answer,৯৩০ টাকা,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,374.5,1540,1540
+test,,banglamath_0558,banglamath,short_answer,short_answer,২০ মিটার,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,20,18Meter,18Meter
+test,,banglamath_0559,banglamath,short_answer,short_answer,১৬০০ বর্গমিটার,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,160 mitar hole tar kshetronfol khulshi,6400 मीटर²,6400 मीटर²
+test,,banglamath_1684,banglamath,short_answer,short_answer,"১২, ১২, ৩ বছর",selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,14,29,29
+dev,,banglamath_1685,banglamath,short_answer,short_answer,দুইজনের বয়স সমান,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,jibonorer,জীবনের ১০ বছর জুলির,জীবনের ১০ বছর জুলির
+test,,banglamath_1686,banglamath,short_answer,short_answer,প্রতেকে পাবে ৫/৬ আপেল।অর্থাৎ ১টি আপেলের অর্ধেক +১টি আপেলের ১/৩ ভাগ।,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,3,"প্রথমে, 5টি আপেলকে সর্বোচ্চ 3 তুকরা করে কেটে দিবো। এর জন্য প্রতিটি আপেলকে 3 তুকরা করতে হবে। তাহলে আমাদের 5 × 3 = 15 টি তুকরা �","প্রথমে, 5টি আপেলকে সর্বোচ্চ 3 তুকরা করে কেটে দিবো। এর জন্য প্রতিটি আপেলকে 3 তুকরা করতে হবে। তাহলে আমাদের 5 × 3 = 15 টি তুকরা �"
+test,,banglamath_1687,banglamath,short_answer,short_answer,"কাঠালের ওজন ৩ কিলোগ্রাম , তরমুজের ওজন ৪ কিলোগ্রাম",selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,30.5 kilograms,এই প্রশ্নটিতে দেওয�! কাঠাল ও তরোমুজের সpesific ওজন উল্লেখ করা হয�! তাই সঠিকভাবে উত্তর দিতে অতিরিক্ত তথ্য প্রয়োজন। তবে যদি একটি �,এই প্রশ্নটিতে দেওয�! কাঠাল ও তরোমুজের সpesific ওজন উল্লেখ করা হয�! তাই সঠিকভাবে উত্তর দিতে অতিরিক্ত তথ্য প্রয়োজন। তবে যদি একটি �
+test,,banglamath_1688,banglamath,short_answer,short_answer,"বাবুর্চী কাটে ৭০ মিনিটে ২১০টি পেঁয়াজ, সহকারী কাটে ১৯০টি পেঁয়াজ ৯৫ মিনিটে",selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,1000,200,200
+dev,,banglamath_1690,banglamath,short_answer,short_answer,"সেন্টুর ছিল ১০টি, মিন্টুর ছিল ১৪টি খেলনা গাড়ি",selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,4,মিন্টু সেন্টু থেকে 2টি গারী নিলে তার গারির সংখ্যা হবে 8।,মিন্টু সেন্টু থেকে 2টি গারী নিলে তার গারির সংখ্যা হবে 8।
+test,,banglamath_1691,banglamath,short_answer,short_answer,প্রথমে ৩ লিটারের পাত্রে ৩ লিটার দুধ নিয়ে তা ৫ লিটারের পাত্রে ঢালতে হবে। এবারও একইভাবে আবারও ৩ লিটার দুধ নিয়ে ৫ লিটারের পাত্রে আছে আরো ঢালতে হবে যতক্ষণ না ৫ লিটারের পাত্রটি পূর্ণ হয়। পাত্রটি পূর্ণ হওয়ার পর যে অবশিষ্ট দুধ ৩ লিটারের পাত্রে থেকে যাবে তার পরিমাণ ১ লিটার।,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,jedoba kachhe,রীবু গোয়ার কাছে দুই পত্র থেকে একটি ৫ লিটার পত্রে ৩ লিটার দুধ খালি করে তোলা যায়। তারপর ৩ লিটার পত্রে ৩ লিটার দুধ প,রীবু গোয়ার কাছে দুই পত্র থেকে একটি ৫ লিটার পত্রে ৩ লিটার দুধ খালি করে তোলা যায়। তারপর ৩ লিটার পত্রে ৩ লিটার দুধ প
+test,,banglamath_1692,banglamath,short_answer,short_answer,"১জন পুরুষ, ৫ জন মহিলা এবং ১৪ জন শিশু",selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,5000,"পুরুষ 6, মহিলা 6, শিশু 8","পুরুষ 6, মহিলা 6, শিশু 8"
+dev,,banglamath_1693,banglamath,short_answer,short_answer,24,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,17,28,28
+dev,,banglamath_1694,banglamath,short_answer,short_answer,১ মিনিট,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,20,火车速度为60千米/小时，表示每小时可以行驶60千米。,火车速度为60千米/小时，表示每小时可以行驶60千米。
+dev,,banglamath_1695,banglamath,short_answer,short_answer,"নারিকেল গাছ 60টি, আম গাছ ৪৫টি, বট গাছ ৩৬টি, ফুলের গাছ ৩৯টি",selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,200 kototi royechhe ebong 37 mot gachh koyoti.,195টি গাছ রইলে এবং মোট গাছ 240টি।,195টি গাছ রইলে এবং মোট গাছ 240টি।
+test,,banglamath_1696,banglamath,short_answer,short_answer,০.১৮ লিটার অথবা ১.৮ লিটার,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,2,0.8445 литра,0.8445 литра
+test,,banglamath_1697,banglamath,short_answer,short_answer,70,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,7,25,25
+test,,banglamath_1698,banglamath,short_answer,short_answer,১৩ টা,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,6,6,6
+test,,banglamath_1699,banglamath,short_answer,short_answer,132,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,36,208,208
+test,,banglamath_1703,banglamath,short_answer,short_answer,৩৬টি,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,80,৯০টি,৯০টি
+dev,,benqa_10th-Biology_0057,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,True,False,False,loss,C,B,B
+test,,benqa_10th-Biology_0090,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,True,False,False,loss,C,B,B
+test,,benqa_10th-Biology_0128,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,C,C
+dev,,benqa_10th-Biology_0143,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,C,C,C
+test,,benqa_10th-Biology_0149,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,A,C,C
+test,,benqa_10th-Biology_0156,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,True,False,False,loss,C,B,B
+test,,benqa_10th-Biology_0188,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,True,False,False,loss,A,B,B
+dev,,benqa_10th-Biology_0197,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,A,C,C
+test,,benqa_10th-Biology_0213,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,True,False,False,loss,A,B,B
+test,,benqa_10th-Biology_0215,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,D,A,A
+test,,benqa_10th-Biology_0277,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,D,D
+test,,benqa_10th-Biology_0339,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+test,,benqa_10th-Chemistry_0041,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,A,C,C
+test,,benqa_10th-Chemistry_0110,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,,D,D
+test,,benqa_10th-Chemistry_0111,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,C,A,A
+test,,benqa_10th-Chemistry_0132,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,False,True,True,gain,B,A,A
+test,,benqa_10th-Chemistry_0191,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,False,True,True,gain,C,A,A
+test,,benqa_10th-Chemistry_0194,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,C,A,A
+dev,,benqa_10th-Chemistry_0280,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,A,A,A
+test,,benqa_10th-Chemistry_0322,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,A,C,C
+test,,benqa_10th-Chemistry_0336,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+dev,,benqa_10th-Chemistry_0374,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,B,B,B
+dev,,benqa_10th-Chemistry_0388,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,A,A,A
+test,,benqa_10th-Math-II_0062,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,A,A
+test,,benqa_10th-Math-II_0102,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,C,A,A
+test,,benqa_10th-Math-II_0139,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+test,,benqa_10th-Math-II_0326,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,True,False,False,loss,C,B,B
+test,,benqa_10th-Math-II_0347,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,A,A,A
+test,,benqa_10th-Math-II_0357,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,A,A,A
+dev,,benqa_10th-Math-II_0367,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,A,A
+dev,,benqa_10th-Math_0032,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,B,B,B
+test,,benqa_10th-Math_0044,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,True,True,gain,A,C,C
+test,,benqa_10th-Math_0186,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,True,True,gain,A,C,C
+test,,benqa_10th-Math_0271,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,True,True,gain,C,D,D
+test,,benqa_10th-Math_0324,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+test,,benqa_10th-Physics_0021,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,A,D,D
+test,,benqa_10th-Physics_0036,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,True,False,False,loss,C,A,A
+dev,,benqa_10th-Physics_0045,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,True,False,False,loss,A,B,B
+dev,,benqa_10th-Physics_0055,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,True,True,gain,C,D,D
+test,,benqa_10th-Physics_0084,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,True,True,gain,B,D,D
+test,,benqa_10th-Physics_0106,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,False,True,True,gain,C,A,A
+test,,benqa_10th-Physics_0130,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,True,False,False,loss,D,B,B
+test,,benqa_10th-Physics_0150,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,True,False,False,loss,B,C,C
+test,,benqa_10th-Physics_0198,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,C,C,C
+test,,benqa_10th-Physics_0280,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,B,B,B
+dev,,benqa_10th-Physics_0296,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,A,C,C
+test,,benqa_12th-Biology-II_0034,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,True,False,False,loss,B,A,A
+test,,benqa_12th-Biology-II_0049,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,True,True,gain,B,C,C
+dev,,benqa_12th-Biology-II_0119,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+test,,benqa_12th-Biology-II_0122,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,False,True,True,gain,C,A,A
+test,,benqa_12th-Biology-II_0128,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,True,False,False,loss,B,D,D
+dev,,benqa_12th-Biology-II_0179,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,False,True,True,gain,D,A,A
+test,,benqa_12th-Biology-II_0203,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,D,D,D
+test,,benqa_12th-Biology-II_0247,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,A,C,C
+test,,benqa_12th-Biology-II_0287,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,True,False,False,loss,B,C,C
+test,,benqa_12th-Biology-II_0321,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,A,D,D
+dev,,benqa_12th-Biology-II_0325,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,C,C,C
+dev,,benqa_12th-Biology-I_0039,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,A,A
+test,,benqa_12th-Biology-I_0042,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,D,D,D
+test,,benqa_12th-Biology-I_0056,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,C,C
+test,,benqa_12th-Biology-I_0077,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,D,D,D
+test,,benqa_12th-Biology-I_0160,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,True,False,False,loss,B,A,A
+test,,benqa_12th-Biology-I_0181,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,D,D,D
+dev,,benqa_12th-Biology-I_0218,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,C,D,D
+test,,benqa_12th-Biology-I_0222,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,D,D
+dev,,benqa_12th-Biology-I_0265,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,D,D,D
+test,,benqa_12th-Biology-I_0277,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,A,A,A
+test,,benqa_12th-Biology-I_0283,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,D,C,C
+test,,benqa_12th-Chemistry-II_0013,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,A,A
+dev,,benqa_12th-Chemistry-II_0054,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,A,A,A
+test,,benqa_12th-Chemistry-II_0067,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,D,D,D
+test,,benqa_12th-Chemistry-II_0117,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,C,C,C
+test,,benqa_12th-Chemistry-II_0194,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,True,False,False,loss,A,B,B
+test,,benqa_12th-Chemistry-II_0228,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,True,False,False,loss,C,D,D
+test,,benqa_12th-Chemistry-II_0235,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,True,False,False,loss,A,C,C
+dev,,benqa_12th-Chemistry-II_0240,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,B,B,B
+test,,benqa_12th-Chemistry-II_0294,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,A,A,A
+dev,,benqa_12th-Chemistry-II_0305,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,A,A
+test,,benqa_12th-Chemistry-II_0354,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,A,C,C
+test,,benqa_12th-Chemistry-I_0028,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,True,True,gain,C,B,B
+test,,benqa_12th-Chemistry-I_0037,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,D,D,D
+dev,,benqa_12th-Chemistry-I_0140,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,C,C
+test,,benqa_12th-Chemistry-I_0174,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,D,D,D
+dev,,benqa_12th-Chemistry-I_0190,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,C,A,A
+test,,benqa_12th-Chemistry-I_0218,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+test,,benqa_12th-Chemistry-I_0227,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,A,B,B
+test,,benqa_12th-Chemistry-I_0260,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,C,B,B
+test,,benqa_12th-Chemistry-I_0286,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,A,A,A
+dev,,benqa_12th-Chemistry-I_0303,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,D,D,D
+test,,benqa_12th-Chemistry-I_0328,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,B,B,B
+test,,benqa_12th-Math-II_0043,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,A,A
+test,,benqa_12th-Math-II_0214,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,A,A
+dev,,benqa_12th-Math-II_0230,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,D,D,D
+dev,,benqa_12th-Math-II_0234,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,False,True,True,gain,B,A,A
+test,,benqa_12th-Math-I_0029,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,A,A,A
+dev,,benqa_12th-Math-I_0088,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,A,A
+dev,,benqa_12th-Math-I_0120,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,C,C
+test,,benqa_12th-Math-I_0186,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,True,False,False,loss,A,B,B
+test,,benqa_12th-Math-I_0187,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,True,False,False,loss,B,D,D
+dev,,benqa_12th-Math-I_0202,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,B,B,B
+test,,benqa_12th-Math-I_0218,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,True,False,False,loss,A,D,D
+test,,benqa_12th-Math-I_0310,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,B,B,B
+test,,benqa_12th-Math-I_0326,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,A,A,A
+test,,benqa_12th-Math-I_0342,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,D,D,D
+test,,benqa_12th-Math-I_0383,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,D,D,D
+test,,benqa_12th-Physics-II_0037,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,D,A,A
+test,,benqa_12th-Physics-II_0046,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,D,D,D
+test,,benqa_12th-Physics-II_0085,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+dev,,benqa_12th-Physics-II_0088,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,C,C
+dev,,benqa_12th-Physics-II_0131,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,True,True,gain,A,B,B
+test,,benqa_12th-Physics-II_0195,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,D,A,A
+test,,benqa_12th-Physics-II_0213,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,C,B,B
+test,,benqa_12th-Physics-II_0219,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+test,,benqa_12th-Physics-II_0267,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,D,D,D
+test,,benqa_12th-Physics-II_0290,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,A,A,A
+test,,benqa_12th-Physics-II_0292,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,C,C,C
+test,,benqa_12th-Physics-I_0008,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+test,,benqa_12th-Physics-I_0079,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,C,C,C
+dev,,benqa_12th-Physics-I_0106,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,A,C,C
+dev,,benqa_12th-Physics-I_0109,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,C,C,C
+test,,benqa_12th-Physics-I_0133,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,True,True,gain,,C,C
+test,,benqa_12th-Physics-I_0157,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+test,,benqa_12th-Physics-I_0214,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,True,False,False,loss,B,C,C
+test,,benqa_12th-Physics-I_0253,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,D,D,D
+test,,benqa_12th-Physics-I_0254,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,True,True,gain,A,B,B
+test,,benqa_12th-Physics-I_0256,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+test,,benqa_12th-Physics-I_0289,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,True,False,False,loss,D,B,B
+dev,,benqa_8th-Math_0031,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+test,,benqa_8th-Math_0062,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,True,True,gain,A,D,D
+test,,benqa_8th-Math_0072,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,D,D,D
+dev,,benqa_8th-Math_0085,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+test,,benqa_8th-Math_0167,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,C,C,C
+test,,benqa_8th-Math_0190,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,True,False,False,loss,B,A,A
+test,,benqa_8th-Science_0014,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,D,D,D
+dev,,benqa_8th-Science_0024,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,True,False,True,True,gain,D,C,C
+test,,benqa_8th-Science_0042,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,C,D,D
+test,,benqa_8th-Science_0062,benqa,mcq,choice,D,selfnorm_if_parsed_disagree,True,False,False,False,same_wrong,B,C,C
+test,,benqa_8th-Science_0078,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,B,B,B
+test,,benqa_8th-Science_0086,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,A,A,A
+test,,benqa_8th-Science_0098,benqa,mcq,choice,A,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,A,A,A
+test,,benqa_8th-Science_0127,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,True,True,False,False,loss,B,D,D
+dev,,benqa_8th-Science_0153,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,True,True,True,same_correct,C,C,C
+test,,benqa_8th-Science_0159,benqa,mcq,choice,B,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,C,C,C
+test,,benqa_8th-Science_0202,benqa,mcq,choice,C,selfnorm_if_parsed_disagree,False,False,False,False,same_wrong,A,A,A

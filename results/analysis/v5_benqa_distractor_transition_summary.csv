@@ -1,0 +1,21 @@
+section,model,bucket,gold,n,denominator,rate,recoverable_misses,strict_recoverable_misses,valid_recoverable_misses,invalid_recoverable_misses,pred_A,pred_B,pred_C,pred_D,pred_invalid,top_wrong_option,top_wrong_count,repeated_wrong_option_items,all_three_same_wrong_option_items,detail
+model_overall,Qwen2.5-3B,all_recoverable,,51,51,1.0,51,12,51,0,10,21,8,12,0,B,21,0,0,Reviewed-Banglish wrong while Bangla or English is correct
+model_gold_transition,Qwen2.5-3B,recoverable_by_gold,A,14,51,0.2745,14,2,14,0,0,7,3,4,0,B,7,0,0,Gold A recoverable Banglish misses
+model_gold_transition,Qwen2.5-3B,recoverable_by_gold,B,12,51,0.2353,12,3,12,0,5,0,4,3,0,A,5,0,0,Gold B recoverable Banglish misses
+model_gold_transition,Qwen2.5-3B,recoverable_by_gold,C,14,51,0.2745,14,7,14,0,2,7,0,5,0,B,7,0,0,Gold C recoverable Banglish misses
+model_gold_transition,Qwen2.5-3B,recoverable_by_gold,D,11,51,0.2157,11,0,11,0,3,7,1,0,0,B,7,0,0,Gold D recoverable Banglish misses
+model_overall,Qwen2.5-7B 8-bit,all_recoverable,,56,58,0.9655,58,26,56,2,13,19,10,14,2,B,19,0,0,Reviewed-Banglish wrong while Bangla or English is correct
+model_gold_transition,Qwen2.5-7B 8-bit,recoverable_by_gold,A,13,58,0.2241,13,9,13,0,0,8,1,4,0,B,8,0,0,Gold A recoverable Banglish misses
+model_gold_transition,Qwen2.5-7B 8-bit,recoverable_by_gold,B,13,58,0.2241,13,6,13,0,5,0,4,4,0,A,5,0,0,Gold B recoverable Banglish misses
+model_gold_transition,Qwen2.5-7B 8-bit,recoverable_by_gold,C,19,58,0.3276,19,9,17,2,4,7,0,6,2,B,7,0,0,Gold C recoverable Banglish misses
+model_gold_transition,Qwen2.5-7B 8-bit,recoverable_by_gold,D,13,58,0.2241,13,2,13,0,4,4,5,0,0,C,5,0,0,Gold D recoverable Banglish misses
+model_overall,Qwen3-4B,all_recoverable,,55,55,1.0,55,30,55,0,2,1,8,44,0,D,44,0,0,Reviewed-Banglish wrong while Bangla or English is correct
+model_gold_transition,Qwen3-4B,recoverable_by_gold,A,14,55,0.2545,14,9,14,0,0,0,4,10,0,D,10,0,0,Gold A recoverable Banglish misses
+model_gold_transition,Qwen3-4B,recoverable_by_gold,B,17,55,0.3091,17,8,17,0,0,0,2,15,0,D,15,0,0,Gold B recoverable Banglish misses
+model_gold_transition,Qwen3-4B,recoverable_by_gold,C,20,55,0.3636,20,11,20,0,1,0,0,19,0,D,19,0,0,Gold C recoverable Banglish misses
+model_gold_transition,Qwen3-4B,recoverable_by_gold,D,4,55,0.0727,4,2,4,0,1,1,2,0,0,C,2,0,0,Gold D recoverable Banglish misses
+cross_model_convergence,,any_model_recoverable_valid,,95,144,0.6597,0,0,0,0,0,0,0,0,0,,0,27,5,BEnQA items with valid recoverable Banglish misses across models
+cross_model_convergence,,two_plus_models_recoverable_valid,,50,144,0.3472,0,0,0,0,0,0,0,0,0,,0,27,5,BEnQA items with valid recoverable Banglish misses across models
+cross_model_convergence,,three_models_recoverable_valid,,17,144,0.1181,0,0,0,0,0,0,0,0,0,,0,12,5,BEnQA items with valid recoverable Banglish misses across models
+item_support_bucket,,strong_alternate_low_banglish,,61,144,0.4236,0,0,0,0,0,0,0,0,0,,0,26,5,Cross-model alternate-script support with low Banglish success
+item_support_bucket,,zero_banglish_strong_alternate,,30,144,0.2083,0,0,0,0,0,0,0,0,0,,0,18,5,Cross-model alternate-script support with low Banglish success

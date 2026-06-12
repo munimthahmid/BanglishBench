@@ -1,0 +1,37 @@
+model,dataset,condition,condition_label,n,anchor_correct,reviewed_banglish_retained,reviewed_banglish_lost,retention_rate,retention_ci95_low,retention_ci95_high
+Qwen2.5-3B,all,bangla_correct,Bangla correct,200,54,26,28,0.4815,0.3539,0.6115
+Qwen2.5-3B,all,english_correct,English correct,200,71,26,45,0.3662,0.2637,0.4824
+Qwen2.5-3B,all,bangla_or_english_correct,Bangla or English correct,200,92,34,58,0.3696,0.278,0.4716
+Qwen2.5-3B,all,bangla_and_english_correct,Bangla and English correct,200,33,18,15,0.5455,0.3799,0.7016
+Qwen2.5-3B,benqa,bangla_correct,Bangla correct,144,49,26,23,0.5306,0.3938,0.663
+Qwen2.5-3B,benqa,english_correct,English correct,144,66,26,40,0.3939,0.285,0.5145
+Qwen2.5-3B,benqa,bangla_or_english_correct,Bangla or English correct,144,85,34,51,0.4,0.3024,0.5063
+Qwen2.5-3B,benqa,bangla_and_english_correct,Bangla and English correct,144,30,18,12,0.6,0.4232,0.7541
+Qwen2.5-3B,banglamath,bangla_correct,Bangla correct,56,5,0,5,0.0,0.0,0.4345
+Qwen2.5-3B,banglamath,english_correct,English correct,56,5,0,5,0.0,0.0,0.4345
+Qwen2.5-3B,banglamath,bangla_or_english_correct,Bangla or English correct,56,7,0,7,0.0,0.0,0.3543
+Qwen2.5-3B,banglamath,bangla_and_english_correct,Bangla and English correct,56,3,0,3,0.0,0.0,0.5615
+Qwen2.5-7B 8-bit,all,bangla_correct,Bangla correct,200,65,28,37,0.4308,0.3176,0.5517
+Qwen2.5-7B 8-bit,all,english_correct,English correct,200,94,34,60,0.3617,0.2718,0.4625
+Qwen2.5-7B 8-bit,all,bangla_or_english_correct,Bangla or English correct,200,107,39,68,0.3645,0.2795,0.4589
+Qwen2.5-7B 8-bit,all,bangla_and_english_correct,Bangla and English correct,200,52,23,29,0.4423,0.316,0.5766
+Qwen2.5-7B 8-bit,benqa,bangla_correct,Bangla correct,144,60,28,32,0.4667,0.3463,0.5911
+Qwen2.5-7B 8-bit,benqa,english_correct,English correct,144,86,34,52,0.3953,0.2986,0.501
+Qwen2.5-7B 8-bit,benqa,bangla_or_english_correct,Bangla or English correct,144,97,39,58,0.4021,0.31,0.5016
+Qwen2.5-7B 8-bit,benqa,bangla_and_english_correct,Bangla and English correct,144,49,23,26,0.4694,0.337,0.6062
+Qwen2.5-7B 8-bit,banglamath,bangla_correct,Bangla correct,56,5,0,5,0.0,0.0,0.4345
+Qwen2.5-7B 8-bit,banglamath,english_correct,English correct,56,8,0,8,0.0,0.0,0.3244
+Qwen2.5-7B 8-bit,banglamath,bangla_or_english_correct,Bangla or English correct,56,10,0,10,0.0,0.0,0.2775
+Qwen2.5-7B 8-bit,banglamath,bangla_and_english_correct,Bangla and English correct,56,3,0,3,0.0,0.0,0.5615
+Qwen3-4B,all,bangla_correct,Bangla correct,200,80,41,39,0.5125,0.4049,0.6189
+Qwen3-4B,all,english_correct,English correct,200,88,36,52,0.4091,0.3123,0.5135
+Qwen3-4B,all,bangla_or_english_correct,Bangla or English correct,200,103,44,59,0.4272,0.336,0.5236
+Qwen3-4B,all,bangla_and_english_correct,Bangla and English correct,200,65,33,32,0.5077,0.3892,0.6254
+Qwen3-4B,benqa,bangla_correct,Bangla correct,144,76,39,37,0.5132,0.4029,0.6222
+Qwen3-4B,benqa,english_correct,English correct,144,82,34,48,0.4146,0.3142,0.5227
+Qwen3-4B,benqa,bangla_or_english_correct,Bangla or English correct,144,97,42,55,0.433,0.3388,0.5323
+Qwen3-4B,benqa,bangla_and_english_correct,Bangla and English correct,144,61,31,30,0.5082,0.386,0.6294
+Qwen3-4B,banglamath,bangla_correct,Bangla correct,56,4,2,2,0.5,0.15,0.85
+Qwen3-4B,banglamath,english_correct,English correct,56,6,2,4,0.3333,0.0968,0.7
+Qwen3-4B,banglamath,bangla_or_english_correct,Bangla or English correct,56,6,2,4,0.3333,0.0968,0.7
+Qwen3-4B,banglamath,bangla_and_english_correct,Bangla and English correct,56,4,2,2,0.5,0.15,0.85

@@ -1,0 +1,5 @@
+model,prompt_mode,dataset,variant,n,correct,mean_bengali_ratio,mean_latin_ratio,empty_rewrites,options_not_preserved,digit_count_not_preserved,formulas_not_preserved
+Qwen/Qwen2.5-3B-Instruct,banglish_self_translate_en,banglamath,banglish_clean,40,0,0.0,0.7562,0,0,17,1
+Qwen/Qwen2.5-3B-Instruct,banglish_self_translate_en,benqa,banglish_clean,60,2,0.0,0.693,0,59,34,11
+Qwen/Qwen3-4B-Instruct-2507,banglish_self_translate_en,banglamath,banglish_clean,40,1,0.0,0.723,0,0,5,0
+Qwen/Qwen3-4B-Instruct-2507,banglish_self_translate_en,benqa,banglish_clean,60,15,0.0,0.5975,0,1,9,0

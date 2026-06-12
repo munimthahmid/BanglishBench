@@ -1,0 +1,8 @@
+route,group,n,banglish_correct,generated_bn_correct,generated_en_correct,generated_view_oracle_correct,triad_oracle_correct,generated_agreement_items,generated_agreement_correct,baseline_wrong_generated_oracle,baseline_wrong_agreement_correct,missed_generated_oracle_by_agreement,baseline_correct_agreement_wrong,generated_disagreement_items,generated_disagreement_any_correct,current_routed_items,current_routed_correct,current_routed_minus_banglish
+Qwen2.5 protected-v3 phonetic + guarded EN,all,36,9,10,11,17,19,13,4,10,0,10,1,23,13,1,8,-1
+Qwen2.5 protected-v3 phonetic + guarded EN,source_fallback_after_failed_repair,15,4,5,4,7,7,6,2,3,0,3,0,9,5,0,4,0
+Qwen2.5 protected-v3 phonetic + guarded EN,translated_stem_source_tail,21,5,5,7,10,12,7,2,7,0,7,1,14,8,1,4,-1
+Qwen3 historical protected-v1 BNB + raw self-translate EN,all,36,15,17,7,20,20,12,4,5,1,4,0,11,9,1,16,1
+Qwen3 protected-v3 BNB + guarded EN,all,36,15,17,15,20,20,24,12,5,1,4,0,10,8,1,16,1
+Qwen3 protected-v3 BNB + guarded EN,source_fallback_after_failed_repair,15,7,6,7,7,7,11,6,0,0,0,0,2,1,0,7,0
+Qwen3 protected-v3 BNB + guarded EN,translated_stem_source_tail,21,8,11,8,13,13,13,6,5,1,4,0,8,7,1,9,1

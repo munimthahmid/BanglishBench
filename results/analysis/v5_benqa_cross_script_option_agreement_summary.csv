@@ -1,0 +1,22 @@
+section,model,scope,scope_label,n,banglish_correct,banglish_D,banglish_wrong_D,banglish_same_as_agreement,banglish_switches_from_agreement,banglish_invalid
+scope_summary,Qwen2.5-3B,all,All BEnQA rows,144,41,39,25,43,26,0
+scope_summary,Qwen2.5-3B,be_agree,Bangla and English agree,69,24,20,13,43,26,0
+scope_summary,Qwen2.5-3B,be_agree_non_d,Bangla and English agree on non-D,47,14,4,4,27,20,0
+scope_summary,Qwen2.5-3B,be_agree_d,Bangla and English agree on D,22,10,16,9,16,6,0
+scope_summary,Qwen2.5-3B,be_correct_agree,Bangla and English are correct and agree,30,18,9,2,18,12,0
+scope_summary,Qwen2.5-3B,be_correct_agree_non_d,Bangla and English are correct and agree on non-D,23,11,2,2,11,12,0
+scope_summary,Qwen2.5-3B,be_correct_agree_d,Bangla and English are correct and agree on D,7,7,7,0,7,0,0
+scope_summary,Qwen2.5-7B 8-bit,all,All BEnQA rows,144,47,25,17,43,40,2
+scope_summary,Qwen2.5-7B 8-bit,be_agree,Bangla and English agree,85,28,14,10,43,40,2
+scope_summary,Qwen2.5-7B 8-bit,be_agree_non_d,Bangla and English agree on non-D,76,24,9,8,38,36,2
+scope_summary,Qwen2.5-7B 8-bit,be_agree_d,Bangla and English agree on D,9,4,5,2,5,4,0
+scope_summary,Qwen2.5-7B 8-bit,be_correct_agree,Bangla and English are correct and agree,49,23,10,7,23,24,2
+scope_summary,Qwen2.5-7B 8-bit,be_correct_agree_non_d,Bangla and English are correct and agree on non-D,44,20,7,7,20,22,2
+scope_summary,Qwen2.5-7B 8-bit,be_correct_agree_d,Bangla and English are correct and agree on D,5,3,3,0,3,2,0
+scope_summary,Qwen3-4B,all,All BEnQA rows,144,47,111,77,53,39,3
+scope_summary,Qwen3-4B,be_agree,Bangla and English agree,92,35,72,46,53,39,0
+scope_summary,Qwen3-4B,be_agree_non_d,Bangla and English agree on non-D,47,12,30,27,11,36,0
+scope_summary,Qwen3-4B,be_agree_d,Bangla and English agree on D,45,23,42,19,42,3,0
+scope_summary,Qwen3-4B,be_correct_agree,Bangla and English are correct and agree,61,31,46,23,31,30,0
+scope_summary,Qwen3-4B,be_correct_agree_non_d,Bangla and English are correct and agree on non-D,36,8,23,23,8,28,0
+scope_summary,Qwen3-4B,be_correct_agree_d,Bangla and English are correct and agree on D,25,23,23,0,23,2,0

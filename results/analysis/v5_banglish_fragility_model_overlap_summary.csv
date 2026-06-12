@@ -1,0 +1,66 @@
+section,key,model_a,model_b,n,denominator,rate,detail
+fragility_bucket,no_model_fragile,,,92,200,0.46,
+strict_bucket,no_model_fragile,,,146,200,0.73,
+fragility_bucket,exactly_one_model,,,52,200,0.26,
+strict_bucket,exactly_one_model,,,37,200,0.185,
+fragility_bucket,exactly_two_models,,,35,200,0.175,
+strict_bucket,exactly_two_models,,,12,200,0.06,
+fragility_bucket,all_three_models,,,21,200,0.105,
+strict_bucket,all_three_models,,,5,200,0.025,
+fragility_bucket,any_model_fragile,,,108,200,0.54,
+fragility_bucket,shared_two_or_more,,,56,108,0.5185,denominator is any-fragile items
+dataset_fragility_bucket,banglamath:no_model_fragile,,,43,56,0.7679,
+dataset_fragility_bucket,banglamath:exactly_one_model,,,8,56,0.1429,
+dataset_fragility_bucket,banglamath:exactly_two_models,,,2,56,0.0357,
+dataset_fragility_bucket,banglamath:all_three_models,,,3,56,0.0536,
+dataset_fragility_bucket,banglamath:shared_two_or_more,,,5,56,0.0893,
+dataset_fragility_bucket,benqa:no_model_fragile,,,49,144,0.3403,
+dataset_fragility_bucket,benqa:exactly_one_model,,,44,144,0.3056,
+dataset_fragility_bucket,benqa:exactly_two_models,,,33,144,0.2292,
+dataset_fragility_bucket,benqa:all_three_models,,,18,144,0.125,
+dataset_fragility_bucket,benqa:shared_two_or_more,,,51,144,0.3542,
+model_total,fragility_items,Qwen2.5-3B,,58,200,0.29,
+model_total,strict_items,Qwen2.5-3B,,15,200,0.075,
+model_unique,unique_fragility_items,Qwen2.5-3B,,14,58,0.2414,denominator is model fragility items
+model_total,fragility_items,Qwen2.5-7B,,68,200,0.34,
+model_total,strict_items,Qwen2.5-7B,,29,200,0.145,
+model_unique,unique_fragility_items,Qwen2.5-7B,,22,68,0.3235,denominator is model fragility items
+model_total,fragility_items,Qwen3-4B,,59,200,0.295,
+model_total,strict_items,Qwen3-4B,,32,200,0.16,
+model_unique,unique_fragility_items,Qwen3-4B,,16,59,0.2712,denominator is model fragility items
+fragility_pair_overlap,intersection_over_union,Qwen2.5-3B,Qwen2.5-7B,34,92,0.3696,rate is Jaccard overlap
+strict_pair_overlap,intersection_over_union,Qwen2.5-3B,Qwen2.5-7B,7,37,0.1892,rate is Jaccard overlap
+exactly_two_pair,fragility_items,Qwen2.5-3B,Qwen2.5-7B,13,200,0.065,
+fragility_pair_overlap,intersection_over_union,Qwen2.5-3B,Qwen3-4B,31,86,0.3605,rate is Jaccard overlap
+strict_pair_overlap,intersection_over_union,Qwen2.5-3B,Qwen3-4B,7,40,0.175,rate is Jaccard overlap
+exactly_two_pair,fragility_items,Qwen2.5-3B,Qwen3-4B,10,200,0.05,
+fragility_pair_overlap,intersection_over_union,Qwen2.5-7B,Qwen3-4B,33,94,0.3511,rate is Jaccard overlap
+strict_pair_overlap,intersection_over_union,Qwen2.5-7B,Qwen3-4B,13,48,0.2708,rate is Jaccard overlap
+exactly_two_pair,fragility_items,Qwen2.5-7B,Qwen3-4B,12,200,0.06,
+domain_shared_fragility,biology,,,5,12,0.4167,any_fragile=10; all_three=2
+domain_shared_fragility,biology-i,,,6,11,0.5455,any_fragile=10; all_three=3
+domain_shared_fragility,biology-ii,,,5,11,0.4545,any_fragile=9; all_three=2
+domain_shared_fragility,chemistry,,,5,11,0.4545,any_fragile=6; all_three=2
+domain_shared_fragility,chemistry-i,,,5,11,0.4545,any_fragile=7; all_three=2
+domain_shared_fragility,chemistry-ii,,,6,11,0.5455,any_fragile=9; all_three=1
+domain_shared_fragility,math,,,11,67,0.1642,any_fragile=22; all_three=6
+domain_shared_fragility,math-i,,,0,11,0.0,any_fragile=5; all_three=0
+domain_shared_fragility,math-ii,,,0,11,0.0,any_fragile=3; all_three=0
+domain_shared_fragility,physics,,,3,11,0.2727,any_fragile=8; all_three=1
+domain_shared_fragility,physics-i,,,3,11,0.2727,any_fragile=5; all_three=0
+domain_shared_fragility,physics-ii,,,3,11,0.2727,any_fragile=6; all_three=0
+domain_shared_fragility,science,,,4,11,0.3636,any_fragile=8; all_three=2
+dataset_domain_shared_fragility,banglamath:math,,,5,56,0.0893,any_fragile=13; all_three=3
+dataset_domain_shared_fragility,benqa:biology,,,5,12,0.4167,any_fragile=10; all_three=2
+dataset_domain_shared_fragility,benqa:biology-i,,,6,11,0.5455,any_fragile=10; all_three=3
+dataset_domain_shared_fragility,benqa:biology-ii,,,5,11,0.4545,any_fragile=9; all_three=2
+dataset_domain_shared_fragility,benqa:chemistry,,,5,11,0.4545,any_fragile=6; all_three=2
+dataset_domain_shared_fragility,benqa:chemistry-i,,,5,11,0.4545,any_fragile=7; all_three=2
+dataset_domain_shared_fragility,benqa:chemistry-ii,,,6,11,0.5455,any_fragile=9; all_three=1
+dataset_domain_shared_fragility,benqa:math,,,6,11,0.5455,any_fragile=9; all_three=3
+dataset_domain_shared_fragility,benqa:math-i,,,0,11,0.0,any_fragile=5; all_three=0
+dataset_domain_shared_fragility,benqa:math-ii,,,0,11,0.0,any_fragile=3; all_three=0
+dataset_domain_shared_fragility,benqa:physics,,,3,11,0.2727,any_fragile=8; all_three=1
+dataset_domain_shared_fragility,benqa:physics-i,,,3,11,0.2727,any_fragile=5; all_three=0
+dataset_domain_shared_fragility,benqa:physics-ii,,,3,11,0.2727,any_fragile=6; all_three=0
+dataset_domain_shared_fragility,benqa:science,,,4,11,0.3636,any_fragile=8; all_three=2

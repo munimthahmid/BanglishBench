@@ -1,0 +1,10 @@
+dataset,variant,variant_label,n,strict_correct,strict_accuracy,secondary_correct,secondary_accuracy,strict_to_secondary_gain,parsed_empty,choice_invalid,finish_max_tokens,long_response_gt120,raw_multiline,mean_output_tokens,median_output_tokens,mean_raw_chars
+all,bangla,Bangla,200,172,0.86,173,0.865,1,0,0,0,2,3,93.4,57.0,7.0
+all,banglish_clean,Reviewed Banglish,200,169,0.845,174,0.87,5,0,0,0,2,2,113.0,78.0,7.4
+all,english,English,200,154,0.77,168,0.84,14,0,0,0,2,0,90.0,51.5,6.7
+benqa,bangla,Bangla,144,134,0.9306,134,0.9306,0,0,0,0,0,0,94,55.0,1
+benqa,banglish_clean,Reviewed Banglish,144,134,0.9306,134,0.9306,0,0,0,0,0,0,114.2,76.5,1
+benqa,english,English,144,131,0.9097,131,0.9097,0,0,0,0,0,0,93.7,51.5,1
+banglamath,bangla,Bangla,56,38,0.6786,39,0.6964,1,0,0,0,2,3,91.7,62.5,22.4
+banglamath,banglish_clean,Reviewed Banglish,56,35,0.625,40,0.7143,5,0,0,0,2,2,109.9,81.0,23.8
+banglamath,english,English,56,23,0.4107,37,0.6607,14,0,0,0,2,0,80.4,50.0,21.4

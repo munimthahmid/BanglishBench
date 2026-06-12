@@ -1,0 +1,7 @@
+model,bucket,n,v3_correct,v4_correct,v4_minus_v3_correct,same_correct,same_wrong,gain,loss,v4_wrong_items
+Qwen2.5-3B,auto_changed,140,26,26,0,26,114,0,0,114
+Qwen2.5-3B,auto_unchanged,60,12,13,1,12,47,1,0,47
+Qwen2.5-3B,all,200,38,39,1,38,161,1,0,161
+Qwen3-4B,auto_changed,140,33,33,0,32,106,1,1,107
+Qwen3-4B,auto_unchanged,60,13,14,1,13,46,1,0,46
+Qwen3-4B,all,200,46,47,1,45,152,2,1,153

@@ -1,0 +1,19 @@
+section,model,variant,variant_label,n,correct,invalid,pred_A,pred_B,pred_C,pred_D,gold_A,gold_B,gold_C,gold_D,majority_option,majority_share,option_entropy,tvd_pred_vs_gold,marginal_expected_correct,actual_minus_marginal_expected,both_valid,same_option,different_option,same_wrong,left_correct_right_wrong,right_correct_left_wrong
+variant_distribution,Qwen2.5-3B,bangla,Bangla,144,49,0,23,45,31,45,29,35,41,39,B,0.3125,0.9742,0.1111,36.58,12.42,,,,,,
+variant_distribution,Qwen2.5-3B,banglish_clean,Reviewed Banglish,144,41,0,22,56,27,39,29,35,41,39,B,0.3889,0.9536,0.1458,36.29,4.71,,,,,,
+variant_distribution,Qwen2.5-3B,english,English,144,66,0,28,43,29,44,29,35,41,39,D,0.3056,0.9842,0.0903,36.26,29.74,,,,,,
+variant_distribution,Qwen2.5-7B 8-bit,bangla,Bangla,144,60,0,36,45,45,18,29,35,41,39,B,0.3125,0.9619,0.1458,35.88,24.12,,,,,,
+variant_distribution,Qwen2.5-7B 8-bit,banglish_clean,Reviewed Banglish,144,47,2,33,57,27,25,29,35,41,39,B,0.3958,0.9572,0.1875,34.96,12.04,,,,,,
+variant_distribution,Qwen2.5-7B 8-bit,english,English,144,86,0,35,47,35,27,29,35,41,39,B,0.3264,0.986,0.125,35.75,50.25,,,,,,
+variant_distribution,Qwen3-4B,bangla,Bangla,144,76,4,20,24,29,67,29,35,41,39,D,0.4653,0.9083,0.2083,36.26,39.74,,,,,,
+variant_distribution,Qwen3-4B,banglish_clean,Reviewed Banglish,144,47,3,3,7,20,111,29,35,41,39,D,0.7708,0.5023,0.5104,38.06,8.94,,,,,,
+variant_distribution,Qwen3-4B,english,English,144,82,8,22,25,31,58,29,35,41,39,D,0.4028,0.9425,0.1597,35.04,46.96,,,,,,
+pair_agreement,Qwen2.5-3B,bangla_vs_banglish_clean,Bangla vs Reviewed Banglish,144,,0,,,,,,,,,,,,,,,144,70,74,44,23,15
+pair_agreement,Qwen2.5-3B,english_vs_banglish_clean,English vs Reviewed Banglish,144,,0,,,,,,,,,,,,,,,144,63,81,37,40,15
+pair_agreement,Qwen2.5-3B,bangla_vs_english,Bangla vs English,144,,0,,,,,,,,,,,,,,,144,69,75,39,19,36
+pair_agreement,Qwen2.5-7B 8-bit,bangla_vs_banglish_clean,Bangla vs Reviewed Banglish,144,,2,,,,,,,,,,,,,,,142,63,79,35,30,19
+pair_agreement,Qwen2.5-7B 8-bit,english_vs_banglish_clean,English vs Reviewed Banglish,144,,2,,,,,,,,,,,,,,,142,57,85,23,50,13
+pair_agreement,Qwen2.5-7B 8-bit,bangla_vs_english,Bangla vs English,144,,0,,,,,,,,,,,,,,,144,85,59,36,11,37
+pair_agreement,Qwen3-4B,bangla_vs_banglish_clean,Bangla vs Reviewed Banglish,144,,5,,,,,,,,,,,,,,,139,79,60,40,37,8
+pair_agreement,Qwen3-4B,english_vs_banglish_clean,English vs Reviewed Banglish,144,,8,,,,,,,,,,,,,,,136,66,70,32,48,11
+pair_agreement,Qwen3-4B,bangla_vs_english,Bangla vs English,144,,8,,,,,,,,,,,,,,,136,92,44,31,13,21

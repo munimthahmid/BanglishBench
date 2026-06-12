@@ -1,0 +1,14 @@
+split,model,heuristic,family,n,correct,accuracy,used_selfnorm,used_selfnorm_rate
+all,Qwen/Qwen3-4B-Instruct-2507,always_baseline,control,50,5,0.1,0,0.0
+all,Qwen/Qwen3-4B-Instruct-2507,always_selfnorm,control,50,0,0.0,50,1.0
+all,Qwen/Qwen3-4B-Instruct-2507,selfnorm_if_after_nonempty,answer_signal,50,0,0.0,50,1.0
+all,Qwen/Qwen3-4B-Instruct-2507,selfnorm_if_before_empty_after_nonempty,answer_signal,50,5,0.1,0,0.0
+all,Qwen/Qwen3-4B-Instruct-2507,selfnorm_if_after_short_le10,answer_signal,50,5,0.1,1,0.02
+all,Qwen/Qwen3-4B-Instruct-2507,selfnorm_if_after_short_le20,answer_signal,50,4,0.08,8,0.16
+all,Qwen/Qwen3-4B-Instruct-2507,selfnorm_if_parsed_disagree,answer_signal,50,0,0.0,50,1.0
+all,Qwen/Qwen3-4B-Instruct-2507,selfnorm_if_before_long_gt40,answer_signal,50,5,0.1,22,0.44
+all,Qwen/Qwen3-4B-Instruct-2507,selfnorm_if_before_meta,answer_signal,50,5,0.1,1,0.02
+all,Qwen/Qwen3-4B-Instruct-2507,selfnorm_if_banglamath,task,50,5,0.1,0,0.0
+all,Qwen/Qwen3-4B-Instruct-2507,selfnorm_if_math_after_nonempty,answer_signal_task,50,5,0.1,0,0.0
+all,Qwen/Qwen3-4B-Instruct-2507,selfnorm_if_choice_after_nonempty,answer_signal_task,50,5,0.1,0,0.0
+all,Qwen/Qwen3-4B-Instruct-2507,selfnorm_if_short_answer_after_has_digit,answer_signal_task,50,0,0.0,39,0.78

@@ -1,0 +1,72 @@
+area,status,metric,value,detail
+v5_manual_review,pass,review_progress,140/140,all review sessions complete
+post_v5_reruns,pass,readiness,ready,failing_gates=0
+post_v5_reruns,pass,kaggle_jobs,3,ready_jobs=2; conditional_jobs=1; blocked_jobs=0
+post_v5_reruns,pass,conservative_gpu_hours,0.89/1.51,required/required_plus_conditional under 120h Kaggle assumption
+post_v5_reruns,pass,required_v5_sensitivity,2/2,"Qwen2.5-3B 39/200->41/200 (+1.0 pts, CI [-1.0, +3.0]); Qwen3-4B 47/200->49/200 (+1.0 pts, CI [0.0, +2.5])"
+post_v5_reruns,pass,optional_7b_v5,200,output rows downloaded
+qa_gates,pass,v5_packet_integrity,6,issues=0
+qa_gates,pass,thesis_figure_integrity,25,issues=0
+qa_gates,pass,thesis_table_integrity,86,issues=0
+qa_gates,pass,api_audit_manifest,18,issues=0
+qa_gates,pass,api_audit_import_roundtrip,16,issues=0
+qa_gates,pass,gemini_api_audit,600,Gemini 3.5 Flash all-200 strict=163/136/144; secondary=170/161/165
+qa_gates,pass,openai_gpt55_full_api_audit,600,GPT-5.5 low all-200 strict=172/169/154; secondary=173/174/168
+qa_gates,pass,frontier_api_panel_validation200_v5,3000,"models=Claude Sonnet 4.6,DeepSeek V4 Flash,GPT-5.5 low,Gemini 3.5 Flash,Groq Llama 3.3 70B"
+qa_gates,pass,benqa_extended_ai_review,1000,pass=851; warn=149; fail=0
+qa_gates,pass,benqa_extension_full851_qwen25_3b,2553,"acc=BN:291/851,BG:248/851,EN:437/851; gaps=BG-BN:-5.05pts,BG-EN:-22.21pts"
+qa_gates,pass,benqa_extension_full851_deepseek_v4_flash,2553,"acc=BN:665/851,BG:376/851,EN:697/851; gaps=BG-BN:-33.96pts,BG-EN:-37.72pts"
+qa_gates,pass,research_log_compactness,72,issues=0
+qa_gates,pass,v5_recoverability_sources,600,summary_rows=300
+qa_gates,pass,v5_cross_script_transfer,600,summary_rows=36
+qa_gates,pass,v5_token_failure_join,600,summary_rows=78
+qa_gates,pass,v5_review_label_sensitivity,39,expected_rows=39
+qa_gates,pass,v5_dataset_gap_intervals,18,expected_rows=18
+qa_gates,pass,v5_paired_sign_tests,18,expected_rows=18
+qa_gates,pass,v5_clustered_gap_robustness,192,summary_rows=18
+qa_gates,pass,v5_benqa_subject_stability,42,expected_rows=42
+qa_gates,pass,v5_benqa_subject_balance,39,summary_rows=6
+qa_gates,pass,v5_qwen_scaling_transfer,1800,"summary_rows=63; qwen25_net_gains=bangla:11,banglish:6,english:23; qwen3_gap_change=-18"
+qa_gates,pass,v5_fragility_overlap,200,summary_rows=65
+qa_gates,pass,v5_item_consensus,200,summary_rows=80
+qa_gates,pass,v5_difficulty_conditioned_gap,200,summary_rows=36
+qa_gates,pass,v5_consensus_stability,1400,summary_rows=21
+qa_gates,pass,v5_composition_sensitivity,200,summary_rows=27
+qa_gates,pass,v5_shared_examples,17,all_three_strict=5
+qa_gates,pass,v5_answer_format_audit,1800,summary_rows=27
+qa_gates,pass,v5_response_style_drift,1800,"summary_rows=27; qwen3_math_meta=bangla:0,banglish:15,english:1"
+qa_gates,pass,v5_banglamath_numeric_sensitivity,504,"summary_rows=9; qwen3_raw_signature=bangla:19,banglish:10,english:24"
+qa_gates,pass,v5_banglamath_numeric_transfer,168,"summary_rows=3; qwen3_alt_raw=24/56; qwen3_banglish_retains_alt_raw=8/24; qwen3_banglish_correct_alt_raw=2/24; qwen3_meta_alt_raw=9/24; qwen3_no_number_wrong_alt_raw=4/24; qwen25_retains_alt_raw=1/12,4/24"
+qa_gates,pass,v5_benqa_choice_bias,432,summary_rows=18
+qa_gates,pass,v5_benqa_subject_option_bias,1296,"summary_rows=117; majority_d_subjects=qwen3:12/13,qwen25_3b:1/13,qwen25_7b:0/13"
+qa_gates,pass,v5_benqa_prediction_diversity,25,qwen3_effective_options=2.01; qwen3_entropy=0.5023; qwen3_D=111/144; qwen25_effective_options=3.75/3.77; qwen3_majorityD_subjects=12/13
+qa_gates,pass,v5_benqa_option_position_content,432,summary_rows=4; D_longest_items=98/144; qwen3_D_when_not_longest=30/46
+qa_gates,pass,v5_benqa_option_switching,864,"summary_rows=36; qwen3_nonD_to_D=bangla:47/73,english:55/78"
+qa_gates,pass,v5_benqa_cross_script_option_agreement,432,"summary_rows=21; qwen3_correct_BE_agree_nonD_wrongD=23/36; qwen25_wrongD=2/23,7/44; qwen3_BE_agree_nonD_D=30/47; qwen3_BE_agree_D=72/92"
+qa_gates,pass,v5_benqa_cross_model_banglish_agreement,144,summary_rows=8; q25_agree_nonD_qwen3_D=26/42; q25_agree_nonD_qwen3_wrongD=18/42; q25_correct_nonD_qwen3_wrongD=8/15; q25_correct_nonD_qwen3_same=4/15; q25_correct_D_qwen3_D=7/7
+qa_gates,pass,v5_benqa_order_confound,432,"summary_rows=39; qwen3_run_quartile_D=26/36,31/36,28/36,26/36; qwen3_wrongD_q1_q4=20/36,19/36; qwen3_D_runs=23; qwen3_longest_D_run=13; qwen25_longest_D_run=3,2"
+qa_gates,pass,v5_benqa_review_label_option_bias,432,"summary_rows=24; qwen3_unreviewed_D=39/51; qwen3_unreviewed_wrongD=28/51; qwen3_minor_D=67/88; qwen3_reviewed_nonbad_D=69/90; qwen25_unreviewed_D=10/51,7/51; qwen25_reviewed_nonbad_D=28/90,17/90"
+qa_gates,pass,v5_benqa_length_token_confound,432,"summary_rows=48; qwen3_token_quartile_D=32/36,26/36,27/36,26/36; qwen3_token_wrongD=26/36,17/36,15/36,19/36; qwen3_char_q1_q4_D=31/36,29/36; qwen3_density_q1_q4_D=33/36,22/36; qwen25_token_q1_q4_D=5/36,14/36;1/36,9/36"
+qa_gates,pass,v5_benqa_option_coverage_confound,432,"summary_rows=21; qwen3_tied_coverage_D=76/101; qwen3_tied_coverage_wrongD=52/101; qwen25_tied_coverage_D=14/101,8/101; qwen3_D_not_highest_coverage=31/35; qwen3_wrongD_not_highest_coverage=23/35; qwen25_D_not_highest_coverage=22/35,15/35; qwen3_D_strict_highest_coverage=1/3"
+qa_gates,pass,v5_benqa_option_switch_confound,864,"summary_rows=36; qwen3_correct_nonD_D_not_longest_wrongD=bangla:11/19,english:12/21"
+qa_gates,pass,v5_benqa_option_semantic_cues,432,"summary_rows=25; D_no_cue=47/144; qwen3_D_no_cue=38/47; qwen3_correct_nonD_no_cue_wrongD=bangla:15/18,english:18/23"
+qa_gates,pass,v5_benqa_multiconfound_residual,432,"summary_rows=36; qwen3_primary_wrongD=19/24; qwen25_primary_wrongD=4/24,1/24; qwen3_tied_wrongD=16/20; qwen3_correct_nonD_residual_wrongD=bangla:11/13,english:11/14; qwen25_correct_nonD_residual_wrongD=bangla:1/7,1/14;english:1/13,0/17"
+qa_gates,pass,v5_benqa_option_permutation_probe,288,"summary_rows=10; qwen3_wrongD_rotated=labelD:35/45,semanticD:6/45; qwen25_wrongD_rotated=labelD:5/21,semanticD:12/21"
+qa_gates,pass,bnsentmix_external_validation,600,"summary_rows=75; qwen25=89/200,macro_f1=0.431; qwen25_7b=98/200,macro_f1=0.479; qwen3=99/200,macro_f1=0.486; valid_outputs=600/600"
+qa_gates,pass,bnsentmix_model_complementarity,200,summary_rows=23; any_model_oracle=154/200; oracle_minus_best=+27.5pts; majority_7b_fallback=106/200
+qa_gates,pass,bnsentmix_routing_devtest,15,summary_rows=14; pilot40_holdout=72/160; hash5_cv=106/200; block40_cv=84/200
+qa_gates,pass,v5_benqa_distractor_transition,432,summary_rows=20; consensus_rows=144; valid_recoverable=162/164; two_plus_same_wrong=27/50
+qa_gates,pass,v5_benqa_label_balance,24,by_label_rows=36
+qa_gates,pass,real_banglish_v5_distribution,4400,summary_rows=4
+qa_gates,pass,v5_banglatlit_lexical_coverage,200,summary_rows=15
+qa_gates,pass,v5_benqa_option_lexical_coverage,144,summary_rows=15; options_parsed=144/144; options_q4=40/108 vs 50/108; gold_q4=47/108 vs 56/108
+qa_gates,pass,v5_banglatlit_model_coverage_sensitivity,600,summary_rows=45; all_q4_direction_ok=True; all_quartile_direction_ok=True
+qa_gates,pass,v5_banglatlit_spelling_variation_sensitivity,600,summary_rows=45; all_q4_direction_ok=True; q2_to_q4_direction_ok=True
+qa_gates,pass,v5_source_variant_structural_parity,600,summary_rows=15; primary_hard_fails=0
+qa_gates,pass,v5_english_warning_sensitivity,600,summary_rows=27; warning_items=39; clean_direction_ok=True
+qa_gates,pass,v5_review_edit_distance_sensitivity,600,summary_rows=45; no_change_direction_ok=True
+literature,pass,literature_corpus,33,issues=0
+literature,pass,citation_readiness,33,issues=0
+qa_gates,pass,secret_hygiene,1199,suspicious_findings=0
+qa_gates,pass,local_artifact_refs,4835,unexpected_missing=0; expected_future=18
+qa_gates,pass,reproducibility_manifest,1197,non-secret artifacts tracked

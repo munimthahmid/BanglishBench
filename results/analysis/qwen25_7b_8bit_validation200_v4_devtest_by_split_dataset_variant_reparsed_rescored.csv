@@ -1,0 +1,13 @@
+split,model,prompt_mode,dataset,variant,n,unique_items,correct,accuracy,parsed_empty,mean_seconds,total_seconds
+dev,Qwen/Qwen2.5-7B-Instruct,baseline,banglamath,bangla,14,14,0,0.0,0,2.2491,31.487
+dev,Qwen/Qwen2.5-7B-Instruct,baseline,banglamath,banglish_clean,14,14,0,0.0,0,2.1532,30.145
+dev,Qwen/Qwen2.5-7B-Instruct,baseline,banglamath,english,14,14,1,0.0714,0,2.5564,35.7901
+dev,Qwen/Qwen2.5-7B-Instruct,baseline,benqa,bangla,36,36,13,0.3611,0,1.536,55.2953
+dev,Qwen/Qwen2.5-7B-Instruct,baseline,benqa,banglish_clean,36,36,13,0.3611,0,0.8774,31.5857
+dev,Qwen/Qwen2.5-7B-Instruct,baseline,benqa,english,36,36,19,0.5278,0,0.8499,30.5953
+test,Qwen/Qwen2.5-7B-Instruct,baseline,banglamath,bangla,42,42,5,0.119,0,5.0085,210.3562
+test,Qwen/Qwen2.5-7B-Instruct,baseline,banglamath,banglish_clean,42,42,0,0.0,0,1.9546,82.0919
+test,Qwen/Qwen2.5-7B-Instruct,baseline,banglamath,english,42,42,7,0.1667,0,2.5136,105.5718
+test,Qwen/Qwen2.5-7B-Instruct,baseline,benqa,bangla,108,108,47,0.4352,0,1.1809,127.5344
+test,Qwen/Qwen2.5-7B-Instruct,baseline,benqa,banglish_clean,108,108,35,0.3241,2,1.4504,156.6407
+test,Qwen/Qwen2.5-7B-Instruct,baseline,benqa,english,108,108,67,0.6204,0,0.8602,92.9064

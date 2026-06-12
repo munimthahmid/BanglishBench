@@ -1,0 +1,5 @@
+condition,n,bangla,banglish,english,gap_banglish_minus_bangla_pts,gap_banglish_minus_english_pts
+baseline (greedy),200,54,41,71,-6.5,-15.0
+neutral template B,200,51,45,71,-3.0,-13.0
+neutral template C,200,53,45,74,-4.0,-14.5
+temperature 0.7,200,53,44,71,-4.5,-13.5

@@ -1,0 +1,821 @@
+model,id,variant,dataset,task_type,answer_type,gold,before_correct,after_correct,change,before_parsed,after_parsed,before_seconds,after_seconds,before_source,after_source,after_rewrite_output
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0181,banglish_clean,banglamath,short_answer,short_answer,সময় কমে যায়,False,False,same_wrong,{kajer poriman oporibortit thakole lok songkhya barale somoy ki hoy},কাজের পরিমাণ ওপরিবর্তিত হলে লোক সংখ্যা বর্জিত হয় সময় কম হয়।,1.3707,8.5949,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,কাজের পরিমাণ ওপরিবর্তিত হলে লোক সংখ্যা বর্জিত হয় সময় কি হয়
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0182,banglish_clean,banglamath,short_answer,short_answer,৬০০ টাকা,False,False,same_wrong,"The given text appears to be in a mix of Bengali and possibly a typo or corrupted format. It seems to be a fragmented or incorrectly formatted statement, possibly related to a calculation or description involving ""keji chaler"" (which might mean ""number of pieces"" or ""units"") and ""taka"" (a unit of currency). However, due to the lack of clarity, grammar, and proper structure, it cannot be meaningfully evaluated or interpreted.",উত্তর:** 6,5.7306,10.1662,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,৭ কেজি চালের দাম ২৮০ টাকা হলে ১৫ কেজি চালের দাম কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0183,banglish_clean,banglamath,short_answer,short_answer,৩০ দিন,False,False,same_wrong,If 25 people would consume the food in,এখন ২৫ জনের জন্য এই খাদ,6.4317,11.8074,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,এক টি চাটরবাসে ৫০ জনের ১৫ দিনের খাদ্য মৌজুদ আছে। এই খাদ্যে ২৫ জনের কত দিন চলবে?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0184,banglish_clean,banglamath,short_answer,short_answer,১২০০০ টাকা,False,False,same_wrong,"ধরা হয়, কত টাকা বিনিয়োগ করা হবে যাতে 600 টাকা লাভ হয়।",আমাদের প্রশ্ন: 600 টাকা লাভ করতে কত বিনিয়োগ করতে হবে?,6.4795,11.9473,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,9000 টাকা বিনিয়োগে প্রতিদিন 450 টাকা লাভ হলে 600 টাকা লাভ করতে কত বিনিয়োগ করতে হবে
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0185,banglish_clean,banglamath,short_answer,short_answer,২০০ কেজি,False,False,same_wrong,20,\frac{120 \text{ kg}}{270 \text{ person-days}} =,6.079,11.1409,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,১২০ কেজি চালে ১০ জন লোক ২৭ দিন চলে। ৪৫ দিন চলতে কত কেজি চাল চলবে?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0186,banglish_clean,banglamath,short_answer,short_answer,২২ ১/২ দিন,False,False,same_wrong,40,প্রশ্ন: 20 জন চাটরের কত দিন চলবে?,4.6058,11.2155,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,2 কুয়েন্টাল চলে 15 জন চাটরের 30 দিন চলে। এই চলে 20 জন চাটরের কত দিন চলবে?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0187,banglish_clean,banglamath,short_answer,short_answer,১৪০ জন,False,False,same_wrong,18 দিন,"এখন, এই কাজটি 18 দিনে শেষ হবে।",6.3233,12.4623,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি বন্ধ তোরিতে ৩৬০ জন শ্রমিকের ২৫ দিন লাগে। ১৮ দিনে কাজ শেষ করে তোরিতে কতজন শ্রমিক লাগবে?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0188,banglish_clean,banglamath,short_answer,short_answer,১৫ ঘণ্টা,False,False,same_wrong,"So, total work = 25 × 8 × 6","আমরা চাই জানি, 10 জন লোক কত ঘন্টা পরিশ্রম করে একই কাজটি শেষ",6.4961,13.4566,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,25 জন লোক দিনিক 6 ঘন্টা পরিশ্রম করে একটি কাজ 8 দিনে শেষ করে। 10 জন লোক দিনিক কত ঘন্টা পরিশ্রম করে ওই কাজটি শেষ করবে?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0189,banglish_clean,banglamath,short_answer,short_answer,৬ জন পুরুষ,False,False,same_wrong,3,"অর্থাৎ, ২ জন পুরুষের কাজের দক্ষতা = ৩ জন বালকের কাজের �",5.2677,12.7457,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি কাজ ২ জন পুরুষ বা ৩ জন বালক সম্পন্ন করতে পারে। ৯ জন বালক কত জন পুরুষের সম্মান কাজ করতে পারবে?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0226,banglish_clean,banglamath,short_answer,short_answer,২৫০ টাকা,False,False,same_wrong,". Therefore, the correct response is:",\frac{5}{11} \times 550 = 5 \times 50 = 2,3.5043,10.0252,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,৫৫০ টাকায় ৫:৬ নিয়ে ভাগ করলে প্রথম ভাগ কত হবে
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0227,banglish_clean,banglamath,short_answer,short_answer,৭.৫ কিমি,False,False,same_wrong,"The question appears to be in a corrupted or mixed form of Bengali and English, possibly due to encoding or transcription errors. However, attempting to interpret and logically reconstruct the meaning:","প্রথম বন্ধুর দূরত্ব 5 কিমি হলে, দ্বিতীয় বন্ধুর দূরত্ব",6.385,13.9172,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,দুই বন্ধু বাড়ি থেকে স্কুলের দূরত্বের ২:৩ এবং প্রথম বন্ধুর দূরত্বের ৫ কিমি হলে দ্বিতীয় বন্ধুর দূরত্বের কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0228,banglish_clean,banglamath,short_answer,short_answer,২/৫,False,False,same_wrong,40% ke sadharon bhognangshe prokash korole ki hoy,{1/5},6.4459,2.7679,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,৪০% এর সদার ভগ্নাংশে প্রকাশ করলে কি হয়
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0229,banglish_clean,banglamath,short_answer,short_answer,1.5,False,False,same_wrong,150,{১৫০% কে দোস্তিক ভোগন্ধে প্রকাশ করলে কোনও মানে নেই। এটি একটি অসম্ভব বা অসংজ্ঞায়িত বাক্য। দোস্তিক ভোগন্ধে প্রকাশ করা হ,5.4078,9.5351,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,১৫০% কে দোস্তিক ভোগন্ধে প্রকাশ করলে কি হয়
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0230,banglish_clean,banglamath,short_answer,short_answer,20%,False,False,same_wrong,invalid input,{12%},5.9306,2.4129,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,২৫ টাকা ১২৫ টাকার শটোকরা কোট
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0231,banglish_clean,banglamath,short_answer,short_answer,২০ টাকা,False,False,same_wrong,{20% of 24 = 0.20 × 24 = 4.8},বিক্রয়মূল্য = ক + ২০% ক = ক × (1 + ২০/১০০) = ক × 1.20,1.3149,10.4188,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি কলম ২০% লাভে ২৪ টাকায় বিক্রয় করলে ক্রয়মূল্য কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0232,banglish_clean,banglamath,short_answer,short_answer,২০০ টাকা,False,False,same_wrong,144.5,"বস্তুটি ১৫% কমিশনে ১৭০ টাকায় বিক্রয় করা হল। এখানে ""কমিশন"" হল বিক্রয়মূল্যের উপর দেওয়া ক্ষতি বা কমিশন ফি। তাই এটি ব�",5.7169,11.1534,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি বস্তু ১৫% কমিশনে ১৭০ টাকায় বিক্রয় করলে প্রতিকূল মূল্য কত?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0233,banglish_clean,banglamath,short_answer,short_answer,৭ দিন,False,False,same_wrong,Tader kaj 130.666 dine,1 জন লোকের দিন = 6 × 28 = 168 দিন,6.5069,10.1542,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,6 জন লোক এক টি কাজ 28 দিনে করে লে 24 জন লোক কত দিনে করবে
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0234,banglish_clean,banglamath,short_answer,short_answer,৬ দিন,False,False,same_wrong,25,### ধাপ 1:,1.3577,10.522,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি কাজ ১০ দিনে ক ১৫ দিনে খ করে তাহলে একটি কাজ কত দিনে করবে?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0236,banglish_clean,banglamath,short_answer,short_answer,১২ টাকা,False,True,gain,Unable to evaluate due to unclear or malformed input.,উত্তর: 12 টাকা,3.8137,8.3994,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,10টি বলপেনের দাম 60 টাকা হলে 2টি বলপেনের দাম কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0237,banglish_clean,banglamath,short_answer,short_answer,৬৪ টাকা,False,False,same_wrong,Unable to evaluate due to unclear or nonsensical input.,উত্তর:** 384 টাকা,4.3683,8.5863,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,1 দুজন দের দাম 48 টাকা হলে 16 টি দের দাম কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0518,banglish_clean,banglamath,short_answer,short_answer,১৫০ মিটার,False,False,same_wrong,Unable to determine the intended meaning due to lack of clear structure or decryption method.,2 \times,3.5312,12.7163,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি আয়োতকার বাগানের দৈর্ঘ্য প্রতি স্থানে তিন গুণ এবং পরিসীমা 400 মিটার হলে বাগানের দৈর্ঘ্য কত?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0519,banglish_clean,banglamath,short_answer,short_answer,৭৫০০ বর্গমিটার,False,False,same_wrong,Unable to evaluate due to unclear or nonsensical input.,7500 বর্গ,3.4543,11.6979,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি আয়তকার বাগানের দৈর্ঘ্য ১৫০ মিটার এবং প্রস্থ ৫০ মিটার হলে ক্ষেত্রফল কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0521,banglish_clean,banglamath,short_answer,short_answer,৭০ মিটার,False,True,gain,Unable to evaluate due to unclear or corrupted input.,উত্তর: 70 মিটার,3.0055,10.4246,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি জমির দৈর্ঘ্য ২০ মিটার ও প্রস্থ ১৫ মিটার হলে তার পরিসীমা কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0522,banglish_clean,banglamath,short_answer,short_answer,১৭৬ বর্গমিটার,False,False,same_wrong,ed meaningfully.,""": ""The question is unclear and cannot be",3.18,8.4979,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,jomir bhitore 2 mitar choora rasta thakle rastabade jomir kshetrofol kot
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0526,banglish_clean,banglamath,short_answer,short_answer,৩০ বর্গ মিটার,False,False,same_wrong,{60},উচ্চতা = 6 মিটার,0.3254,10.7856,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি ত্রিভুজের ভূমি 10 মিটার এবং উচ্চতা 6 মিটার হলে ক্ষেত্রফল কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0531,banglish_clean,banglamath,short_answer,short_answer,৫ মেট্রিক টন ৫০৭ কেজি ৭০০ গ্রাম,False,False,same_wrong,700 গ,প্রশ্ন: এক খন্ড জমিত 500 কেজি 700 গ্রাম আলু হলে 11 খন্ড জমিত কত আলু হবে?,6.4636,11.0717,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,এক খন্ড জমিত ৫০০ কেজি ৭০০ গ্রাম আলু হলে ১১ খন্ড জমিত কত আলু হবে?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0532,banglish_clean,banglamath,short_answer,short_answer,১ মেট্রিক টন ৭৫০ কেজি,False,False,same_wrong,1.75,উত্তর:** 1.75 মেট্রিক টন,1.7422,8.98,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,16 টি জমি 28 মেট্রিক টন ধন হলে প্রতি জমি কত ধন ফোলে
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0533,banglish_clean,banglamath,short_answer,short_answer,৬৬৬ মেট্রিক টন ৬৬৬ কেজি ৬৬৬ গ্রাম (প্রায়),False,False,same_wrong,20000 metrik ton rod toiri hole doinik ki poriman rod toiri hoy 20000 metrik ton।,20000 × 2 = 40000 মেট্রিক টন,1.7111,11.5588,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,এক মাসে ২০০০০ মেট্রিক টন রোড তোরিত হলে দুই নিক কি পরিমাণ রোড তোরিত হয়
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0538,banglish_clean,banglamath,short_answer,short_answer,৩৮৪ বর্গ মিটার,False,False,same_wrong,.,= 60 × 40 = 2400 বর্গমিটার,5.4104,13.5522,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি আয়তকার বাগানের দৈর্ঘ্য 60 মিটার এবং প্রস্থ 40 মিটার। এর ভিতরে 2 মিটার চোরা রাস্তা থাকলে রাস্তার ক্ষেত্রফল কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0539,banglish_clean,banglamath,short_answer,short_answer,১৪৭ বর্গমিটার,False,False,same_wrong,147,= 1102.,2.8624,13.0786,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি ঘরের মেজেতে কারপেট দিয়ে মুরটে প্রতি বর্গমিটার 7.50 টাকা দরে 1102.50 টাকা খরচ হলে ঘরের ক্ষেত্রফল কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0540,banglish_clean,banglamath,short_answer,short_answer,২১ মিটার,False,False,same_wrong,Unable to evaluate due to unclear and corrupted input.,$ 3x^2 = 147 $,3.8276,11.6108,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি ঘরের দৈর্ঘ্য প্রতি তিন গুণ এবং ক্ষেত্রফল 147 বর্গমিটার হলে ঘরটির দৈর্ঘ্য কত?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0541,banglish_clean,banglamath,short_answer,short_answer,৪৪৪ বর্গমিটার,False,False,same_wrong,can be derived from it.,ভিতরে 3 মিটার চওরা রাস্তা আছে,3.0398,13.1457,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি আয়োতাকার বাগানের দৈর্ঘ্য 50 মি ও প্রস্থ 30 মি। এর ভিতরে 3 মিটার চওরা রাস্তা থাকলে রাস্তার ক্ষেত্রফল কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0542,banglish_clean,banglamath,short_answer,short_answer,৩৪০০ টাকা,False,False,same_wrong,Cost per unit area = 25 taka per unit,প্রস্থ = 24 মি,6.4745,15.2746,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,রাস্তাবাদে বাগানের পরিসীমায় বেরা দিতে প্রতি মিটারে ২৫ টাকা হিসেবে মোট খরচ হবে যদি রাস্তাবাদে বাগানের দৈর্ঘ্য ৪৪ মি এবং প্রস্থ ২৪ মি হয়
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0549,banglish_clean,banglamath,short_answer,short_answer,৪৫০ বর্গমিটার,False,False,same_wrong,"→ ""If the garden's length is 50 meters and width is 35 meters,",চৌরাস্তরের প্রস্থ = 2.5 মিটার,6.363,14.3104,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি বাগানের বাইরে ২.৫ মিটার চৌরাস্তর থাকলে রাস্তার ক্ষেত্রফল কত হবে যদি বাগানের দৈর্ঘ্য ৫০ মিটার এবং প্রস্থ ৩৫ মিটার হয়
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0550,banglish_clean,banglamath,short_answer,short_answer,২২৫৬.২৫ বর্গমিটার,False,False,same_wrong,no meaningful evaluation possible,বাহু = 190 ÷ 4 = 47.5 মিটার,2.9681,12.1041,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,রাস্তাসোহ বাগানের পরিসীমা ১৯০ মিটার হলে সোমন পরিসীমা বিশিষ্ট বর্গকার মাত্র ক্ষেত্রফল কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0552,banglish_clean,banglamath,short_answer,short_answer,৪৫০০ বর্গগজ,False,False,same_wrong,:,4500 গোজ বর্গ,6.4995,10.6921,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি সমান্তরী ভূমি ৯০ গোজ ও উচ্চতা ৫০ গোজ হলে তার ক্ষেত্রফল কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0553,banglish_clean,banglamath,short_answer,short_answer,১১২৫টি,False,False,same_wrong,= 4500,প্রশ্ন: সমানতির কেন্দ্রের মাঝে পথর দ্বারা ধাক করে কতটি পথর লাগবে যদি আমার ক্ষেত্রফল ৪৫০০ বর্গগজ এবং পথরের ক্ষেত্রফল ৪ বর্গ,6.3543,14.1415,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,সমানতির কেন্দ্রের মাঝে পথর দ্বারা ধাক করে কতটি পথর লাগবে যদি আমার ক্ষেত্রফল ৪৫০০ বর্গগজ এবং পথরের ক্ষেত্রফল ৪ বর্গগজ হয়
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0557,banglish_clean,banglamath,short_answer,short_answer,৯৩০ টাকা,False,False,same_wrong,Total amount = 120,= \( 120 \times \frac{31}{4} \),6.5046,12.1692,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি বাগানের পরিসীমা 120 মিটার হলে চারদিকে বেরে কত খরচ হবে যদি প্রতি মিটারে খরচ 31/4 টাকা হয়
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0558,banglish_clean,banglamath,short_answer,short_answer,২০ মিটার,False,False,same_wrong,Unable to evaluate,"The question appears to be incomplete or incorrectly formatted. It starts with ""60 মিটার দৈর্ঘ্যবাল বাগানের দৈর্ঘ্য প্রতি 3 গুণ হলে প্রতি কোট"" which seems to mean ""If the length of a 60-meter-long garden is increased three times, then per cot?"" — but the term ""প্রতি কোট"" (per cot) is unclear and",3.2873,10.6058,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,60 মিটার দৈর্ঘ্যবাল বাগানের দৈর্ঘ্য প্রতি 3 গুণ হলে প্রতি কোট
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0559,banglish_clean,banglamath,short_answer,short_answer,১৬০০ বর্গমিটার,False,False,same_wrong,Unable to evaluate due to unclear or corrupted input.,বাহুর দৈর্ঘ্য = 160 ÷ 4 = 40 মিটার,3.067,10.2618,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি বর্গক্ষেত্রের পরিসীমা 160 মিটার হলে তার ক্ষেত্রফল কত
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1684,banglish_clean,banglamath,short_answer,short_answer,"১২, ১২, ৩ বছর",False,False,same_wrong,"""3 putr ebong prothom 2 jon jomoj"" → 3",6 বছর পূর্বে তাদের বয়সের সমষ্টি = 12 বছর।,6.3982,15.3553,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,করিম সাহেবের 3 পুত্র এবং প্রথম 2 জন জমোজ। 3 পুত্রের বর্তমান বয়স সমস্ত 29 বছর। 6 বছর পূর্বে তাদের বয়স সমস্ত 12 বছর। পুত্রদের বর্তমান বয়স কত?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1685,banglish_clean,banglamath,short_answer,short_answer,দুইজনের বয়স সমান,False,False,same_wrong,"""2 bochhor (2 steps)","প্রশ্নটি বাংলায় এমন একটি সমস্যা দিচ্ছে যা স্পষ্টভাবে বোঝা যায় না, কারণ বাক্যগুলি অস্পষ্ট এবং কিছু শব্দ ভুল বা মিস হয়",6.5481,17.4926,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"2 বচ্চর পর জিবনের বয়স হবে, 2 বচ্চর পূর্বে জিবনের বয়স জাচ্ছে তার দবিগুন। 3 বচ্চর পর জিবনের বয়স জোড়া 3 বচ্চর পূর্বে জিবনের বয়সের সমান হলে, তবে কর বয়স বেশি, জিবনের নাকি জুলির?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1686,banglish_clean,banglamath,short_answer,short_answer,প্রতেকে পাবে ৫/৬ আপেল।অর্থাৎ ১টি আপেলের অর্ধেক +১টি আপেলের ১/৩ ভাগ।,False,False,same_wrong,3 tukorate,5 টি আ,0.3688,14.164,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,5টি আপেল ওকে 6 জন বালকের মাঝে সমানভাবে ভাগ করে দেওয়া হবে। কিভাবে? (বিঃদ্রঃ প্রোয়াজন হলে আপেল ওকে সরবরত চ্চ সমান 3 টুকরা করা হবে।)
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1687,banglish_clean,banglamath,short_answer,short_answer,"কাঠালের ওজন ৩ কিলোগ্রাম , তরমুজের ওজন ৪ কিলোগ্রাম",False,False,same_wrong,$ x $ = weight of 1 kathal (,2) $ 5x + 4y = 31 $,6.43,19.0952,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,4টি কাঠাল এবং 5টি টরমুজের ওজনের সমস্ত সমস্ত সমস্ত 32 কিলোগ্রাম। 5টি কাঠাল এবং 4টি টরমুজের ওজনের সমস্ত সমস্ত সমস্ত 31 কিলোগ্রাম। উপরের সব কাঠালের ওজন সমান এবং সব টরমুজের ওজন সমান। 1 কাঠাল ও 1 টরমুজের ওজন কত?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1688,banglish_clean,banglamath,short_answer,short_answer,"বাবুর্চী কাটে ৭০ মিনিটে ২১০টি পেঁয়াজ, সহকারী কাটে ১৯০টি পেঁয়াজ ৯৫ মিনিটে",False,False,same_wrong,Baburchi starts 25 minutes earlier than Tar Sohokormi.,তার সহকর্মী পেনজ কাটে মিনিটের সংখ্যা হলো $ x + 25 $ মিনিট (কারণ বাবুরচ,6.4669,21.2104,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"কোন একটি বিয়ের ওনুশ্থানে রান্না করতে বাবুরচি ও তার সহকর্মী মোট ৪০০টি পেনজ কাটে। বাবুরচি প্রতি মিনিটে ৩টি পেনজ এবং তার সহকর্মী প্রতি মিনিটে ২টি পেনজ কাটে। যদি বাবুরচি তার সহকর্মীর চেয়ে ২৫ মিনিট আগে পেনজ কাটে, তবে কতটি পেনজ কেটে চলে আর ক"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1690,banglish_clean,banglamath,short_answer,short_answer,"সেন্টুর ছিল ১০টি, মিন্টুর ছিল ১৪টি খেলনা গাড়ি",False,False,same_wrong,2,মিনতুর গারির সংখ্যা হল 4।,0.2451,21.2226,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"খেলোনা গারি নিয়ে খেলার সময় মিনতু দেখলো, সেন্টুর গারির সংখ্যা তার চেয়ে বেশি এবং সেন্টু কে বললো, তুমি আমাকে দুটি গারি দাও তাহলে আমাদের গারির সংখ্যা সমান হবে। সেন্টু উল্টো জোর করে মিনতু থেকে ২টি গারি নিয়ে হিসাব করে বললো তার গারির সংখ"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1691,banglish_clean,banglamath,short_answer,short_answer,প্রথমে ৩ লিটারের পাত্রে ৩ লিটার দুধ নিয়ে তা ৫ লিটারের পাত্রে ঢালতে হবে। এবারও একইভাবে আবারও ৩ লিটার দুধ নিয়ে ৫ লিটারের পাত্রে আছে আরো ঢালতে হবে যতক্ষণ না ৫ লিটারের পাত্রটি পূর্ণ হয়। পাত্রটি পূর্ণ হওয়ার পর যে অবশিষ্ট দুধ ৩ লিটারের পাত্রে থেকে যাবে তার পরিমাণ ১ লিটার।,False,False,same_wrong,Tader 10,প্রশ্নটি হল:,6.4315,21.0697,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"বেরু গোয়ালার কাছে একটি কোলসিটি 10 লিটার দুধ এবং দুধ মাপার দুটি খালি পাত্র, একটি 5 লিটারের, আর অপরটি 3 লিটারের। সেখানে 1 লিটার দুধ বিক্রি করে চাই। গোয়ালার কাছে দুটি জেদো জেসব পাত্র আছে শুধু তার দিয়ে কতটি ক্রেতার 1 লিটার দুধ দেয়া সম্ভব?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1692,banglish_clean,banglamath,short_answer,short_answer,"১জন পুরুষ, ৫ জন মহিলা এবং ১৪ জন শিশু",False,False,same_wrong,20 jon kore dhan pabe.,"প্রশ্নটি পড়ে দেখা যাচ্ছে যে, একটি পরিবারের মোট সদস্য 20 জন। এই সদস্যগুলি পুরুষ, মহিলা এবং শিশু হতে পারে। পরিবারের কর্তব্�",0.8182,21.3475,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"একটি জুতো পরিবারের মোট সদস্য (পুরুষ, মহিলা ও শিশু) ২০ জন। পরিবারের কর্তব্যবর্তী আদেশ ২০ মাস ধরে পরিবারের সকল সদস্যের মধ্যে বিভাজিত হবে। বাগের নিয়োম হলো প্রত্যেক পুরুষ পাবে ৩ মাস, প্রত্যেক মহিলা পাবে ২ মাস, এবং প্রত্যেক শিশু পাবে ১ মাস �"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1693,banglish_clean,banglamath,short_answer,short_answer,24,False,False,same_wrong,"The given statement appears to be in a mix of Bengali and possibly a corrupted or nonsensical form of a mathematical or logical expression. It seems to involve a translation or transcription error, making it difficult to interpret the actual mathematical problem.",দুই অংকের সংখ্যা দুটির একটি ভাগ ও চারটির একটি ভাগের যোগফল ১৪।,6.4177,11.8045,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,দুই অংকের সংখ্যা দুটির একটি ভাগ ও চারটির একটি ভাগের যোগফল ১৪।সংখ্যা কত হবে করো।
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1694,banglish_clean,banglamath,short_answer,short_answer,১ মিনিট,False,False,same_wrong,tidak dapat ditentukan,"""একটি ৫০০ মিটার লাম্বা ট্রেনার গোটি ৬০ কিলোমিটার হোলে, ওর্ড কিলোমিটার লাম্বা একটি সেটু পারি দিত",6.2861,14.1132,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"একটি ৫০০ মিটার লাম্বা ট্রেনার গোটি ৬০ কিলোমিটার হোলে, ওর্ড কিলোমিটার লাম্বা একটি সেটু পারি দিতে ট্রেনার কত সময় লাগবে?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1695,banglish_clean,banglamath,short_answer,short_answer,"নারিকেল গাছ 60টি, আম গাছ ৪৫টি, বট গাছ ৩৬টি, ফুলের গাছ ৩৯টি",False,False,same_wrong,### Step 1: Understand the problem,39টি ফুলের গাচ্চ,6.9168,15.3017,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"1টি পার্কে 1/3 ভাগ নরোকেলোগাচ্চ, 1/4 গাচহোম গাচ্চ, 1/5 ভাগ বট গাচ্চ এবং 39টি ফুলের গাচ্চ। বাগানে কোন গাচ্চ কতটি রয়েছে এবং মোট গাচ্চ কয়টি?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1696,banglish_clean,banglamath,short_answer,short_answer,০.১৮ লিটার অথবা ১.৮ লিটার,False,False,same_wrong,200 ml,লোবনের হার = 10%,2.1449,10.8891,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,20 গ্রাম লোবন দিয়ে 10% লোবনমিশ্রিত শরবত বানাতে কত লিটার পানি দরকার?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1697,banglish_clean,banglamath,short_answer,short_answer,70,False,True,gain,600,70,3.3758,9.8079,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,30 কে ১/২ দিয়ে ভাগ করে ১০ জোগ করলে কত হয়?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1698,banglish_clean,banglamath,short_answer,short_answer,১৩ টা,False,False,same_wrong,120,12 টা - 6 টা = 6 ঘন্টা,0.2778,13.3588,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,দাক্তার এক রোগীকে সকাল ৬টা থেকে দুপুর ১২টা পর্যন্ত আদেশ দিয়েছেন। রোগের মোট কতটি টেবোলেট প্রয়োজন?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1699,banglish_clean,banglamath,short_answer,short_answer,132,True,True,same_correct,132,132,5.887,8.0132,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"A - B = 10, AB = 16 হলে A² + B² = কত?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1703,banglish_clean,banglamath,short_answer,short_answer,৩৬টি,False,False,same_wrong,"""Dharonokshomota 120ti anaros othoba 144ti amer"" means ""either 120 parts","অর্থাৎ, 120 টি অনারস = 144 টি অম",6.4664,13.3991,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,একটি জ্বর দ্রুত দারুণ হওয়ার মাত্র 120 টি অনারস বা 144 টি অমের। জ্বর দ্রুত 90 টি অনারস রাখার পর কতটি অম রাখা হবে?
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0057,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2448,19.1012,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"গোনি সাহেব তার বাগানে এমন কিছু গাছ লাগিয়েছেন যার CO_{2} বিজারনের প্রথম স্থায়ী পদার্থ অক্সিজেনের এসিটিক এসিড হয়। গোনি সাহেব লাগিয়েছেন- i. ভুট্টা ii. বুগেন পালা iii. আখ নিচের কোনো সোথিক?  
+A. i o ii  
+B. ii o iii  
+C. i o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0090,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,D,0.1827,4.2343,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"পটোংগোপরাগি ফুল কোনটি?  
+A. ধান  
+B. কোচু  
+C. সরিশা  
+D. অখ  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0128,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,C,0.2053,12.8975,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ইস্টার শবসন প্রোক্রিয়ায় কোনটি উত্তপ্পন হয়?  
+A. লিকোটিক এসিড  
+B. গ্লুকোজ  
+C. অক্সালো ওজাসিতিক এসিড  
+D. গ্লিসারিক এসিড"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0143,banglish_clean,benqa,mcq,choice,C,True,False,loss,C,D,0.2066,7.5938,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"আকোসমিক কিডোনি ওকেজো হোতে পারে কোন করণে?  
+A. ডায়াবেটিস  
+B. নেফ্রাইটিস  
+C. মারাটমোক দায়োরিয়া  
+D. উচ্চ রোক্তচাপ  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0149,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,D,0.1807,5.8242,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"কোনটির প্রতিযোগিতা গোলে নোলার স্রষ্টি হয়?  
+A. সিবহকোশ  
+B. বেশেল  
+C. ট্রাকিড  
+D. সন্গকোশ"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0156,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.1833,10.6694,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"আমিশে শটোকরা কত ভাগ নাইত্রোজেন বিদ্যমান?  
+A. 12  
+B. 14  
+C. 16  
+D. 18"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0188,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.1838,10.1544,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"তরল জোয়ার তিস্যু কোয়া প্রোকার?  
+A. 2  
+B. 3  
+C. 4  
+D. 5"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0197,banglish_clean,benqa,mcq,choice,D,True,True,same_correct,D,D,0.2061,7.6869,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"কোশার সোকোল জোয়বিক ক্রিয়া নিয়ন্ত্রণ করে কোনটি?  
+A. নিউক্লিয়াস  
+B. রাইবোজোম  
+C. লাইসোজোম  
+D. মাইটোকন্দ্রিয়া  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0213,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.205,13.2122,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"লাইসোজমার সাথে নিচের কোনটির কর্যগত মিল মিলে যাচ্ছে?  
+A. লোসিকা কোশ  
+B. স্নাযু কোশ  
+C. জনন কোশ  
+D. ওস্থি কোশ"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0215,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.3023,18.4176,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"C_{6}H_{12}O_{6}\xarrowright{enojaim}C_{3}H_{4}O_{3} উদ্দীপকের প্রোক্রিয়াতি—i. সবাত ও শবসনের প্রথম ধাপ ii. কোশার মাইটোকন্ড্রিয়ায় ঘটে থাকে iii. এতে নিট অনু ATP উৎপন্ন হয় নিচের কোনটি সঠিক?  
+A. i ও ii  
+B. i ও iii  
+C. ii ও iii  
+D. i, ii ও iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0277,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.261,16.6582,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"মোটিন টামাক পাতায় এক দুর্গন্ধের মোজাইক রোগ দেখতে পাওয়া যায়। উল্লিখিত রোগের ভাইরাসের বন্ধন বিদ্যমান- i. A = T ii. G = C iii. A = U নিচের কোনটি সঠিক?  
+A. i o ii  
+B. i o iii  
+C. ii o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0339,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.1795,12.5348,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিচের কোন উদ্ভিদে সালোকসংশ্লেষণ হয় সবথেকে বেশি?  
+A. বট গাছ  
+B. কান্থাল  
+C. পেয়ারা  
+D. কোচুরিপানা"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0041,banglish_clean,benqa,mcq,choice,D,False,False,same_wrong,A,A,0.244,11.2128,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিচের কোনটি সঠিক হবে?  
+A. C_{2}H_{4} এর প্রতি C_{2}H_{6} অধিক সক্রিয়  
+B. CH_{4} ক্ষারের সাথে বিক্রিয়া করে  
+C. ইথানল একটি হাইড্রোকার্বন  
+D. পলিপ্রোপিনের রিসাইকেল করা যায়  
+উত্তর শুধুমাত্র A, B, C বা D দিন।"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0110,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,D,0.1802,6.6973,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"চুনার পানির সংগেট কোনটি?  
+A. CaCO_{3}  
+B. CaO  
+C. Ca(OH)_{2}  
+D. Ca(HCO_{3})_{2}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0111,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2081,14.0097,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"1s²2s²2p² ইলেক্ট্রন বিন্যাস সম্পূর্ণ হলে পর্যায় সারণির কোন গ্রুপে অবস্থিত?  
+A. গ্রুপ-1  
+B. গ্রুপ-3  
+C. গ্রুপ-5  
+D. গ্রুপ-13"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0132,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,D,0.1792,11.0732,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"বিস্ফোরক পদার্থ কোনটি?  
+A. তি.এন.তি  
+B. বেনজোয়িন  
+C. টুলুইন  
+D. জেইলিন"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0191,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.2462,12.9641,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"CH_{3}-CH_{2}-C \equiv CH + Cl_{2} \rightarrow A A + Cl_{2} \rightarrow B uddipoke A jougoti- i. songjojon bikriya dey ii. plastik toirite byobohrit hoy iii. 'B' opeksha kom sokriy nicher konoti sothik?  
+A. i o ii  
+B. ii o iii  
+C. i o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0194,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.1776,9.7012,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিচের কোন মুলতি ওঠিক সক্রিয়?  
+A. O  
+B. P  
+C. N  
+D. F"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0280,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.1781,9.5293,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"কোনটি প্রথম ব্যবহারের দাতু?  
+A. Au  
+B. Ag  
+C. Sn  
+D. Cu"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0322,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.1798,12.8531,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"কোনটি অ্যাটমিক ভর বিশিষ্ট বিদ্যুৎ বিশিষ্ট বিদ্যমান?  
+A. হাইড্রোজেন  
+B. অক্সিজেন  
+C. নাইট্রোজেন  
+D. ক্লোরিন"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0336,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,A,0.2458,16.7065,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"A → CaCO₃(s) →Δ→ CaO(s) + X(g) B → 250 mL 0.2 মোলার NaCl দ্রবণ A-এর 'X' গ্যাসটি কোনটি?  
+i. CO₂  
+ii. অম্ল দ্রবণ  
+iii. বায়ু প্রসারিত ভারি  
+নিচের কোনটি সঠিক?  
+A. i এবং ii  
+B. i এবং iii  
+C. ii এবং iii  
+D. i, ii এবং iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0374,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,D,0.1814,6.4025,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ইতিলিন গ্লাইকোল কোন দুরন্তের জুগ?  
+A. ওজালোদিহাইড  
+B. ওজালোকোহোল  
+C. ওজালোকিন  
+D. ওজালোকেইন  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0388,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,A,0.3001,9.5512,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"স্কিয়ানডিয়ামের সরবরাহের সোথিক ইলেক্ট্রন ক্রম কোনটি?  
+A. 3s^{2}3p^{6}3d^{5}4s^{1}  
+B. 3s^{2}3p^{6}3d^{3}4s^{2}  
+C. 3s^{2}3p^{6}3d^{2}4s^{2}  
+D. 3s^{2}3p^{6}3d^{1}4s^{2}  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math-II_0062,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2992,16.2394,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"M(3, 3), N(6, 6) এবং R(12, 3t) তিনটি বিন্দু। M এবং N বিন্দুদ্বয় দ্বারা গঠিত রেখার নিচের কোনটি?  
+A. x - 3y - 12 = 0  
+B. 3x - y - 6 = 0  
+C. 3x - y - 12 = 0  
+D. x - 3y + 12 = 0  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math-II_0102,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2039,12.0121,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"M(1, -1), N(2, 2) এবং R(4, a) বিন্দু তিনটি সরলরেখার উপর থাকলে, a এর মান কত?  
+A. 2  
+B. 4  
+C. 6  
+D. 8"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math-II_0139,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.2442,12.6316,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"\frac{1}{2},\frac{1}{10},\frac{1}{30}, ..... ওনুক্রমেতর 10 টম পড় কত?  
+A. \frac{1}{1010}  
+B. \frac{1}{1100}  
+C. \frac{1}{11000}  
+D. \frac{1}{10010}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math-II_0326,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,A,A,6.402,10.1665,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"sin B = \sqrt{2} - cosB hole, B = kot?  
+A. \frac{\pi}{2}  
+B. \frac{\pi}{3}  
+C. \frac{\pi}{4}  
+D. \frac{\pi}{6}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math-II_0347,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2086,11.4183,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"cos\left ( - \frac{35\pi}{6} \right ) এর মান কত?  
+A. - \frac{\sqrt{3}}{2}  
+B. - \frac{1}{2}  
+C. \frac{1}{2}  
+D. \frac{\sqrt{3}}{2}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math-II_0357,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2452,13.2295,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"(2 - x/2)⁶ এর বিস্তরিতি (1.8875)⁶ নির্নয় জন্য x এর মান নিচের কোন অঞ্চলে?  
+A. -0.225  
+B. -0.1125  
+C. 0.01125  
+D. 0.225"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math-II_0367,banglish_clean,benqa,mcq,choice,C,True,False,loss,C,,0.2076,13.1304,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"একটি নিরপেক্ষ চ্চক্কা একবার নিক্ষেপ করা হলে মৌলিক সংখ্যা সম্ভাবনা কত?  
+A. \frac{1}{6}  
+B. \frac{1}{3}  
+C. \frac{1}{2}  
+D. \frac{2}{3}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math_0032,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,,,6.2633,9.8381,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"(√3)^(x+2) = 27 হলে x এর মান কত?  
+A. 6  
+B. 4  
+C. 3  
+D. 2"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math_0044,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.1847,10.3006,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"একটি বর্গার কতটি পরিসর রেখা আছে?  
+A. 8টি  
+B. 6টি  
+C. 4টি  
+D. 2টি"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math_0186,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2051,12.302,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"2x + y = 1 o x = - 4 সমিকরণদ্বয়ের সমাধান বিন্দুটি কোন চৌকোর ভাগে অবস্থিত?
+A. 4th
+B. 3rd
+C. 2nd
+D. 1st"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math_0271,banglish_clean,benqa,mcq,choice,D,False,False,same_wrong,C,,0.245,15.4134,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"স্থুলোকোনী ত্রিভুজের স্থুলোকোন চারটা বাকি কোন দুটি কোণ হলে ত্রিভুজ অন্য সম্ভাব্য হবে?  
+A. 30\degree o 60\degree  
+B. 40\degree o 50\degree  
+C. 45\degree o 45\degree  
+D. 50\degree o 30\degree"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math_0324,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.2049,9.757,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"a = √3 ebong b = √12 hole nicher konoti omulod songkhya?  
+A. a + b  
+B. ab  
+C. a/b  
+D. b/a"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0021,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,D,0.179,4.3827,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"কোনটি মৌলিক একক?  
+A. জুল  
+B. নিউটন  
+C. ক্যালোরি  
+D. পয়সকেল  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0036,banglish_clean,benqa,mcq,choice,C,True,False,loss,C,,0.246,14.0637,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"70 কেজি ওজনের একজন ব্যক্তি 5 মিনিট 100 মি উঠে পাহারে উঠে, তার ক্ষমতা কত ওয়াট? [g = 9.8 ms^{-2}]  
+A. 3500  
+B. 1400  
+C. 228.67  
+D. 0.14"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0045,banglish_clean,benqa,mcq,choice,A,False,True,gain,D,A,0.2083,7.3594,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"কোন নির্দেশিত ভরের কোনো বস্তু বেগ দিয়ে কোরলে গতিশক্তি কত গুন হবে?  
+A. চার গুন  
+B. বেগ গুন  
+C. অর্ধেক  
+D. সমান  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0055,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2066,13.3176,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"পানিতে সান্তর কাতর সময় কোন বাড়া হয় তো করে থাকে?  
+A. স্থিতি ঘরশন  
+B. গোতি ঘরশন  
+C. অবর্ত ঘরশন  
+D. প্রবহি ঘরশন"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0084,banglish_clean,benqa,mcq,choice,D,False,False,same_wrong,B,B,0.2065,10.0931,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"স্থির অবস্থান থেকে সমোটবরনে বস্তুর জেকোনো সময়ের বস্তুর উতিক্রান্ত দুরতের-  
+A. সমানুপাতিক  
+B. বর্গ সমানুপাতিক  
+C. বর্গ ব্যাসানুপাতিক  
+D. বর্গমুলের সমানুপাতিক  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0106,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,B,,0.2086,14.9486,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"বিনা বাধায় পরন্তু বস্তু ৫ সেকেন্ডে ৫০ মিটার পথ অতিক্রম করে এবং ৭২ মিটার পথ অতিক্রম করে কত সেকেন্ড সময় লাগবে?  
+A. 6  
+B. 7.2  
+C. 9.5  
+D. 12"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0130,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2526,16.4968,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"মানবদেহের ঘনত্ব কত? i. কন্ট্রোল রোড থাকে ii. বিপুল পরিমাণ টাপ শক্তি নির্গত হয় iii. জ্বালানি হিসেবে ইউরেনিয়াম ব্যবহার হয় নিচের কোনটি সঠিক?  
+A. i o ii  
+B. i o iii  
+C. ii o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0150,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.1814,10.0461,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"কোনটি স্কেলার রাশি?  
+A. বেগ  
+B. দ্রুতি  
+C. সরন  
+D. টাবরন"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0198,banglish_clean,benqa,mcq,choice,D,False,True,gain,C,D,0.203,8.9637,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিচের কোন রাশি গুলো ভেক্টর রাশি?  
+A. দ্রুতি, কাজ ও বেগ  
+B. টরিট বিভোব, সরন ও টবরন  
+C. দ্রুতি, সরন ও বেগ  
+D. ভরোবেগ, সরন ও ওজন  
+উত্তর শুধু A, B, C বা D দিন।"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0280,banglish_clean,benqa,mcq,choice,B,True,True,same_correct,B,B,0.2449,8.8445,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"টামার রোধকত কোনটি?  
+A. 1.6 × 10⁻⁸ Ω m  
+B. 1.68 × 10⁻⁸ Ω m  
+C. 2.44 × 10⁻⁸ Ω m  
+D. 5.5 × 10⁻⁸ Ω m"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0296,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2051,12.8351,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ইউরেনিয়ামের চিন বিক্রির দ্বারা দাপ্তরিক হয় কতটি নিউট্রন নির্গত হয়?  
+A. 2 টি  
+B. 3 টি  
+C. 6 টি  
+D. 9 টি"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0034,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,D,0.1826,11.8858,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ক্ষুদ্রান্তর ক্ষুদ্র অন্গশ কোনটি?  
+A. পাইলোরাস  
+B. ডায়োডেনাম  
+C. জেজুনাম  
+D. ইলিয়াম"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0049,banglish_clean,benqa,mcq,choice,C,False,True,gain,D,C,0.1796,4.2272,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"মিডিয়া অ্যাটিস কোন রোগ?  
+A. চোখ  
+B. নাক  
+C. কান  
+D. গোলা  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0119,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,D,0.1802,11.9565,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"হাইড্রা-র কোন দুরন্তের চলনের চলন বলে?  
+A. গ্লেয়িডিন  
+B. সোমারোসন্তিং  
+C. লুপিং  
+D. হান্তা"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0122,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.1834,11.2258,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"হ্রিতোপিন্দার ওলিন্দার দিবসের সময়ে কত সেকেন্ড?  
+A. 0.7  
+B. 0.5  
+C. 0.3  
+D. 0.1"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0128,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2047,14.4019,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"শবসোকেন্দ্র মোটিশকের যে ওংসহ থাকে- i. পোনোস ii. সেরেবেলাম iii. মেডুলা অবোলোন্গাটা নিচের কোনটি সঠিক?  
+A. i o ii  
+B. i o iii  
+C. ii o iii  
+D. i, ii, o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0179,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.179,11.804,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"রক্ত জোমাত বন্ধ হওয়ার সময় কোন ধাতু আয়ন সহায়তা করে?  
+A. Ca^{++}  
+B. Mg^{++}  
+C. Cu^{++}  
+D. Fe^{++}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0203,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.245,18.4478,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"পিটোরোসার কাজ হচ্ছে- i. চরবিজাতীয় খাদ্যে ইমালোসিফাই করা ii. ভিটামিন A,D,E,o শোস্থোনে সোহায়োতা করে iii. কপার, জিঙ্ক, পারোড ও টক্সিন পড়ার্থ নিষ্কাশিত করা নিচের কোনটি সঠিক?  
+A. i ও ii  
+B. i ও iii  
+C. ii ও iii  
+D. i, ii, o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0247,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2049,12.9066,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"P → DdEe × ddEE উদ্দিপক উল্লিখিত ক্রস দ্বারা মুক ও বোধর সোন্তন হবর সম্ভাবনা কত?  
+A. 25%  
+B. 50%  
+C. 75%  
+D. 100%"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0287,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.207,13.6869,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"প্রোটিন পরিপাকে অনুপস্থিত কোনটি? i. পেপসিন ii. ওজামালেজ iii. কার্বক্সি পেপটাইড নিচের কোনটি সঠিক?  
+A. i o ii  
+B. i o iii  
+C. ii o iii  
+D. i, ii, o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0321,banglish_clean,benqa,mcq,choice,C,True,False,loss,C,,0.1805,9.5124,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"প্রাণিজগতের ডবিতি ব্রিহত্তম পর্ব কোনটি?  
+A. ক্নিডারিয়া  
+B. অ্যানেলিডা  
+C. মোলাস্কা  
+D. আথরোপোডা"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0325,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,C,D,0.2058,14.0458,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"রুই মাছের শ্রেণি পাখনায় রক্ত পরিবহন করে নিচের কোন ধমনি?  
+A. ইলিয়াক  
+B. প্যারাইল  
+C. সিলিয়াকো-মেসেন্টারিক  
+D. সাবোকলাভিয়ান"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0039,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,B,A,0.1804,5.9383,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"উদ্ভিদের ওন্তোহস্তিলি ওন্গশ হোচ্চহে-  
+A. হাইপোডারমিস  
+B. এপিডারমিস  
+C. মোজারোশমি  
+D. কার্টেক্স  
+উত্তর: A"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0042,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2439,18.1447,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"সাইকেসার প্রধান মুল নোস্ট হয় ফোলে- i. অস্থানিক মুল স্রষ্টি হয় ii. অনাবাএনা দ্বারা অক্রান্ত হয় iii. এর আকৃতি সমুদ্রিক প্রবলের মোট হয় নিচের কোনটি সঠিক সংযোগ হয়?  
+A. i ও ii  
+B. i ও iii  
+C. ii ও iii  
+D. i, ii, o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0056,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,D,0.1787,4.2627,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"কোনটি হাইডোথোড থাকতে পারে?  
+A. পাতা  
+B. ফুল  
+C. মুল  
+D. কাঁদ  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0077,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,B,0.2039,7.2163,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিচের কোন অবস্থায় ক্রোমোসোমগুলো মেরুমুখী চলে আসে শুরু করে?  
+A. প্রোফেজ  
+B. মেটাফেজ  
+C. অজানাফেজ  
+D. টেলোফেজ"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0160,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2072,14.8929,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ত্রোফো জয়েট সিগোনেট রিং সাইজন্ত মেরো জয়েট এর নিচের কোন পদার্থটি হয়?  
+A. হিমোলাইসিন  
+B. হিমোজয়েন  
+C. লাইসোলেসিথিন  
+D. পেয়ারোজেন"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0181,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,D,0.206,7.2308,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"মাইলেরিয়া জীবনুর জৌন জননে সংকেত ও লম্বক্রিতির জাইগোতের নাম কি?  
+A. স্পরোজয়েত  
+B. উসিস্ট  
+C. উকিনেট  
+D. জাইগোত  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0218,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.1788,9.9806,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"গোমর বোইজনিক নাম কি?  
+A. Oryza sativa  
+B. Triticum aestivum  
+C. Zea mays  
+D. Bambusa tulda"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0222,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,C,0.1846,10.5326,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"উদ্বিঘ কোন মাটি হোতে নেয়?  
+A. নাইট্রোজেন  
+B. হাইড্রোজেন  
+C. অক্সিজেন  
+D. কার্বন"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0265,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.3366,16.9804,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"মি। 'ক' ব্যবহারিক ক্লাসে একটি নমুনা পরীক্ষণ করে দেখলো মেটাজাইলেম কেন্দ্রের দিকে, ভাস্কুলার বান্ডোল ৯টি এবং কিছু একোকশি রম আছে। পরীক্ষণের বোঝাই সম্পূর্ণ করে রাখতে সহজে কি কি করা হবে? i. পানি ও খনিজ লবণ পরিবহন করে ii. প্রস্তুতক্রিত খবর পরিবহন করে iii."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0277,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.1781,7.8389,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"কোনটিকে গাছ গোট্র বলা হয়?  
+A. সোলানেসি  
+B. সাইক্যাদেসি  
+C. মালোবহেসি  
+D. পয়েসি"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0283,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.2449,17.3071,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"পেনপের রিং স্পট রোজার লক্ষন হোলা- i. পাতর বটায় পানি বেহজা সবুজ দাগ দেখা যায় ii. পেনপের মিষ্টোতা হ্রাস পায় iii. ফোলার আকর বর হয় নিচের কোনটি সঠিক?  
+A. i ও ii  
+B. ii ও iii  
+C. i ও iii  
+D. i, ii, o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0013,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.206,12.9489,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ঘুমের উষ্ণ হিসেবে ব্যবহার করা হয় কোনটি?  
+A. ফরমালডিহাইড  
+B. ওজাস্টালডিহাইড  
+C. প্যারালডিহাইড  
+D. মেটালডিহাইড"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0054,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,C,D,0.2264,5.7106,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ওজামাদির কর্যকরি মুলোক হলো-  
+A. \text{-CONH_{2}}  
+B. \text{-COX}  
+C. \text{-CHO}  
+D. \text{-NH_{2}}  
+উত্তর শুধুমাত্র A, B, C বা D দিন।"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0067,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2443,11.8892,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"32g O_{2} er orth holo- i. 1 mole O_{2} ii. proman obosthay 24.8L ayoton iii. ojadogedror songkhyar soman onu nicher konoti sothik?  
+A. i  
+B. i o ii  
+C. i o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0117,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2454,16.3397,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ওজালোদিহাইড এর কোন মধ্যে পার্থক্য নিরুপণের জন্য ব্যবহৃত হয়- i. টোলেন বিকারক ii. 2 : 4 - DNPH iii. ফেলিং দ্রবন নিচের কোন সোথিক?  
+A. i এবং ii  
+B. ii এবং iii  
+C. i এবং iii  
+D. i, ii এবং iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0194,banglish_clean,benqa,mcq,choice,A,False,True,gain,D,A,0.1795,9.9567,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"সেমিকন্ডাক্টর হিসেবে ব্যবহার করা হয়-  
+A. Ge  
+B. Zn  
+C. Cu  
+D. Al"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0228,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2464,16.2388,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিএ (s) + 2Ag⁺(aq) \xrightarrow{2e^{-}} Ni²⁺(aq) + 2Ag(s); বিক্রিয়াতিতে- i. নিএ জরিত হয় ii. আগ জরিত হয় iii. বিক্রিয়াতি একটি রিডক্স বিক্রিয়া নিচের কোনটি সঠিক?  
+A. i o ii  
+B. ii o iii  
+C. i o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0235,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,C,,0.1814,10.4063,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিচের কোনটি লিউস এসিড?  
+A. AlCl_{3}  
+B. H_{2}CO_{3}  
+C. NH_{3}  
+D. H_{3}PO_{4}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0240,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,C,C,0.2463,10.5509,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"CH_{3} - CH_{2} - COONa + NaOH \xrightarrow[\Delta]{CaO} A + Na_{2}CO_{3} উদ্দীপক বিক্রিয়াটির নাম কী?
+A. উর্তোজ বিক্রিয়া  
+B. ডি-কারবক্সিলেশন বিক্রিয়া  
+C. উর্তোজ ফিটিগ বিক্রিয়া  
+D. ফ্রিডেল ক্রাফ্ট বিক্রিয়া  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0294,banglish_clean,benqa,mcq,choice,C,True,False,loss,C,,0.2434,14.144,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"বেনজোয়েনার কার্বন-কার্বন ডিবন্ডন কোন দুই অণুর মধ্যে উৎপন্ন হয়? i. sp² - sp² ii. p - p iii. sp² - sp³ নিচের কোনটি সঠিক?  
+A. i  
+B. iii  
+C. i o ii  
+D. ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0305,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2069,12.2161,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"27^oC টাপোমাত্রায় O_2 এর RMS মান কত?  
+A. 453.23 ms^{-1}  
+B. 463.34 ms^{-1}  
+C. 473.45 ms^{-1}  
+D. 483.56 ms^{-1}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0354,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,D,0.205,8.9653,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"স্থির টাপোমাত্রয় নির্দেশিত ভরের গ্যাসের আয়োন বনাম চাপের লেখচিত্রটি কোন দৃশ্যের?  
+A. পরাবৃত্তকার  
+B. ওধিবৃত্তকার  
+C. বৃত্তকার  
+D. সরলরেখিক  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0028,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,C,A,0.1816,9.1145,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"1% NaOH droboner pH kot?  
+A. 0.8  
+B. 13.4  
+C. 13.2  
+D. 1"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0037,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2467,17.6056,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ধাতুর গোলনাঙ্ক বৃদ্ধি পায়, যখন— i. ধাতুব কেলাসে মুক্ত ইলেক্ট্রন বেশি থাকে ii. আয়নিক রূপের বিভোব হ্রাস পায় iii. পরমাণুর আকার ক্ষুদ্র হয় নিচের কোনটি সঠিক?  
+A. i o ii  
+B. ii o iii  
+C. i o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0140,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.3,17.7266,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"CaF_{2}-এর সম্পূর্ণ ক্ষুদ্র জলীয় দ্রবণে ফ্লোরাইড আয়নের গ্রাম প্রতি লিটার 0.00655 gL^{-1} হলে CaF_{2} এর দ্রব্যতা গুণোফল কত হবে?  
+A. 3.7\times 10^{-13}  
+B. 2.048\times 10^{-10}  
+C. 3.7\times 10^{-12}  
+D. 2.048\times 10^{-11}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0174,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.207,14.4335,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"বিহারের - i. খাদ্যের বিক্রয়ের দ্বারা ii. খবরের রুচি বৃদ্ধি করে iii. রক্ত সংক্রামণ কমায় নিচের কোনটি সঠিক?  
+A. i o ii  
+B. i o iii  
+C. ii o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0190,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.1804,10.9273,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিচের কোনটির বন্ধন কোন সবচেয়ে বড়?  
+A. CH_{4}  
+B. BCl_{3}  
+C. NH_{3}  
+D. H_{2}O"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0218,banglish_clean,benqa,mcq,choice,D,True,True,same_correct,D,D,0.2068,7.8093,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"পানির ওনুতে ∠HOH এর মান কত?  
+A. 120^{\circ}  
+B. 109^{\circ}  
+C. 107^{\circ}  
+D. 104.5^{\circ}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0227,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.1817,10.3757,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ব্রেকেট সিরিজার ক্ষেত্রে n_{2} এর মান কত?  
+A. 2  
+B. 3  
+C. 4  
+D. 5"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0260,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,C,0.1801,6.9093,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"বিনিগারে কত শতাংশ পানি বিদ্যমান?  
+A. 6%  
+B. 15%  
+C. 70%  
+D. 90%"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0286,banglish_clean,benqa,mcq,choice,C,False,True,gain,D,C,0.1826,4.6486,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"আর্বর মাটির জন্য অত্যন্ত কোটি pH কত?  
+A. 3.0-4  
+B. 6-5  
+C. 8-7  
+D. 11-10  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0303,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.1799,9.8516,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিচের কোনটি সবচেয়ে শক্তিশালী?  
+A. HF  
+B. HCl  
+C. HBr  
+D. HI"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0328,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.1792,10.1784,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"Cl(17) কোন ব্লক মৌল?  
+A. s-ব্লক  
+B. p-ব্লক  
+C. d-ব্লক  
+D. f-ব্লক"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-II_0043,banglish_clean,benqa,mcq,choice,D,True,True,same_correct,D,D,0.2059,7.4041,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"9x² - 24xy + 12y² - 48x - 24y + 36 = 0 সমীকরণটি কোন প্রকারের নির্দেশ করে?  
+A. বৃত্ত  
+B. পরাবৃত্ত  
+C. উপবৃত্ত  
+D. অধিবৃত্ত  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-II_0214,banglish_clean,benqa,mcq,choice,C,True,False,loss,C,,0.2067,11.1661,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"tan⁻¹ \frac{1}{\sqrt{3}} + tan⁻¹x = \frac{\pi}{2} হোলে x = ?
+A. \frac{1}{\sqrt{3}}
+B. - \frac{1}{\sqrt{3}}
+C. \sqrt{3}
+D. - \sqrt{3}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-II_0230,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.3031,21.2601,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"5 একক দুরোত্বে A ও B বিন্দুতে ক্রিয়ারত 9 এবং 5 একক মানের সমান্তর বলোদবয়- i. সোড়িষ্ট হলে লোবদ্ধির মান 4 একক ii. সোড়িষ্ট এবং লোবদ্ধি C বিন্দুতে ক্রিয়ারত হলে BC = \frac{45}{14} একক iii. সোড়িষ্ট হলে লোবদ্ধির মান 14 একক নিচের কোনটি সঠিক?  
+A. i o ii  
+B. i o iii  
+C"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-II_0234,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,,,6.6567,10.7253,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"jodi x² - 4x + 3 = 0 somikoroner mulodboy α ebong β hoy tobe 1/α + 1/β er man-  
+A. 4/3  
+B. 3/4  
+C. -4/3  
+D. -3/4"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0029,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2992,17.5805,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"(-5, 10) বিন্দুগামি সরলরেখার x-অক্ষের উপর দিকে স্থানান্তর করে তান⁻¹(³/₄) কোণ উৎপন্ন করে। সরলরেখার সমীকরণ-  
+A. 4x + 3y - 10 = 0  
+B. 3x - 4y - 55 = 0  
+C. 3x + 4y + 55 = 0  
+D. 4x + 3y + 30 = 0  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0088,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2052,9.9283,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"x-er sapekshe ln ax er ontoroj-  
+A. \frac{a}{x}  
+B. \frac{x}{a}  
+C. \frac{1}{x}  
+D. \frac{1}{ax}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0120,banglish_clean,benqa,mcq,choice,D,True,True,same_correct,D,D,0.2049,6.8264,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"(3, -4) বিন্দুগামি এবং x-অক্ষের সমান্তরাল সরলরেখার সমীকরণ কোনটি?  
+A. y - 3 = 0  
+B. y + 3 = 0  
+C. y - 4 = 0  
+D. y + 4 = 1  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0186,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,D,0.2986,11.6044,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"(-2, 3) বিন্দুতে কেন্দ্র এবং এ-অক্ষের স্পর্শকে প্রশ্ন করে রেখাটির সমীকরণ কোনটি?  
+A. x^{2} + y^{2} + 4x - 6y + 9 = 0  
+B. x^{2} + y^{2} - 4x + 6y + 9 = 0  
+C. x^{2} + y^{2} + 4x - 6y + 4 = 0  
+D. x^{2} + y^{2} - 4x + 6y + 4 = 0  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0187,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2486,12.1182,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"2x - ky + 1 = 0 o 3x + 2y - 6 = 0 duiti sorolorekhar somikoron। dbitiy rekhatir lomb rekhar dhal kot?  
+A. \frac{3}{2}  
+B. \frac{2}{3}  
+C. - \frac{2}{3}  
+D. - \frac{3}{2}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0202,banglish_clean,benqa,mcq,choice,B,True,False,loss,B,,0.2437,10.1911,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"∫ cosx/√sinx dx = kot?  
+A. 2√cosx + c  
+B. 2√sinx + c  
+C. 1/2 √cosx + c  
+D. 1/2 √sinx + c"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0218,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,C,C,0.2441,7.83,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ABC টিরিবহুজের ক্ষেত্রের কোণের সংশ্লিষ্ট সূত্র কোনটি?  
+A. c = acosB + bcosA  
+B. b = csinA + asinC  
+C. \Delta = \frac{1}{2} abcosC  
+D. cosA = \frac{b^{2} + c^{2} + a^{2}}{2bc}  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0310,banglish_clean,benqa,mcq,choice,B,True,True,same_correct,B,B,0.2061,4.7195,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"\frac{d}{dx}(log_{10}x) এর মান কত?
+
+A. \frac{1}{x}
+
+B. \frac{1}{x}log_{10}e
+
+C. \frac{1}{x}log_{e}10
+
+D. log_{10}e
+
+উত্তর: B"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0326,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,,,6.41,9.6211,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"tan\frac{\alpha}{2} = 7 hole 4sin\alpha - 3cos\alpha = ?  
+A. 5  
+B. 4  
+C. 3  
+D. 6"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0342,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,D,0.3036,9.9199,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"f(x) = x² - x ফাংশনের কোন বিন্দুতে স্থানান্তর সর্বনিম্ন হবে x-অক্ষের উপর?  
+A. \left ( \frac{-1}{2}, \frac{-1}{4} \right )  
+B. \left ( \frac{-1}{2}, \frac{1}{4} \right )  
+C. \left ( \frac{1}{2}, \frac{-1}{4} \right )  
+D. \left ( \frac{1}{2}, \frac{1}{4} \right )  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0383,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2061,10.6848,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"\frac{d}{dx} (log_{5}x) = kot?  
+A. \frac{1}{x}  
+B. \frac{1}{x}log_{e}5  
+C. \frac{1}{5 lnx}  
+D. \frac{1}{x ln5}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0037,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,C,0.181,5.8282,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"এনোট্রোপির একক নিচের কোনটি?  
+A. NK^{-1}  
+B. JK^{-1}  
+C. JK^{-1} mol^{-1}  
+D. একক ঘন রাশি  
+উত্তর শুধুমাত্র A, B, C বা D দিন।"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0046,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.242,15.7407,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"রুদ্ধোতপী পরিবর্তনের ক্ষেত্রে - i. হোট সংগ্রহিত হয় ii. টাপমাত্রা স্থির থাকে iii. এনোট্রোপি পরিবর্তন শূন্য নিচের কোনটি সঠিক?  
+A. i o ii  
+B. ii o iii  
+C. i o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0085,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2074,14.586,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ফোটোনের ক্ষেত্রে - i. স্থির বহু শূন্য ii. শক্তি h\upsilon iii. বেগ 3 \times 10^{8} ms^{-1} নিচের কোনটি সঠিক?  
+A. i এবং ii  
+B. i এবং iii  
+C. ii এবং iii  
+D. i, ii এবং iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0088,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.2107,13.7512,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"হাইজেন্স এর নিতির সহজে ব্যাখ্যা করা যায়—i. প্রতিশোরন ii. প্রতিফলন iii. সমবর্তন নিচের কোনটি সঠিক?  
+A. i o ii  
+B. i o iii  
+C. ii o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0131,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,D,0.3417,12.0386,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"থার্মোমিটার মুল সমীকরণ নিচের কোনটি?  
+A. \frac{N}{\theta - \theta_{ice}} = \frac{X_{\theta} - X_{ice}}{X_{steam} - X_{ice}}  
+B. \frac{\theta - \theta_{ice}}{N} = \frac{X_{\theta} - X_{ice}}{X_{steam} - X_{ice}}  
+C. \frac{N}{\theta - \theta_{ice}} = \frac{X_{steam} - X_{ice}{X_{\theta} - X_{ice}}}  
+D. \frac{\theta - \theta_{ice}}{N} = \frac{X_{steam} - X_{ice}}{X_{\theta} - X_{ice}}  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0195,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,D,0.23,5.6017,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"পৃথিবীর ব্যাসার্ধ 6500 কিমি এর দারোকতব কত?  
+A. 711 F  
+B. 722 \mu F  
+C. 640 \mu F  
+D. 614 \mu F  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0213,banglish_clean,benqa,mcq,choice,D,False,False,same_wrong,C,,0.2446,10.9375,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"রুদ্ধোতাপী প্রক্রিয়ায় একটি আদর্শ গ্যাসের চাপ ও তাপমাত্রা মধ্যে সম্পর্ক হলো-  
+A. P^{\gamma - 1} = দ্রুবক  
+B. P^{\gamma} T^{\gama + 1} = দ্রুবক  
+C. P^{\gamma} T^{\gamma - 1} = দ্রুবক  
+D. P^{1 - \gamma} T^{\gamma} = দ্রুবক  
+উত্তর: C"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0219,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.1801,11.8444,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"পূর টরঙ্গ রেকোটিফেয়ারের সরব চ্চ কোটোতি দায়োদ প্রোয়াজন?  
+A. 1  
+B. 2  
+C. 3  
+D. 4"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0267,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2992,16.3057,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"আপেক্ষিকতা অনুসারে কোনটি সঠিক?  
+i. t = \frac{t_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}  
+ii. L = \frac{L_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}  
+iii. m = \frac{m_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}  
+নিচের কোনটি সঠিক?  
+A. i o ii  
+B. i o iii  
+C. ii o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0290,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2457,16.7757,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"একটি কর্নো ইঞ্জিনার কার্যনিরবহোক বস্তু ৪০০ ক টাপমাত্রা তাপ উত্সর্গ করে ৮৪০ জ তাপ গ্রহণ করে তাপ গ্রহকের তাপমাত্রা কত?  
+A. ২১০ ক  
+B. ৩০০ ক  
+C. ৪০০ ক  
+D. ৪৪০ ক"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0292,banglish_clean,benqa,mcq,choice,C,False,True,gain,D,C,0.2458,10.3442,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"দ্রিশ্যমান বর্নালির তরঙ্গদৈর্ঘ্যের বিস্তার হয়—  
+A. 2000 \AA থেকে 3000 \AA পর্যন্ত  
+B. 3000 \AA থেকে 4000 \AA পর্যন্ত  
+C. 4000 \AA থেকে 8000 \AA পর্যন্ত  
+D. 8000 \AA থেকে 12000 \AA পর্যন্ত  
+উত্তর: C"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0008,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2459,12.0233,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"\vec{P} o \vec{Q} duti bhektor rashir modhyoborti kon 120^{\circ} hole tader lobdhir man-  
+A. P + Q  
+B. \sqrt{P^{2}+Q^{2}+PQ}  
+C. P - Q  
+D. \sqrt{P^{2}+Q^{2}-PQ}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0079,banglish_clean,benqa,mcq,choice,C,True,True,same_correct,C,C,0.206,5.9549,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"পরম শূন্য টাপোমাত্রা কোনো টি করে তোলে?  
+A. 273^{\circ}C  
+B. 0^{\circ}C  
+C. -273^{\circ}C  
+D. -373^{\circ}C  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0106,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.179,10.4659,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিচের কোনটি শূন্য দশর সমোটুলি?  
+A. \pi/2  
+B. \pi  
+C. 3\pi/2  
+D. 2\pi"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0109,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.1829,6.8932,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"তরকের ওপর নাম কি?  
+A. ঘরশন বল  
+B. জরোতার ভ্রামক  
+C. ঘুরন বল  
+D. কেন্দ্রমুখী বল"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0133,banglish_clean,benqa,mcq,choice,C,False,True,gain,D,C,0.2083,7.0718,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"\frac{3}{2} মোল গ্যাসের জন্য আদর্শ গ্যাসের সমীকরণ হবে কোনটি?  
+A. 3PV = 2RT  
+B. 2PV = \frac{1}{3} RT  
+C. 2PV = 3RT  
+D. \frac{PV}{RT}=\frac{2}{3}  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0157,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,C,,0.2056,13.6847,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"বহর এবং বেগ উভয়ের দ্বারা বৃদ্ধি করে জোথাকর্মে তিন গুন করা হলে গোতিশক্তির বৃদ্ধি কতগুন হবে?  
+A. 27  
+B. 21  
+C. 18  
+D. 8"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0214,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2447,14.9825,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"স্থির আয়োতনে 0^{\circ}C তাপমাত্রার কোনো গ্যাসের চাপ বাড়িয়ে দেওয়ার পর তার তাপমাত্রা হবে-  
+A. 27^{\circ}C  
+B. 273^{\circ}C  
+C. 300^{\circ}C  
+D. 546^{\circ}C"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0253,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.2467,17.8325,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"মহাকর্ষ সূত্র দ্বারা ব্যবহার করে যে সব কাজ করা হয় সেগুলি—i. প্রাকৃতিক গ্যাস উৎপাদন ii. বিভিন্ন খনিজ পদার্থ উৎপাদন iii. ভূ-গোরবস্থ তাপগোত্র উৎপাদন নিচের কোনটি সঠিক?  
+A. i o ii  
+B. i o iii  
+C. ii o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0254,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2078,11.6452,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"মহাকর্ষ ক্ষেত্রের মাত্রার ক্ষেত্রে কোনটি সঠিক?  
+A. [LT^{-1}]  
+B. [LT^{-2}]  
+C. [MLT^{-1}]  
+D. [MLT^{-2}]"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0256,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,B,0.2065,9.5079,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"সময়ের সাপেক্ষে অন্তর্ভুক্ত করে সরল চাঁদনি গোতী-সম্পন্ন বস্তুর অন্তর্ভুক্ত সময়ের সময়ে কি পাওয়া যায়?  
+A. কম্পাঙ্ক  
+B. পর্যায়কাল  
+C. বেগ  
+D. টবরন"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0289,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2448,14.8515,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"30^{\circ}C ট্যাপোমাত্রা একটি গ্যাসের স্থির চাপে উত্তপ্ত করে আয়তন বৃদ্ধি করা হল। গ্যাসের চাপ কত?  
+A. 90^{\circ}C  
+B. 300^{\circ}C  
+C. 436^{\circ}C  
+D. 636^{\circ}C"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Math_0031,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.206,13.1201,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"একটি গারির চকর পরিধি 5.15 মিটার হলে, চকতির ব্যাস কত?  
+A. 0.82 মিটার  
+B. 0.96 মিটার  
+C. 1.28 মিটার  
+D. 1.64 মিটার"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Math_0062,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2035,11.4967,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিচের কোন বিন্দুটি (x-অক্ষের) উপর অবস্থিত?  
+A. (- 5, 5)  
+B. (3, - 3)  
+C. (0, 4)  
+D. (2, 0)"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Math_0072,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,D,0.2068,5.9698,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"779 সংখ্যাটি কোন বিজোগন তে রাশি 111 টম পড়?  
+A. 7k - 2  
+B. 7k + 2  
+C. 5555k + 224  
+D. 777k + 2  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Math_0085,banglish_clean,benqa,mcq,choice,C,False,True,gain,D,C,0.1809,7.9256,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"4 করমের মাইজিক বর্গ কোন কোট জোগফোল কত?  
+A. 15  
+B. 16  
+C. 34  
+D. 65"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Math_0167,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2096,15.9961,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"একটি আয়তকার বাগানের দৈর্ঘ্য প্রতি প্রতি দুই গুণ বেশি। এর প্রস্থ ১৬ মিটার হলে, বাগানের পরিসীমা কত?  
+A. ৪০ মিটার  
+B. ৬৪ মিটার  
+C. ৮০ মিটার  
+D. ৯৬ মিটার"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Math_0190,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.245,19.4594,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"একটি আয়তকার পার্কের দৈর্ঘ্য ৪০ মিটার এবং প্রস্থ ৩০ মিটার। পার্কের বাইরে চার দিকে ২.৫ মিটার বিস্তারে একটি রাস্তা আছে। রাস্তার ক্ষেত্রফল কত?  
+A. ৩২৫ বর্গমিটার  
+B. ৩৭৫ বর্গমিটার  
+C. ৮৭৫ বর্গমিটার  
+D. ১৫৭৫ বর্গমিটার"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0014,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2064,14.1166,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ওজনিমিয়া রোজার লক্ষন - i. ওজন কমে জয়োয়া ii. খাওয়ায় ওনিহা iii. দুরবল লাগা নিচের কোনটি সঠিক?  
+A. i o ii  
+B. i o iii  
+C. ii o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0024,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2038,13.6499,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"মাইটোসিসের কোন ক্রমে ক্রোমোজোম মোগুলো ইংরেজি বর্ণমালা J এর মোট হয়?  
+A. প্রোফেজ  
+B. মেটাফেজ  
+C. এনাফেজ  
+D. টেলোফেজ"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0042,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.179,4.7659,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"সবান তোয়ারিত মুল উপাদান  
+A. এসিড  
+B. ক্ষারক  
+C. লোবন  
+D. গ্লিসারিন  
+উত্তর: C"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0062,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2069,11.5988,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিচের কোনটাই মুট্র তোড়িরি করক্ষান হিসেবে অবদ্ধ করা যায়?  
+A. fusofus  
+B. tbok  
+C. jokrit  
+D. britt"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0078,banglish_clean,benqa,mcq,choice,C,True,False,loss,C,,0.2432,16.2549,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"আলো কাচ থেকে বায়ু মাঝে যায় এর সময় আপটন কোণ 32^{\circ} হলে প্রতিসরণ রোশনিতি মাঝে বিভেদিত হয়। একস্থানে প্রতিসরণ কোণ কত?  
+A. 0^{\circ}  
+B. 32^{\circ}  
+C. 90^{\circ}  
+D. 180^{\circ}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0086,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,B,0.1807,7.1604,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"কোনটি প্রজন্মের মধ্যে হয়?  
+A. টপাপানা  
+B. পুদিনা  
+C. পিন্যাজ  
+D. পেয়ারা"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0098,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,B,,0.2991,21.235,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"ইশার বাসর বেদোরুমে দুটি টিউবলে আর একটি ফিয়ান প্যারালে সংযুক্ত করা হয়। বেদোরুমের বর্তনীর সাথে 10 ওজাম্পিয়ার মানের ফিউজ ব্যবহার করা হয়। ডব্টি উপকরণের জন্য কত ওজাম্পিয়ার ফিউজ প্রয়োজন?  
+A. 5 ওজাম্পিয়ার  
+B. 10 ওজাম্পিয়ার  
+C. 15 ওজাম্পিয়া"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0127,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,D,0.1807,6.0102,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"কোন গ্রোহের সবচেয়ে বেশি উপগ্রোহ আছে?  
+A. শোনি  
+B. ব্রিহোপটি  
+C. আইয়ুরেনাস  
+D. নেপচুন  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0153,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2044,14.6447,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"পকোস্থলীর এসিডিটি নিরাময়ে কোনটি উপযোগী?  
+A. ক্যালসিয়াম  
+B. এসিটিক এসিড  
+C. ওজোলুমিনিয়াম হাইড্রক্সাইড  
+D. ওজামোনিয়াম হাইড্রক্সাইড"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0159,banglish_clean,benqa,mcq,choice,B,False,True,gain,C,B,0.1805,5.7794,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"নিচের কোনটি রসালো ফল?  
+A. আটা  
+B. কোলা  
+C. আনারস  
+D. কান্থাল"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0202,banglish_clean,benqa,mcq,choice,C,False,True,gain,A,C,0.2443,11.0786,results/runs/qwen3_4b_validation200_v3_128/results/runs/qwen3_4b_validation200_v3_128.jsonl,results/runs/qwen3_4b_validation200_v3_selfnorm/results/runs/qwen3_4b_validation200_v3_selfnorm.jsonl,"সোথিক খাদ্য-শ্রেণীকোল কোনটি?  
+A. গাছ \rightarrow ফেইটোপলাঙ্কটন \rightarrow জুপলাঙ্কটন  
+B. জু-পলাঙ্কটন \rightarrow ফেইটোপলাঙ্কটন \rightarrow চহটোমাস  
+C. ফেইটোপলাঙ্কটন \rightarrow জু-পলাঙ্কটন \rightarrow চহটোমাচ্চ  
+D. গাছ \rightarrow ব্যাঙ্গ \rightarrow বাগহ  
+Answer with only A, B, C, or D."

@@ -1,0 +1,9 @@
+split,model,prompt_mode,dataset,variant,n,unique_items,correct,accuracy,parsed_empty,mean_seconds,total_seconds
+dev,Qwen/Qwen2.5-3B-Instruct,banglish_self_normalize,banglamath,banglish_clean,14,14,1,0.0714,0,8.2831,115.9631
+dev,Qwen/Qwen2.5-3B-Instruct,banglish_self_normalize,benqa,banglish_clean,36,36,9,0.25,3,4.8966,176.2787
+dev,Qwen/Qwen3-4B-Instruct-2507,banglish_self_normalize,banglamath,banglish_clean,14,14,1,0.0714,0,12.9788,181.7031
+dev,Qwen/Qwen3-4B-Instruct-2507,banglish_self_normalize,benqa,banglish_clean,36,36,4,0.1111,23,11.2626,405.4546
+test,Qwen/Qwen2.5-3B-Instruct,banglish_self_normalize,banglamath,banglish_clean,42,42,4,0.0952,0,7.7656,326.1571
+test,Qwen/Qwen2.5-3B-Instruct,banglish_self_normalize,benqa,banglish_clean,108,108,37,0.3426,8,4.6348,500.5538
+test,Qwen/Qwen3-4B-Instruct-2507,banglish_self_normalize,banglamath,banglish_clean,42,42,3,0.0714,0,12.0012,504.0505
+test,Qwen/Qwen3-4B-Instruct-2507,banglish_self_normalize,benqa,banglish_clean,108,108,13,0.1204,68,11.5361,1245.9031

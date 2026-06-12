@@ -1,0 +1,4 @@
+Model,Rows,Valid outputs,Correct,Accuracy,Macro-F1,Positive recall,Negative recall,Neutral recall,Mixed recall,Interpretation
+Qwen2.5-3B,200,200/200,89/200,44.5%,0.431,60.0%,56.0%,20.0%,42.0%,Zero-shot natural code-mixed sentiment external-validity layer
+Qwen2.5-7B 8-bit,200,200/200,98/200,49.0%,0.479,40.0%,44.0%,78.0%,34.0%,Zero-shot natural code-mixed sentiment external-validity layer
+Qwen3-4B,200,200/200,99/200,49.5%,0.486,86.0%,36.0%,40.0%,36.0%,Zero-shot natural code-mixed sentiment external-validity layer

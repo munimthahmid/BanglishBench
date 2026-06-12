@@ -1,0 +1,7 @@
+model,items,bangla_correct,bangla_accuracy,banglish_correct,banglish_accuracy,english_correct,english_accuracy,banglish_minus_bangla_pts,banglish_minus_bangla_ci,banglish_minus_english_pts,banglish_minus_english_ci,report
+Qwen2.5-3B,974,323,33.16,285,29.26,490,50.31,-3.90,"[-7.19, -0.51]",-21.05,"[-24.64, -17.35]",reports/qwen25_3b_benqa_human_gold_974.md
+Groq Llama 3.3 70B,974,547,56.16,333,34.19,622,63.86,-21.97,"[-25.67, -18.17]",-29.67,"[-33.26, -26.08]",reports/groq_llama33_70b_benqa_human_gold_974.md
+Gemini 3.5 Flash,974,743,76.28,633,64.99,680,69.82,-11.29,"[-13.66, -8.93]",-4.83,"[-7.39, -2.05]",reports/gemini_3_5_flash_benqa_human_gold_974.md
+GPT-5.5 none,974,820,84.19,699,71.77,825,84.70,-12.42,"[-15.09, -9.75]",-12.94,"[-15.91, -9.86]",reports/openai_gpt55_none_benqa_human_gold_974.md
+Claude Sonnet 4.6,974,764,78.44,524,53.80,771,79.16,-24.64,"[-27.82, -21.25]",-25.36,"[-28.64, -21.87]",reports/claude_sonnet_4_6_benqa_human_gold_974.md
+DeepSeek V4 Flash,974,756,77.62,438,44.97,791,81.21,-32.65,"[-36.04, -29.26]",-36.24,"[-39.73, -32.96]",reports/deepseek_v4_flash_benqa_human_gold_974.md

@@ -1,0 +1,2 @@
+model,variant,n,before_correct,after_correct,oracle_correct,before_accuracy,after_accuracy,oracle_accuracy,oracle_gain_over_before,gains,losses,same_correct,same_wrong
+Qwen/Qwen3-4B-Instruct-2507,banglish_clean,200,46,21,59,0.23,0.105,0.295,0.065,13,38,8,141

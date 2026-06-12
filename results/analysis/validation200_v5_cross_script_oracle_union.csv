@@ -1,0 +1,7 @@
+model,prompt_mode,dataset,n,bangla_correct,bangla_accuracy,banglish_clean_correct,banglish_clean_accuracy,english_correct,english_accuracy,oracle_correct,oracle_accuracy,all_variants_correct
+Qwen/Qwen2.5-3B-Instruct,baseline,banglamath,56,5,0.0893,0,0.0,5,0.0893,7,0.125,0
+Qwen/Qwen2.5-3B-Instruct,baseline,benqa,144,49,0.3403,41,0.2847,66,0.4583,92,0.6389,18
+Qwen/Qwen2.5-7B-Instruct,baseline,banglamath,56,5,0.0893,0,0.0,8,0.1429,10,0.1786,0
+Qwen/Qwen2.5-7B-Instruct,baseline,benqa,144,60,0.4167,47,0.3264,86,0.5972,105,0.7292,23
+Qwen/Qwen3-4B-Instruct-2507,baseline,banglamath,56,4,0.0714,2,0.0357,6,0.1071,6,0.1071,2
+Qwen/Qwen3-4B-Instruct-2507,baseline,benqa,144,76,0.5278,47,0.3264,82,0.5694,102,0.7083,31

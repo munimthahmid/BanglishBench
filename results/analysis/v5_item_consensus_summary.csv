@@ -1,0 +1,81 @@
+section,key,dataset,n,denominator,rate,ci95_low,ci95_high,detail
+model_item_success,bangla,all,199,600,0.3317,,,Bangla correct model-item slots
+model_item_success,banglish,all,137,600,0.2283,,,Reviewed Banglish correct model-item slots
+model_item_success,english,all,253,600,0.4217,,,English correct model-item slots
+paired_delta,banglish_minus_bangla,all,-62,600,-0.1033,-0.1467,-0.0633,item-cluster bootstrap over validation items
+paired_delta,banglish_minus_english,all,-116,600,-0.1933,-0.25,-0.1367,item-cluster bootstrap over validation items
+consensus_distribution,bangla:0_models_correct,all,80,200,0.4,,,
+consensus_distribution,bangla:1_models_correct,all,60,200,0.3,,,
+consensus_distribution,bangla:2_models_correct,all,41,200,0.205,,,
+consensus_distribution,bangla:3_models_correct,all,19,200,0.095,,,
+consensus_distribution,banglish:0_models_correct,all,109,200,0.545,,,
+consensus_distribution,banglish:1_models_correct,all,56,200,0.28,,,
+consensus_distribution,banglish:2_models_correct,all,24,200,0.12,,,
+consensus_distribution,banglish:3_models_correct,all,11,200,0.055,,,
+consensus_distribution,english:0_models_correct,all,81,200,0.405,,,
+consensus_distribution,english:1_models_correct,all,34,200,0.17,,,
+consensus_distribution,english:2_models_correct,all,36,200,0.18,,,
+consensus_distribution,english:3_models_correct,all,49,200,0.245,,,
+recoverability,all_scripts_zero,all,54,200,0.27,,,all scripts have zero correct models
+recoverability,zero_banglish_any_alternate,all,55,200,0.275,,,"Banglish zero, Bangla or English has at least one correct model"
+recoverability,zero_banglish_strong_alternate,all,35,200,0.175,,,"Banglish zero, Bangla or English has at least two correct models"
+recoverability,strong_alternate_low_banglish,all,67,200,0.335,,,Bangla or English has at least two correct models; Banglish has at most one
+recoverability,banglish_beats_alternate,all,12,200,0.06,,,Banglish has more correct models than both Bangla and English
+recoverability,banglish_ties_best_script,all,103,200,0.515,,,Banglish ties the best script-level consensus count
+review_label_recoverability,strong_alternate_low_banglish,all:bad,0,3,0.0,,,within review label
+review_label_recoverability,strong_alternate_low_banglish,all:major_edit,1,11,0.0909,,,within review label
+review_label_recoverability,strong_alternate_low_banglish,all:minor_edit,41,126,0.3254,,,within review label
+review_label_recoverability,strong_alternate_low_banglish,all:unreviewed,25,60,0.4167,,,within review label
+model_item_success,bangla,banglamath,14,168,0.0833,,,Bangla correct model-item slots
+model_item_success,banglish,banglamath,2,168,0.0119,,,Reviewed Banglish correct model-item slots
+model_item_success,english,banglamath,19,168,0.1131,,,English correct model-item slots
+paired_delta,banglish_minus_bangla,banglamath,-12,168,-0.0714,-0.1369,-0.0238,item-cluster bootstrap over validation items
+paired_delta,banglish_minus_english,banglamath,-17,168,-0.1012,-0.1786,-0.0417,item-cluster bootstrap over validation items
+consensus_distribution,bangla:0_models_correct,banglamath,47,56,0.8393,,,
+consensus_distribution,bangla:1_models_correct,banglamath,6,56,0.1071,,,
+consensus_distribution,bangla:2_models_correct,banglamath,1,56,0.0179,,,
+consensus_distribution,bangla:3_models_correct,banglamath,2,56,0.0357,,,
+consensus_distribution,banglish:0_models_correct,banglamath,54,56,0.9643,,,
+consensus_distribution,banglish:1_models_correct,banglamath,2,56,0.0357,,,
+consensus_distribution,banglish:2_models_correct,banglamath,0,56,0.0,,,
+consensus_distribution,banglish:3_models_correct,banglamath,0,56,0.0,,,
+consensus_distribution,english:0_models_correct,banglamath,46,56,0.8214,,,
+consensus_distribution,english:1_models_correct,banglamath,4,56,0.0714,,,
+consensus_distribution,english:2_models_correct,banglamath,3,56,0.0536,,,
+consensus_distribution,english:3_models_correct,banglamath,3,56,0.0536,,,
+recoverability,all_scripts_zero,banglamath,42,56,0.75,,,all scripts have zero correct models
+recoverability,zero_banglish_any_alternate,banglamath,12,56,0.2143,,,"Banglish zero, Bangla or English has at least one correct model"
+recoverability,zero_banglish_strong_alternate,banglamath,5,56,0.0893,,,"Banglish zero, Bangla or English has at least two correct models"
+recoverability,strong_alternate_low_banglish,banglamath,6,56,0.1071,,,Bangla or English has at least two correct models; Banglish has at most one
+recoverability,banglish_beats_alternate,banglamath,0,56,0.0,,,Banglish has more correct models than both Bangla and English
+recoverability,banglish_ties_best_script,banglamath,43,56,0.7679,,,Banglish ties the best script-level consensus count
+review_label_recoverability,strong_alternate_low_banglish,banglamath:major_edit,0,9,0.0,,,within review label
+review_label_recoverability,strong_alternate_low_banglish,banglamath:minor_edit,4,38,0.1053,,,within review label
+review_label_recoverability,strong_alternate_low_banglish,banglamath:unreviewed,2,9,0.2222,,,within review label
+model_item_success,bangla,benqa,185,432,0.4282,,,Bangla correct model-item slots
+model_item_success,banglish,benqa,135,432,0.3125,,,Reviewed Banglish correct model-item slots
+model_item_success,english,benqa,234,432,0.5417,,,English correct model-item slots
+paired_delta,banglish_minus_bangla,benqa,-50,432,-0.1157,-0.1713,-0.0625,item-cluster bootstrap over validation items
+paired_delta,banglish_minus_english,benqa,-99,432,-0.2292,-0.3032,-0.1574,item-cluster bootstrap over validation items
+consensus_distribution,bangla:0_models_correct,benqa,33,144,0.2292,,,
+consensus_distribution,bangla:1_models_correct,benqa,54,144,0.375,,,
+consensus_distribution,bangla:2_models_correct,benqa,40,144,0.2778,,,
+consensus_distribution,bangla:3_models_correct,benqa,17,144,0.1181,,,
+consensus_distribution,banglish:0_models_correct,benqa,55,144,0.3819,,,
+consensus_distribution,banglish:1_models_correct,benqa,54,144,0.375,,,
+consensus_distribution,banglish:2_models_correct,benqa,24,144,0.1667,,,
+consensus_distribution,banglish:3_models_correct,benqa,11,144,0.0764,,,
+consensus_distribution,english:0_models_correct,benqa,35,144,0.2431,,,
+consensus_distribution,english:1_models_correct,benqa,30,144,0.2083,,,
+consensus_distribution,english:2_models_correct,benqa,33,144,0.2292,,,
+consensus_distribution,english:3_models_correct,benqa,46,144,0.3194,,,
+recoverability,all_scripts_zero,benqa,12,144,0.0833,,,all scripts have zero correct models
+recoverability,zero_banglish_any_alternate,benqa,43,144,0.2986,,,"Banglish zero, Bangla or English has at least one correct model"
+recoverability,zero_banglish_strong_alternate,benqa,30,144,0.2083,,,"Banglish zero, Bangla or English has at least two correct models"
+recoverability,strong_alternate_low_banglish,benqa,61,144,0.4236,,,Bangla or English has at least two correct models; Banglish has at most one
+recoverability,banglish_beats_alternate,benqa,12,144,0.0833,,,Banglish has more correct models than both Bangla and English
+recoverability,banglish_ties_best_script,benqa,60,144,0.4167,,,Banglish ties the best script-level consensus count
+review_label_recoverability,strong_alternate_low_banglish,benqa:bad,0,3,0.0,,,within review label
+review_label_recoverability,strong_alternate_low_banglish,benqa:major_edit,1,2,0.5,,,within review label
+review_label_recoverability,strong_alternate_low_banglish,benqa:minor_edit,37,88,0.4205,,,within review label
+review_label_recoverability,strong_alternate_low_banglish,benqa:unreviewed,23,51,0.451,,,within review label

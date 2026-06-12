@@ -1,0 +1,15 @@
+section,metric,selected_rule,dev_correct,dev_n,test_correct,test_n,qwen3_test_correct,qwen25_7b_test_correct,best_single_test_correct,posthoc_best_rule,posthoc_best_correct,selected_minus_qwen3,selected_minus_qwen3_ci95_low,selected_minus_qwen3_ci95_high,note,split_strategy,selected_correct,n,selected_accuracy,qwen3_correct,qwen25_7b_correct,best_single_oracle_by_fold_correct,selected_minus_qwen25_7b,selected_minus_qwen25_7b_ci95_low,selected_minus_qwen25_7b_ci95_high,selected_rule_counts,fold,train_correct,train_n,eval_correct,eval_n,best_single_correct,candidate_rules,items,models
+pilot_devtest,pilot40_selected_rule,single|Qwen2.5-3B,17,40,72,160,87,87,87,majority_fallback|Qwen2.5-7B 8-bit,95,-0.093750,-0.181250,-0.006250,Pilot-prefix selection is unstable and underperforms stronger single models on the remaining rows.,,,,,,,,,,,,,,,,,,,,
+cv_overall,hash5,,,,,,,,,,,0.035000,-0.035000,0.105000,,hash5,106,200,0.530000,99,98,106,0.040000,0.000000,0.080000,majority_fallback|Qwen2.5-7B 8-bit=5,,,,,,,,,
+cv_fold,hash5_fold_0,majority_fallback|Qwen2.5-7B 8-bit,,,,,,,,,,,,,,hash5,,,,18,24,,,,,,0,82,156,24,44,24,,,
+cv_fold,hash5_fold_1,majority_fallback|Qwen2.5-7B 8-bit,,,,,,,,,,,,,,hash5,,,,27,27,,,,,,1,77,149,29,51,27,,,
+cv_fold,hash5_fold_2,majority_fallback|Qwen2.5-7B 8-bit,,,,,,,,,,,,,,hash5,,,,22,18,,,,,,2,87,161,19,39,22,,,
+cv_fold,hash5_fold_3,majority_fallback|Qwen2.5-7B 8-bit,,,,,,,,,,,,,,hash5,,,,23,21,,,,,,3,82,156,24,44,23,,,
+cv_fold,hash5_fold_4,majority_fallback|Qwen2.5-7B 8-bit,,,,,,,,,,,,,,hash5,,,,9,8,,,,,,4,96,178,10,22,10,,,
+cv_overall,block40,,,,,,,,,,,-0.075000,-0.125000,-0.025000,,block40,84,200,0.420000,99,98,129,-0.070000,-0.135000,-0.010000,majority_fallback|Qwen2.5-7B 8-bit=3;majority_fallback|Qwen3-4B=1;single|Qwen3-4B=1,,,,,,,,,
+cv_fold,block40_fold_0,majority_fallback|Qwen2.5-7B 8-bit,,,,,,,,,,,,,,block40,,,,12,11,,,,,,0,95,160,11,40,17,,,
+cv_fold,block40_fold_1,majority_fallback|Qwen3-4B,,,,,,,,,,,,,,block40,,,,18,29,,,,,,1,85,160,17,40,29,,,
+cv_fold,block40_fold_2,single|Qwen3-4B,,,,,,,,,,,,,,block40,,,,12,26,,,,,,2,87,160,12,40,26,,,
+cv_fold,block40_fold_3,majority_fallback|Qwen2.5-7B 8-bit,,,,,,,,,,,,,,block40,,,,23,15,,,,,,3,85,160,21,40,23,,,
+cv_fold,block40_fold_4,majority_fallback|Qwen2.5-7B 8-bit,,,,,,,,,,,,,,block40,,,,34,17,,,,,,4,83,160,23,40,34,,,
+input,candidate_rules,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15,200,3

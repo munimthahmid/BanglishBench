@@ -1,0 +1,4 @@
+Model,v4 Banglish,v5 reviewed,v5-v4,Test split v5-v4,Gains,Losses,Decision
+Qwen2.5-3B,39/200,41/200,"+1.0 pts, CI [-1.0, +3.0]","+0.7 pts, CI [-1.3, +3.3]",3,1,Use v5 for final Banglish reruns; cleanup does not erase the gap.
+Qwen3-4B,47/200,49/200,"+1.0 pts, CI [0.0, +2.5]","+1.3 pts, CI [0.0, +3.3]",2,0,Use v5 for final Banglish reruns; cleanup does not erase the gap.
+Qwen2.5-7B 8-bit,48/200,47/200,"-0.5 pts, CI [-3.5, +2.5]","0.0 pts, CI [-4.0, +3.3]",4,5,Use v5 for final Banglish reruns; cleanup does not erase the gap.

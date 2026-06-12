@@ -1,0 +1,4 @@
+priority,run_id,model,condition,job_status,planned_outputs,estimated_gpu_hours,conservative_gpu_hours,account,evidence
+1,qwen25_3b_validation200_v5_banglish,Qwen/Qwen2.5-3B-Instruct,required_after_readiness,ready_to_prepare,200,0.176,0.352,1,qwen2_5_3b_validation200_v4_banglish Kaggle log ended at about 334 seconds
+2,qwen3_4b_validation200_v5_banglish,Qwen/Qwen3-4B-Instruct-2507,required_after_readiness,ready_to_prepare,200,0.270,0.540,1,qwen3_4b_validation200_v4_banglish Kaggle log ended at about 672 seconds
+3,qwen25_7b_8bit_validation200_v5_banglish,Qwen/Qwen2.5-7B-Instruct,conditional_if_v5_changes_main_table_or_7b_remains_primary,conditional_manual_decision,200,0.308,0.616,1,qwen25_7b_8bit_validation200_v4_test150 triad log ended at about 1144 seconds

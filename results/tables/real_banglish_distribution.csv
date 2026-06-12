@@ -1,0 +1,5 @@
+Source,Rows,Mean chars,Mean words,Mean Latin ratio,Digit row share,Mixed-script share
+BanglaTLit test,2500,56.9,10.7,0.927,0.183,0.025
+BanglaTLit val,1500,56.4,10.6,0.927,0.179,0.024
+Validation-200 v5 content Banglish,200,86.2,14.2,0.902,0.545,0.000
+Validation-200 v5 raw Banglish,200,159.5,31.5,0.834,0.695,0.000

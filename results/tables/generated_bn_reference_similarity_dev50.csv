@@ -1,0 +1,4 @@
+Rank,Generator,n,Mean CER,Median CER,Mean sequence similarity,Mean Bengali ratio,Exact matches,Decision
+1,protected_phonetic_bangla,36,0.0906,0.0665,0.8915,0.4036,0,Closest native-reference match among audited candidates
+2,protected_bnbphoneticparser,36,0.1235,0.1032,0.8598,0.3925,1,Privileged dev-only lexical diagnostic
+3,protected_fms_byte_mbart,36,0.1855,0.1928,0.8103,0.3839,1,Privileged dev-only lexical diagnostic

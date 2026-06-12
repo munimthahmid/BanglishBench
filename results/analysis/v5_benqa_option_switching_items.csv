@@ -1,0 +1,865 @@
+model,baseline_variant,baseline_label,id,gold,baseline_option,banglish_option,baseline_correct,banglish_correct,both_valid,same_option,switched_valid_option,baseline_non_d,baseline_d,switched_non_d_to_d,switched_d_to_non_d,baseline_correct_non_d,baseline_correct_non_d_to_d_wrong,baseline_correct_to_banglish_wrong,banglish_wrong_d
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Biology_0057,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Biology_0090,C,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Biology_0128,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Biology_0143,C,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Biology_0149,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Biology_0156,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Biology_0188,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Biology_0197,D,D,A,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Biology_0213,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Biology_0215,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Biology_0277,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Biology_0339,D,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Chemistry_0041,D,A,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Chemistry_0110,C,D,A,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Chemistry_0111,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Chemistry_0132,A,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Chemistry_0191,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Chemistry_0194,D,A,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Chemistry_0280,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Chemistry_0322,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Chemistry_0336,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Chemistry_0374,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Chemistry_0388,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Math-II_0062,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Math-II_0102,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Math-II_0139,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Math-II_0326,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Math-II_0347,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Math-II_0357,D,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Math-II_0367,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Math_0032,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Math_0044,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Math_0186,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Math_0271,D,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Math_0324,A,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Physics_0021,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Physics_0036,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Physics_0045,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Physics_0055,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Physics_0084,D,D,B,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Physics_0106,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Physics_0130,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Physics_0150,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Physics_0198,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Physics_0280,B,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_10th-Physics_0296,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-II_0034,B,A,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-II_0049,C,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-II_0119,C,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-II_0122,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-II_0128,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-II_0179,A,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-II_0203,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-II_0247,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-II_0287,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-II_0321,C,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-II_0325,A,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-I_0039,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-I_0042,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-I_0056,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-I_0077,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-I_0160,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-I_0181,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-I_0218,B,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-I_0222,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-I_0265,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-I_0277,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Biology-I_0283,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-II_0013,C,A,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-II_0054,A,D,A,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-II_0067,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-II_0117,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-II_0194,A,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-II_0228,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-II_0235,A,D,A,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-II_0240,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-II_0294,C,B,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-II_0305,D,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-II_0354,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-I_0028,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-I_0037,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-I_0140,D,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-I_0174,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-I_0190,B,D,C,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-I_0218,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-I_0227,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-I_0260,D,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-I_0286,C,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-I_0303,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Chemistry-I_0328,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-II_0043,D,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-II_0214,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-II_0230,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-II_0234,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-I_0029,B,A,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-I_0088,C,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-I_0120,D,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-I_0186,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-I_0187,B,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-I_0202,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-I_0218,A,C,A,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-I_0310,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-I_0326,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-I_0342,C,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Math-I_0383,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-II_0037,B,D,C,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-II_0046,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-II_0085,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-II_0088,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-II_0131,B,A,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-II_0195,B,D,C,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-II_0213,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-II_0219,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-II_0267,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-II_0290,B,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-II_0292,C,A,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-I_0008,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-I_0079,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-I_0106,D,C,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-I_0109,C,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-I_0133,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-I_0157,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-I_0214,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-I_0253,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-I_0254,B,D,C,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-I_0256,C,D,A,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_12th-Physics-I_0289,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Math_0031,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Math_0062,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Math_0072,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Math_0085,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Math_0167,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Math_0190,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Science_0014,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Science_0024,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Science_0042,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Science_0062,D,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Science_0078,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Science_0086,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Science_0098,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Science_0127,B,C,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Science_0153,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Science_0159,B,A,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,bangla,Bangla,benqa_8th-Science_0202,C,C,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_10th-Biology_0057,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_10th-Biology_0090,C,D,A,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Biology_0128,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_10th-Biology_0143,C,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Biology_0149,B,C,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Biology_0156,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Biology_0188,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Biology_0197,D,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Biology_0213,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_10th-Biology_0215,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,english,English,benqa_10th-Biology_0277,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_10th-Biology_0339,D,D,A,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-3B,english,English,benqa_10th-Chemistry_0041,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Chemistry_0110,C,C,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_10th-Chemistry_0111,D,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Chemistry_0132,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_10th-Chemistry_0191,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_10th-Chemistry_0194,D,D,C,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-3B,english,English,benqa_10th-Chemistry_0280,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_10th-Chemistry_0322,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Chemistry_0336,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Chemistry_0374,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Chemistry_0388,D,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Math-II_0062,C,B,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Math-II_0102,D,B,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Math-II_0139,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Math-II_0326,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Math-II_0347,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Math-II_0357,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Math-II_0367,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Math_0032,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_10th-Math_0044,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_10th-Math_0186,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_10th-Math_0271,D,C,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Math_0324,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_10th-Physics_0021,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_10th-Physics_0036,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Physics_0045,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_10th-Physics_0055,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Physics_0084,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Physics_0106,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Physics_0130,D,B,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Physics_0150,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Physics_0198,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_10th-Physics_0280,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_10th-Physics_0296,D,D,B,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-II_0034,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-II_0049,C,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-II_0119,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-II_0122,A,B,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-II_0128,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-II_0179,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-II_0203,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-II_0247,B,A,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-II_0287,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-II_0321,C,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-II_0325,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-I_0039,C,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-I_0042,D,B,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-I_0056,A,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-I_0077,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,english,English,benqa_12th-Biology-I_0160,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-I_0181,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_12th-Biology-I_0218,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,english,English,benqa_12th-Biology-I_0222,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-I_0265,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,english,English,benqa_12th-Biology-I_0277,D,D,B,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Biology-I_0283,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-II_0013,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-II_0054,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-II_0067,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-II_0117,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-II_0194,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-II_0228,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-II_0235,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-II_0240,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-II_0294,C,A,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-II_0305,D,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-II_0354,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-I_0028,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-I_0037,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-I_0140,D,D,A,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-I_0174,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-I_0190,B,D,C,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-I_0218,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-I_0227,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-I_0260,D,D,B,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-I_0286,C,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-I_0303,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Chemistry-I_0328,B,D,A,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Math-II_0043,D,D,B,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Math-II_0214,C,A,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Math-II_0230,D,C,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Math-II_0234,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Math-I_0029,B,D,C,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Math-I_0088,C,D,A,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Math-I_0120,D,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Math-I_0186,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Math-I_0187,B,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Math-I_0202,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_12th-Math-I_0218,A,C,A,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Math-I_0310,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Math-I_0326,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_12th-Math-I_0342,C,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Math-I_0383,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-II_0037,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-II_0046,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-3B,english,English,benqa_12th-Physics-II_0085,D,C,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-II_0088,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_12th-Physics-II_0131,B,A,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-II_0195,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-II_0213,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-II_0219,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-II_0267,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_12th-Physics-II_0290,B,A,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-II_0292,C,A,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-I_0008,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-I_0079,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-I_0106,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-I_0109,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-I_0133,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-I_0157,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-I_0214,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-I_0253,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_12th-Physics-I_0254,B,D,C,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-I_0256,C,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_12th-Physics-I_0289,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_8th-Math_0031,D,D,B,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-3B,english,English,benqa_8th-Math_0062,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_8th-Math_0072,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,english,English,benqa_8th-Math_0085,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_8th-Math_0167,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_8th-Math_0190,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-3B,english,English,benqa_8th-Science_0014,D,B,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_8th-Science_0024,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_8th-Science_0042,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_8th-Science_0062,D,D,B,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-3B,english,English,benqa_8th-Science_0078,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_8th-Science_0086,A,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-3B,english,English,benqa_8th-Science_0098,A,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_8th-Science_0127,B,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-3B,english,English,benqa_8th-Science_0153,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-3B,english,English,benqa_8th-Science_0159,B,A,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,english,English,benqa_8th-Science_0202,C,C,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Biology_0057,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Biology_0090,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Biology_0128,A,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Biology_0143,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Biology_0149,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Biology_0156,C,B,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Biology_0188,A,B,A,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Biology_0197,D,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Biology_0213,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Biology_0215,B,C,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Biology_0277,C,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Biology_0339,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Chemistry_0041,D,C,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Chemistry_0110,C,C,invalid,True,False,False,False,False,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Chemistry_0111,D,B,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Chemistry_0132,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Chemistry_0191,A,B,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Chemistry_0194,D,B,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Chemistry_0280,A,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Chemistry_0322,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Chemistry_0336,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Chemistry_0374,B,C,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Chemistry_0388,D,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Math-II_0062,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Math-II_0102,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Math-II_0139,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Math-II_0326,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Math-II_0347,D,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Math-II_0357,D,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Math-II_0367,C,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Math_0032,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Math_0044,C,C,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Math_0186,C,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Math_0271,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Math_0324,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Physics_0021,C,C,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Physics_0036,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Physics_0045,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Physics_0055,D,B,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Physics_0084,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Physics_0106,A,B,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Physics_0130,D,C,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Physics_0150,B,C,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Physics_0198,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Physics_0280,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_10th-Physics_0296,D,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-II_0034,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-II_0049,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-II_0119,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-II_0122,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-II_0128,B,C,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-II_0179,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-II_0203,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-II_0247,B,A,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-II_0287,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-II_0321,C,D,A,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-II_0325,A,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-I_0039,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-I_0042,D,A,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-I_0056,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-I_0077,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-I_0160,B,A,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-I_0181,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-I_0218,B,A,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-I_0222,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-I_0265,A,C,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-I_0277,D,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Biology-I_0283,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-II_0013,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-II_0054,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-II_0067,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-II_0117,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-II_0194,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-II_0228,C,D,C,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-II_0235,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-II_0240,B,C,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-II_0294,C,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-II_0305,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-II_0354,B,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-I_0028,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-I_0037,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-I_0140,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-I_0174,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-I_0190,B,A,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-I_0218,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-I_0227,D,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-I_0260,D,D,C,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-I_0286,C,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-I_0303,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Chemistry-I_0328,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-II_0043,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-II_0214,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-II_0230,D,C,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-II_0234,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-I_0029,B,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-I_0088,C,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-I_0120,D,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-I_0186,A,B,A,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-I_0187,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-I_0202,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-I_0218,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-I_0310,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-I_0326,B,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-I_0342,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Math-I_0383,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-II_0037,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-II_0046,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-II_0085,D,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-II_0088,A,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-II_0131,B,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-II_0195,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-II_0213,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-II_0219,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-II_0267,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-II_0290,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-II_0292,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-I_0008,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-I_0079,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-I_0106,D,C,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-I_0109,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-I_0133,C,C,invalid,True,False,False,False,False,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-I_0157,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-I_0214,B,C,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-I_0253,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-I_0254,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-I_0256,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_12th-Physics-I_0289,D,B,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Math_0031,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Math_0062,D,D,A,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Math_0072,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Math_0085,C,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Math_0167,C,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Math_0190,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Science_0014,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Science_0024,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Science_0042,B,D,C,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Science_0062,D,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Science_0078,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Science_0086,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Science_0098,A,B,A,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Science_0127,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Science_0153,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Science_0159,B,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,bangla,Bangla,benqa_8th-Science_0202,C,C,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Biology_0057,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Biology_0090,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Biology_0128,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Biology_0143,C,B,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Biology_0149,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Biology_0156,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Biology_0188,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Biology_0197,D,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Biology_0213,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Biology_0215,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Biology_0277,C,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Biology_0339,D,D,B,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Chemistry_0041,D,D,A,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Chemistry_0110,C,C,invalid,True,False,False,False,False,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Chemistry_0111,D,B,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Chemistry_0132,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Chemistry_0191,A,D,C,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Chemistry_0194,D,D,C,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Chemistry_0280,A,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Chemistry_0322,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Chemistry_0336,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Chemistry_0374,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Chemistry_0388,D,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Math-II_0062,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Math-II_0102,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Math-II_0139,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Math-II_0326,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Math-II_0347,D,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Math-II_0357,D,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Math-II_0367,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Math_0032,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Math_0044,C,C,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Math_0186,C,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Math_0271,D,D,C,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Math_0324,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Physics_0021,C,C,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Physics_0036,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Physics_0045,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Physics_0055,D,D,C,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Physics_0084,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Physics_0106,A,B,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Physics_0130,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Physics_0150,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Physics_0198,D,D,C,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Physics_0280,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_10th-Physics_0296,D,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-II_0034,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-II_0049,C,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-II_0119,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-II_0122,A,C,A,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-II_0128,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-II_0179,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-II_0203,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-II_0247,B,A,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-II_0287,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-II_0321,C,C,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-II_0325,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-I_0039,C,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-I_0042,D,B,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-I_0056,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-I_0077,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-I_0160,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-I_0181,C,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-I_0218,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-I_0222,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-I_0265,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-I_0277,D,D,A,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Biology-I_0283,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-II_0013,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-II_0054,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-II_0067,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-II_0117,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-II_0194,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-II_0228,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-II_0235,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-II_0240,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-II_0294,C,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-II_0305,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-II_0354,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-I_0028,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-I_0037,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-I_0140,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-I_0174,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-I_0190,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-I_0218,D,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-I_0227,D,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-I_0260,D,D,C,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-I_0286,C,B,A,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-I_0303,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Chemistry-I_0328,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-II_0043,D,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-II_0214,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-II_0230,D,C,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-II_0234,A,A,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-I_0029,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-I_0088,C,A,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-I_0120,D,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-I_0186,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-I_0187,B,D,B,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-I_0202,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-I_0218,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-I_0310,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-I_0326,B,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-I_0342,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Math-I_0383,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-II_0037,B,C,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-II_0046,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-II_0085,D,D,B,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-II_0088,A,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-II_0131,B,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-II_0195,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-II_0213,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-II_0219,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-II_0267,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-II_0290,B,B,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-II_0292,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-I_0008,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-I_0079,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-I_0106,D,D,A,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-I_0109,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-I_0133,C,C,invalid,True,False,False,False,False,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-I_0157,A,C,B,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-I_0214,B,C,B,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-I_0253,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-I_0254,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-I_0256,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_12th-Physics-I_0289,D,A,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Math_0031,D,D,B,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Math_0062,D,D,A,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Math_0072,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Math_0085,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Math_0167,C,C,B,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Math_0190,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Science_0014,D,C,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Science_0024,C,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Science_0042,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Science_0062,D,D,B,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Science_0078,C,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Science_0086,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Science_0098,A,B,A,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Science_0127,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Science_0153,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Science_0159,B,A,C,False,False,True,False,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,english,English,benqa_8th-Science_0202,C,C,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Biology_0057,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Biology_0090,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Biology_0128,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Biology_0143,C,B,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Biology_0149,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Biology_0156,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Biology_0188,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Biology_0197,D,A,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Biology_0213,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Biology_0215,B,C,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Biology_0277,C,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Biology_0339,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Chemistry_0041,D,A,A,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Chemistry_0110,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Chemistry_0111,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Chemistry_0132,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Chemistry_0191,A,C,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Chemistry_0194,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Chemistry_0280,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Chemistry_0322,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Chemistry_0336,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Chemistry_0374,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Chemistry_0388,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Math-II_0062,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Math-II_0102,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Math-II_0139,A,invalid,D,False,False,False,False,False,False,False,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Math-II_0326,C,A,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Math-II_0347,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Math-II_0357,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Math-II_0367,C,B,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Math_0032,B,invalid,invalid,False,False,False,False,False,False,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Math_0044,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Math_0186,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Math_0271,D,D,C,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Math_0324,A,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Physics_0021,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Physics_0036,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Physics_0045,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Physics_0055,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Physics_0084,D,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Physics_0106,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Physics_0130,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Physics_0150,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_10th-Physics_0198,D,D,C,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Physics_0280,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_10th-Physics_0296,D,B,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-II_0034,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-II_0049,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-II_0119,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-II_0122,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-II_0128,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-II_0179,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-II_0203,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-II_0247,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-II_0287,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-II_0321,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-II_0325,A,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-I_0039,C,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-I_0042,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-I_0056,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-I_0077,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-I_0160,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-I_0181,C,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-I_0218,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-I_0222,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-I_0265,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-I_0277,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Biology-I_0283,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-II_0013,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-II_0054,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-II_0067,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-II_0117,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-II_0194,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-II_0228,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-II_0235,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-II_0240,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-II_0294,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-II_0305,D,C,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-II_0354,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-I_0028,B,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-I_0037,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-I_0140,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-I_0174,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-I_0190,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-I_0218,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-I_0227,D,C,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-I_0260,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-I_0286,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-I_0303,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Chemistry-I_0328,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-II_0043,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-II_0214,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-II_0230,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-II_0234,A,D,invalid,False,False,False,False,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-I_0029,B,invalid,D,False,False,False,False,False,False,False,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-I_0088,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-I_0120,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-I_0186,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-I_0187,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-I_0202,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-I_0218,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-I_0310,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-I_0326,B,invalid,invalid,False,False,False,False,False,False,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-I_0342,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Math-I_0383,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-II_0037,B,C,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-II_0046,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-II_0085,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-II_0088,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-II_0131,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-II_0195,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-II_0213,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-II_0219,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-II_0267,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-II_0290,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-II_0292,C,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-I_0008,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-I_0079,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-I_0106,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-I_0109,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-I_0133,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-I_0157,A,D,C,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-I_0214,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-I_0253,A,C,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-I_0254,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-I_0256,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_12th-Physics-I_0289,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_8th-Math_0031,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_8th-Math_0062,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_8th-Math_0072,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_8th-Math_0085,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_8th-Math_0167,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_8th-Math_0190,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_8th-Science_0014,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_8th-Science_0024,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_8th-Science_0042,B,C,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_8th-Science_0062,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_8th-Science_0078,C,A,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_8th-Science_0086,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,bangla,Bangla,benqa_8th-Science_0098,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_8th-Science_0127,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_8th-Science_0153,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,bangla,Bangla,benqa_8th-Science_0159,B,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen3-4B,bangla,Bangla,benqa_8th-Science_0202,C,C,A,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen3-4B,english,English,benqa_10th-Biology_0057,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_10th-Biology_0090,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_10th-Biology_0128,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_10th-Biology_0143,C,D,C,False,True,True,False,True,False,True,False,True,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Biology_0149,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_10th-Biology_0156,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_10th-Biology_0188,A,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,english,English,benqa_10th-Biology_0197,D,A,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Biology_0213,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_10th-Biology_0215,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_10th-Biology_0277,C,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,english,English,benqa_10th-Biology_0339,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Chemistry_0041,D,D,A,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen3-4B,english,English,benqa_10th-Chemistry_0110,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_10th-Chemistry_0111,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Chemistry_0132,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_10th-Chemistry_0191,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_10th-Chemistry_0194,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Chemistry_0280,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_10th-Chemistry_0322,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_10th-Chemistry_0336,D,B,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Chemistry_0374,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_10th-Chemistry_0388,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Math-II_0062,C,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,english,English,benqa_10th-Math-II_0102,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Math-II_0139,A,invalid,D,False,False,False,False,False,False,False,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_10th-Math-II_0326,C,A,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Math-II_0347,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Math-II_0357,D,invalid,D,False,True,False,False,False,False,False,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Math-II_0367,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,english,English,benqa_10th-Math_0032,B,invalid,invalid,False,False,False,False,False,False,False,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Math_0044,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_10th-Math_0186,C,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,english,English,benqa_10th-Math_0271,D,D,C,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen3-4B,english,English,benqa_10th-Math_0324,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_10th-Physics_0021,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_10th-Physics_0036,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,english,English,benqa_10th-Physics_0045,A,A,A,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,english,English,benqa_10th-Physics_0055,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Physics_0084,D,D,B,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen3-4B,english,English,benqa_10th-Physics_0106,A,invalid,B,False,False,False,False,False,False,False,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Physics_0130,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_10th-Physics_0150,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_10th-Physics_0198,D,D,C,True,False,True,False,True,False,True,False,True,False,False,True,False
+Qwen3-4B,english,English,benqa_10th-Physics_0280,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,english,English,benqa_10th-Physics_0296,D,B,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Biology-II_0034,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Biology-II_0049,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Biology-II_0119,C,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Biology-II_0122,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Biology-II_0128,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Biology-II_0179,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Biology-II_0203,D,A,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Biology-II_0247,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Biology-II_0287,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Biology-II_0321,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Biology-II_0325,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen3-4B,english,English,benqa_12th-Biology-I_0039,C,D,B,False,False,True,False,True,False,True,False,True,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Biology-I_0042,D,B,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Biology-I_0056,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Biology-I_0077,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,english,English,benqa_12th-Biology-I_0160,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Biology-I_0181,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Biology-I_0218,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Biology-I_0222,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Biology-I_0265,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Biology-I_0277,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Biology-I_0283,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Chemistry-II_0013,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Chemistry-II_0054,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen3-4B,english,English,benqa_12th-Chemistry-II_0067,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Chemistry-II_0117,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Chemistry-II_0194,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Chemistry-II_0228,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Chemistry-II_0235,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen3-4B,english,English,benqa_12th-Chemistry-II_0240,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen3-4B,english,English,benqa_12th-Chemistry-II_0294,C,A,C,False,True,True,False,True,True,False,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Chemistry-II_0305,D,C,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Chemistry-II_0354,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Chemistry-I_0028,B,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Chemistry-I_0037,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Chemistry-I_0140,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Chemistry-I_0174,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Chemistry-I_0190,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Chemistry-I_0218,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Chemistry-I_0227,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Chemistry-I_0260,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Chemistry-I_0286,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Chemistry-I_0303,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Chemistry-I_0328,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Math-II_0043,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Math-II_0214,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,english,English,benqa_12th-Math-II_0230,D,invalid,D,False,True,False,False,False,False,False,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Math-II_0234,A,invalid,invalid,False,False,False,False,False,False,False,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Math-I_0029,B,invalid,D,False,False,False,False,False,False,False,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Math-I_0088,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Math-I_0120,D,C,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Math-I_0186,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Math-I_0187,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Math-I_0202,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,english,English,benqa_12th-Math-I_0218,A,A,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen3-4B,english,English,benqa_12th-Math-I_0310,B,B,B,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,english,English,benqa_12th-Math-I_0326,B,invalid,invalid,False,False,False,False,False,False,False,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Math-I_0342,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Math-I_0383,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Physics-II_0037,B,C,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Physics-II_0046,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Physics-II_0085,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Physics-II_0088,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Physics-II_0131,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Physics-II_0195,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Physics-II_0213,D,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Physics-II_0219,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Physics-II_0267,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Physics-II_0290,B,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Physics-II_0292,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Physics-I_0008,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Physics-I_0079,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,english,English,benqa_12th-Physics-I_0106,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Physics-I_0109,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Physics-I_0133,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_12th-Physics-I_0157,A,C,C,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_12th-Physics-I_0214,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Physics-I_0253,A,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Physics-I_0254,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Physics-I_0256,C,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_12th-Physics-I_0289,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_8th-Math_0031,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_8th-Math_0062,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_8th-Math_0072,B,A,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,english,English,benqa_8th-Math_0085,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_8th-Math_0167,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_8th-Math_0190,B,D,D,False,False,True,True,False,False,True,False,False,False,False,False,True
+Qwen3-4B,english,English,benqa_8th-Science_0014,D,C,D,False,True,True,False,True,True,False,True,False,False,False,False,False
+Qwen3-4B,english,English,benqa_8th-Science_0024,C,B,D,False,False,True,False,True,True,False,True,False,False,False,False,True
+Qwen3-4B,english,English,benqa_8th-Science_0042,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_8th-Science_0062,D,D,D,True,True,True,True,False,False,True,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_8th-Science_0078,C,C,C,True,True,True,True,False,True,False,False,False,True,False,False,False
+Qwen3-4B,english,English,benqa_8th-Science_0086,A,A,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_8th-Science_0098,A,B,B,False,False,True,True,False,True,False,False,False,False,False,False,False
+Qwen3-4B,english,English,benqa_8th-Science_0127,B,B,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_8th-Science_0153,C,C,D,True,False,True,False,True,True,False,True,False,True,True,True,True
+Qwen3-4B,english,English,benqa_8th-Science_0159,B,B,C,True,False,True,False,True,True,False,False,False,True,False,True,False
+Qwen3-4B,english,English,benqa_8th-Science_0202,C,C,A,True,False,True,False,True,True,False,False,False,True,False,True,False

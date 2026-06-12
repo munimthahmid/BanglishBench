@@ -1,0 +1,11 @@
+section,model,source_items,eval_rows,valid_options,correct,pred_D,identity_correct,identity_pred_D,identity_wrong_D,semantic_match_identity,semantic_match_identity_n,label_match_identity,label_match_identity_n,exact_semantic_equivariance_items,exact_label_persistence_items,identity_D_rotated_rows,identity_D_label_persistence,identity_D_semantic_persistence,identity_D_invalid,identity_wrong_D_rotated_rows,identity_wrong_D_label_persistence,identity_wrong_D_semantic_persistence,identity_wrong_D_invalid,shift,n,wrong_D,selected_original_D
+headline,Qwen2.5-3B,36,144,144,32,38,9,11,7,39,108,45,108,4,5,33,10,15,0,21,5,12,0,,,,
+rotation,Qwen2.5-3B,,,36,9,11,,,,,,,,,,,,,,,,,,0,36,7,11
+rotation,Qwen2.5-3B,,,36,7,7,,,,,,,,,,,,,,,,,,1,36,5,11
+rotation,Qwen2.5-3B,,,36,5,11,,,,,,,,,,,,,,,,,,2,36,10,13
+rotation,Qwen2.5-3B,,,36,11,9,,,,,,,,,,,,,,,,,,3,36,9,8
+headline,Qwen3-4B,36,144,139,43,105,15,26,15,19,108,63,108,2,14,78,60,9,0,45,35,6,0,,,,
+rotation,Qwen3-4B,,,34,15,26,,,,,,,,,,,,,,,,,,0,36,15,26
+rotation,Qwen3-4B,,,35,11,22,,,,,,,,,,,,,,,,,,1,36,15,1
+rotation,Qwen3-4B,,,35,7,29,,,,,,,,,,,,,,,,,,2,36,24,2
+rotation,Qwen3-4B,,,35,10,28,,,,,,,,,,,,,,,,,,3,36,20,6

@@ -1,0 +1,4 @@
+model,n,bangla_correct,reviewed_banglish_correct,english_correct,agreement_route_correct,agreement_route_delta,agreement_route_ci95_low,agreement_route_ci95_high,oracle_correct,recoverable_banglish_misses,bangla_english_correct_banglish_wrong,historical_banglish_correct,historical_agreement_route_correct
+Qwen2.5-3B,200,54,41,71,49,0.04,-0.005,0.085,99,58,15,38,47
+Qwen2.5-7B 8-bit,200,65,47,94,71,0.12,0.065,0.175,115,68,29,48,71
+Qwen3-4B,200,80,49,88,76,0.135,0.08,0.19,108,59,32,46,76

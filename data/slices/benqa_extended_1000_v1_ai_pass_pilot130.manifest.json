@@ -1,0 +1,34 @@
+{
+  "created_at_utc": "2026-06-05T05:48:21.020583+00:00",
+  "input": "data/slices/benqa_extended_1000_v1_ai_pass.jsonl",
+  "notes": [
+    "Built from the conservative BEnQA extension pass-only slice.",
+    "Balanced by BEnQA subject file.",
+    "Use smoke before launching larger Kaggle/API jobs."
+  ],
+  "output": "data/slices/benqa_extended_1000_v1_ai_pass_pilot130.jsonl",
+  "per_subject": 10,
+  "seed": 20260605,
+  "summary": {
+    "by_subject": {
+      "Biology": 10,
+      "Biology-I": 10,
+      "Biology-II": 10,
+      "Chemistry": 10,
+      "Chemistry-I": 10,
+      "Chemistry-II": 10,
+      "Math": 10,
+      "Math-I": 10,
+      "Math-II": 10,
+      "Physics": 10,
+      "Physics-I": 10,
+      "Physics-II": 10,
+      "Science": 10
+    },
+    "quality_status": {
+      "ai_assisted_review_pass_v1": 130
+    },
+    "requests_for_triad": 390,
+    "rows": 130
+  }
+}

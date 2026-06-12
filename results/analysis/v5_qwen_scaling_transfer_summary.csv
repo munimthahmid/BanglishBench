@@ -1,0 +1,64 @@
+section,dataset,pair_id,source_model,target_model,script,source_correct,target_correct,gains,losses,net_gain,both_correct,both_wrong,denominator,source_accuracy,target_accuracy,net_gain_rate,banglish_minus_bangla_source,banglish_minus_bangla_target,gap_change,detail
+model_accuracy,all,,,Qwen2.5-3B,bangla,0,54,0,0,0,0,0,200,0.0,0.27,0.0,,,,Bangla correct count for Qwen2.5-3B
+model_accuracy,all,,,Qwen2.5-3B,banglish,0,41,0,0,0,0,0,200,0.0,0.205,0.0,,,,Reviewed Banglish correct count for Qwen2.5-3B
+model_accuracy,all,,,Qwen2.5-3B,english,0,71,0,0,0,0,0,200,0.0,0.355,0.0,,,,English correct count for Qwen2.5-3B
+model_accuracy,all,,,Qwen2.5-7B 8-bit,bangla,0,65,0,0,0,0,0,200,0.0,0.325,0.0,,,,Bangla correct count for Qwen2.5-7B 8-bit
+model_accuracy,all,,,Qwen2.5-7B 8-bit,banglish,0,47,0,0,0,0,0,200,0.0,0.235,0.0,,,,Reviewed Banglish correct count for Qwen2.5-7B 8-bit
+model_accuracy,all,,,Qwen2.5-7B 8-bit,english,0,94,0,0,0,0,0,200,0.0,0.47,0.0,,,,English correct count for Qwen2.5-7B 8-bit
+model_accuracy,all,,,Qwen3-4B,bangla,0,80,0,0,0,0,0,200,0.0,0.4,0.0,,,,Bangla correct count for Qwen3-4B
+model_accuracy,all,,,Qwen3-4B,banglish,0,49,0,0,0,0,0,200,0.0,0.245,0.0,,,,Reviewed Banglish correct count for Qwen3-4B
+model_accuracy,all,,,Qwen3-4B,english,0,88,0,0,0,0,0,200,0.0,0.44,0.0,,,,English correct count for Qwen3-4B
+gap_change,all,same_family_3b_to_7b,Qwen2.5-3B,Qwen2.5-7B 8-bit,,0,0,0,0,0,0,0,200,0.0,0.0,0.0,-13,-18,-5,Change in reviewed-Banglish-minus-Bangla count gap
+script_transition,all,same_family_3b_to_7b,Qwen2.5-3B,Qwen2.5-7B 8-bit,bangla,54,65,35,24,11,30,111,200,0.27,0.325,0.055,,,,Item-level transition from source model to target model
+script_transition,all,same_family_3b_to_7b,Qwen2.5-3B,Qwen2.5-7B 8-bit,banglish,41,47,25,19,6,22,134,200,0.205,0.235,0.03,,,,Item-level transition from source model to target model
+script_transition,all,same_family_3b_to_7b,Qwen2.5-3B,Qwen2.5-7B 8-bit,english,71,94,33,10,23,61,96,200,0.355,0.47,0.115,,,,Item-level transition from source model to target model
+gap_change,all,qwen25_3b_to_qwen3_4b,Qwen2.5-3B,Qwen3-4B,,0,0,0,0,0,0,0,200,0.0,0.0,0.0,-13,-31,-18,Change in reviewed-Banglish-minus-Bangla count gap
+script_transition,all,qwen25_3b_to_qwen3_4b,Qwen2.5-3B,Qwen3-4B,bangla,54,80,47,21,26,33,99,200,0.27,0.4,0.13,,,,Item-level transition from source model to target model
+script_transition,all,qwen25_3b_to_qwen3_4b,Qwen2.5-3B,Qwen3-4B,banglish,41,49,30,22,8,19,129,200,0.205,0.245,0.04,,,,Item-level transition from source model to target model
+script_transition,all,qwen25_3b_to_qwen3_4b,Qwen2.5-3B,Qwen3-4B,english,71,88,33,16,17,55,96,200,0.355,0.44,0.085,,,,Item-level transition from source model to target model
+gap_change,all,qwen25_7b_to_qwen3_4b,Qwen2.5-7B 8-bit,Qwen3-4B,,0,0,0,0,0,0,0,200,0.0,0.0,0.0,-18,-31,-13,Change in reviewed-Banglish-minus-Bangla count gap
+script_transition,all,qwen25_7b_to_qwen3_4b,Qwen2.5-7B 8-bit,Qwen3-4B,bangla,65,80,45,30,15,35,90,200,0.325,0.4,0.075,,,,Item-level transition from source model to target model
+script_transition,all,qwen25_7b_to_qwen3_4b,Qwen2.5-7B 8-bit,Qwen3-4B,banglish,47,49,33,31,2,16,120,200,0.235,0.245,0.01,,,,Item-level transition from source model to target model
+script_transition,all,qwen25_7b_to_qwen3_4b,Qwen2.5-7B 8-bit,Qwen3-4B,english,94,88,21,27,-6,67,85,200,0.47,0.44,-0.03,,,,Item-level transition from source model to target model
+model_accuracy,benqa,,,Qwen2.5-3B,bangla,0,49,0,0,0,0,0,144,0.0,0.3403,0.0,,,,Bangla correct count for Qwen2.5-3B
+model_accuracy,benqa,,,Qwen2.5-3B,banglish,0,41,0,0,0,0,0,144,0.0,0.2847,0.0,,,,Reviewed Banglish correct count for Qwen2.5-3B
+model_accuracy,benqa,,,Qwen2.5-3B,english,0,66,0,0,0,0,0,144,0.0,0.4583,0.0,,,,English correct count for Qwen2.5-3B
+model_accuracy,benqa,,,Qwen2.5-7B 8-bit,bangla,0,60,0,0,0,0,0,144,0.0,0.4167,0.0,,,,Bangla correct count for Qwen2.5-7B 8-bit
+model_accuracy,benqa,,,Qwen2.5-7B 8-bit,banglish,0,47,0,0,0,0,0,144,0.0,0.3264,0.0,,,,Reviewed Banglish correct count for Qwen2.5-7B 8-bit
+model_accuracy,benqa,,,Qwen2.5-7B 8-bit,english,0,86,0,0,0,0,0,144,0.0,0.5972,0.0,,,,English correct count for Qwen2.5-7B 8-bit
+model_accuracy,benqa,,,Qwen3-4B,bangla,0,76,0,0,0,0,0,144,0.0,0.5278,0.0,,,,Bangla correct count for Qwen3-4B
+model_accuracy,benqa,,,Qwen3-4B,banglish,0,47,0,0,0,0,0,144,0.0,0.3264,0.0,,,,Reviewed Banglish correct count for Qwen3-4B
+model_accuracy,benqa,,,Qwen3-4B,english,0,82,0,0,0,0,0,144,0.0,0.5694,0.0,,,,English correct count for Qwen3-4B
+gap_change,benqa,same_family_3b_to_7b,Qwen2.5-3B,Qwen2.5-7B 8-bit,,0,0,0,0,0,0,0,144,0.0,0.0,0.0,-8,-13,-5,Change in reviewed-Banglish-minus-Bangla count gap
+script_transition,benqa,same_family_3b_to_7b,Qwen2.5-3B,Qwen2.5-7B 8-bit,bangla,49,60,33,22,11,27,62,144,0.3403,0.4167,0.0764,,,,Item-level transition from source model to target model
+script_transition,benqa,same_family_3b_to_7b,Qwen2.5-3B,Qwen2.5-7B 8-bit,banglish,41,47,25,19,6,22,78,144,0.2847,0.3264,0.0417,,,,Item-level transition from source model to target model
+script_transition,benqa,same_family_3b_to_7b,Qwen2.5-3B,Qwen2.5-7B 8-bit,english,66,86,29,9,20,57,49,144,0.4583,0.5972,0.1389,,,,Item-level transition from source model to target model
+gap_change,benqa,qwen25_3b_to_qwen3_4b,Qwen2.5-3B,Qwen3-4B,,0,0,0,0,0,0,0,144,0.0,0.0,0.0,-8,-29,-21,Change in reviewed-Banglish-minus-Bangla count gap
+script_transition,benqa,qwen25_3b_to_qwen3_4b,Qwen2.5-3B,Qwen3-4B,bangla,49,76,45,18,27,31,50,144,0.3403,0.5278,0.1875,,,,Item-level transition from source model to target model
+script_transition,benqa,qwen25_3b_to_qwen3_4b,Qwen2.5-3B,Qwen3-4B,banglish,41,47,28,22,6,19,75,144,0.2847,0.3264,0.0417,,,,Item-level transition from source model to target model
+script_transition,benqa,qwen25_3b_to_qwen3_4b,Qwen2.5-3B,Qwen3-4B,english,66,82,31,15,16,51,47,144,0.4583,0.5694,0.1111,,,,Item-level transition from source model to target model
+gap_change,benqa,qwen25_7b_to_qwen3_4b,Qwen2.5-7B 8-bit,Qwen3-4B,,0,0,0,0,0,0,0,144,0.0,0.0,0.0,-13,-29,-16,Change in reviewed-Banglish-minus-Bangla count gap
+script_transition,benqa,qwen25_7b_to_qwen3_4b,Qwen2.5-7B 8-bit,Qwen3-4B,bangla,60,76,43,27,16,33,41,144,0.4167,0.5278,0.1111,,,,Item-level transition from source model to target model
+script_transition,benqa,qwen25_7b_to_qwen3_4b,Qwen2.5-7B 8-bit,Qwen3-4B,banglish,47,47,31,31,0,16,66,144,0.3264,0.3264,0.0,,,,Item-level transition from source model to target model
+script_transition,benqa,qwen25_7b_to_qwen3_4b,Qwen2.5-7B 8-bit,Qwen3-4B,english,86,82,19,23,-4,63,39,144,0.5972,0.5694,-0.0278,,,,Item-level transition from source model to target model
+model_accuracy,banglamath,,,Qwen2.5-3B,bangla,0,5,0,0,0,0,0,56,0.0,0.0893,0.0,,,,Bangla correct count for Qwen2.5-3B
+model_accuracy,banglamath,,,Qwen2.5-3B,banglish,0,0,0,0,0,0,0,56,0.0,0.0,0.0,,,,Reviewed Banglish correct count for Qwen2.5-3B
+model_accuracy,banglamath,,,Qwen2.5-3B,english,0,5,0,0,0,0,0,56,0.0,0.0893,0.0,,,,English correct count for Qwen2.5-3B
+model_accuracy,banglamath,,,Qwen2.5-7B 8-bit,bangla,0,5,0,0,0,0,0,56,0.0,0.0893,0.0,,,,Bangla correct count for Qwen2.5-7B 8-bit
+model_accuracy,banglamath,,,Qwen2.5-7B 8-bit,banglish,0,0,0,0,0,0,0,56,0.0,0.0,0.0,,,,Reviewed Banglish correct count for Qwen2.5-7B 8-bit
+model_accuracy,banglamath,,,Qwen2.5-7B 8-bit,english,0,8,0,0,0,0,0,56,0.0,0.1429,0.0,,,,English correct count for Qwen2.5-7B 8-bit
+model_accuracy,banglamath,,,Qwen3-4B,bangla,0,4,0,0,0,0,0,56,0.0,0.0714,0.0,,,,Bangla correct count for Qwen3-4B
+model_accuracy,banglamath,,,Qwen3-4B,banglish,0,2,0,0,0,0,0,56,0.0,0.0357,0.0,,,,Reviewed Banglish correct count for Qwen3-4B
+model_accuracy,banglamath,,,Qwen3-4B,english,0,6,0,0,0,0,0,56,0.0,0.1071,0.0,,,,English correct count for Qwen3-4B
+gap_change,banglamath,same_family_3b_to_7b,Qwen2.5-3B,Qwen2.5-7B 8-bit,,0,0,0,0,0,0,0,56,0.0,0.0,0.0,-5,-5,0,Change in reviewed-Banglish-minus-Bangla count gap
+script_transition,banglamath,same_family_3b_to_7b,Qwen2.5-3B,Qwen2.5-7B 8-bit,bangla,5,5,2,2,0,3,49,56,0.0893,0.0893,0.0,,,,Item-level transition from source model to target model
+script_transition,banglamath,same_family_3b_to_7b,Qwen2.5-3B,Qwen2.5-7B 8-bit,banglish,0,0,0,0,0,0,56,56,0.0,0.0,0.0,,,,Item-level transition from source model to target model
+script_transition,banglamath,same_family_3b_to_7b,Qwen2.5-3B,Qwen2.5-7B 8-bit,english,5,8,4,1,3,4,47,56,0.0893,0.1429,0.0536,,,,Item-level transition from source model to target model
+gap_change,banglamath,qwen25_3b_to_qwen3_4b,Qwen2.5-3B,Qwen3-4B,,0,0,0,0,0,0,0,56,0.0,0.0,0.0,-5,-2,3,Change in reviewed-Banglish-minus-Bangla count gap
+script_transition,banglamath,qwen25_3b_to_qwen3_4b,Qwen2.5-3B,Qwen3-4B,bangla,5,4,2,3,-1,2,49,56,0.0893,0.0714,-0.0179,,,,Item-level transition from source model to target model
+script_transition,banglamath,qwen25_3b_to_qwen3_4b,Qwen2.5-3B,Qwen3-4B,banglish,0,2,2,0,2,0,54,56,0.0,0.0357,0.0357,,,,Item-level transition from source model to target model
+script_transition,banglamath,qwen25_3b_to_qwen3_4b,Qwen2.5-3B,Qwen3-4B,english,5,6,2,1,1,4,49,56,0.0893,0.1071,0.0179,,,,Item-level transition from source model to target model
+gap_change,banglamath,qwen25_7b_to_qwen3_4b,Qwen2.5-7B 8-bit,Qwen3-4B,,0,0,0,0,0,0,0,56,0.0,0.0,0.0,-5,-2,3,Change in reviewed-Banglish-minus-Bangla count gap
+script_transition,banglamath,qwen25_7b_to_qwen3_4b,Qwen2.5-7B 8-bit,Qwen3-4B,bangla,5,4,2,3,-1,2,49,56,0.0893,0.0714,-0.0179,,,,Item-level transition from source model to target model
+script_transition,banglamath,qwen25_7b_to_qwen3_4b,Qwen2.5-7B 8-bit,Qwen3-4B,banglish,0,2,2,0,2,0,54,56,0.0,0.0357,0.0357,,,,Item-level transition from source model to target model
+script_transition,banglamath,qwen25_7b_to_qwen3_4b,Qwen2.5-7B 8-bit,Qwen3-4B,english,8,6,2,4,-2,4,46,56,0.1429,0.1071,-0.0357,,,,Item-level transition from source model to target model

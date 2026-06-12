@@ -1,0 +1,145 @@
+\chapter{Discussion, Limitations, and Artifacts}
+
+\section{Discussion}
+
+\subsection{What the result means}
+
+The result should be read with the right scope. It is not that Bangla is weak. It is not that Banglish is always worse. It is not that stronger models never solve the problem.
+
+The result is that script choice changes reliability under controlled conditions. A model can answer an item in Bangla or English and fail on reviewed Banglish. This happens often enough to affect aggregate accuracy, paired gaps, and qualitative examples. It survives review, tokenization controls, compact model scaling, hosted-model comparison, and evaluation on the larger BEnQA extension.
+
+The practical lesson is similar to many robustness studies: the visible system may look multilingual, but the interface can still contain a hidden access failure. Here the hidden variable is not the topic or the answer; it is the orthography through which the user reaches the model.
+
+\subsection{Why GPT-5.5 matters}
+
+GPT-5.5 is the strongest boundary case. Under secondary scoring, it nearly eliminates the reviewed-Banglish gap on the validation-200 set. This is important and should not be hidden. It tells us that high-capability models can recover much of the semantic answer.
+
+But GPT-5.5 does not make the broader problem disappear. First, strict scoring still reveals answer-normalization and protocol issues. Second, other strong or hosted models do not behave like GPT-5.5. Claude still shows a Banglish deficit, and DeepSeek and Groq retain large deficits. Third, even when the semantic answer is recoverable, cost and format compliance can change with script. Fourth, and most importantly, the near-closure does not persist at scale: on the 974-row BEnQA extension, run with no reasoning effort, GPT-5.5 loses 12.4 points on reviewed Banglish relative to Bangla with a McNemar exact $p < 0.0001$. For deployment, the question is not only ``can any model answer?'' but ``which models answer reliably, cheaply, and in the required format --- and does that hold beyond a small audited core?''
+
+\subsection{Why the human-reviewed BEnQA extension matters}
+
+The 974-row human-reviewed BEnQA extension is important because it separates model capability from script robustness at a larger scale. DeepSeek V4 Flash is much stronger than Qwen2.5-3B on the BEnQA extension. Yet its reviewed-Banglish deficit is much larger. The five non-Qwen scale rows --- Gemini, GPT-5.5, Claude, DeepSeek, and Groq-hosted Llama --- all reproduce a significant reviewed-Banglish deficit. This makes the thesis stronger than a small-model failure story. A model can be high-accuracy in Bangla and English while still being fragile in Banglish.
+
+\subsection{Practical implications}
+
+For benchmark builders, script variants should be first-class conditions, not informal noise. If a benchmark only measures native script or English, it can miss a real access gap for users who write in Latin-script Banglish.
+
+For model developers, normalization should be evaluated end to end. A transliterator that preserves words may still corrupt options, digits, formulas, or decision behavior. Preservation gates are necessary before routing or generated-view mitigation claims.
+
+For deployment, a model that is strong in Bangla is not automatically robust to Banglish. Applications that serve Bangla users should log, test, and report performance separately for native Bengali script and Latin-script Banglish.
+
+\markright{Professional Ethics and Engineering Practice}
+\section{Considerations of Professional Ethics, Responsibilities and Norms of Engineering Practice}
+\sectionmark{Professional Ethics and Engineering Practice}
+
+This thesis was conducted as a measurement study, so the main ethical responsibility was to make the evaluation fair, reproducible, and honest about its limits. The study compares the same underlying questions across Bangla, reviewed Banglish, and English views. The benchmark construction therefore avoided changing the question, answer, or scoring rule when changing the script. This preserves the central fairness principle of the work: a script gap should reflect model behavior under different orthographic access paths, not hidden changes in item difficulty.
+
+Research ethics were maintained by using documented datasets, preserving source attribution, and reporting both successful and unsuccessful outcomes. Rows that raised source-quality concerns were not silently removed from the main denominator after seeing results; instead, the all-200 denominator was kept as primary and the strict-197 view was reported as a sensitivity check. Similarly, the thesis reports that GPT-5.5 nearly closes the validation-200 Banglish gap under secondary scoring, even though the broader scale result remains unfavorable to Banglish. This is important because an ethical evaluation should not hide evidence that complicates the thesis claim.
+
+The work did not collect private user conversations or personally identifiable information. Human review was used to improve benchmark quality, especially the reviewed Banglish field, but the review target was linguistic and task preservation rather than collection of sensitive personal data. The reviewed artifacts, analysis scripts, tables, and reports are listed in the reproducibility section so that future readers can inspect how the claims were produced.
+
+The engineering practices followed conventional experimental norms for machine learning evaluation. The experiment was designed as a paired comparison, where each item is evaluated under multiple script views with the same gold answer. This reduces confounding and makes statistical tests such as paired bootstrap intervals and exact McNemar tests appropriate. The evaluation protocol froze the validation set before reporting final results, used consistent prompts and parsers across script conditions, separated strict scoring from secondary recoverability scoring, and preserved logs and output artifacts for audit.
+
+Coding and testing responsibilities were also treated as part of the engineering process. Scripts were written to build datasets, run evaluations, import API responses, compute tables, check artifact references, and validate thesis figures and tables. Outputs were cross-checked through summary reports, reproducibility manifests, local artifact checks, and targeted sensitivity analyses. These checks reduce the risk of accidental data leakage, mismatched denominators, broken file references, or unsupported claims. The resulting thesis is therefore not only a set of model scores but an engineered evaluation pipeline with traceable inputs, procedures, and outputs.
+
+\markright{Project Management and Economic Decisions}
+\section{Reflection on Project Management, Team Dynamics, and Economic Decision-Making}
+\sectionmark{Project Management and Economic Decisions}
+
+The project was managed as a sequence of research milestones. The first milestone was to define the research question: whether Latin-script Banglish changes LLM reliability compared with native-script Bangla and English. The second milestone was benchmark construction, including source-task selection, script-variant generation, human review, and denominator policy. The third milestone was model evaluation and robustness analysis across compact open models. Later milestones extended the work through hosted-model comparison, the larger human-reviewed BEnQA extension, mitigation attempts, artifact checking, and thesis writing.
+
+Because this was a single-student thesis, team dynamics occurred mainly through supervisor guidance, thesis meetings, feedback cycles, and follow-up revisions rather than through division of labor among multiple students. Meetings and discussions helped refine the scope of the work, identify weak claims, decide which experiments were necessary, and prioritize results that were suitable for an undergraduate thesis timeline. After each major result, the work was followed up by checking whether the claim needed additional review, a stronger statistical test, a clearer limitation, or a better artifact trail.
+
+The project also required coordination between research tasks that depended on each other. Dataset review had to be completed before final model evaluation could be treated as frozen. API experiments had to use the same prompt manifest and parser as the local experiments. Thesis tables and figures had to be rebuilt only after the analysis outputs were stable. This dependency structure made project management important: running experiments too early could waste compute, while delaying analysis too long could leave insufficient time for writing and verification.
+
+Economic decision-making was relevant because LLM evaluation has real computational and financial costs. The thesis therefore used compact Qwen models as the main reproducible baseline, since they could be evaluated with available compute while still producing meaningful evidence. More expensive hosted-model calls were reserved for targeted validation rather than unlimited exploration. Smoke tests, prompt-budget estimates, capped runs, and manifest checks were used before larger API jobs to reduce unnecessary spending and avoid repeating failed runs. This allowed the thesis to balance research value against cost, time, and available hardware.
+
+The financial aspect of the study was therefore not only a matter of direct API fees. It also included GPU time, storage for artifacts, repeated evaluation time, and the opportunity cost of running experiments that might not answer the research question. The chosen strategy was to spend resources where they strengthened the core claim: paired script evaluation, human review, statistical testing, frontier-model boundary checks, and the BEnQA scale extension.
+
+\markright{Self-directed and Life-long Learning}
+\section{Reflection on Self-directed and Life-long Learning to Navigate Technological Change}
+\sectionmark{Self-directed and Life-long Learning}
+
+This thesis required substantial self-directed learning because the research area changed quickly during the work. The study involved multilingual evaluation, Bangla and Banglish text processing, LLM prompting, answer parsing, statistical significance testing, API-based model evaluation, and reproducibility engineering. Many of these components required learning beyond regular coursework and then applying that learning to a coherent experimental pipeline.
+
+The self-directed part of the thesis is visible in the construction of the benchmark and analysis workflow. The work required learning how to design paired evaluations, identify confounds in script comparison, audit romanized text quality, interpret bootstrap intervals and McNemar tests, and separate strict answer compliance from semantic recoverability. It also required learning how to manage model outputs from both local inference and hosted APIs, how to preserve artifacts for future inspection, and how to revise claims when new evidence changed the interpretation.
+
+The topic itself demonstrates the need for life-long learning in engineering practice. LLM capabilities, model families, tokenizers, API behavior, and multilingual benchmarks evolve rapidly. A result that holds for one generation of models may weaken, strengthen, or change form in another. For example, GPT-5.5 behaves differently from several other hosted models on the validation-200 core, but the larger BEnQA extension still reveals a Banglish deficit. This means engineers cannot rely on a fixed assumption such as ``newer models solve multilingual input.'' They must continue measuring real user-facing conditions as systems change.
+
+The thesis also helped develop habits that support future learning: reading current literature, building reproducible experiments, validating assumptions with data, documenting artifacts, and treating negative or unresolved results as useful evidence. The mitigation experiments are an example. Generated-view routing and light LoRA adaptation did not solve the problem, but they clarified what kind of preservation and robustness requirements a future solution must satisfy.
+
+Beyond this study, the same learning process can be applied to other low-resource or mixed-script settings. Engineers working with language technologies need to update their methods as datasets, user behavior, and model capabilities change. This thesis therefore served not only as a study of Banglish robustness but also as an exercise in adapting to technological change through self-directed investigation, careful measurement, and continuous revision of engineering assumptions.
+
+\section{Limitations}
+
+This thesis has several limitations. These limitations are important because they define what the results should and should not be used to claim.
+
+\textbf{Controlled Banglish is not fully natural Banglish.} The reviewed Banglish variant is designed for paired evaluation. It is cleaner and more task-like than many user messages. Real Banglish can be shorter, noisier, more code-mixed, and more spelling-variable. The spelling-variation experiment (Table~\ref{tab:spelling}) partly addresses this: the script penalty is stable in magnitude across five independent phonetic respellings of each item, so it is not an artifact of one romanizer, although a meaningful minority of items flip correctness under spelling change. BanglaTLit and BnSentMix further motivate this, but they do not replace a future naturally paired Bangla/Banglish QA dataset.
+
+\textbf{The validation set is small by benchmark standards.} Validation-200 is a reviewed mixed-task core, not a massive benchmark. Its strength is the paired design, review, and audits. The 974-row BEnQA extension addresses scale for one task family and uses only rows accepted or edited during human review, but it does not add a similarly large BanglaMATH slice.
+
+\textbf{The extension is BEnQA-only.} The 974-row scale result covers science MCQs. It does not scale the BanglaMATH part of the benchmark. BanglaMATH remains a smaller stress-test slice for arithmetic and answer normalization.
+
+\textbf{Model coverage is broad but not exhaustive.} The thesis covers compact Qwen models and five hosted API rows, but it does not cover every family. It should not claim universal behavior across all LLMs. The correct claim is that script robustness is model-dependent and must be measured.
+
+\textbf{Secondary scoring is not a replacement for strict scoring.} Secondary scoring helps separate semantic recoverability from format compliance. But in deployed systems, strict format compliance often matters. Both views should be reported.
+
+\textbf{Mitigation remains unresolved.} The generated-view experiments are dev-only diagnostics that show preservation and routing problems, not a deployable fix. The training-side LoRA experiment is a single 3B model with one rank, two epochs, and a BEnQA-only training pool; it bounds light adaptation but does not rule out that larger adapters, more romanized data, or additional model families could help.
+
+\section{Reproducibility and Artifacts}
+
+The core artifacts are:
+
+\begin{itemize}
+\item Main validation-200 v5 report:
+\path{reports/main_results_validation200_v5.md}
+
+\item Main validation table:
+\path{results/tables/main_script_gap_validation200_v5.csv}
+
+\item Frontier API panel:
+\path{reports/frontier_api_panel_validation200_v5.md}
+
+\item BEnQA human-reviewed extension freeze:
+\path{reports/benqa_extended_1000_v1_human_review_freeze.md}
+
+\item BEnQA human-reviewed 974 scale summary:
+\path{reports/benqa_human_gold_974_scale_summary.md}
+
+\item Qwen2.5-3B human-reviewed 974 result:
+\path{reports/qwen25_3b_benqa_human_gold_974.md}
+
+\item Groq Llama 3.3 70B human-reviewed 974 result:
+\path{reports/groq_llama33_70b_benqa_human_gold_974.md}
+
+\item DeepSeek V4 Flash human-reviewed 974 result:
+\path{reports/deepseek_v4_flash_benqa_human_gold_974.md}
+
+\item BEnQA extension strategy:
+\path{reports/benqa_extension_publication_strategy.md}
+
+\item BnSentMix external layer:
+\path{reports/bnsentmix_external_validation_results.md}
+
+\item Generated-view diagnostics:
+\path{reports/generated_view_diagnostics_summary.md}
+
+\item Dataset card:
+\path{reports/dataset_card_validation200.md}
+
+\end{itemize}
+
+The current status dashboard reports 71 rows, 0 blocked, and 0 failing:
+
+\begin{itemize}
+\item \path{reports/current_research_status_dashboard.md}
+\end{itemize}
+
+The local artifact reference checker reports 0 unexpected missing references, and the reproducibility manifest tracks 1116 artifacts:
+
+\begin{itemize}
+\item \path{reports/local_artifact_reference_check.md}
+\item \path{reports/reproducibility_artifact_manifest.md}
+\end{itemize}
+
+\endinput

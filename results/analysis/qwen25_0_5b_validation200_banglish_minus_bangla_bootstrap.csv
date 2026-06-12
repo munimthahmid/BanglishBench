@@ -1,0 +1,2 @@
+label,n,left_correct,right_correct,left_accuracy,right_accuracy,delta_right_minus_left,ci95_low,ci95_high,bootstrap_p_opposite_direction,left_filter,right_filter,key_columns,samples,seed
+qwen25_0_5b_validation200_banglish_minus_bangla,200,40,44,0.2,0.22,0.02,-0.0251,0.07,0.2347,model=Qwen/Qwen2.5-0.5B-Instruct;variant=bangla;prompt_mode=baseline,model=Qwen/Qwen2.5-0.5B-Instruct;variant=banglish_clean;prompt_mode=baseline,id,10000,42

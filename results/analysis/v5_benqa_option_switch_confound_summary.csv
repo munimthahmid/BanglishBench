@@ -1,0 +1,37 @@
+section,model,baseline_variant,baseline_label,scope,scope_label,n,non_d_to_D,non_d_to_D_rate,correct_non_d_to_wrong_D,correct_non_d_to_wrong_D_rate
+scope,Qwen2.5-3B,bangla,Bangla,baseline_non_d,Baseline predicts non-D,99,14,0.1414,6,0.0606
+scope,Qwen2.5-3B,bangla,Bangla,d_not_longest,Baseline non-D and D not longest,36,5,0.1389,1,0.0278
+scope,Qwen2.5-3B,bangla,Bangla,gold_not_d,Baseline non-D and gold not D,74,12,0.1622,6,0.0811
+scope,Qwen2.5-3B,bangla,Bangla,gold_not_d_d_not_longest,"Baseline non-D, gold not D, D not longest",29,3,0.1034,1,0.0345
+scope,Qwen2.5-3B,bangla,Bangla,correct_non_d,Baseline correct non-D,35,6,0.1714,6,0.1714
+scope,Qwen2.5-3B,bangla,Bangla,correct_non_d_d_not_longest,Baseline correct non-D and D not longest,13,1,0.0769,1,0.0769
+scope,Qwen2.5-3B,english,English,baseline_non_d,Baseline predicts non-D,100,16,0.16,8,0.08
+scope,Qwen2.5-3B,english,English,d_not_longest,Baseline non-D and D not longest,31,2,0.0645,1,0.0323
+scope,Qwen2.5-3B,english,English,gold_not_d,Baseline non-D and gold not D,79,11,0.1392,8,0.1013
+scope,Qwen2.5-3B,english,English,gold_not_d_d_not_longest,"Baseline non-D, gold not D, D not longest",28,2,0.0714,1,0.0357
+scope,Qwen2.5-3B,english,English,correct_non_d,Baseline correct non-D,48,8,0.1667,8,0.1667
+scope,Qwen2.5-3B,english,English,correct_non_d_d_not_longest,Baseline correct non-D and D not longest,19,1,0.0526,1,0.0526
+scope,Qwen2.5-7B 8-bit,bangla,Bangla,baseline_non_d,Baseline predicts non-D,126,17,0.1349,10,0.0794
+scope,Qwen2.5-7B 8-bit,bangla,Bangla,d_not_longest,Baseline non-D and D not longest,40,2,0.05,2,0.05
+scope,Qwen2.5-7B 8-bit,bangla,Bangla,gold_not_d,Baseline non-D and gold not D,93,13,0.1398,10,0.1075
+scope,Qwen2.5-7B 8-bit,bangla,Bangla,gold_not_d_d_not_longest,"Baseline non-D, gold not D, D not longest",33,2,0.0606,2,0.0606
+scope,Qwen2.5-7B 8-bit,bangla,Bangla,correct_non_d,Baseline correct non-D,54,10,0.1852,10,0.1852
+scope,Qwen2.5-7B 8-bit,bangla,Bangla,correct_non_d_d_not_longest,Baseline correct non-D and D not longest,22,2,0.0909,2,0.0909
+scope,Qwen2.5-7B 8-bit,english,English,baseline_non_d,Baseline predicts non-D,117,18,0.1538,11,0.094
+scope,Qwen2.5-7B 8-bit,english,English,d_not_longest,Baseline non-D and D not longest,35,2,0.0571,1,0.0286
+scope,Qwen2.5-7B 8-bit,english,English,gold_not_d,Baseline non-D and gold not D,95,14,0.1474,11,0.1158
+scope,Qwen2.5-7B 8-bit,english,English,gold_not_d_d_not_longest,"Baseline non-D, gold not D, D not longest",33,2,0.0606,1,0.0303
+scope,Qwen2.5-7B 8-bit,english,English,correct_non_d,Baseline correct non-D,69,11,0.1594,11,0.1594
+scope,Qwen2.5-7B 8-bit,english,English,correct_non_d_d_not_longest,Baseline correct non-D and D not longest,25,1,0.04,1,0.04
+scope,Qwen3-4B,bangla,Bangla,baseline_non_d,Baseline predicts non-D,73,47,0.6438,30,0.411
+scope,Qwen3-4B,bangla,Bangla,d_not_longest,Baseline non-D and D not longest,26,13,0.5,11,0.4231
+scope,Qwen3-4B,bangla,Bangla,gold_not_d,Baseline non-D and gold not D,66,43,0.6515,30,0.4545
+scope,Qwen3-4B,bangla,Bangla,gold_not_d_d_not_longest,"Baseline non-D, gold not D, D not longest",25,13,0.52,11,0.44
+scope,Qwen3-4B,bangla,Bangla,correct_non_d,Baseline correct non-D,44,30,0.6818,30,0.6818
+scope,Qwen3-4B,bangla,Bangla,correct_non_d_d_not_longest,Baseline correct non-D and D not longest,19,11,0.5789,11,0.5789
+scope,Qwen3-4B,english,English,baseline_non_d,Baseline predicts non-D,78,55,0.7051,37,0.4744
+scope,Qwen3-4B,english,English,d_not_longest,Baseline non-D and D not longest,26,15,0.5769,12,0.4615
+scope,Qwen3-4B,english,English,gold_not_d,Baseline non-D and gold not D,69,47,0.6812,37,0.5362
+scope,Qwen3-4B,english,English,gold_not_d_d_not_longest,"Baseline non-D, gold not D, D not longest",26,15,0.5769,12,0.4615
+scope,Qwen3-4B,english,English,correct_non_d,Baseline correct non-D,54,37,0.6852,37,0.6852
+scope,Qwen3-4B,english,English,correct_non_d_d_not_longest,Baseline correct non-D and D not longest,21,12,0.5714,12,0.5714

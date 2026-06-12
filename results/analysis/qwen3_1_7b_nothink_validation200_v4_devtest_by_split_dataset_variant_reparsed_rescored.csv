@@ -1,0 +1,13 @@
+split,model,prompt_mode,dataset,variant,n,unique_items,correct,accuracy,parsed_empty,mean_seconds,total_seconds
+dev,Qwen/Qwen3-1.7B,baseline,banglamath,bangla,14,14,1,0.0714,0,2.8313,39.6382
+dev,Qwen/Qwen3-1.7B,baseline,banglamath,banglish_clean,14,14,0,0.0,0,1.268,17.752
+dev,Qwen/Qwen3-1.7B,baseline,banglamath,english,14,14,2,0.1429,0,1.5412,21.5766
+dev,Qwen/Qwen3-1.7B,baseline,benqa,bangla,36,36,10,0.2778,7,1.158,41.6896
+dev,Qwen/Qwen3-1.7B,baseline,benqa,banglish_clean,36,36,11,0.3056,3,0.5812,20.924
+dev,Qwen/Qwen3-1.7B,baseline,benqa,english,36,36,18,0.5,6,0.8283,29.8195
+test,Qwen/Qwen3-1.7B,baseline,banglamath,bangla,42,42,3,0.0714,0,2.957,124.195
+test,Qwen/Qwen3-1.7B,baseline,banglamath,banglish_clean,42,42,0,0.0,0,1.1256,47.2765
+test,Qwen/Qwen3-1.7B,baseline,banglamath,english,42,42,3,0.0714,0,1.7723,74.4378
+test,Qwen/Qwen3-1.7B,baseline,benqa,bangla,108,108,20,0.1852,27,1.4344,154.9181
+test,Qwen/Qwen3-1.7B,baseline,benqa,banglish_clean,108,108,25,0.2315,12,0.7484,80.8228
+test,Qwen/Qwen3-1.7B,baseline,benqa,english,108,108,38,0.3519,24,1.0922,117.9524

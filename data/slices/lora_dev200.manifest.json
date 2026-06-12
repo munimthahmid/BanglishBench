@@ -1,0 +1,18 @@
+{
+  "benqa_dir": "literature/code/BEnQA/data/BEnQA",
+  "created_at_utc": "2026-06-10T19:27:13.816699+00:00",
+  "dev_size": 200,
+  "excluded_slices": [
+    "data/slices/validation_200_v5.jsonl",
+    "data/slices/benqa_extended_1000_v1.jsonl"
+  ],
+  "excluded_source_keys": 1144,
+  "output": "data/slices/lora_dev200.jsonl",
+  "overlap_check": "passed: 0 source-key overlap, 0 id overlap",
+  "pool_items": 3939,
+  "rows": 200,
+  "seed": 42,
+  "sha256": "06179cfc44e5a8ac4e6751a44c6b9860689043f3cf03b22f0b1385932e6e94e4",
+  "split": "dev200_all_views",
+  "train_size": 3739
+}

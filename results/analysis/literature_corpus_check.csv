@@ -1,0 +1,34 @@
+citation_key,name,group,paper_path,text_path,bib_key_present,citation_map_present,paper_exists,text_exists,status
+shafayat-etal-2024-benqa,BEnQA,Core QA/math benchmark,literature/papers/benqa_2024_findings_acl.pdf,literature/text/benqa_2024_findings_acl.txt,True,True,True,True,ok
+banglamath2025,BanglaMATH,Core QA/math benchmark,literature/papers/banglamath_2510.12836.pdf,literature/text/banglamath_2510.12836.txt,True,True,True,True,ok
+mgsm2022,MGSM,Core QA/math benchmark,literature/papers/mgsm_multilingual_cot_2210.03057.pdf,literature/text/mgsm_multilingual_cot_2210.03057.txt,True,True,True,True,ok
+gsm8k2021,GSM8K,Core QA/math benchmark,literature/papers/gsm8k_2110.14168.pdf,literature/text/gsm8k_2110.14168.txt,True,True,True,True,ok
+banglaquad2024,BanglaQuAD,Bengali benchmark landscape,literature/papers/banglaquad_2410.10229.pdf,literature/text/banglaquad_2410.10229.txt,True,True,True,True,ok
+bnmmlu2025,BnMMLU,Bengali benchmark landscape,literature/papers/bnmmlu_2505.18951.pdf,literature/text/bnmmlu_2505.18951.txt,True,True,True,True,ok
+bluck2025,BLUCK,Bengali benchmark landscape,literature/papers/bluck_2505.21092.pdf,literature/text/bluck_2505.21092.txt,True,True,True,True,ok
+nctbqa2026,NCTB-QA,Bengali benchmark landscape,literature/papers/nctb_qa_2603.05462.pdf,literature/text/nctb_qa_2603.05462.txt,True,True,True,True,ok
+bnli2025,BNLI,Bengali benchmark landscape,literature/papers/bnli_2511.08813.pdf,literature/text/bnli_2511.08813.txt,True,True,True,True,ok
+banglasocialbench2026,BanglaSocialBench,Bengali benchmark landscape,literature/papers/bangla_social_bench_2603.15949.pdf,literature/text/bangla_social_bench_2603.15949.txt,True,True,True,True,ok
+banglaverse2026,BanglaVerse,Bengali benchmark landscape,literature/papers/banglaverse_2603.21165.pdf,literature/text/banglaverse_2603.21165.txt,True,True,True,True,ok
+bengaliloop2026,Bengali-Loop,Bengali benchmark landscape,literature/papers/bengali_loop_2602.14291.pdf,literature/text/bengali_loop_2602.14291.txt,True,True,True,True,ok
+banglaguard2026,BanglaGuard,Bengali benchmark landscape,literature/papers/banglaguard_openreview_KTsGJzaEPg.pdf,literature/text/banglaguard_openreview_KTsGJzaEPg.txt,True,True,True,True,ok
+banglamedqa2025,BanglaMedQA,Bengali benchmark landscape,literature/papers/banglamedqa_2511.04560.pdf,literature/text/banglamedqa_2511.04560.txt,True,True,True,True,ok
+fahim-etal-2024-banglatlit,BanglaTLit,Banglish/script robustness,literature/papers/banglatlit_2024_findings_emnlp.pdf,literature/text/banglatlit_2024_findings_emnlp.txt,True,True,True,True,ok
+haider-etal-2025-robustness,Bangla transliteration robustness,Banglish/script robustness,literature/papers/bangla_transliteration_robustness_2025_banglalp.pdf,literature/text/bangla_transliteration_robustness_2025_banglalp.txt,True,True,True,True,ok
+banglishrev2024,BanglishRev,Banglish/script robustness,literature/papers/banglishrev_2412.13161.pdf,literature/text/banglishrev_2412.13161.txt,True,True,True,True,ok
+banth2024,BAN-TH,Banglish/script robustness,literature/papers/banth_2410.13281.pdf,literature/text/banth_2410.13281.txt,True,True,True,True,ok
+bnsentmix2024,BnSentMix,Banglish/script robustness,literature/papers/bnsentmix_2408.08964.pdf,literature/text/bnsentmix_2408.08964.txt,True,True,True,True,ok
+mixsarc2026,MixSarc,Banglish/script robustness,literature/papers/mixsarc_2602.21608.pdf,literature/text/mixsarc_2602.21608.txt,True,True,True,True,ok
+bhashaabhijnaanam2023,Bhasha-Abhijnaanam,Banglish/script robustness,literature/papers/bhasha_abhijnaanam_2305.15814.pdf,literature/text/bhasha_abhijnaanam_2305.15814.txt,True,True,True,True,ok
+indotranslit2025,IndoTranslit,Banglish/script robustness,literature/papers/indotranslit_2511.22769.pdf,literature/text/indotranslit_2511.22769.txt,True,True,True,True,ok
+scriptgap2025,Script Gap,Banglish/script robustness,literature/papers/script_gap_2512.10780.pdf,literature/text/script_gap_2512.10780.txt,True,True,True,True,ok
+romanizednepali2026,Romanized Nepali LLM Benchmark,Banglish/script robustness,literature/papers/romanized_nepali_llm_benchmark_2604.14171.pdf,literature/text/romanized_nepali_llm_benchmark_2604.14171.txt,True,True,True,True,ok
+tokenizerfairness2023,Do All Languages Cost The Same?,Mechanism/tokenization,literature/papers/do_all_languages_cost_same_2305.15425.pdf,literature/text/do_all_languages_cost_same_2305.15425.txt,True,True,True,True,ok
+romanlens2025,RomanLens,Mechanism/tokenization,literature/papers/romanlens_2502.07424.pdf,literature/text/romanlens_2502.07424.txt,True,True,True,True,ok
+wendler-etal-2024-llamas,Do Llamas Work in English?,Mechanism/tokenization,literature/papers/do_llamas_work_in_english_2024_acl.pdf,literature/text/do_llamas_work_in_english_2024_acl.txt,True,True,True,True,ok
+thinkenglish2025,Do Multilingual LLMs Think in English?,Mechanism/tokenization,literature/papers/do_multilingual_llms_think_in_english_2502.15603.pdf,literature/text/do_multilingual_llms_think_in_english_2502.15603.txt,True,True,True,True,ok
+malturdu2025,MALT Urdu,Mechanism/tokenization,literature/papers/malt_urdu_2502.00041.pdf,literature/text/malt_urdu_2502.00041.txt,True,True,True,True,ok
+banglanlg2022,BanglaNLG/BanglaT5,Bangla model ecosystem,literature/papers/bangla_nlg_banglat5_2205.11081.pdf,literature/text/bangla_nlg_banglat5_2205.11081.txt,True,True,True,True,ok
+banglabyt52025,BanglaByT5,Bangla model ecosystem,literature/papers/banglabyt5_2505.17102.pdf,literature/text/banglabyt5_2505.17102.txt,True,True,True,True,ok
+titullms2025,TituLLMs,Bangla model ecosystem,literature/papers/titullms_2502.11187.pdf,literature/text/titullms_2502.11187.txt,True,True,True,True,ok
+raihan-zampieri-2025-tigerllm,TigerLLM,Bangla model ecosystem,literature/papers/tigerllm_2025_acl_short.pdf,literature/text/tigerllm_2025_acl_short.txt,True,True,True,True,ok

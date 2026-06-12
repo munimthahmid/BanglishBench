@@ -1,0 +1,7 @@
+split,model,prompt_mode,variant,n,unique_items,correct,accuracy,parsed_empty,mean_seconds,total_seconds
+dev,Qwen/Qwen2.5-7B-Instruct,baseline,bangla,50,50,13,0.26,0,1.7356,86.7823
+dev,Qwen/Qwen2.5-7B-Instruct,baseline,banglish_clean,50,50,13,0.26,0,1.2346,61.7307
+dev,Qwen/Qwen2.5-7B-Instruct,baseline,english,50,50,20,0.4,0,1.3277,66.3854
+test,Qwen/Qwen2.5-7B-Instruct,baseline,bangla,150,150,52,0.3467,0,2.2526,337.8906
+test,Qwen/Qwen2.5-7B-Instruct,baseline,banglish_clean,150,150,35,0.2333,2,1.5916,238.7326
+test,Qwen/Qwen2.5-7B-Instruct,baseline,english,150,150,74,0.4933,0,1.3232,198.4782

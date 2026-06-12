@@ -1,0 +1,48 @@
+{
+  "created_at_utc": "2026-05-27T13:37:30.587337+00:00",
+  "input": "data/pilot_v2/items.jsonl",
+  "notes": [
+    "This slice is deterministic and should be treated as the first fixed validation set.",
+    "Banglish variants are still bootstrap romanizations unless quality_status says otherwise."
+  ],
+  "output": "data/slices/validation_100_v2.jsonl",
+  "requested_counts": {
+    "banglamath": 40,
+    "benqa": 60
+  },
+  "require_english": true,
+  "seed": 20260527,
+  "summary": {
+    "counts_by_dataset": {
+      "banglamath": 40,
+      "benqa": 60
+    },
+    "counts_by_dataset_stratum": {
+      "banglamath:Eight": 14,
+      "banglamath:seven": 13,
+      "banglamath:six": 13,
+      "benqa:Biology": 5,
+      "benqa:Biology-I": 5,
+      "benqa:Biology-II": 5,
+      "benqa:Chemistry": 5,
+      "benqa:Chemistry-I": 5,
+      "benqa:Chemistry-II": 5,
+      "benqa:Math": 5,
+      "benqa:Math-I": 5,
+      "benqa:Math-II": 4,
+      "benqa:Physics": 4,
+      "benqa:Physics-I": 4,
+      "benqa:Physics-II": 4,
+      "benqa:Science": 4
+    },
+    "counts_by_task_type": {
+      "mcq": 60,
+      "short_answer": 40
+    },
+    "english_available": 100,
+    "quality_status": {
+      "auto_romanized_unverified": 100
+    },
+    "total_items": 100
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "arm": "A_banglish_only",
+  "benqa_dir": "literature/code/BEnQA/data/BEnQA",
+  "created_at_utc": "2026-06-10T19:27:13.816699+00:00",
+  "dev_size": 200,
+  "excluded_slices": [
+    "data/slices/validation_200_v5.jsonl",
+    "data/slices/benqa_extended_1000_v1.jsonl"
+  ],
+  "excluded_source_keys": 1144,
+  "output": "data/slices/lora_train_banglish.jsonl",
+  "overlap_check": "passed: 0 source-key overlap, 0 id overlap",
+  "pool_items": 3939,
+  "rows": 3739,
+  "seed": 42,
+  "sha256": "c8f0de4b548e4e7da8c1c377ec3939b6081628388e92d90b3dc9ac268e5d0223",
+  "train_size": 3739
+}

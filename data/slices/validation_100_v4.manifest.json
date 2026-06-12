@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "changed_clean": 16,
+    "changed_noisy": 16,
+    "dataset:banglamath": 40,
+    "dataset:benqa": 60
+  },
+  "created_at_utc": "2026-05-27T18:12:49.280892+00:00",
+  "input": "data/slices/validation_100_v3.jsonl",
+  "items": 100,
+  "notes": [
+    "Only Banglish fields and transliteration metadata are rebuilt.",
+    "Item ids, answers, Bangla prompts, English prompts, and source metadata are preserved."
+  ],
+  "output": "data/slices/validation_100_v4.jsonl",
+  "quality_status": "auto_romanized_unverified_v4",
+  "same_item_order": true,
+  "transliteration_method": "rule_based_bootstrap_v4"
+}

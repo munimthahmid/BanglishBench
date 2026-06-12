@@ -1,0 +1,19 @@
+model,policy,comparison,n,left_label,right_label,left_correct,right_correct,delta_right_minus_left,ci95_low,ci95_high,bootstrap_p_opposite_direction,gains,losses,samples,seed
+Qwen2.5-3B,all200,v5_minus_v4_banglish,200,v4 Banglish,v5 reviewed Banglish,39,41,0.01,-0.01,0.03,0.2312,3,1,10000,4200
+Qwen2.5-3B,all200,v5_banglish_minus_bangla,200,Bangla,v5 reviewed Banglish,54,41,-0.065,-0.13,0.0,0.0284,15,28,10000,4201
+Qwen2.5-3B,all200,v5_banglish_minus_english,200,English,v5 reviewed Banglish,71,41,-0.15,-0.22,-0.075,0.0001,15,45,10000,4202
+Qwen2.5-3B,strict197,v5_minus_v4_banglish,197,v4 Banglish,v5 reviewed Banglish,37,39,0.0102,-0.0102,0.0305,0.2312,3,1,10000,4203
+Qwen2.5-3B,strict197,v5_banglish_minus_bangla,197,Bangla,v5 reviewed Banglish,53,39,-0.0711,-0.132,-0.0102,0.0156,14,28,10000,4204
+Qwen2.5-3B,strict197,v5_banglish_minus_english,197,English,v5 reviewed Banglish,71,39,-0.1624,-0.2335,-0.0914,0.0,13,45,10000,4205
+Qwen3-4B,all200,v5_minus_v4_banglish,200,v4 Banglish,v5 reviewed Banglish,47,49,0.01,0.0,0.025,0.1364,2,0,10000,4206
+Qwen3-4B,all200,v5_banglish_minus_bangla,200,Bangla,v5 reviewed Banglish,80,49,-0.155,-0.22,-0.09,0.0,8,39,10000,4207
+Qwen3-4B,all200,v5_banglish_minus_english,200,English,v5 reviewed Banglish,88,49,-0.195,-0.27,-0.12,0.0,13,52,10000,4208
+Qwen3-4B,strict197,v5_minus_v4_banglish,197,v4 Banglish,v5 reviewed Banglish,46,48,0.0102,0.0,0.0254,0.1312,2,0,10000,4209
+Qwen3-4B,strict197,v5_banglish_minus_bangla,197,Bangla,v5 reviewed Banglish,79,48,-0.1574,-0.2234,-0.0964,0.0,8,39,10000,4210
+Qwen3-4B,strict197,v5_banglish_minus_english,197,English,v5 reviewed Banglish,87,48,-0.198,-0.2741,-0.1218,0.0,13,52,10000,4211
+Qwen2.5-7B 8-bit,all200,v5_minus_v4_banglish,200,v4 Banglish,v5 reviewed Banglish,48,47,-0.005,-0.035,0.025,0.4342,4,5,10000,4212
+Qwen2.5-7B 8-bit,all200,v5_banglish_minus_bangla,200,Bangla,v5 reviewed Banglish,65,47,-0.09,-0.16,-0.02,0.0073,19,37,10000,4213
+Qwen2.5-7B 8-bit,all200,v5_banglish_minus_english,200,English,v5 reviewed Banglish,94,47,-0.235,-0.31,-0.16,0.0,13,60,10000,4214
+Qwen2.5-7B 8-bit,strict197,v5_minus_v4_banglish,197,v4 Banglish,v5 reviewed Banglish,47,46,-0.0051,-0.0355,0.0254,0.4361,4,5,10000,4215
+Qwen2.5-7B 8-bit,strict197,v5_banglish_minus_bangla,197,Bangla,v5 reviewed Banglish,65,46,-0.0964,-0.1675,-0.0254,0.0046,18,37,10000,4216
+Qwen2.5-7B 8-bit,strict197,v5_banglish_minus_english,197,English,v5 reviewed Banglish,93,46,-0.2386,-0.3147,-0.1574,0.0,13,60,10000,4217

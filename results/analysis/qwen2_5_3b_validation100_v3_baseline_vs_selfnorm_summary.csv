@@ -1,0 +1,7 @@
+model,dataset,variant,change,n
+Qwen/Qwen2.5-3B-Instruct,banglamath,banglish_clean,gain,3
+Qwen/Qwen2.5-3B-Instruct,banglamath,banglish_clean,same_wrong,37
+Qwen/Qwen2.5-3B-Instruct,benqa,banglish_clean,gain,11
+Qwen/Qwen2.5-3B-Instruct,benqa,banglish_clean,loss,4
+Qwen/Qwen2.5-3B-Instruct,benqa,banglish_clean,same_correct,14
+Qwen/Qwen2.5-3B-Instruct,benqa,banglish_clean,same_wrong,31

@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-06-11T02:10:46.294886+00:00",
+  "input": "literature/data/bnsentmix/dataset.csv",
+  "notes": [
+    "Independent balanced real-code-mixed sentiment evaluation layer.",
+    "Local research use only until upstream license metadata mismatch is reconciled.",
+    "The first pilot_per_label * 4 rows form a balanced pilot prefix."
+  ],
+  "output": "data/slices/bnsentmix_balanced200_v1.jsonl",
+  "paper_url": "https://aclanthology.org/2025.loreslm-1.4/",
+  "pilot_items": 40,
+  "sampling_seed": 20260603,
+  "source_dataset_url": "https://huggingface.co/datasets/aplycaebous/BnSentMix",
+  "source_exact_duplicate_rows": 209,
+  "source_rows": 20015,
+  "source_sha256": "148f23eb3dc40c1012a973efec920eaccc39700a74e5bcfb56806b0bf389029d",
+  "source_unique_rows": 19806,
+  "summary": {
+    "counts_by_label": {
+      "mixed": 50,
+      "negative": 50,
+      "neutral": 50,
+      "positive": 50
+    },
+    "total_items": 200
+  }
+}

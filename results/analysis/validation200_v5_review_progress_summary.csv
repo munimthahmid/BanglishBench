@@ -1,0 +1,13 @@
+dimension,group,total,pending,ok,minor_edit,major_edit,bad
+overall,all,140,0,0,126,11,3
+impact_tier,tier_1_review_first,43,0,0,37,6,0
+impact_tier,tier_2_high,52,0,0,47,4,1
+impact_tier,tier_3_medium,6,0,0,5,1,0
+impact_tier,tier_4_low,39,0,0,37,0,2
+split,dev,31,0,0,27,3,1
+split,test,109,0,0,99,8,2
+priority_bucket,both_wrong_multi_edit,40,0,0,31,9,0
+priority_bucket,both_wrong_single_edit,55,0,0,53,1,1
+priority_bucket,lower_priority,39,0,0,37,0,2
+priority_bucket,qwen25_wrong_multi_edit,4,0,0,4,0,0
+priority_bucket,qwen3_wrong_multi_edit,2,0,0,1,1,0

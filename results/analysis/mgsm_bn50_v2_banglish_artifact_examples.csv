@@ -1,0 +1,12 @@
+field,pattern_name,id,snippet
+banglish_clean,oja_loanword,mgsm_bn_0021,tiyangsh jol ebong ami ta 15 litar painoojapol dringk -e meshate chai jar modhye pa
+banglish_clean,oja_loanword,mgsm_bn_0026,"1.50 dore 4ti apel, ebong koyek-baks pitoja ordar korechhilen. mari mot $50 orthopr"
+banglish_clean,ksh_heavy,mgsm_bn_0009,roti ghonta 80 mail bege gari chalate sokshom hon. 4 ghontar sheshe tini bari theke
+banglish_clean,ksh_heavy,mgsm_bn_0015,"konoo ekoti nacher klase 20 jon shiksharthir modhye, 20% somosamoyik nache, 25"
+banglish_clean,ksh_heavy,mgsm_bn_0018,jil shikshokota korar jony proti ghontay $20 ebong
+banglish_clean,ksh_heavy,mgsm_bn_0042,"n, jetike poli 400 fut durotto obodhi nikshep korote paren, kintu sei durotto drago"
+banglish_clean,ksh_heavy,mgsm_bn_0044,"g thake, ebong aponar doinik kyalorir lokshyomatra jodi 2000 hoye thake o aponi iti"
+banglish_clean,jn_cluster,mgsm_bn_0042,"gonotike hotya korote pare emon ekomatr jnat ostr hol sborn jyabholin, jetike poli"
+banglish_noisy,oja_loanword,mgsm_bn_0021,itiyangs jol ebong ami ta 15 litar painoojapol dringk -e mesate chai jar modhye pan
+banglish_noisy,oja_loanword,mgsm_bn_0026,"1.50 dore 4ti apel, ebong koyek-baks pitoja ordar korechilen. mari mot $50 orthopro"
+banglish_noisy,jn_cluster,mgsm_bn_0042,"gonotike hotya korote pare emon ekomatr jnat ostr hol sborn jyavolin, jetike poli "

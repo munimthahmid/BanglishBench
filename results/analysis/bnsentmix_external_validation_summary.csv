@@ -1,0 +1,76 @@
+section,model,n,valid_outputs,invalid_outputs,correct,accuracy,macro_f1,balanced_accuracy,majority_baseline,label,support,predicted,tp,precision,recall,f1,gold,parsed,count
+headline,Qwen2.5-3B,200,200,0,89,0.445000,0.430682,0.445000,0.250000,,,,,,,,,,
+per_label,Qwen2.5-3B,,,,,,,,,positive,50,59,30,0.508475,0.600000,0.550459,,,
+per_label,Qwen2.5-3B,,,,,,,,,negative,50,66,28,0.424242,0.560000,0.482759,,,
+per_label,Qwen2.5-3B,,,,,,,,,neutral,50,15,10,0.666667,0.200000,0.307692,,,
+per_label,Qwen2.5-3B,,,,,,,,,mixed,50,60,21,0.350000,0.420000,0.381818,,,
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,positive,positive,30
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,positive,negative,8
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,positive,neutral,1
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,positive,mixed,11
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,positive,invalid,0
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,negative,positive,9
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,negative,negative,28
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,negative,neutral,3
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,negative,mixed,10
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,negative,invalid,0
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,neutral,positive,10
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,neutral,negative,12
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,neutral,neutral,10
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,neutral,mixed,18
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,neutral,invalid,0
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,mixed,positive,10
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,mixed,negative,18
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,mixed,neutral,1
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,mixed,mixed,21
+confusion,Qwen2.5-3B,,,,,,,,,,,,,,,,mixed,invalid,0
+headline,Qwen2.5-7B 8-bit,200,200,0,98,0.490000,0.479500,0.490000,0.250000,,,,,,,,,,
+per_label,Qwen2.5-7B 8-bit,,,,,,,,,positive,50,38,20,0.526316,0.400000,0.454545,,,
+per_label,Qwen2.5-7B 8-bit,,,,,,,,,negative,50,42,22,0.523810,0.440000,0.478261,,,
+per_label,Qwen2.5-7B 8-bit,,,,,,,,,neutral,50,92,39,0.423913,0.780000,0.549296,,,
+per_label,Qwen2.5-7B 8-bit,,,,,,,,,mixed,50,28,17,0.607143,0.340000,0.435897,,,
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,positive,positive,20
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,positive,negative,3
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,positive,neutral,23
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,positive,mixed,4
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,positive,invalid,0
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,negative,positive,3
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,negative,negative,22
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,negative,neutral,20
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,negative,mixed,5
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,negative,invalid,0
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,neutral,positive,6
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,neutral,negative,3
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,neutral,neutral,39
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,neutral,mixed,2
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,neutral,invalid,0
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,mixed,positive,9
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,mixed,negative,14
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,mixed,neutral,10
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,mixed,mixed,17
+confusion,Qwen2.5-7B 8-bit,,,,,,,,,,,,,,,,mixed,invalid,0
+headline,Qwen3-4B,200,200,0,99,0.495000,0.485538,0.495000,0.250000,,,,,,,,,,
+per_label,Qwen3-4B,,,,,,,,,positive,50,106,43,0.405660,0.860000,0.551282,,,
+per_label,Qwen3-4B,,,,,,,,,negative,50,32,18,0.562500,0.360000,0.439024,,,
+per_label,Qwen3-4B,,,,,,,,,neutral,50,43,20,0.465116,0.400000,0.430108,,,
+per_label,Qwen3-4B,,,,,,,,,mixed,50,19,18,0.947368,0.360000,0.521739,,,
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,positive,positive,43
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,positive,negative,2
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,positive,neutral,5
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,positive,mixed,0
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,positive,invalid,0
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,negative,positive,19
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,negative,negative,18
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,negative,neutral,12
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,negative,mixed,1
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,negative,invalid,0
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,neutral,positive,27
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,neutral,negative,3
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,neutral,neutral,20
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,neutral,mixed,0
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,neutral,invalid,0
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,mixed,positive,17
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,mixed,negative,9
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,mixed,neutral,6
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,mixed,mixed,18
+confusion,Qwen3-4B,,,,,,,,,,,,,,,,mixed,invalid,0

@@ -1,0 +1,4 @@
+model,dataset,task_type,variant,answer_type,n,unique_items,correct,accuracy,parsed_empty,mean_seconds,total_seconds
+deepseek-v4-flash,benqa,mcq,bangla,choice,851,851,665,0.7814,0,1.1368,967.411
+deepseek-v4-flash,benqa,mcq,banglish_clean,choice,851,851,376,0.4418,0,1.1194,952.584
+deepseek-v4-flash,benqa,mcq,english,choice,851,851,697,0.819,0,1.123,955.642

@@ -1,0 +1,5 @@
+model,dataset,variant,change,n
+Qwen/Qwen3-4B-Instruct-2507,mgsm,banglish_clean,gain,1
+Qwen/Qwen3-4B-Instruct-2507,mgsm,banglish_clean,loss,4
+Qwen/Qwen3-4B-Instruct-2507,mgsm,banglish_clean,same_correct,1
+Qwen/Qwen3-4B-Instruct-2507,mgsm,banglish_clean,same_wrong,44

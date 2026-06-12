@@ -1,0 +1,8 @@
+model,dataset,variant,change,n
+Qwen/Qwen3-4B-Instruct-2507,banglamath,banglish_clean,gain,3
+Qwen/Qwen3-4B-Instruct-2507,banglamath,banglish_clean,same_correct,1
+Qwen/Qwen3-4B-Instruct-2507,banglamath,banglish_clean,same_wrong,52
+Qwen/Qwen3-4B-Instruct-2507,benqa,banglish_clean,gain,10
+Qwen/Qwen3-4B-Instruct-2507,benqa,banglish_clean,loss,38
+Qwen/Qwen3-4B-Instruct-2507,benqa,banglish_clean,same_correct,7
+Qwen/Qwen3-4B-Instruct-2507,benqa,banglish_clean,same_wrong,89

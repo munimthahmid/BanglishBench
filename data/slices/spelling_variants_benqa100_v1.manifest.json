@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-06-10T19:45:33.996935+00:00",
+  "source": "data/slices/validation_200_v5.jsonl",
+  "output": "data/slices/spelling_variants_benqa100_v1.jsonl",
+  "count": 100,
+  "variants_per_item": 4,
+  "spell_fields": [
+    "spell0",
+    "spell1",
+    "spell2",
+    "spell3",
+    "spell4"
+  ],
+  "seed": 42,
+  "sha256": "84d871ee69ae482f9d1cf06b9874bfdc4269e1bebc738d6b7fb8eed0a7b456c9",
+  "notes": [
+    "spell0 is the canonical reviewed Banglish; spell1..K are seeded phonetic respellings.",
+    "Digits, formulae, option labels, and the answer-format line are preserved."
+  ]
+}

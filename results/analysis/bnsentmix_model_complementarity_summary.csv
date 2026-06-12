@@ -1,0 +1,24 @@
+section,metric,n,correct,accuracy,positive_predictions,negative_predictions,neutral_predictions,mixed_predictions,denominator,rate,best_single_model,best_single_correct,oracle_correct,delta_oracle_minus_best_single,ci95_low,ci95_high,bootstrap_p_opposite_direction,coverage,accuracy_on_covered,accuracy_all_items_if_abstain_wrong,fallback_model,fallback_rows,delta_vs_fallback_model,left_model,right_model,left_correct,right_correct,right_minus_left,left_only,right_only,both_correct,neither_correct,pair_oracle_correct,prediction_agreement,agreement_correct,exact_sign_p_two_sided,any_model_correct,at_least_two_models_correct,all_models_wrong,all_models_correct
+model_headline,Qwen2.5-3B,200,89,0.445000,59,66,15,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+model_headline,Qwen2.5-7B 8-bit,200,98,0.490000,38,42,92,28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+model_headline,Qwen3-4B,200,99,0.495000,106,32,43,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+correct_count_distribution,0,46,,,,,,,200,0.230000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+correct_count_distribution,1,66,,,,,,,200,0.330000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+correct_count_distribution,2,44,,,,,,,200,0.220000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+correct_count_distribution,3,44,,,,,,,200,0.220000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+triad_oracle,any_model_oracle,200,154,0.770000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+triad_oracle,at_least_two_models_correct,200,88,0.440000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+triad_oracle,all_models_correct,200,44,0.220000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+triad_oracle,all_models_wrong,200,46,0.230000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+triad_oracle,oracle_minus_best_single,200,,,,,,,,,Qwen3-4B,99,154,0.275000,0.215000,0.340000,0.000000,,,,,,,,,,,,,,,,,,,,,,,
+majority_vote,majority_only_abstain_on_three_way_disagreement,158,88,,,,,,200,,,,,,,,,0.790000,0.556962,0.440000,,,,,,,,,,,,,,,,,,,,
+majority_vote,majority_with_Qwen2.5-3B_fallback,200,94,0.470000,,,,,,,,,,,-0.035000,0.080000,0.230400,,,,Qwen2.5-3B,42,0.025000,,,,,,,,,,,,,,,,,
+majority_vote,majority_with_Qwen2.5-7B 8-bit_fallback,200,106,0.530000,,,,,,,,,,,0.000000,0.080000,0.032800,,,,Qwen2.5-7B 8-bit,42,0.040000,,,,,,,,,,,,,,,,,
+majority_vote,majority_with_Qwen3-4B_fallback,200,102,0.510000,,,,,,,,,,,-0.030000,0.055000,0.277800,,,,Qwen3-4B,42,0.015000,,,,,,,,,,,,,,,,,
+pairwise,Qwen2.5-3B vs Qwen2.5-7B 8-bit,200,,,,,,,,,,,,,-0.040000,0.130000,0.168400,,,,,,,Qwen2.5-3B,Qwen2.5-7B 8-bit,89,98,0.045000,34,43,55,68,132,89,55,0.362032,,,,
+pairwise,Qwen2.5-3B vs Qwen3-4B,200,,,,,,,,,,,,,-0.030000,0.135000,0.131400,,,,,,,Qwen2.5-3B,Qwen3-4B,89,99,0.050000,32,42,57,69,131,88,57,0.295413,,,,
+pairwise,Qwen2.5-7B 8-bit vs Qwen3-4B,200,,,,,,,,,,,,,-0.075000,0.090000,0.479800,,,,,,,Qwen2.5-7B 8-bit,Qwen3-4B,98,99,0.005000,34,35,64,67,133,103,64,1.000000,,,,
+label_oracle,positive,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45,29,5,19
+label_oracle,negative,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35,23,15,10
+label_oracle,neutral,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41,20,9,8
+label_oracle,mixed,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33,16,17,7

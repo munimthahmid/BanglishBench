@@ -1,0 +1,11 @@
+model,score_mode,n,bangla,banglish_clean,english,banglish_minus_bangla_points,banglish_minus_english_points,variant,variant_label,reference_model,model_correct,reference_correct,model_minus_reference_points,model_only,reference_only,exact_binomial_p_two_sided
+Gemini 3.5 Flash,strict,200,163,136,144,-13.5,-4.0,,,,,,,,,
+Gemini 3.5 Flash,secondary,200,170,161,165,-4.5,-2.0,,,,,,,,,
+Claude Sonnet 4.6,strict,200,162,130,153,-16.0,-11.5,,,,,,,,,
+Claude Sonnet 4.6,secondary,200,167,133,166,-17.0,-16.5,,,,,,,,,
+Claude Sonnet 4.6,strict,200,,,,,,bangla,Bangla,Gemini 3.5 Flash,162,163,-0.5,12,13,1.0
+Claude Sonnet 4.6,strict,200,,,,,,banglish_clean,Reviewed Banglish,Gemini 3.5 Flash,130,136,-3.0,34,40,0.561381
+Claude Sonnet 4.6,strict,200,,,,,,english,English,Gemini 3.5 Flash,153,144,4.5,15,6,0.078354
+Claude Sonnet 4.6,secondary,200,,,,,,bangla,Bangla,Gemini 3.5 Flash,167,170,-1.5,7,10,0.629059
+Claude Sonnet 4.6,secondary,200,,,,,,banglish_clean,Reviewed Banglish,Gemini 3.5 Flash,133,161,-14.0,12,40,0.000128
+Claude Sonnet 4.6,secondary,200,,,,,,english,English,Gemini 3.5 Flash,166,165,0.5,8,7,1.0

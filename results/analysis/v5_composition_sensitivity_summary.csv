@@ -1,0 +1,28 @@
+filter,description,model,n_items,bangla_correct,banglish_correct,english_correct,bangla_accuracy,banglish_accuracy,english_accuracy,banglish_minus_bangla,banglish_minus_bangla_ci95_low,banglish_minus_bangla_ci95_high,banglish_minus_english,banglish_minus_english_ci95_low,banglish_minus_english_ci95_high
+all,All frozen-v5 rows,Qwen2.5-3B,200,54,41,71,0.27,0.205,0.355,-0.065,-0.125,0.0,-0.15,-0.22,-0.075
+all,All frozen-v5 rows,Qwen2.5-7B,200,65,47,94,0.325,0.235,0.47,-0.09,-0.165,-0.02,-0.235,-0.31,-0.16
+all,All frozen-v5 rows,Qwen3-4B,200,80,49,88,0.4,0.245,0.44,-0.155,-0.22,-0.09,-0.195,-0.265,-0.12
+has_digits,Rows with digits in reviewed Banglish,Qwen2.5-3B,139,32,27,38,0.2302,0.1942,0.2734,-0.036,-0.1079,0.036,-0.0791,-0.1583,0.0
+has_digits,Rows with digits in reviewed Banglish,Qwen2.5-7B,139,36,28,52,0.259,0.2014,0.3741,-0.0576,-0.1367,0.0216,-0.1727,-0.259,-0.0863
+has_digits,Rows with digits in reviewed Banglish,Qwen3-4B,139,46,35,50,0.3309,0.2518,0.3597,-0.0791,-0.1511,-0.0144,-0.1079,-0.1871,-0.036
+no_digits,Rows without digits in reviewed Banglish,Qwen2.5-3B,61,22,14,33,0.3607,0.2295,0.541,-0.1311,-0.2623,0.0,-0.3115,-0.459,-0.1639
+no_digits,Rows without digits in reviewed Banglish,Qwen2.5-7B,61,29,19,42,0.4754,0.3115,0.6885,-0.1639,-0.3279,-0.0164,-0.377,-0.5246,-0.2295
+no_digits,Rows without digits in reviewed Banglish,Qwen3-4B,61,34,14,38,0.5574,0.2295,0.623,-0.3279,-0.459,-0.1967,-0.3934,-0.5574,-0.2295
+short_half,Rows at or below median reviewed-Banglish length (141 chars),Qwen2.5-3B,100,23,13,40,0.23,0.13,0.4,-0.1,-0.19,-0.02,-0.27,-0.36,-0.18
+short_half,Rows at or below median reviewed-Banglish length (141 chars),Qwen2.5-7B,100,37,21,51,0.37,0.21,0.51,-0.16,-0.26,-0.06,-0.3,-0.41,-0.19
+short_half,Rows at or below median reviewed-Banglish length (141 chars),Qwen3-4B,100,37,22,46,0.37,0.22,0.46,-0.15,-0.25,-0.05,-0.24,-0.34,-0.14
+no_formula_operator,Rows without formula/operator markers,Qwen2.5-3B,107,24,9,36,0.2243,0.0841,0.3364,-0.1402,-0.215,-0.0654,-0.2523,-0.3458,-0.1682
+no_formula_operator,Rows without formula/operator markers,Qwen2.5-7B,107,30,18,48,0.2804,0.1682,0.4486,-0.1121,-0.2056,-0.0187,-0.2804,-0.3832,-0.1869
+no_formula_operator,Rows without formula/operator markers,Qwen3-4B,107,33,15,39,0.3084,0.1402,0.3645,-0.1682,-0.2523,-0.0841,-0.2243,-0.3178,-0.1308
+no_digits_no_formula,Rows without digits and without formula/operator markers,Qwen2.5-3B,39,13,7,22,0.3333,0.1795,0.5641,-0.1538,-0.3333,0.0,-0.3846,-0.5641,-0.2308
+no_digits_no_formula,Rows without digits and without formula/operator markers,Qwen2.5-7B,39,19,13,30,0.4872,0.3333,0.7692,-0.1538,-0.3333,0.0256,-0.4359,-0.6154,-0.2564
+no_digits_no_formula,Rows without digits and without formula/operator markers,Qwen3-4B,39,22,11,27,0.5641,0.2821,0.6923,-0.2821,-0.4615,-0.1026,-0.4103,-0.5897,-0.2308
+benqa_no_digits,BEnQA rows without digits,Qwen2.5-3B,60,22,14,33,0.3667,0.2333,0.55,-0.1333,-0.2667,0.0,-0.3167,-0.4667,-0.1667
+benqa_no_digits,BEnQA rows without digits,Qwen2.5-7B,60,29,19,42,0.4833,0.3167,0.7,-0.1667,-0.3167,-0.0167,-0.3833,-0.5333,-0.2333
+benqa_no_digits,BEnQA rows without digits,Qwen3-4B,60,34,14,38,0.5667,0.2333,0.6333,-0.3333,-0.4667,-0.2,-0.4,-0.55,-0.2333
+benqa_no_digits_no_formula,BEnQA rows without digits and without formula/operator markers,Qwen2.5-3B,38,13,7,22,0.3421,0.1842,0.5789,-0.1579,-0.3421,0.0,-0.3947,-0.5526,-0.2105
+benqa_no_digits_no_formula,BEnQA rows without digits and without formula/operator markers,Qwen2.5-7B,38,19,13,30,0.5,0.3421,0.7895,-0.1579,-0.3421,0.0263,-0.4474,-0.6316,-0.2632
+benqa_no_digits_no_formula,BEnQA rows without digits and without formula/operator markers,Qwen3-4B,38,22,11,27,0.5789,0.2895,0.7105,-0.2895,-0.4737,-0.1053,-0.4211,-0.6053,-0.2368
+benqa_short_no_digits,BEnQA rows without digits and at/below 141 chars,Qwen2.5-3B,33,9,4,19,0.2727,0.1212,0.5758,-0.1515,-0.303,0.0,-0.4545,-0.6364,-0.2727
+benqa_short_no_digits,BEnQA rows without digits and at/below 141 chars,Qwen2.5-7B,33,18,10,24,0.5455,0.303,0.7273,-0.2424,-0.4545,-0.0303,-0.4242,-0.6364,-0.2121
+benqa_short_no_digits,BEnQA rows without digits and at/below 141 chars,Qwen3-4B,33,18,8,22,0.5455,0.2424,0.6667,-0.303,-0.4848,-0.0909,-0.4242,-0.6364,-0.2121

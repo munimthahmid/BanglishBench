@@ -1,0 +1,47 @@
+field,pattern_name,id,snippet
+banglish_clean,tb_virama_b,benqa_10th-Physics_0280,tamar rodhokotb konoti? A. 1.6 \times 10^{-8}\Omega m B
+banglish_clean,tb_virama_b,benqa_10th-Physics_0084,sthir obosthan theke somotborone bostur jekono somoyer beg bostur o
+banglish_clean,tb_virama_b,benqa_8th-Science_0062, hisebe obhihit kora jay? A. fusofus B. tbok C. jokrit D. britt Answer with only A
+banglish_clean,tb_virama_b,benqa_12th-Math-II_0230,5 ekok durotbe A o B bindute kriyarot 9 ebong 5 ekok 
+banglish_clean,tb_virama_b,banglamath_0227,dui bondhur bari theke skuler durotber onupat 2:3 ebong prothom bondhur duro
+banglish_clean,boij_scientific,benqa_12th-Biology-I_0218,gomer boijnanik nam ki? A. Oryza sativa B. Triticu
+banglish_clean,oja_loanword,benqa_12th-Chemistry-II_0013,bohrit hoy konoti? A. foromalodihaid B. ojasitalodihaid C. pyaralodihaid D. metalod
+banglish_clean,oja_loanword,benqa_12th-Biology-II_0287,ripake ongsh ney konoti? i. peposin ii. ojamailej iii. karboksipepotaid nicher kono
+banglish_clean,oja_loanword,benqa_10th-Biology_0215,C_{6}H_{12}O_{6}\xarrowright{enojaim}C_{3}H_{4}O_{3} uddipoker prokriyati-
+banglish_clean,khady_sanskritized,banglamath_0183,ekoti chhatrabase 50 joner 15 diner khady mojud achhe. oi khadye 25 joner kot din
+banglish_clean,khady_sanskritized,benqa_12th-Chemistry-I_0174,bhinegar- i. khadyer byakoteriya dhbongs kora ii. khabarer
+banglish_clean,khady_sanskritized,benqa_8th-Science_0202,sothik khady-shringkhol konoti? A. ghas \rightarrow 
+banglish_clean,ksh_heavy,banglamath_1688,e ke kototi penyaj ketechhil ar kar kotokshon somoy legechhil? Return only the fina
+banglish_clean,ksh_heavy,benqa_10th-Chemistry_0041,r kon tothyoti sothik? A. C_{2}H_{4} opeksha C_{2}H{6} odhik sokriy B. CH_{4} kshar
+banglish_clean,ksh_heavy,banglamath_1694,lomba ekoti setu pari dite trenotir kotokshon somoy lagobe? Return only the final a
+banglish_clean,ksh_heavy,banglamath_0522,ar choora rasta thakole rastabade jomir kshetrofol kot Return only the final answer
+banglish_clean,ksh_heavy,benqa_12th-Physics-I_0254,mohakorsh kshetr prabolyer matrar kshetre konoti soth
+banglish_clean,ksh_heavy,benqa_10th-Chemistry_0336,- i. CO_{2} ii. omlodhormi iii. bayu opeksha bhari nicher konoti sothik? A. i o ii 
+banglish_clean,ksh_heavy,benqa_12th-Biology-I_0283,penper ring spot roger lokshon holo- i. patar botay pani bheja sobuj
+banglish_clean,ksh_heavy,benqa_12th-Biology-II_0034,kshudrantrer kshudr ongsh konoti? A. pailor
+banglish_clean,db_cluster,banglamath_1685,ochhor purbe jiboner boyos ja chhil tar dbigun. 3 bochhor por jiboner boyos jodi 3
+banglish_clean,db_cluster,banglamath_0553,samantoriker mejhe pathor dbara dhakote kototi pathor lagobe jodi me
+banglish_clean,db_cluster,banglamath_1690,e bolol tar garir songkhya ekhon mintur dbigun . shurute kar koyoti gari chhil ? R
+banglish_clean,db_cluster,banglamath_0227,bong prothom bondhur durotb 5 kimi hole dbitiy bondhur durotb kot Return only the 
+banglish_clean,db_cluster,benqa_10th-Physics_0045,kon nirdisht bhorer kono bostur beg dbigun korole gotishokti kot gun hobe? A. 
+banglish_clean,db_cluster,benqa_12th-Physics-I_0214, 0^{\circ}C tapomatray kono gyaser chap dbigun korole er churant tapomatra hobe- A
+banglish_clean,db_cluster,benqa_12th-Biology-II_0247,DdEe \times ddEE uddipoke ullikhit kros dbara muk o bodhir sontan hobar sombhabona
+banglish_clean,db_cluster,benqa_12th-Biology-I_0042,. osthanik mul srishti hoy ii. Anabaena dbara akrant hoy iii. er akriti samudrik p
+banglish_clean,jn_cluster,benqa_12th-Biology-I_0218,gomer boijnanik nam ki? A. Oryza sativa B. Triticum
+banglish_noisy,tb_virama_b,benqa_10th-Physics_0280,tamar rodhokotb konoti? A. 1.6 \times 10^{-8}\Omega m B
+banglish_noisy,tb_virama_b,benqa_10th-Physics_0084,sthir obosthan theke somotborone bostur jekono somoyer beg bostur o
+banglish_noisy,tb_virama_b,benqa_8th-Science_0062,a hisebe ovihit kora jay? A. fusofus B. tbok C. jokrit D. britt Answer with only A
+banglish_noisy,tb_virama_b,benqa_12th-Math-II_0230,5 ekok durotbe A o B bindute kriyarot 9 ebong 5 ekok 
+banglish_noisy,tb_virama_b,banglamath_0227,dui bondhur bari theke skuler durotber onupat 2:3 ebong prothom bondhur duro
+banglish_noisy,oja_loanword,benqa_12th-Chemistry-II_0013,bohrit hoy konoti? A. foromalodihaid B. ojasitalodihaid C. pyaralodihaid D. metalod
+banglish_noisy,oja_loanword,benqa_12th-Biology-II_0287,oripake ongs ney konoti? i. peposin ii. ojamailej iii. karboksipepotaid nicher kono
+banglish_noisy,oja_loanword,benqa_10th-Biology_0215,C_{6}H_{12}O_{6}\xarrowright{enojaim}C_{3}H_{4}O_{3} uddipoker prokriyati-
+banglish_noisy,db_cluster,banglamath_1685, bochor purbe jiboner boyos ja chil tar dbigun. 3 bochor por jiboner boyos jodi 3 
+banglish_noisy,db_cluster,banglamath_0553,samantoriker mejhe pathor dbara dhakote kototi pathor lagobe jodi me
+banglish_noisy,db_cluster,banglamath_1690,ore bolol tar garir songkya ekon mintur dbigun . surute kar koyoti gari chil ? Ret
+banglish_noisy,db_cluster,banglamath_0227,bong prothom bondhur durotb 5 kimi hole dbitiy bondhur durotb kot Return only the 
+banglish_noisy,db_cluster,benqa_10th-Physics_0045,kon nirdist vorer kono bostur beg dbigun korole gotisokti kot gun hobe? A. c
+banglish_noisy,db_cluster,benqa_12th-Physics-I_0214, 0^{\circ}C tapomatray kono gyaser chap dbigun korole er churant tapomatra hobe- A
+banglish_noisy,db_cluster,benqa_12th-Biology-II_0247, DdEe \times ddEE uddipoke ullikit kros dbara muk o bodhir sontan hobar somvabona 
+banglish_noisy,db_cluster,benqa_12th-Biology-I_0042,i. osthanik mul sristi hoy ii. Anabaena dbara akrant hoy iii. er akriti samudrik p
+banglish_noisy,jn_cluster,benqa_12th-Biology-I_0218,gomer boyjnanik nam ki? A. Oryza sativa B. Triticum

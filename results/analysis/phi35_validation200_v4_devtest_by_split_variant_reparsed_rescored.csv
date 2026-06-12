@@ -1,0 +1,7 @@
+split,model,prompt_mode,variant,n,unique_items,correct,accuracy,parsed_empty,mean_seconds,total_seconds
+dev,microsoft/Phi-3.5-mini-instruct,baseline,bangla,50,50,5,0.1,0,1.2406,62.0301
+dev,microsoft/Phi-3.5-mini-instruct,baseline,banglish_clean,50,50,7,0.14,0,1.0569,52.8429
+dev,microsoft/Phi-3.5-mini-instruct,baseline,english,50,50,19,0.38,0,3.9394,196.9675
+test,microsoft/Phi-3.5-mini-instruct,baseline,bangla,150,150,33,0.22,1,1.4752,221.2729
+test,microsoft/Phi-3.5-mini-instruct,baseline,banglish_clean,150,150,33,0.22,1,1.4684,220.2619
+test,microsoft/Phi-3.5-mini-instruct,baseline,english,150,150,61,0.4067,3,3.685,552.7502

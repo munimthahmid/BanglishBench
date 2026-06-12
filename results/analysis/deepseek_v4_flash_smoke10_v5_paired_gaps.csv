@@ -1,0 +1,13 @@
+score_mode,dataset,comparison,left_variant,right_variant,n,left_correct,right_correct,delta_points,both_correct,left_only,right_only,both_wrong,discordant,exact_binomial_p_two_sided
+strict,all,Banglish - Bangla,bangla,banglish_clean,10,10,7,-30.0,7,3,0,0,3,0.25
+strict,all,Banglish - English,english,banglish_clean,10,9,7,-20.0,6,3,1,0,4,0.625
+strict,benqa,Banglish - Bangla,bangla,banglish_clean,6,6,5,-16.7,5,1,0,0,1,1.0
+strict,benqa,Banglish - English,english,banglish_clean,6,6,5,-16.7,5,1,0,0,1,1.0
+strict,banglamath,Banglish - Bangla,bangla,banglish_clean,4,4,2,-50.0,2,2,0,0,2,0.5
+strict,banglamath,Banglish - English,english,banglish_clean,4,3,2,-25.0,1,2,1,0,3,1.0
+secondary,all,Banglish - Bangla,bangla,banglish_clean,10,10,8,-20.0,8,2,0,0,2,0.5
+secondary,all,Banglish - English,english,banglish_clean,10,10,8,-20.0,8,2,0,0,2,0.5
+secondary,benqa,Banglish - Bangla,bangla,banglish_clean,6,6,5,-16.7,5,1,0,0,1,1.0
+secondary,benqa,Banglish - English,english,banglish_clean,6,6,5,-16.7,5,1,0,0,1,1.0
+secondary,banglamath,Banglish - Bangla,bangla,banglish_clean,4,4,3,-25.0,3,1,0,0,1,1.0
+secondary,banglamath,Banglish - English,english,banglish_clean,4,4,3,-25.0,3,1,0,0,1,1.0

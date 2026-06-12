@@ -1,0 +1,601 @@
+model,id,source_row,gold,parsed,valid_output,correct,raw_output,seconds
+Qwen2.5-3B,bnsentmix_00014,14,mixed,mixed,True,True,mixed,0.1488
+Qwen2.5-3B,bnsentmix_00151,151,mixed,negative,True,False,negative,0.1718
+Qwen2.5-3B,bnsentmix_00158,158,mixed,negative,True,False,negative,0.1465
+Qwen2.5-3B,bnsentmix_00195,195,mixed,negative,True,False,negative,0.1675
+Qwen2.5-3B,bnsentmix_00233,233,mixed,positive,True,False,positive,0.1478
+Qwen2.5-3B,bnsentmix_00251,251,mixed,negative,True,False,negative,0.1705
+Qwen2.5-3B,bnsentmix_00265,265,mixed,mixed,True,True,mixed,0.169
+Qwen2.5-3B,bnsentmix_00308,308,mixed,mixed,True,True,mixed,0.1699
+Qwen2.5-3B,bnsentmix_00312,312,mixed,positive,True,False,positive,0.1473
+Qwen2.5-3B,bnsentmix_00369,369,mixed,mixed,True,True,mixed,0.1926
+Qwen2.5-3B,bnsentmix_00374,374,mixed,positive,True,False,positive,0.1477
+Qwen2.5-3B,bnsentmix_00393,393,mixed,positive,True,False,positive,0.167
+Qwen2.5-3B,bnsentmix_00432,432,mixed,negative,True,False,negative,0.1696
+Qwen2.5-3B,bnsentmix_00451,451,mixed,mixed,True,True,mixed,0.1686
+Qwen2.5-3B,bnsentmix_00546,546,mixed,mixed,True,True,mixed,0.174
+Qwen2.5-3B,bnsentmix_00560,560,mixed,negative,True,False,negative,0.1471
+Qwen2.5-3B,bnsentmix_00581,581,mixed,mixed,True,True,mixed,0.171
+Qwen2.5-3B,bnsentmix_00594,594,mixed,positive,True,False,positive,0.1675
+Qwen2.5-3B,bnsentmix_00602,602,mixed,negative,True,False,negative,0.1493
+Qwen2.5-3B,bnsentmix_00606,606,mixed,negative,True,False,negative,0.1459
+Qwen2.5-3B,bnsentmix_00613,613,mixed,mixed,True,True,mixed,0.148
+Qwen2.5-3B,bnsentmix_00617,617,mixed,negative,True,False,negative,0.148
+Qwen2.5-3B,bnsentmix_00647,647,mixed,negative,True,False,negative,0.147
+Qwen2.5-3B,bnsentmix_00660,660,mixed,mixed,True,True,mixed,0.1474
+Qwen2.5-3B,bnsentmix_00734,734,mixed,mixed,True,True,mixed,0.1509
+Qwen2.5-3B,bnsentmix_00749,749,mixed,negative,True,False,negative,0.1468
+Qwen2.5-3B,bnsentmix_00752,752,mixed,mixed,True,True,mixed,0.1478
+Qwen2.5-3B,bnsentmix_00903,903,mixed,negative,True,False,negative,0.1475
+Qwen2.5-3B,bnsentmix_00907,907,mixed,positive,True,False,positive,0.167
+Qwen2.5-3B,bnsentmix_00918,918,mixed,mixed,True,True,mixed,0.1474
+Qwen2.5-3B,bnsentmix_01009,1009,mixed,mixed,True,True,mixed,0.2359
+Qwen2.5-3B,bnsentmix_01017,1017,mixed,negative,True,False,negative,0.1456
+Qwen2.5-3B,bnsentmix_01100,1100,mixed,mixed,True,True,mixed,0.1489
+Qwen2.5-3B,bnsentmix_01139,1139,mixed,negative,True,False,negative,0.1465
+Qwen2.5-3B,bnsentmix_01144,1144,mixed,positive,True,False,positive,0.1698
+Qwen2.5-3B,bnsentmix_01150,1150,mixed,positive,True,False,positive,0.1716
+Qwen2.5-3B,bnsentmix_01269,1269,mixed,mixed,True,True,mixed,0.1707
+Qwen2.5-3B,bnsentmix_01313,1313,mixed,mixed,True,True,mixed,0.1518
+Qwen2.5-3B,bnsentmix_01361,1361,mixed,negative,True,False,negative,0.1481
+Qwen2.5-3B,bnsentmix_01371,1371,mixed,mixed,True,True,mixed,0.1472
+Qwen2.5-3B,bnsentmix_01397,1397,mixed,mixed,True,True,mixed,0.147
+Qwen2.5-3B,bnsentmix_01411,1411,mixed,negative,True,False,negative,0.1702
+Qwen2.5-3B,bnsentmix_01436,1436,mixed,negative,True,False,negative,0.1724
+Qwen2.5-3B,bnsentmix_01460,1460,mixed,mixed,True,True,mixed,0.151
+Qwen2.5-3B,bnsentmix_01484,1484,mixed,negative,True,False,negative,0.1682
+Qwen2.5-3B,bnsentmix_01556,1556,mixed,neutral,True,False,neutral,0.147
+Qwen2.5-3B,bnsentmix_01677,1677,mixed,mixed,True,True,mixed,0.1476
+Qwen2.5-3B,bnsentmix_01690,1690,mixed,positive,True,False,positive,0.1554
+Qwen2.5-3B,bnsentmix_01707,1707,mixed,mixed,True,True,mixed,0.147
+Qwen2.5-3B,bnsentmix_01749,1749,mixed,positive,True,False,positive,0.1502
+Qwen2.5-3B,bnsentmix_01901,1901,neutral,mixed,True,False,mixed,0.1482
+Qwen2.5-3B,bnsentmix_02187,2187,neutral,negative,True,False,negative,0.1699
+Qwen2.5-3B,bnsentmix_02237,2237,neutral,positive,True,False,positive,0.1489
+Qwen2.5-3B,bnsentmix_02265,2265,neutral,mixed,True,False,mixed,0.1465
+Qwen2.5-3B,bnsentmix_02332,2332,neutral,mixed,True,False,mixed,0.1587
+Qwen2.5-3B,bnsentmix_02346,2346,neutral,mixed,True,False,mixed,0.1484
+Qwen2.5-3B,bnsentmix_02351,2351,neutral,positive,True,False,positive,0.1484
+Qwen2.5-3B,bnsentmix_02440,2440,neutral,negative,True,False,negative,0.1482
+Qwen2.5-3B,bnsentmix_02446,2446,neutral,mixed,True,False,mixed,0.1499
+Qwen2.5-3B,bnsentmix_02951,2951,neutral,negative,True,False,negative,0.1506
+Qwen2.5-3B,bnsentmix_02957,2957,neutral,mixed,True,False,mixed,0.1463
+Qwen2.5-3B,bnsentmix_03013,3013,neutral,negative,True,False,negative,0.1499
+Qwen2.5-3B,bnsentmix_03072,3072,neutral,positive,True,False,positive,0.1559
+Qwen2.5-3B,bnsentmix_03260,3260,neutral,negative,True,False,negative,0.1697
+Qwen2.5-3B,bnsentmix_03281,3281,neutral,positive,True,False,positive,0.1482
+Qwen2.5-3B,bnsentmix_03439,3439,neutral,positive,True,False,positive,0.1472
+Qwen2.5-3B,bnsentmix_03553,3553,neutral,neutral,True,True,neutral,0.1474
+Qwen2.5-3B,bnsentmix_03593,3593,neutral,neutral,True,True,neutral,0.1471
+Qwen2.5-3B,bnsentmix_03668,3668,neutral,neutral,True,True,neutral,0.1461
+Qwen2.5-3B,bnsentmix_03765,3765,neutral,mixed,True,False,mixed,0.1475
+Qwen2.5-3B,bnsentmix_04111,4111,neutral,positive,True,False,positive,0.1464
+Qwen2.5-3B,bnsentmix_04179,4179,neutral,negative,True,False,negative,0.1659
+Qwen2.5-3B,bnsentmix_04327,4327,neutral,mixed,True,False,mixed,0.1483
+Qwen2.5-3B,bnsentmix_04459,4459,neutral,negative,True,False,negative,0.1468
+Qwen2.5-3B,bnsentmix_04790,4790,neutral,neutral,True,True,neutral,0.147
+Qwen2.5-3B,bnsentmix_04838,4838,neutral,negative,True,False,negative,0.1479
+Qwen2.5-3B,bnsentmix_04895,4895,neutral,negative,True,False,negative,0.147
+Qwen2.5-3B,bnsentmix_05086,5086,neutral,mixed,True,False,mixed,0.1468
+Qwen2.5-3B,bnsentmix_05217,5217,neutral,neutral,True,True,neutral,0.1488
+Qwen2.5-3B,bnsentmix_05281,5281,neutral,positive,True,False,positive,0.1462
+Qwen2.5-3B,bnsentmix_05283,5283,neutral,mixed,True,False,mixed,0.1666
+Qwen2.5-3B,bnsentmix_05604,5604,neutral,negative,True,False,negative,0.1462
+Qwen2.5-3B,bnsentmix_05757,5757,neutral,neutral,True,True,neutral,0.1491
+Qwen2.5-3B,bnsentmix_05843,5843,neutral,mixed,True,False,mixed,0.1476
+Qwen2.5-3B,bnsentmix_06033,6033,neutral,negative,True,False,negative,0.1455
+Qwen2.5-3B,bnsentmix_06478,6478,neutral,positive,True,False,positive,0.1457
+Qwen2.5-3B,bnsentmix_06501,6501,neutral,mixed,True,False,mixed,0.1493
+Qwen2.5-3B,bnsentmix_06551,6551,neutral,positive,True,False,positive,0.1478
+Qwen2.5-3B,bnsentmix_06685,6685,neutral,mixed,True,False,mixed,0.1479
+Qwen2.5-3B,bnsentmix_06878,6878,neutral,mixed,True,False,mixed,0.1671
+Qwen2.5-3B,bnsentmix_07402,7402,neutral,neutral,True,True,neutral,0.1472
+Qwen2.5-3B,bnsentmix_07415,7415,neutral,neutral,True,True,neutral,0.1462
+Qwen2.5-3B,bnsentmix_07457,7457,neutral,mixed,True,False,mixed,0.1495
+Qwen2.5-3B,bnsentmix_07628,7628,neutral,negative,True,False,negative,0.1485
+Qwen2.5-3B,bnsentmix_07675,7675,neutral,neutral,True,True,neutral,0.1462
+Qwen2.5-3B,bnsentmix_07760,7760,neutral,positive,True,False,positive,0.1488
+Qwen2.5-3B,bnsentmix_07843,7843,neutral,neutral,True,True,neutral,0.1474
+Qwen2.5-3B,bnsentmix_08007,8007,neutral,mixed,True,False,mixed,0.1488
+Qwen2.5-3B,bnsentmix_08041,8041,neutral,mixed,True,False,mixed,0.1456
+Qwen2.5-3B,bnsentmix_08052,8052,neutral,mixed,True,False,mixed,0.1465
+Qwen2.5-3B,bnsentmix_08824,8824,negative,negative,True,True,negative,0.1466
+Qwen2.5-3B,bnsentmix_09025,9025,negative,negative,True,True,negative,0.1489
+Qwen2.5-3B,bnsentmix_09065,9065,negative,negative,True,True,negative,0.1545
+Qwen2.5-3B,bnsentmix_09341,9341,negative,positive,True,False,positive,0.1482
+Qwen2.5-3B,bnsentmix_09355,9355,negative,negative,True,True,negative,0.1464
+Qwen2.5-3B,bnsentmix_09474,9474,negative,negative,True,True,negative,0.1473
+Qwen2.5-3B,bnsentmix_09479,9479,negative,mixed,True,False,mixed,0.1688
+Qwen2.5-3B,bnsentmix_09750,9750,negative,negative,True,True,negative,0.1697
+Qwen2.5-3B,bnsentmix_09825,9825,negative,negative,True,True,negative,0.1463
+Qwen2.5-3B,bnsentmix_09953,9953,negative,negative,True,True,negative,0.1482
+Qwen2.5-3B,bnsentmix_09983,9983,negative,negative,True,True,negative,0.1469
+Qwen2.5-3B,bnsentmix_10089,10089,negative,negative,True,True,negative,0.1684
+Qwen2.5-3B,bnsentmix_10171,10171,negative,mixed,True,False,mixed,0.1682
+Qwen2.5-3B,bnsentmix_10293,10293,negative,positive,True,False,positive,0.1531
+Qwen2.5-3B,bnsentmix_10316,10316,negative,neutral,True,False,neutral,0.1473
+Qwen2.5-3B,bnsentmix_10356,10356,negative,negative,True,True,negative,0.1495
+Qwen2.5-3B,bnsentmix_10399,10399,negative,positive,True,False,positive,0.1467
+Qwen2.5-3B,bnsentmix_10617,10617,negative,negative,True,True,negative,0.1479
+Qwen2.5-3B,bnsentmix_10622,10622,negative,mixed,True,False,mixed,0.1483
+Qwen2.5-3B,bnsentmix_10811,10811,negative,negative,True,True,negative,0.168
+Qwen2.5-3B,bnsentmix_11158,11158,negative,negative,True,True,negative,0.1473
+Qwen2.5-3B,bnsentmix_11199,11199,negative,mixed,True,False,mixed,0.1733
+Qwen2.5-3B,bnsentmix_11214,11214,negative,mixed,True,False,mixed,0.1502
+Qwen2.5-3B,bnsentmix_11236,11236,negative,negative,True,True,negative,0.1498
+Qwen2.5-3B,bnsentmix_11307,11307,negative,negative,True,True,negative,0.1478
+Qwen2.5-3B,bnsentmix_11457,11457,negative,negative,True,True,negative,0.1676
+Qwen2.5-3B,bnsentmix_11513,11513,negative,neutral,True,False,neutral,0.1493
+Qwen2.5-3B,bnsentmix_11533,11533,negative,negative,True,True,negative,0.147
+Qwen2.5-3B,bnsentmix_11538,11538,negative,positive,True,False,positive,0.1464
+Qwen2.5-3B,bnsentmix_11599,11599,negative,positive,True,False,positive,0.1541
+Qwen2.5-3B,bnsentmix_11675,11675,negative,positive,True,False,positive,0.1711
+Qwen2.5-3B,bnsentmix_11782,11782,negative,mixed,True,False,mixed,0.1474
+Qwen2.5-3B,bnsentmix_11973,11973,negative,negative,True,True,negative,0.1509
+Qwen2.5-3B,bnsentmix_12084,12084,negative,negative,True,True,negative,0.1679
+Qwen2.5-3B,bnsentmix_12289,12289,negative,mixed,True,False,mixed,0.1482
+Qwen2.5-3B,bnsentmix_12357,12357,negative,mixed,True,False,mixed,0.1697
+Qwen2.5-3B,bnsentmix_12509,12509,negative,mixed,True,False,mixed,0.2334
+Qwen2.5-3B,bnsentmix_12602,12602,negative,neutral,True,False,neutral,0.1467
+Qwen2.5-3B,bnsentmix_12685,12685,negative,negative,True,True,negative,0.1475
+Qwen2.5-3B,bnsentmix_12713,12713,negative,negative,True,True,negative,0.1478
+Qwen2.5-3B,bnsentmix_12875,12875,negative,negative,True,True,negative,0.1876
+Qwen2.5-3B,bnsentmix_12878,12878,negative,positive,True,False,positive,0.1466
+Qwen2.5-3B,bnsentmix_12905,12905,negative,negative,True,True,negative,0.1465
+Qwen2.5-3B,bnsentmix_13331,13331,negative,negative,True,True,negative,0.1486
+Qwen2.5-3B,bnsentmix_13571,13571,negative,negative,True,True,negative,0.1694
+Qwen2.5-3B,bnsentmix_13617,13617,negative,negative,True,True,negative,0.1679
+Qwen2.5-3B,bnsentmix_13634,13634,negative,positive,True,False,positive,0.1463
+Qwen2.5-3B,bnsentmix_13653,13653,negative,mixed,True,False,mixed,0.148
+Qwen2.5-3B,bnsentmix_13955,13955,negative,positive,True,False,positive,0.1707
+Qwen2.5-3B,bnsentmix_14251,14251,negative,negative,True,True,negative,0.1686
+Qwen2.5-3B,bnsentmix_14791,14791,positive,mixed,True,False,mixed,0.1478
+Qwen2.5-3B,bnsentmix_15006,15006,positive,negative,True,False,negative,0.1446
+Qwen2.5-3B,bnsentmix_15075,15075,positive,positive,True,True,positive,0.1487
+Qwen2.5-3B,bnsentmix_15234,15234,positive,positive,True,True,positive,0.1491
+Qwen2.5-3B,bnsentmix_15307,15307,positive,positive,True,True,positive,0.1878
+Qwen2.5-3B,bnsentmix_15463,15463,positive,negative,True,False,negative,0.1473
+Qwen2.5-3B,bnsentmix_15493,15493,positive,positive,True,True,positive,0.1685
+Qwen2.5-3B,bnsentmix_15759,15759,positive,positive,True,True,positive,0.1463
+Qwen2.5-3B,bnsentmix_15767,15767,positive,positive,True,True,positive,0.1497
+Qwen2.5-3B,bnsentmix_15890,15890,positive,positive,True,True,positive,0.1671
+Qwen2.5-3B,bnsentmix_15959,15959,positive,negative,True,False,negative,0.1477
+Qwen2.5-3B,bnsentmix_16025,16025,positive,positive,True,True,positive,0.1483
+Qwen2.5-3B,bnsentmix_16455,16455,positive,positive,True,True,positive,0.1478
+Qwen2.5-3B,bnsentmix_16555,16555,positive,mixed,True,False,mixed,0.1509
+Qwen2.5-3B,bnsentmix_16954,16954,positive,mixed,True,False,mixed,0.1464
+Qwen2.5-3B,bnsentmix_17029,17029,positive,positive,True,True,positive,0.1481
+Qwen2.5-3B,bnsentmix_17139,17139,positive,positive,True,True,positive,0.147
+Qwen2.5-3B,bnsentmix_17155,17155,positive,positive,True,True,positive,0.1473
+Qwen2.5-3B,bnsentmix_17170,17170,positive,positive,True,True,positive,0.146
+Qwen2.5-3B,bnsentmix_17201,17201,positive,negative,True,False,negative,0.1487
+Qwen2.5-3B,bnsentmix_17253,17253,positive,positive,True,True,positive,0.1466
+Qwen2.5-3B,bnsentmix_17464,17464,positive,mixed,True,False,mixed,0.1681
+Qwen2.5-3B,bnsentmix_17549,17549,positive,negative,True,False,negative,0.1478
+Qwen2.5-3B,bnsentmix_17582,17582,positive,positive,True,True,positive,0.1929
+Qwen2.5-3B,bnsentmix_17587,17587,positive,positive,True,True,positive,0.1689
+Qwen2.5-3B,bnsentmix_17604,17604,positive,positive,True,True,positive,0.1474
+Qwen2.5-3B,bnsentmix_17781,17781,positive,mixed,True,False,mixed,0.1479
+Qwen2.5-3B,bnsentmix_17858,17858,positive,mixed,True,False,mixed,0.1716
+Qwen2.5-3B,bnsentmix_17873,17873,positive,positive,True,True,positive,0.1493
+Qwen2.5-3B,bnsentmix_17909,17909,positive,positive,True,True,positive,0.1697
+Qwen2.5-3B,bnsentmix_17986,17986,positive,positive,True,True,positive,0.1478
+Qwen2.5-3B,bnsentmix_18006,18006,positive,mixed,True,False,mixed,0.1474
+Qwen2.5-3B,bnsentmix_18055,18055,positive,mixed,True,False,mixed,0.1463
+Qwen2.5-3B,bnsentmix_18185,18185,positive,positive,True,True,positive,0.1679
+Qwen2.5-3B,bnsentmix_18241,18241,positive,positive,True,True,positive,0.1477
+Qwen2.5-3B,bnsentmix_18508,18508,positive,negative,True,False,negative,0.1696
+Qwen2.5-3B,bnsentmix_18537,18537,positive,positive,True,True,positive,0.1475
+Qwen2.5-3B,bnsentmix_18641,18641,positive,positive,True,True,positive,0.1476
+Qwen2.5-3B,bnsentmix_18777,18777,positive,neutral,True,False,neutral,0.1483
+Qwen2.5-3B,bnsentmix_18824,18824,positive,mixed,True,False,mixed,0.148
+Qwen2.5-3B,bnsentmix_18879,18879,positive,mixed,True,False,mixed,0.2335
+Qwen2.5-3B,bnsentmix_19229,19229,positive,positive,True,True,positive,0.1463
+Qwen2.5-3B,bnsentmix_19290,19290,positive,positive,True,True,positive,0.1463
+Qwen2.5-3B,bnsentmix_19300,19300,positive,positive,True,True,positive,1.298
+Qwen2.5-3B,bnsentmix_19395,19395,positive,positive,True,True,positive,0.1514
+Qwen2.5-3B,bnsentmix_19521,19521,positive,positive,True,True,positive,0.1476
+Qwen2.5-3B,bnsentmix_19603,19603,positive,negative,True,False,negative,0.1484
+Qwen2.5-3B,bnsentmix_19759,19759,positive,negative,True,False,negative,0.1497
+Qwen2.5-3B,bnsentmix_19866,19866,positive,mixed,True,False,mixed,0.1688
+Qwen2.5-3B,bnsentmix_19902,19902,positive,positive,True,True,positive,0.1468
+Qwen2.5-7B 8-bit,bnsentmix_00014,14,mixed,negative,True,False,negative,0.789
+Qwen2.5-7B 8-bit,bnsentmix_00151,151,mixed,negative,True,False,negative,0.8725
+Qwen2.5-7B 8-bit,bnsentmix_00158,158,mixed,negative,True,False,negative,0.8002
+Qwen2.5-7B 8-bit,bnsentmix_00195,195,mixed,neutral,True,False,neutral,0.8584
+Qwen2.5-7B 8-bit,bnsentmix_00233,233,mixed,mixed,True,True,mixed,0.7985
+Qwen2.5-7B 8-bit,bnsentmix_00251,251,mixed,mixed,True,True,mixed,0.8699
+Qwen2.5-7B 8-bit,bnsentmix_00265,265,mixed,negative,True,False,negative,0.873
+Qwen2.5-7B 8-bit,bnsentmix_00308,308,mixed,mixed,True,True,mixed,0.8894
+Qwen2.5-7B 8-bit,bnsentmix_00312,312,mixed,mixed,True,True,mixed,0.797
+Qwen2.5-7B 8-bit,bnsentmix_00369,369,mixed,mixed,True,True,mixed,0.953
+Qwen2.5-7B 8-bit,bnsentmix_00374,374,mixed,positive,True,False,positive,0.8088
+Qwen2.5-7B 8-bit,bnsentmix_00393,393,mixed,mixed,True,True,mixed,0.8893
+Qwen2.5-7B 8-bit,bnsentmix_00432,432,mixed,neutral,True,False,neutral,0.8694
+Qwen2.5-7B 8-bit,bnsentmix_00451,451,mixed,positive,True,False,positive,0.8571
+Qwen2.5-7B 8-bit,bnsentmix_00546,546,mixed,neutral,True,False,neutral,0.855
+Qwen2.5-7B 8-bit,bnsentmix_00560,560,mixed,negative,True,False,negative,0.7925
+Qwen2.5-7B 8-bit,bnsentmix_00581,581,mixed,positive,True,False,positive,0.8758
+Qwen2.5-7B 8-bit,bnsentmix_00594,594,mixed,positive,True,False,positive,0.8592
+Qwen2.5-7B 8-bit,bnsentmix_00602,602,mixed,negative,True,False,negative,0.7879
+Qwen2.5-7B 8-bit,bnsentmix_00606,606,mixed,neutral,True,False,neutral,0.7876
+Qwen2.5-7B 8-bit,bnsentmix_00613,613,mixed,mixed,True,True,mixed,0.7994
+Qwen2.5-7B 8-bit,bnsentmix_00617,617,mixed,mixed,True,True,mixed,0.7904
+Qwen2.5-7B 8-bit,bnsentmix_00647,647,mixed,negative,True,False,negative,0.8019
+Qwen2.5-7B 8-bit,bnsentmix_00660,660,mixed,positive,True,False,positive,0.7883
+Qwen2.5-7B 8-bit,bnsentmix_00734,734,mixed,positive,True,False,positive,0.7975
+Qwen2.5-7B 8-bit,bnsentmix_00749,749,mixed,negative,True,False,negative,0.7937
+Qwen2.5-7B 8-bit,bnsentmix_00752,752,mixed,negative,True,False,negative,0.7894
+Qwen2.5-7B 8-bit,bnsentmix_00903,903,mixed,neutral,True,False,neutral,0.7866
+Qwen2.5-7B 8-bit,bnsentmix_00907,907,mixed,mixed,True,True,mixed,0.8679
+Qwen2.5-7B 8-bit,bnsentmix_00918,918,mixed,neutral,True,False,neutral,0.7974
+Qwen2.5-7B 8-bit,bnsentmix_01009,1009,mixed,mixed,True,True,mixed,1.0177
+Qwen2.5-7B 8-bit,bnsentmix_01017,1017,mixed,negative,True,False,negative,0.7855
+Qwen2.5-7B 8-bit,bnsentmix_01100,1100,mixed,negative,True,False,negative,0.7911
+Qwen2.5-7B 8-bit,bnsentmix_01139,1139,mixed,neutral,True,False,neutral,0.799
+Qwen2.5-7B 8-bit,bnsentmix_01144,1144,mixed,positive,True,False,positive,0.8599
+Qwen2.5-7B 8-bit,bnsentmix_01150,1150,mixed,positive,True,False,positive,0.8702
+Qwen2.5-7B 8-bit,bnsentmix_01269,1269,mixed,negative,True,False,negative,0.8608
+Qwen2.5-7B 8-bit,bnsentmix_01313,1313,mixed,negative,True,False,negative,0.786
+Qwen2.5-7B 8-bit,bnsentmix_01361,1361,mixed,neutral,True,False,neutral,0.815
+Qwen2.5-7B 8-bit,bnsentmix_01371,1371,mixed,mixed,True,True,mixed,0.7922
+Qwen2.5-7B 8-bit,bnsentmix_01397,1397,mixed,mixed,True,True,mixed,0.7984
+Qwen2.5-7B 8-bit,bnsentmix_01411,1411,mixed,neutral,True,False,neutral,0.8542
+Qwen2.5-7B 8-bit,bnsentmix_01436,1436,mixed,mixed,True,True,mixed,0.8671
+Qwen2.5-7B 8-bit,bnsentmix_01460,1460,mixed,positive,True,False,positive,0.787
+Qwen2.5-7B 8-bit,bnsentmix_01484,1484,mixed,negative,True,False,negative,0.8863
+Qwen2.5-7B 8-bit,bnsentmix_01556,1556,mixed,neutral,True,False,neutral,0.798
+Qwen2.5-7B 8-bit,bnsentmix_01677,1677,mixed,mixed,True,True,mixed,0.7924
+Qwen2.5-7B 8-bit,bnsentmix_01690,1690,mixed,mixed,True,True,mixed,0.7937
+Qwen2.5-7B 8-bit,bnsentmix_01707,1707,mixed,mixed,True,True,mixed,0.7935
+Qwen2.5-7B 8-bit,bnsentmix_01749,1749,mixed,mixed,True,True,mixed,0.7966
+Qwen2.5-7B 8-bit,bnsentmix_01901,1901,neutral,neutral,True,True,neutral,0.7889
+Qwen2.5-7B 8-bit,bnsentmix_02187,2187,neutral,negative,True,False,negative,0.8637
+Qwen2.5-7B 8-bit,bnsentmix_02237,2237,neutral,neutral,True,True,neutral,0.7858
+Qwen2.5-7B 8-bit,bnsentmix_02265,2265,neutral,neutral,True,True,neutral,0.7907
+Qwen2.5-7B 8-bit,bnsentmix_02332,2332,neutral,neutral,True,True,neutral,0.8093
+Qwen2.5-7B 8-bit,bnsentmix_02346,2346,neutral,neutral,True,True,neutral,0.7882
+Qwen2.5-7B 8-bit,bnsentmix_02351,2351,neutral,positive,True,False,positive,0.7937
+Qwen2.5-7B 8-bit,bnsentmix_02440,2440,neutral,neutral,True,True,neutral,0.7919
+Qwen2.5-7B 8-bit,bnsentmix_02446,2446,neutral,neutral,True,True,neutral,0.8003
+Qwen2.5-7B 8-bit,bnsentmix_02951,2951,neutral,neutral,True,True,neutral,0.7883
+Qwen2.5-7B 8-bit,bnsentmix_02957,2957,neutral,neutral,True,True,neutral,0.7903
+Qwen2.5-7B 8-bit,bnsentmix_03013,3013,neutral,neutral,True,True,neutral,0.807
+Qwen2.5-7B 8-bit,bnsentmix_03072,3072,neutral,positive,True,False,positive,0.7875
+Qwen2.5-7B 8-bit,bnsentmix_03260,3260,neutral,mixed,True,False,mixed,0.8693
+Qwen2.5-7B 8-bit,bnsentmix_03281,3281,neutral,neutral,True,True,neutral,0.7978
+Qwen2.5-7B 8-bit,bnsentmix_03439,3439,neutral,positive,True,False,positive,0.7877
+Qwen2.5-7B 8-bit,bnsentmix_03553,3553,neutral,neutral,True,True,neutral,0.7943
+Qwen2.5-7B 8-bit,bnsentmix_03593,3593,neutral,neutral,True,True,neutral,0.7876
+Qwen2.5-7B 8-bit,bnsentmix_03668,3668,neutral,neutral,True,True,neutral,0.8053
+Qwen2.5-7B 8-bit,bnsentmix_03765,3765,neutral,neutral,True,True,neutral,0.781
+Qwen2.5-7B 8-bit,bnsentmix_04111,4111,neutral,positive,True,False,positive,0.7906
+Qwen2.5-7B 8-bit,bnsentmix_04179,4179,neutral,neutral,True,True,neutral,0.8559
+Qwen2.5-7B 8-bit,bnsentmix_04327,4327,neutral,neutral,True,True,neutral,0.7897
+Qwen2.5-7B 8-bit,bnsentmix_04459,4459,neutral,negative,True,False,negative,0.8047
+Qwen2.5-7B 8-bit,bnsentmix_04790,4790,neutral,neutral,True,True,neutral,0.8308
+Qwen2.5-7B 8-bit,bnsentmix_04838,4838,neutral,neutral,True,True,neutral,0.7909
+Qwen2.5-7B 8-bit,bnsentmix_04895,4895,neutral,neutral,True,True,neutral,0.7952
+Qwen2.5-7B 8-bit,bnsentmix_05086,5086,neutral,neutral,True,True,neutral,0.781
+Qwen2.5-7B 8-bit,bnsentmix_05217,5217,neutral,neutral,True,True,neutral,0.7882
+Qwen2.5-7B 8-bit,bnsentmix_05281,5281,neutral,neutral,True,True,neutral,0.7892
+Qwen2.5-7B 8-bit,bnsentmix_05283,5283,neutral,neutral,True,True,neutral,0.86
+Qwen2.5-7B 8-bit,bnsentmix_05604,5604,neutral,negative,True,False,negative,0.7874
+Qwen2.5-7B 8-bit,bnsentmix_05757,5757,neutral,neutral,True,True,neutral,0.7875
+Qwen2.5-7B 8-bit,bnsentmix_05843,5843,neutral,neutral,True,True,neutral,0.7815
+Qwen2.5-7B 8-bit,bnsentmix_06033,6033,neutral,neutral,True,True,neutral,0.7941
+Qwen2.5-7B 8-bit,bnsentmix_06478,6478,neutral,neutral,True,True,neutral,0.7854
+Qwen2.5-7B 8-bit,bnsentmix_06501,6501,neutral,neutral,True,True,neutral,0.7894
+Qwen2.5-7B 8-bit,bnsentmix_06551,6551,neutral,positive,True,False,positive,0.7901
+Qwen2.5-7B 8-bit,bnsentmix_06685,6685,neutral,neutral,True,True,neutral,0.7955
+Qwen2.5-7B 8-bit,bnsentmix_06878,6878,neutral,mixed,True,False,mixed,0.8596
+Qwen2.5-7B 8-bit,bnsentmix_07402,7402,neutral,neutral,True,True,neutral,0.8089
+Qwen2.5-7B 8-bit,bnsentmix_07415,7415,neutral,neutral,True,True,neutral,0.7906
+Qwen2.5-7B 8-bit,bnsentmix_07457,7457,neutral,neutral,True,True,neutral,0.7858
+Qwen2.5-7B 8-bit,bnsentmix_07628,7628,neutral,neutral,True,True,neutral,0.7891
+Qwen2.5-7B 8-bit,bnsentmix_07675,7675,neutral,neutral,True,True,neutral,0.7893
+Qwen2.5-7B 8-bit,bnsentmix_07760,7760,neutral,neutral,True,True,neutral,0.785
+Qwen2.5-7B 8-bit,bnsentmix_07843,7843,neutral,neutral,True,True,neutral,0.7862
+Qwen2.5-7B 8-bit,bnsentmix_08007,8007,neutral,positive,True,False,positive,0.7964
+Qwen2.5-7B 8-bit,bnsentmix_08041,8041,neutral,neutral,True,True,neutral,0.7898
+Qwen2.5-7B 8-bit,bnsentmix_08052,8052,neutral,neutral,True,True,neutral,0.7859
+Qwen2.5-7B 8-bit,bnsentmix_08824,8824,negative,negative,True,True,negative,0.8063
+Qwen2.5-7B 8-bit,bnsentmix_09025,9025,negative,negative,True,True,negative,0.7902
+Qwen2.5-7B 8-bit,bnsentmix_09065,9065,negative,negative,True,True,negative,0.81
+Qwen2.5-7B 8-bit,bnsentmix_09341,9341,negative,positive,True,False,positive,0.7996
+Qwen2.5-7B 8-bit,bnsentmix_09355,9355,negative,negative,True,True,negative,0.7967
+Qwen2.5-7B 8-bit,bnsentmix_09474,9474,negative,negative,True,True,negative,0.7901
+Qwen2.5-7B 8-bit,bnsentmix_09479,9479,negative,neutral,True,False,neutral,0.8583
+Qwen2.5-7B 8-bit,bnsentmix_09750,9750,negative,negative,True,True,negative,0.867
+Qwen2.5-7B 8-bit,bnsentmix_09825,9825,negative,neutral,True,False,neutral,0.7934
+Qwen2.5-7B 8-bit,bnsentmix_09953,9953,negative,neutral,True,False,neutral,0.7892
+Qwen2.5-7B 8-bit,bnsentmix_09983,9983,negative,negative,True,True,negative,0.7952
+Qwen2.5-7B 8-bit,bnsentmix_10089,10089,negative,neutral,True,False,neutral,0.8657
+Qwen2.5-7B 8-bit,bnsentmix_10171,10171,negative,negative,True,True,negative,0.8648
+Qwen2.5-7B 8-bit,bnsentmix_10293,10293,negative,neutral,True,False,neutral,0.7868
+Qwen2.5-7B 8-bit,bnsentmix_10316,10316,negative,neutral,True,False,neutral,0.7867
+Qwen2.5-7B 8-bit,bnsentmix_10356,10356,negative,negative,True,True,negative,0.7922
+Qwen2.5-7B 8-bit,bnsentmix_10399,10399,negative,positive,True,False,positive,0.8048
+Qwen2.5-7B 8-bit,bnsentmix_10617,10617,negative,neutral,True,False,neutral,0.7926
+Qwen2.5-7B 8-bit,bnsentmix_10622,10622,negative,mixed,True,False,mixed,0.7881
+Qwen2.5-7B 8-bit,bnsentmix_10811,10811,negative,negative,True,True,negative,0.8819
+Qwen2.5-7B 8-bit,bnsentmix_11158,11158,negative,negative,True,True,negative,0.8061
+Qwen2.5-7B 8-bit,bnsentmix_11199,11199,negative,neutral,True,False,neutral,0.8636
+Qwen2.5-7B 8-bit,bnsentmix_11214,11214,negative,neutral,True,False,neutral,0.7891
+Qwen2.5-7B 8-bit,bnsentmix_11236,11236,negative,mixed,True,False,mixed,0.7983
+Qwen2.5-7B 8-bit,bnsentmix_11307,11307,negative,neutral,True,False,neutral,0.786
+Qwen2.5-7B 8-bit,bnsentmix_11457,11457,negative,neutral,True,False,neutral,0.8778
+Qwen2.5-7B 8-bit,bnsentmix_11513,11513,negative,neutral,True,False,neutral,0.7856
+Qwen2.5-7B 8-bit,bnsentmix_11533,11533,negative,negative,True,True,negative,0.7829
+Qwen2.5-7B 8-bit,bnsentmix_11538,11538,negative,neutral,True,False,neutral,0.7932
+Qwen2.5-7B 8-bit,bnsentmix_11599,11599,negative,neutral,True,False,neutral,0.7918
+Qwen2.5-7B 8-bit,bnsentmix_11675,11675,negative,mixed,True,False,mixed,0.8898
+Qwen2.5-7B 8-bit,bnsentmix_11782,11782,negative,negative,True,True,negative,0.7929
+Qwen2.5-7B 8-bit,bnsentmix_11973,11973,negative,negative,True,True,negative,0.7948
+Qwen2.5-7B 8-bit,bnsentmix_12084,12084,negative,neutral,True,False,neutral,0.8862
+Qwen2.5-7B 8-bit,bnsentmix_12289,12289,negative,neutral,True,False,neutral,0.7852
+Qwen2.5-7B 8-bit,bnsentmix_12357,12357,negative,mixed,True,False,mixed,0.8637
+Qwen2.5-7B 8-bit,bnsentmix_12509,12509,negative,negative,True,True,negative,1.0349
+Qwen2.5-7B 8-bit,bnsentmix_12602,12602,negative,neutral,True,False,neutral,0.7915
+Qwen2.5-7B 8-bit,bnsentmix_12685,12685,negative,negative,True,True,negative,0.7932
+Qwen2.5-7B 8-bit,bnsentmix_12713,12713,negative,negative,True,True,negative,0.7857
+Qwen2.5-7B 8-bit,bnsentmix_12875,12875,negative,neutral,True,False,neutral,0.9552
+Qwen2.5-7B 8-bit,bnsentmix_12878,12878,negative,positive,True,False,positive,0.8147
+Qwen2.5-7B 8-bit,bnsentmix_12905,12905,negative,negative,True,True,negative,0.794
+Qwen2.5-7B 8-bit,bnsentmix_13331,13331,negative,negative,True,True,negative,0.7862
+Qwen2.5-7B 8-bit,bnsentmix_13571,13571,negative,mixed,True,False,mixed,0.8838
+Qwen2.5-7B 8-bit,bnsentmix_13617,13617,negative,negative,True,True,negative,0.8589
+Qwen2.5-7B 8-bit,bnsentmix_13634,13634,negative,neutral,True,False,neutral,0.7937
+Qwen2.5-7B 8-bit,bnsentmix_13653,13653,negative,negative,True,True,negative,0.7831
+Qwen2.5-7B 8-bit,bnsentmix_13955,13955,negative,neutral,True,False,neutral,0.8655
+Qwen2.5-7B 8-bit,bnsentmix_14251,14251,negative,negative,True,True,negative,0.8695
+Qwen2.5-7B 8-bit,bnsentmix_14791,14791,positive,neutral,True,False,neutral,0.783
+Qwen2.5-7B 8-bit,bnsentmix_15006,15006,positive,neutral,True,False,neutral,0.7882
+Qwen2.5-7B 8-bit,bnsentmix_15075,15075,positive,neutral,True,False,neutral,0.7851
+Qwen2.5-7B 8-bit,bnsentmix_15234,15234,positive,neutral,True,False,neutral,0.7881
+Qwen2.5-7B 8-bit,bnsentmix_15307,15307,positive,positive,True,True,positive,0.9528
+Qwen2.5-7B 8-bit,bnsentmix_15463,15463,positive,neutral,True,False,neutral,0.8021
+Qwen2.5-7B 8-bit,bnsentmix_15493,15493,positive,positive,True,True,positive,0.8558
+Qwen2.5-7B 8-bit,bnsentmix_15759,15759,positive,mixed,True,False,mixed,0.8463
+Qwen2.5-7B 8-bit,bnsentmix_15767,15767,positive,neutral,True,False,neutral,0.7943
+Qwen2.5-7B 8-bit,bnsentmix_15890,15890,positive,positive,True,True,positive,0.8608
+Qwen2.5-7B 8-bit,bnsentmix_15959,15959,positive,neutral,True,False,neutral,0.8268
+Qwen2.5-7B 8-bit,bnsentmix_16025,16025,positive,positive,True,True,positive,0.7874
+Qwen2.5-7B 8-bit,bnsentmix_16455,16455,positive,positive,True,True,positive,0.8038
+Qwen2.5-7B 8-bit,bnsentmix_16555,16555,positive,neutral,True,False,neutral,0.797
+Qwen2.5-7B 8-bit,bnsentmix_16954,16954,positive,neutral,True,False,neutral,0.7888
+Qwen2.5-7B 8-bit,bnsentmix_17029,17029,positive,positive,True,True,positive,0.8194
+Qwen2.5-7B 8-bit,bnsentmix_17139,17139,positive,negative,True,False,negative,0.7875
+Qwen2.5-7B 8-bit,bnsentmix_17155,17155,positive,positive,True,True,positive,0.7983
+Qwen2.5-7B 8-bit,bnsentmix_17170,17170,positive,positive,True,True,positive,0.7902
+Qwen2.5-7B 8-bit,bnsentmix_17201,17201,positive,negative,True,False,negative,0.7822
+Qwen2.5-7B 8-bit,bnsentmix_17253,17253,positive,positive,True,True,positive,0.7886
+Qwen2.5-7B 8-bit,bnsentmix_17464,17464,positive,mixed,True,False,mixed,0.8804
+Qwen2.5-7B 8-bit,bnsentmix_17549,17549,positive,neutral,True,False,neutral,0.7931
+Qwen2.5-7B 8-bit,bnsentmix_17582,17582,positive,positive,True,True,positive,0.9582
+Qwen2.5-7B 8-bit,bnsentmix_17587,17587,positive,positive,True,True,positive,0.8614
+Qwen2.5-7B 8-bit,bnsentmix_17604,17604,positive,neutral,True,False,neutral,0.7958
+Qwen2.5-7B 8-bit,bnsentmix_17781,17781,positive,neutral,True,False,neutral,0.7826
+Qwen2.5-7B 8-bit,bnsentmix_17858,17858,positive,negative,True,False,negative,0.8744
+Qwen2.5-7B 8-bit,bnsentmix_17873,17873,positive,neutral,True,False,neutral,0.7865
+Qwen2.5-7B 8-bit,bnsentmix_17909,17909,positive,positive,True,True,positive,0.8641
+Qwen2.5-7B 8-bit,bnsentmix_17986,17986,positive,mixed,True,False,mixed,0.8251
+Qwen2.5-7B 8-bit,bnsentmix_18006,18006,positive,neutral,True,False,neutral,0.7905
+Qwen2.5-7B 8-bit,bnsentmix_18055,18055,positive,neutral,True,False,neutral,0.7989
+Qwen2.5-7B 8-bit,bnsentmix_18185,18185,positive,positive,True,True,positive,0.8612
+Qwen2.5-7B 8-bit,bnsentmix_18241,18241,positive,positive,True,True,positive,0.7887
+Qwen2.5-7B 8-bit,bnsentmix_18508,18508,positive,neutral,True,False,neutral,0.8674
+Qwen2.5-7B 8-bit,bnsentmix_18537,18537,positive,positive,True,True,positive,0.8025
+Qwen2.5-7B 8-bit,bnsentmix_18641,18641,positive,positive,True,True,positive,0.7916
+Qwen2.5-7B 8-bit,bnsentmix_18777,18777,positive,neutral,True,False,neutral,0.7842
+Qwen2.5-7B 8-bit,bnsentmix_18824,18824,positive,neutral,True,False,neutral,0.7912
+Qwen2.5-7B 8-bit,bnsentmix_18879,18879,positive,positive,True,True,positive,1.0133
+Qwen2.5-7B 8-bit,bnsentmix_19229,19229,positive,positive,True,True,positive,1.0342
+Qwen2.5-7B 8-bit,bnsentmix_19290,19290,positive,neutral,True,False,neutral,0.7886
+Qwen2.5-7B 8-bit,bnsentmix_19300,19300,positive,neutral,True,False,neutral,18.8068
+Qwen2.5-7B 8-bit,bnsentmix_19395,19395,positive,positive,True,True,positive,0.7937
+Qwen2.5-7B 8-bit,bnsentmix_19521,19521,positive,positive,True,True,positive,0.8347
+Qwen2.5-7B 8-bit,bnsentmix_19603,19603,positive,neutral,True,False,neutral,0.7843
+Qwen2.5-7B 8-bit,bnsentmix_19759,19759,positive,neutral,True,False,neutral,0.789
+Qwen2.5-7B 8-bit,bnsentmix_19866,19866,positive,mixed,True,False,mixed,0.8657
+Qwen2.5-7B 8-bit,bnsentmix_19902,19902,positive,neutral,True,False,neutral,0.8098
+Qwen3-4B,bnsentmix_00014,14,mixed,negative,True,False,negative,0.1846
+Qwen3-4B,bnsentmix_00151,151,mixed,neutral,True,False,neutral,0.2087
+Qwen3-4B,bnsentmix_00158,158,mixed,mixed,True,True,mixed,0.1845
+Qwen3-4B,bnsentmix_00195,195,mixed,mixed,True,True,mixed,0.2079
+Qwen3-4B,bnsentmix_00233,233,mixed,mixed,True,True,mixed,0.181
+Qwen3-4B,bnsentmix_00251,251,mixed,mixed,True,True,mixed,0.2098
+Qwen3-4B,bnsentmix_00265,265,mixed,negative,True,False,negative,0.2087
+Qwen3-4B,bnsentmix_00308,308,mixed,mixed,True,True,mixed,0.2099
+Qwen3-4B,bnsentmix_00312,312,mixed,mixed,True,True,mixed,0.1827
+Qwen3-4B,bnsentmix_00369,369,mixed,mixed,True,True,mixed,0.2486
+Qwen3-4B,bnsentmix_00374,374,mixed,positive,True,False,positive,0.1823
+Qwen3-4B,bnsentmix_00393,393,mixed,mixed,True,True,mixed,0.2091
+Qwen3-4B,bnsentmix_00432,432,mixed,negative,True,False,negative,0.209
+Qwen3-4B,bnsentmix_00451,451,mixed,positive,True,False,positive,0.208
+Qwen3-4B,bnsentmix_00546,546,mixed,neutral,True,False,neutral,0.2079
+Qwen3-4B,bnsentmix_00560,560,mixed,negative,True,False,negative,0.1824
+Qwen3-4B,bnsentmix_00581,581,mixed,positive,True,False,positive,0.2092
+Qwen3-4B,bnsentmix_00594,594,mixed,positive,True,False,positive,0.2091
+Qwen3-4B,bnsentmix_00602,602,mixed,neutral,True,False,neutral,0.1853
+Qwen3-4B,bnsentmix_00606,606,mixed,neutral,True,False,neutral,0.1819
+Qwen3-4B,bnsentmix_00613,613,mixed,positive,True,False,positive,0.1811
+Qwen3-4B,bnsentmix_00617,617,mixed,mixed,True,True,mixed,0.1834
+Qwen3-4B,bnsentmix_00647,647,mixed,positive,True,False,positive,0.1823
+Qwen3-4B,bnsentmix_00660,660,mixed,positive,True,False,positive,0.1829
+Qwen3-4B,bnsentmix_00734,734,mixed,positive,True,False,positive,0.1817
+Qwen3-4B,bnsentmix_00749,749,mixed,negative,True,False,negative,0.1828
+Qwen3-4B,bnsentmix_00752,752,mixed,positive,True,False,positive,0.182
+Qwen3-4B,bnsentmix_00903,903,mixed,positive,True,False,positive,0.1833
+Qwen3-4B,bnsentmix_00907,907,mixed,mixed,True,True,mixed,0.2061
+Qwen3-4B,bnsentmix_00918,918,mixed,negative,True,False,negative,0.1827
+Qwen3-4B,bnsentmix_01009,1009,mixed,mixed,True,True,mixed,0.3025
+Qwen3-4B,bnsentmix_01017,1017,mixed,positive,True,False,positive,0.1842
+Qwen3-4B,bnsentmix_01100,1100,mixed,positive,True,False,positive,0.1831
+Qwen3-4B,bnsentmix_01139,1139,mixed,neutral,True,False,neutral,0.1845
+Qwen3-4B,bnsentmix_01144,1144,mixed,positive,True,False,positive,0.2063
+Qwen3-4B,bnsentmix_01150,1150,mixed,positive,True,False,positive,0.2085
+Qwen3-4B,bnsentmix_01269,1269,mixed,negative,True,False,negative,0.2144
+Qwen3-4B,bnsentmix_01313,1313,mixed,neutral,True,False,neutral,0.1852
+Qwen3-4B,bnsentmix_01361,1361,mixed,positive,True,False,positive,0.1923
+Qwen3-4B,bnsentmix_01371,1371,mixed,mixed,True,True,mixed,0.1851
+Qwen3-4B,bnsentmix_01397,1397,mixed,mixed,True,True,mixed,0.184
+Qwen3-4B,bnsentmix_01411,1411,mixed,negative,True,False,negative,0.2083
+Qwen3-4B,bnsentmix_01436,1436,mixed,positive,True,False,positive,0.208
+Qwen3-4B,bnsentmix_01460,1460,mixed,positive,True,False,positive,0.1834
+Qwen3-4B,bnsentmix_01484,1484,mixed,negative,True,False,negative,0.2084
+Qwen3-4B,bnsentmix_01556,1556,mixed,mixed,True,True,mixed,0.186
+Qwen3-4B,bnsentmix_01677,1677,mixed,mixed,True,True,mixed,0.1837
+Qwen3-4B,bnsentmix_01690,1690,mixed,mixed,True,True,mixed,0.1846
+Qwen3-4B,bnsentmix_01707,1707,mixed,mixed,True,True,mixed,0.1876
+Qwen3-4B,bnsentmix_01749,1749,mixed,mixed,True,True,mixed,0.184
+Qwen3-4B,bnsentmix_01901,1901,neutral,negative,True,False,negative,0.1847
+Qwen3-4B,bnsentmix_02187,2187,neutral,positive,True,False,positive,0.2095
+Qwen3-4B,bnsentmix_02237,2237,neutral,positive,True,False,positive,0.1848
+Qwen3-4B,bnsentmix_02265,2265,neutral,neutral,True,True,neutral,0.1862
+Qwen3-4B,bnsentmix_02332,2332,neutral,positive,True,False,positive,0.1836
+Qwen3-4B,bnsentmix_02346,2346,neutral,neutral,True,True,neutral,0.1839
+Qwen3-4B,bnsentmix_02351,2351,neutral,positive,True,False,positive,0.1846
+Qwen3-4B,bnsentmix_02440,2440,neutral,positive,True,False,positive,0.1835
+Qwen3-4B,bnsentmix_02446,2446,neutral,positive,True,False,positive,0.183
+Qwen3-4B,bnsentmix_02951,2951,neutral,neutral,True,True,neutral,0.1862
+Qwen3-4B,bnsentmix_02957,2957,neutral,neutral,True,True,neutral,0.1826
+Qwen3-4B,bnsentmix_03013,3013,neutral,neutral,True,True,neutral,0.1839
+Qwen3-4B,bnsentmix_03072,3072,neutral,positive,True,False,positive,0.1824
+Qwen3-4B,bnsentmix_03260,3260,neutral,negative,True,False,negative,0.2086
+Qwen3-4B,bnsentmix_03281,3281,neutral,positive,True,False,positive,0.1829
+Qwen3-4B,bnsentmix_03439,3439,neutral,positive,True,False,positive,0.1808
+Qwen3-4B,bnsentmix_03553,3553,neutral,neutral,True,True,neutral,0.182
+Qwen3-4B,bnsentmix_03593,3593,neutral,neutral,True,True,neutral,0.1815
+Qwen3-4B,bnsentmix_03668,3668,neutral,negative,True,False,negative,0.1827
+Qwen3-4B,bnsentmix_03765,3765,neutral,positive,True,False,positive,0.1827
+Qwen3-4B,bnsentmix_04111,4111,neutral,positive,True,False,positive,0.182
+Qwen3-4B,bnsentmix_04179,4179,neutral,neutral,True,True,neutral,0.2085
+Qwen3-4B,bnsentmix_04327,4327,neutral,positive,True,False,positive,0.1838
+Qwen3-4B,bnsentmix_04459,4459,neutral,neutral,True,True,neutral,0.1811
+Qwen3-4B,bnsentmix_04790,4790,neutral,neutral,True,True,neutral,0.1829
+Qwen3-4B,bnsentmix_04838,4838,neutral,neutral,True,True,neutral,0.1843
+Qwen3-4B,bnsentmix_04895,4895,neutral,positive,True,False,positive,0.1813
+Qwen3-4B,bnsentmix_05086,5086,neutral,positive,True,False,positive,0.1847
+Qwen3-4B,bnsentmix_05217,5217,neutral,neutral,True,True,neutral,0.1825
+Qwen3-4B,bnsentmix_05281,5281,neutral,positive,True,False,positive,0.1839
+Qwen3-4B,bnsentmix_05283,5283,neutral,positive,True,False,positive,0.2087
+Qwen3-4B,bnsentmix_05604,5604,neutral,positive,True,False,positive,0.1841
+Qwen3-4B,bnsentmix_05757,5757,neutral,neutral,True,True,neutral,0.1833
+Qwen3-4B,bnsentmix_05843,5843,neutral,neutral,True,True,neutral,0.1824
+Qwen3-4B,bnsentmix_06033,6033,neutral,positive,True,False,positive,0.1848
+Qwen3-4B,bnsentmix_06478,6478,neutral,neutral,True,True,neutral,0.186
+Qwen3-4B,bnsentmix_06501,6501,neutral,positive,True,False,positive,0.183
+Qwen3-4B,bnsentmix_06551,6551,neutral,neutral,True,True,neutral,0.1827
+Qwen3-4B,bnsentmix_06685,6685,neutral,positive,True,False,positive,0.1955
+Qwen3-4B,bnsentmix_06878,6878,neutral,positive,True,False,positive,0.2077
+Qwen3-4B,bnsentmix_07402,7402,neutral,neutral,True,True,neutral,0.1838
+Qwen3-4B,bnsentmix_07415,7415,neutral,neutral,True,True,neutral,0.1808
+Qwen3-4B,bnsentmix_07457,7457,neutral,positive,True,False,positive,0.185
+Qwen3-4B,bnsentmix_07628,7628,neutral,positive,True,False,positive,0.1826
+Qwen3-4B,bnsentmix_07675,7675,neutral,neutral,True,True,neutral,0.183
+Qwen3-4B,bnsentmix_07760,7760,neutral,positive,True,False,positive,0.1801
+Qwen3-4B,bnsentmix_07843,7843,neutral,positive,True,False,positive,0.182
+Qwen3-4B,bnsentmix_08007,8007,neutral,positive,True,False,positive,0.1888
+Qwen3-4B,bnsentmix_08041,8041,neutral,positive,True,False,positive,0.1837
+Qwen3-4B,bnsentmix_08052,8052,neutral,neutral,True,True,neutral,0.1832
+Qwen3-4B,bnsentmix_08824,8824,negative,neutral,True,False,neutral,0.1843
+Qwen3-4B,bnsentmix_09025,9025,negative,negative,True,True,negative,0.1844
+Qwen3-4B,bnsentmix_09065,9065,negative,negative,True,True,negative,0.1838
+Qwen3-4B,bnsentmix_09341,9341,negative,positive,True,False,positive,0.183
+Qwen3-4B,bnsentmix_09355,9355,negative,positive,True,False,positive,0.1841
+Qwen3-4B,bnsentmix_09474,9474,negative,neutral,True,False,neutral,0.1822
+Qwen3-4B,bnsentmix_09479,9479,negative,neutral,True,False,neutral,0.2096
+Qwen3-4B,bnsentmix_09750,9750,negative,negative,True,True,negative,0.211
+Qwen3-4B,bnsentmix_09825,9825,negative,positive,True,False,positive,0.1842
+Qwen3-4B,bnsentmix_09953,9953,negative,neutral,True,False,neutral,0.1822
+Qwen3-4B,bnsentmix_09983,9983,negative,neutral,True,False,neutral,0.1824
+Qwen3-4B,bnsentmix_10089,10089,negative,neutral,True,False,neutral,0.2099
+Qwen3-4B,bnsentmix_10171,10171,negative,positive,True,False,positive,0.2069
+Qwen3-4B,bnsentmix_10293,10293,negative,positive,True,False,positive,0.1841
+Qwen3-4B,bnsentmix_10316,10316,negative,neutral,True,False,neutral,0.1834
+Qwen3-4B,bnsentmix_10356,10356,negative,neutral,True,False,neutral,0.1845
+Qwen3-4B,bnsentmix_10399,10399,negative,positive,True,False,positive,0.182
+Qwen3-4B,bnsentmix_10617,10617,negative,positive,True,False,positive,0.1828
+Qwen3-4B,bnsentmix_10622,10622,negative,positive,True,False,positive,0.1829
+Qwen3-4B,bnsentmix_10811,10811,negative,negative,True,True,negative,0.2085
+Qwen3-4B,bnsentmix_11158,11158,negative,negative,True,True,negative,0.1859
+Qwen3-4B,bnsentmix_11199,11199,negative,negative,True,True,negative,0.2091
+Qwen3-4B,bnsentmix_11214,11214,negative,negative,True,True,negative,0.1831
+Qwen3-4B,bnsentmix_11236,11236,negative,negative,True,True,negative,0.1847
+Qwen3-4B,bnsentmix_11307,11307,negative,neutral,True,False,neutral,0.184
+Qwen3-4B,bnsentmix_11457,11457,negative,negative,True,True,negative,0.2073
+Qwen3-4B,bnsentmix_11513,11513,negative,positive,True,False,positive,0.1852
+Qwen3-4B,bnsentmix_11533,11533,negative,negative,True,True,negative,0.1854
+Qwen3-4B,bnsentmix_11538,11538,negative,positive,True,False,positive,0.1819
+Qwen3-4B,bnsentmix_11599,11599,negative,positive,True,False,positive,0.1826
+Qwen3-4B,bnsentmix_11675,11675,negative,positive,True,False,positive,0.2144
+Qwen3-4B,bnsentmix_11782,11782,negative,positive,True,False,positive,0.1824
+Qwen3-4B,bnsentmix_11973,11973,negative,negative,True,True,negative,0.1834
+Qwen3-4B,bnsentmix_12084,12084,negative,neutral,True,False,neutral,0.2101
+Qwen3-4B,bnsentmix_12289,12289,negative,positive,True,False,positive,0.1812
+Qwen3-4B,bnsentmix_12357,12357,negative,negative,True,True,negative,0.2086
+Qwen3-4B,bnsentmix_12509,12509,negative,mixed,True,False,mixed,0.299
+Qwen3-4B,bnsentmix_12602,12602,negative,neutral,True,False,neutral,0.182
+Qwen3-4B,bnsentmix_12685,12685,negative,negative,True,True,negative,0.1848
+Qwen3-4B,bnsentmix_12713,12713,negative,neutral,True,False,neutral,0.1843
+Qwen3-4B,bnsentmix_12875,12875,negative,negative,True,True,negative,0.2467
+Qwen3-4B,bnsentmix_12878,12878,negative,positive,True,False,positive,0.1848
+Qwen3-4B,bnsentmix_12905,12905,negative,negative,True,True,negative,0.1826
+Qwen3-4B,bnsentmix_13331,13331,negative,positive,True,False,positive,0.1825
+Qwen3-4B,bnsentmix_13571,13571,negative,negative,True,True,negative,0.2084
+Qwen3-4B,bnsentmix_13617,13617,negative,positive,True,False,positive,0.2152
+Qwen3-4B,bnsentmix_13634,13634,negative,positive,True,False,positive,0.1851
+Qwen3-4B,bnsentmix_13653,13653,negative,negative,True,True,negative,0.183
+Qwen3-4B,bnsentmix_13955,13955,negative,positive,True,False,positive,0.21
+Qwen3-4B,bnsentmix_14251,14251,negative,negative,True,True,negative,0.2088
+Qwen3-4B,bnsentmix_14791,14791,positive,positive,True,True,positive,0.1836
+Qwen3-4B,bnsentmix_15006,15006,positive,positive,True,True,positive,0.1835
+Qwen3-4B,bnsentmix_15075,15075,positive,positive,True,True,positive,0.1818
+Qwen3-4B,bnsentmix_15234,15234,positive,positive,True,True,positive,0.1832
+Qwen3-4B,bnsentmix_15307,15307,positive,positive,True,True,positive,0.2499
+Qwen3-4B,bnsentmix_15463,15463,positive,positive,True,True,positive,0.183
+Qwen3-4B,bnsentmix_15493,15493,positive,positive,True,True,positive,0.211
+Qwen3-4B,bnsentmix_15759,15759,positive,positive,True,True,positive,0.183
+Qwen3-4B,bnsentmix_15767,15767,positive,neutral,True,False,neutral,0.1838
+Qwen3-4B,bnsentmix_15890,15890,positive,positive,True,True,positive,0.2075
+Qwen3-4B,bnsentmix_15959,15959,positive,positive,True,True,positive,0.1848
+Qwen3-4B,bnsentmix_16025,16025,positive,positive,True,True,positive,0.184
+Qwen3-4B,bnsentmix_16455,16455,positive,positive,True,True,positive,0.183
+Qwen3-4B,bnsentmix_16555,16555,positive,positive,True,True,positive,0.1859
+Qwen3-4B,bnsentmix_16954,16954,positive,positive,True,True,positive,0.1819
+Qwen3-4B,bnsentmix_17029,17029,positive,positive,True,True,positive,0.1838
+Qwen3-4B,bnsentmix_17139,17139,positive,positive,True,True,positive,0.1833
+Qwen3-4B,bnsentmix_17155,17155,positive,positive,True,True,positive,0.1837
+Qwen3-4B,bnsentmix_17170,17170,positive,positive,True,True,positive,0.1822
+Qwen3-4B,bnsentmix_17201,17201,positive,positive,True,True,positive,0.1856
+Qwen3-4B,bnsentmix_17253,17253,positive,positive,True,True,positive,0.1829
+Qwen3-4B,bnsentmix_17464,17464,positive,positive,True,True,positive,0.2077
+Qwen3-4B,bnsentmix_17549,17549,positive,positive,True,True,positive,0.1814
+Qwen3-4B,bnsentmix_17582,17582,positive,positive,True,True,positive,0.2468
+Qwen3-4B,bnsentmix_17587,17587,positive,positive,True,True,positive,0.2127
+Qwen3-4B,bnsentmix_17604,17604,positive,positive,True,True,positive,0.1856
+Qwen3-4B,bnsentmix_17781,17781,positive,neutral,True,False,neutral,0.1845
+Qwen3-4B,bnsentmix_17858,17858,positive,negative,True,False,negative,0.2098
+Qwen3-4B,bnsentmix_17873,17873,positive,positive,True,True,positive,0.1853
+Qwen3-4B,bnsentmix_17909,17909,positive,positive,True,True,positive,0.2084
+Qwen3-4B,bnsentmix_17986,17986,positive,positive,True,True,positive,0.1863
+Qwen3-4B,bnsentmix_18006,18006,positive,positive,True,True,positive,0.1819
+Qwen3-4B,bnsentmix_18055,18055,positive,negative,True,False,negative,0.1827
+Qwen3-4B,bnsentmix_18185,18185,positive,positive,True,True,positive,0.207
+Qwen3-4B,bnsentmix_18241,18241,positive,positive,True,True,positive,0.1863
+Qwen3-4B,bnsentmix_18508,18508,positive,neutral,True,False,neutral,0.2119
+Qwen3-4B,bnsentmix_18537,18537,positive,positive,True,True,positive,0.1854
+Qwen3-4B,bnsentmix_18641,18641,positive,positive,True,True,positive,0.1831
+Qwen3-4B,bnsentmix_18777,18777,positive,neutral,True,False,neutral,0.1811
+Qwen3-4B,bnsentmix_18824,18824,positive,positive,True,True,positive,0.1972
+Qwen3-4B,bnsentmix_18879,18879,positive,positive,True,True,positive,0.2976
+Qwen3-4B,bnsentmix_19229,19229,positive,positive,True,True,positive,0.1837
+Qwen3-4B,bnsentmix_19290,19290,positive,neutral,True,False,neutral,0.1822
+Qwen3-4B,bnsentmix_19300,19300,positive,positive,True,True,positive,1.1655
+Qwen3-4B,bnsentmix_19395,19395,positive,positive,True,True,positive,0.1838
+Qwen3-4B,bnsentmix_19521,19521,positive,positive,True,True,positive,0.1846
+Qwen3-4B,bnsentmix_19603,19603,positive,positive,True,True,positive,0.181
+Qwen3-4B,bnsentmix_19759,19759,positive,positive,True,True,positive,0.1817
+Qwen3-4B,bnsentmix_19866,19866,positive,positive,True,True,positive,0.2079
+Qwen3-4B,bnsentmix_19902,19902,positive,positive,True,True,positive,0.1827

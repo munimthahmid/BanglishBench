@@ -1,0 +1,44 @@
+
+% Do not change these lines
+\renewcommand{\abstractname}{\textbf{{\Large ABSTRACT}}}
+\addcontentsline{toc}{chapter}{\textbf{\normalsize{\emph{ABSTRACT}}}}
+
+\begin{abstract}\thispagestyle{plain}
+Bangla users do not always meet language models through the script assumed by
+standard benchmarks. The same Bengali question may be typed in native Bengali
+script, in English, or in Latin-script Banglish. Recent Bengali benchmarks
+increasingly cover knowledge, education, culture, inference, and social
+interaction, but they rarely isolate this script choice while holding the
+underlying task and answer fixed. This thesis studies whether orthography
+itself changes large language model behavior. We construct controlled Bangla,
+reviewed Banglish, and English variants of curriculum-style QA and math items
+drawn from BEnQA and BanglaMATH, and evaluate models under a paired item-level
+protocol.
+
+On a 200-item validation slice, compact Qwen models show a consistent
+reviewed-Banglish deficit. Qwen2.5-3B scores 54/200 in Bangla but 41/200 in
+reviewed Banglish, Qwen2.5-7B 8-bit scores 65/200 versus 47/200, and Qwen3-4B
+scores 80/200 versus 49/200. The gap is not explained by token count alone,
+since reviewed Banglish is token-cheaper than native Bangla for the audited
+Qwen tokenizers. A frozen v5 review of high-impact Banglish rows changes scores
+by at most two items, improving benchmark quality without removing the
+script-conditioned weakness.
+
+Hosted-model and scale checks clarify the boundary. GPT-5.5 low nearly closes
+the validation-200 gap under secondary scoring, while Claude Sonnet 4.6,
+DeepSeek V4 Flash, and Groq-hosted Llama 3.3 70B preserve reviewed-Banglish
+deficits under the same protocol. A 1,000-row human review audit extends the
+BEnQA evidence base; 974 accepted or edited rows form a gold extension, giving
+1,174 usable human-reviewed paired items when combined with the 200-item core.
+On this extension, Qwen2.5-3B, Groq-hosted Llama 3.3 70B, and DeepSeek V4 Flash
+all reproduce the English greater-than Bangla greater-than reviewed Banglish
+ordering. Mitigation remains model-dependent: self-normalization helps one
+Qwen model and hurts another, and generated alternate-script views require
+preservation gates before they can support a deployable routing claim. Overall,
+the thesis shows that Latin-script Banglish is an undermeasured orthographic
+robustness challenge for Bangla LLM use. It is a real access path for Bangla
+users, and its reliability must be measured directly rather than assumed from
+native-script Bangla or English performance.
+\end{abstract}
+
+\endinput

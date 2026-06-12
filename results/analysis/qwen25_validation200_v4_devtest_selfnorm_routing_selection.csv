@@ -1,0 +1,2 @@
+model,selected_on,evaluated_on,selected_heuristic,dev_correct,dev_n,dev_accuracy,test_correct,test_n,test_accuracy,test_used_selfnorm,test_used_selfnorm_rate
+Qwen/Qwen2.5-3B-Instruct,dev,test,selfnorm_if_options_preserved,10,50,0.2,41,150,0.2733,135,0.9

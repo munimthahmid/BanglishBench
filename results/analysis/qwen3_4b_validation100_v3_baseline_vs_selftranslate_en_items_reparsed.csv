@@ -1,0 +1,383 @@
+model,id,variant,dataset,task_type,answer_type,gold,before_correct,after_correct,change,before_parsed,after_parsed,before_seconds,after_seconds,before_source,after_source,after_rewrite_output
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0182,banglish_clean,banglamath,short_answer,short_answer,৬০০ টাকা,False,False,same_wrong,"The given text appears to be in a mix of Bengali and possibly a typo or corrupted format. It seems to be a fragmented or incorrectly formatted statement, possibly related to a calculation or description involving ""keji chaler"" (which might mean ""number of pieces"" or ""units"") and ""taka"" (","First, find the cost of one egg:",3.3104,4.3767,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"7 eggs cost 280 taka, how much do 15 eggs cost?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0183,banglish_clean,banglamath,short_answer,short_answer,৩০ দিন,False,False,same_wrong,"The question appears to be in a mix of Bengali and English, and it seems to be asking about the duration for which food is available for 15 people out of 50, given that the food is sufficient for 25 people.",We are given that there is enough food for 50 people for 15 days. We want to find out how many days this same amount of food will last for 25 people.,3.6539,4.822,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,There is 15 days' food for 50 people. How many days will this food last for 25 people?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0185,banglish_clean,banglamath,short_answer,short_answer,২০০ কেজি,False,False,same_wrong,120 keji chale 10 jon loker 27 din chole.,We are given:,3.2846,4.8844,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,120 birds pass through 10 holes in 27 days. How many birds will pass through in 45 days?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0226,banglish_clean,banglamath,short_answer,short_answer,২৫০ টাকা,False,False,same_wrong,"The question appears to be in a mix of Bengali and English, and it is unclear in its meaning. Without a clear and grammatically correct translation or context, it is not possible to provide a meaningful or accurate answer. Therefore, the correct response is:","The expression ""550 divided by 5:6"" is ambiguous and not standard mathematical notation. Let's interpret it carefully.",3.3488,4.1683,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"550 divided by 5:6, what will be the first term?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0227,banglish_clean,banglamath,short_answer,short_answer,৭.৫ কিমি,False,False,same_wrong,"The question appears to be in a corrupted or mixed form of Bengali and English, possibly due to encoding or transcription errors. However, attempting to interpret and logically reconstruct the meaning:",We are given:,3.364,6.0658,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"From the first bondhu's house to the school, the distance is 2:3, and from the first bondhu to the second bondhu, it is 5 km. How far is the distance from the second bondhu to the school?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0228,banglish_clean,banglamath,short_answer,short_answer,২/৫,False,False,same_wrong,40% ke sadharon bhognangshe prokash korole ki hoy,"{""answer"": ""40%""}",3.222,1.3344,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,40% of the common features displayed in the sample are revealed.
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0229,banglish_clean,banglamath,short_answer,short_answer,1.5,True,True,same_correct,"150% ke doshomik bhognangshe prokash korole ki hoy, tai 150% = 150/100 = 1.5","To show 150% of the actual value, you multiply the actual value by 1.5.",3.272,2.7837,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,What is the way to show 150% of the actual value?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0230,banglish_clean,banglamath,short_answer,short_answer,20%,False,False,same_wrong,"The input ""25 taka 125 takar shotokora kot"" appears to be a mix of Bengali and possibly a typo or miscommunication. ""Taka"" is a unit of currency in Bangladesh, and ""takar"" might be a misspelling or mishearing of ""","The input ""25 taka 125 takar shotokora kot"" appears to be a mix of Bengali and possibly a typo or miscommunication. In Bengali, ""taka"" is the currency unit, and ""takar"" might be a misspelling or mishearing of",3.2534,4.0604,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,25 taka 125 takar shotokora kot
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0231,banglish_clean,banglamath,short_answer,short_answer,২০ টাকা,False,False,same_wrong,{20% of 24 = 0.20 × 24 = 4.8},"We are given that a product costs 20% more than 24, and we are to find the **cost price**.",1.3204,4.583,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,A product costing 20% more than 24 is sold. What is the cost price?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0232,banglish_clean,banglamath,short_answer,short_answer,২০০ টাকা,False,False,same_wrong,170 takay bikroy korole prokrit muly kot,We are told that a product is sold for 170 after a 15% loss. This means the selling price is 85% of the original price (since a 15% loss means the product is sold at 100% - 15% = 85%).,3.2875,4.5058,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,A product is sold for 170 after a 15% loss. What was the original price?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0233,banglish_clean,banglamath,short_answer,short_answer,৭ দিন,False,False,same_wrong,"6 jon lok 28 dine korole, tar mey 24 jon lok kot dine korobe?",We are given:,3.4034,4.7736,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,6 men can complete a job in 28 days. How many days will it take 24 men to complete the same job?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0234,banglish_clean,banglamath,short_answer,short_answer,৬ দিন,False,False,same_wrong,10 + 15 = 25,"The question asks: ""How many days will it take for A to do the job alone?""",1.3732,4.6548,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"If A can do a job in 10 days and B can do it in 15 days, then how many days will it take for A to do the job alone?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0236,banglish_clean,banglamath,short_answer,short_answer,১২ টাকা,False,False,same_wrong,"The given text appears to be a mix of Bengali and English, possibly a typo or miscommunication. It seems to describe a product (bolopener dam) with pricing and quantity details, but the structure is unclear and lacks proper grammar or coherence.","If 10 pieces of bolopener cost 60 taka, then the cost per piece is:",3.3317,4.4146,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"10 piece bolopener costs 60 taka, how about 2 piece bolopener?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0518,banglish_clean,banglamath,short_answer,short_answer,১৫০ মিটার,False,False,same_wrong,"The given text appears to be a garbled or encrypted version of a sentence, possibly using a cipher or nonsensical arrangement of words. Without clear context or a defined decryption method, it is not possible to derive a meaningful or accurate interpretation.",The length of the rectangular plot is 400 meters.,3.2702,2.5582,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,A rectangular plot of land has a length of 400 meters. What is the length of the rectangular plot?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0519,banglish_clean,banglamath,short_answer,short_answer,৭৫০০ বর্গমিটার,False,False,same_wrong,"The given text appears to be in a mix of Bengali and possibly a corrupted or nonsensical form of a sentence. It does not form a coherent or grammatically correct statement in any standard language. Therefore, it cannot be evaluated or interpreted meaningfully.",The area of a rectangle is calculated using the formula:,3.2938,4.8063,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,The length of a rectangular plot is 150 meters and its breadth is 50 meters. What is its area?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0522,banglish_clean,banglamath,short_answer,short_answer,১৭৬ বর্গমিটার,False,False,same_wrong,"The given text appears to be in a mix of Bengali and possibly corrupted or nonsensical language. It does not form a coherent sentence or question in any standard language. Therefore, it cannot be evaluated or answered meaningfully.","The statement ""There is a 2 km long narrow path in the field where jomir's kshetrofol is located"" is incomplete or unclear in context. It lacks sufficient information to evaluate its truth, relevance, or significance. Without additional details about jomir's kshetrofol, the purpose of",3.2022,4.5894,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,There is a 2 km long narrow path in the field where jomir's kshetrofol is located.
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0526,banglish_clean,banglamath,short_answer,short_answer,৩০ বর্গ মিটার,False,False,same_wrong,{60},The area of a triangle is given by the formula:,0.3318,4.3548,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,The area of a triangle with base 10 units and height 6 units is how much?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0533,banglish_clean,banglamath,short_answer,short_answer,৬৬৬ মেট্রিক টন ৬৬৬ কেজি ৬৬৬ গ্রাম (প্রায়),False,False,same_wrong,20000 metrik ton rod toiri hole doinik ki poriman rod toiri hoy 20000 metrik ton।,"If 20,000 metric tons of rice are produced in one month, then in two months the production will be:",1.7566,4.7342,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"How much rice will be produced in two months if 20,000 metric tons of rice are produced in one month?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0538,banglish_clean,banglamath,short_answer,short_answer,৩৮৪ বর্গ মিটার,False,False,same_wrong,"The given text appears to be in a mix of Bengali and possibly a corrupted or non-standard form of language. It seems to describe a scenario involving distances (60 mitar and 40 mitar), a path, and a 2 mitar wide road. However, the meaning is unclear due to possible",We are given:,3.2994,5.4693,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,The length of a rectangular plot is 60 meters and the breadth is 40 meters. There is a 2-meter wide path inside the plot. What is the area of the path?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0540,banglish_clean,banglamath,short_answer,short_answer,২১ মিটার,False,False,same_wrong,"The given text appears to be in a corrupted or mixed language format, possibly a combination of Bengali and English, with unclear syntax and meaning. It seems to be a malformed or incorrectly transcribed sentence. Without clear context or proper grammar, it is not possible to provide a meaningful or accurate evaluation or translation.","The problem states that the length of the longer side of a rectangle is 147 cm more than the shorter side. However, it does not provide the actual length of the shorter side.",3.2986,5.0959,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,The length of the longer side of a rectangle is 147 cm more than the shorter side. What is the length of the longer side of the rectangle?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0541,banglish_clean,banglamath,short_answer,short_answer,৪৪৪ বর্গমিটার,False,False,same_wrong,"The given text appears to be in a mix of Bengali and possibly corrupted or nonsensical language. It does not form a coherent question or statement that can be evaluated logically or mathematically. Therefore, no valid evaluation or answer can be derived from it.",The question asks for the area of the road.,3.1055,5.4701,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"The length of a road is 50 mi and the width is 30 mi. On the side, there is a 3 mi wide narrow path. What is the area of the road?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0549,banglish_clean,banglamath,short_answer,short_answer,৪৫০ বর্গমিটার,False,False,same_wrong,"The given statement appears to be in a mix of Bengali and English, and it seems to describe a scenario involving a rectangular path or area. Let's interpret and evaluate it logically.",We are given:,3.3109,5.7247,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"A 2.5 meter wide path is available along the boundary of a field. If the length of the field is 50 m and the breadth is 35 m, then the area of the path is"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0550,banglish_clean,banglamath,short_answer,short_answer,২২৫৬.২৫ বর্গমিটার,False,False,same_wrong,"The given text appears to be a mix of nonsensical or randomly arranged words, possibly in a constructed or fictional language, and does not form a coherent sentence or meaningful statement in any known language. Therefore, no valid evaluation or interpretation can be made.","The given text appears to be a mix of non-standard or corrupted language, possibly due to encoding issues, misspellings, or a foreign language not properly translated. It does not form a coherent or meaningful sentence in any known language. Therefore, it cannot be evaluated or answered as a valid question or statement.",2.997,5.2725,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,rastasoh baganer porisima 190 mitar hole soman porisima bishisht borgakar mather kshetrofol kot
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0552,banglish_clean,banglamath,short_answer,short_answer,৪৫০০ বর্গগজ,False,False,same_wrong,"The question appears to be in a mix of Bengali and possibly a corrupted or misrendered form of a mathematical or logical problem. However, based on the structure and likely intent:","To find the area of a piece of land in square rods, multiply the length by the breadth:",3.348,4.6349,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"A piece of land 90 rods long and 50 rods broad, what is its area in square rods?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0553,banglish_clean,banglamath,short_answer,short_answer,১১২৫টি,False,False,same_wrong,"The question appears to be in a mix of Nepali and English, and it seems to be asking about the number of ""pathor"" (possibly a unit of measurement or a type of item) that can be obtained based on a given area (4500 borgogoj) and the area per path",The question states:,3.354,5.3724,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"If the area of my field is 4500 bighas and the area of the path is 4 bighas, then how much area will be covered by the path again?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_0559,banglish_clean,banglamath,short_answer,short_answer,১৬০০ বর্গমিটার,False,False,same_wrong,"The given text appears to be in a mix of languages or possibly a corrupted/formatted input. It does not form a coherent or grammatically correct sentence in any standard language. As such, it cannot be evaluated or interpreted meaningfully.",We are given the area of a rectangular field:,3.1486,4.3428,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,The area of a rectangular field is 160 square meters. What is its perimeter?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1685,banglish_clean,banglamath,short_answer,short_answer,দুইজনের বয়স সমান,False,False,same_wrong,The question appears to be in a mix of Bengali and possibly a riddle or logical puzzle. Let's interpret and simplify it step by step.,The question contains a logical contradiction and appears to be poorly worded or intentionally confusing.,3.3425,7.7144,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"2 hours after the start, the time taken by the boy to reach the destination from the starting point will be less than 2 hours. 3 hours after the start, if the time taken by the boy to reach the destination from the starting point is equal to the time taken by the boy to reach the destination from the starting point, then the time taken will be more than 3 hours. What is the difference in time?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1686,banglish_clean,banglamath,short_answer,short_answer,প্রতেকে পাবে ৫/৬ আপেল।অর্থাৎ ১টি আপেলের অর্ধেক +১টি আপেলের ১/৩ ভাগ।,False,False,same_wrong,3 tukorate,Kibhabe? — 3 tukorate kata jabe.,0.3639,3.9863,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,5ti apeloke 6 jon baloker majhe somanobhabe bhag kore dite hobe. Kibhabe? (Bi: Dr: Proyojon hole apeloke sorbochch soman 3 tukorate kata jabe.)
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1687,banglish_clean,banglamath,short_answer,short_answer,"কাঠালের ওজন ৩ কিলোগ্রাম , তরমুজের ওজন ৪ কিলোগ্রাম",False,False,same_wrong,Let's solve the problem step by step.,We are given:,3.3521,7.0904,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,4 kg of rice and 5 kg of wheat together weigh 32 kilograms. 5 kg of rice and 4 kg of wheat together weigh 31 kilograms. The amount of rice per person and the amount of wheat per person are equal. How much is the weight of 1 kg of rice and 1 kg of wheat?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1688,banglish_clean,banglamath,short_answer,short_answer,"বাবুর্চী কাটে ৭০ মিনিটে ২১০টি পেঁয়াজ, সহকারী কাটে ১৯০টি পেঁয়াজ ৯৫ মিনিটে",False,False,same_wrong,We are given:,We are given:,3.7767,6.1986,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"How many pens will be left after 25 minutes if Baburchi starts 25 minutes earlier than the other person, and Baburchi produces 3 pens per minute while the other person produces 2 pens per minute?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1690,banglish_clean,banglamath,short_answer,short_answer,"সেন্টুর ছিল ১০টি, মিন্টুর ছিল ১৪টি খেলনা গাড়ি",False,False,same_wrong,2,"To determine how many days it will take for two people to complete a work together, we need to know the individual work rates of each person. Since this information is not provided in your question, I cannot compute the exact number of days.",0.2485,4.428,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,How many days will it take to complete the work if two people work together?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1692,banglish_clean,banglamath,short_answer,short_answer,"১জন পুরুষ, ৫ জন মহিলা এবং ১৪ জন শিশু",False,False,same_wrong,20 jon kore dhan pabe.,"The evaluation item does not provide sufficient information to determine how much money each family member will receive or the number of adults, women, and children in the family. Therefore, neither the amount of money nor the family composition can be determined from the given question.",0.7793,4.6593,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"How much money will each family member receive? Or, what is the number of adults, women, and children in the family?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1693,banglish_clean,banglamath,short_answer,short_answer,24,False,False,same_wrong,"The given statement appears to be in a mix of Bengali and possibly a corrupted or nonsensical form of a mathematical or logical expression. It seems to involve a translation or transcription error, making it difficult to interpret the actual mathematical problem.",Let's carefully analyze and solve the problem step by step.,3.297,5.1294,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"The sum of two numbers is equal to the sum of one number and three times another number, which is 14. Find the value of the other number."
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1694,banglish_clean,banglamath,short_answer,short_answer,১ মিনিট,False,False,same_wrong,Pertanyaan ini berisi teks dalam bahasa yang tidak jelas atau mungkin terdapat kesalahan ketik/penulisan. Tidak dapat ditafsirkan secara logis atau dijawab secara akurat karena konteksnya tidak jelas dan terdapat kata-kata yang,"To find the time it takes for the runner to complete a 500-meter race at a speed of 60 kilometers per hour, follow these steps:",3.6093,5.059,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,How much time will it take for a runner to complete a 500-meter race if he runs at a speed of 60 kilometers per hour?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1695,banglish_clean,banglamath,short_answer,short_answer,"নারিকেল গাছ 60টি, আম গাছ ৪৫টি, বট গাছ ৩৬টি, ফুলের গাছ ৩৯টি",False,False,same_wrong,"We are given a problem in Bengali, which translates to:",We are given the following parts of a park:,3.3003,6.866,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"In a park, 1/3 part is taken by narokelogachh, 1/4 part by gachhoam gachh, 1/5 part by bot gachh, and 39 ti fuler gachh. Which part is the largest and which part is the smallest?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1696,banglish_clean,banglamath,short_answer,short_answer,০.১৮ লিটার অথবা ১.৮ লিটার,False,False,same_wrong,10% lobonomishrit shorobot banate 20 gram lobon diye 200 ml panir dorokar.,"The question contains non-standard or fictional terms such as ""lobon,"" ""lobonomishrit shorobot,"" and the process of preparing milk from lobon. These do not correspond to any known scientific, culinary, or chemical processes. Additionally, there is no established relationship between grams of ""lobon"" and liters",2.1629,5.0344,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,How many liters of milk can be prepared from 20 grams of lobon to make 10% lobonomishrit shorobot?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1697,banglish_clean,banglamath,short_answer,short_answer,70,False,False,same_wrong,30 ke 1/2 diye bhag kore:,To solve the problem:,3.2816,4.3043,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,Divide 30 by half and then add 10. What will be the result?
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1698,banglish_clean,banglamath,short_answer,short_answer,১৩ টা,False,False,same_wrong,120,The doctor prescribed taking 1 tablet every hour from 6 in the morning till 12 noon.,0.2888,4.8974,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"The doctor prescribed 6 in the morning till 12 noon, taking 1 tablet every hour. How many tablets will the patient have to take?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1699,banglish_clean,banglamath,short_answer,short_answer,132,False,False,same_wrong,We are given:,We are given:,3.2931,4.4503,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"A - B = 10, AB = 16; what is A² + B² = ?"
+Qwen/Qwen3-4B-Instruct-2507,banglamath_1703,banglish_clean,banglamath,short_answer,short_answer,৩৬টি,False,False,same_wrong,The question is in Bengali and translates to:,"We are given that **120 is increased or decreased by 144**, and we are to find **by how much 90 should be increased or decreased** so that the result is the same.",3.3076,5.1816,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"If 120 is increased or decreased by 144, by how much should 90 be increased or decreased so that the result is the same?"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0090,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,D,0.1811,2.6035,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is the name of the crop that is grown in the forest area?  
+A. grain  
+B. coconut  
+C. sorghum  
+D. rice  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0143,banglish_clean,benqa,mcq,choice,C,True,True,same_correct,C,C,0.2045,2.8875,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is the cause of akosmik kidoni okejo?  
+A. diabetes  
+B. nephritis  
+C. marasmus due to malnutrition  
+D. high blood pressure  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0149,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,A,0.1821,3.7983,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Which dictionary was compiled in the early 19th century?  
+A. sibhokosh  
+B. bhesel  
+C. trakid  
+D. songgikosh"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0188,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.182,5.362,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is the value of torol jojok tisyu koy prokar?  
+A. 2  
+B. 3  
+C. 4  
+D. 5"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Biology_0215,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2992,7.7063,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"C_{6}H_{12}O_{6} → C_{3}H_{4}O_{3} via fermentation - i. sugar to acid conversion in the first stage ii. occurs in mitochondria iii. energy is produced in the form of ATP?  
+A. i and ii  
+B. i and iii  
+C. ii and iii  
+D. i, ii and iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0041,banglish_clean,benqa,mcq,choice,D,False,False,same_wrong,A,A,0.252,4.4312,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Which of the following is true about ethylene?  
+A. C_{2}H_{4} compared to C_{2}H_{6} in terms of reactivity  
+B. Reacts with methane in a reaction  
+C. Ethanol is a hydrocarbon  
+D. Polypropylene can be formed by polymerization  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0110,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.1803,5.5995,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is chunar panir songket?  
+A. CaCO_{3}  
+B. CaO  
+C. Ca(OH)_{2}  
+D. Ca(HCO_{3})_{2}"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0132,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,C,0.1783,4.9877,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is the opposite of 'before'?
+A. ti.en.ti  
+B. benojin  
+C. toluin  
+D. jailin"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0194,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.1824,4.6892,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Which of the following is the correct option?  
+A. O  
+B. P  
+C. N  
+D. F"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Chemistry_0336,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,A,0.249,9.2339,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"A → CaCO₃(s) →[Δ] CaO(s) + X(g)  
+B → 250 mL 0.2 molar NaCl solution  
+From reaction A, what gas is produced in place of X?  
+i. CO₂  
+ii. O₂  
+iii. H₂O vapor  
+Which of the following is correct?  
+A. i and ii  
+B. i and iii  
+C. ii and iii  
+D. i, ii, and iii  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math-II_0326,banglish_clean,benqa,mcq,choice,C,True,True,same_correct,C,C,3.3013,5.5098,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"sin B = √2 - cos B, B = kot?  
+A. π/2  
+B. π/3  
+C. π/4  
+D. π/6"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math-II_0347,banglish_clean,benqa,mcq,choice,D,True,True,same_correct,D,D,0.2074,4.6074,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"cos\left ( - \frac{35\pi}{6} \right ) is equal to what?  
+A. - \frac{\sqrt{3}}{2}  
+B. - \frac{1}{2}  
+C. \frac{1}{2}  
+D. \frac{\sqrt{3}}{2}  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math_0044,banglish_clean,benqa,mcq,choice,C,False,True,gain,D,C,0.1826,2.3953,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"How many sides does a rectangle have?  
+A. 8  
+B. 6  
+C. 4  
+D. 2  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math_0186,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2065,6.3447,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"2x + y = 1 or x = -4, in which quadrant is the solution point located?  
+A. 4th  
+B. 3rd  
+C. 2nd  
+D. 1st  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Math_0324,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.2061,6.1504,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"a = √3 and b = √12, what is the ratio of a to b?  
+A. a + b  
+B. ab  
+C. a/b  
+D. b/a  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0036,banglish_clean,benqa,mcq,choice,C,True,False,loss,C,,0.2479,7.0263,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"A stone is thrown vertically upward with an initial speed of 5 m/s. What is its height after 100 m? [g = 9.8 ms^{-2}]  
+A. 3500  
+B. 1400  
+C. 228.67  
+D. 0.14"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0045,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,C,0.2064,2.6822,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"How many rights are there in case of any violation of any directive?  
+A. four  
+B. violation  
+C. more than four  
+D. some  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0084,banglish_clean,benqa,mcq,choice,D,False,False,same_wrong,B,B,0.2089,4.3315,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"stir opposed to the state, the common people's resistance against the government's rule -  
+A. somanupatik  
+B. borgar somanupatik  
+C. borgar byostanupatik  
+D. borgomuler somanupatik"
+Qwen/Qwen3-4B-Instruct-2507,benqa_10th-Physics_0280,banglish_clean,benqa,mcq,choice,B,True,False,loss,B,D,0.2529,5.2755,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is the resistivity of tamar rodhokotb?  
+A. 1.6 × 10^{-8} Ω m  
+B. 1.68 × 10^{-8} Ω m  
+C. 2.44 × 10^{-8} Ω m  
+D. 5.5 × 10^{-8} Ω m  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0034,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.1856,5.0508,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Which part of the small intestine is the smallest?  
+A. pailoras  
+B. diodenam  
+C. jejunam  
+D. iliyam"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0049,banglish_clean,benqa,mcq,choice,C,False,True,gain,D,C,0.1797,2.2083,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Otitis media is which disease?  
+A. throat  
+B. nose  
+C. ear  
+D. eye  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0122,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.1815,5.5621,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"How much time does Hritopinder Olinder take to solve a problem?  
+A. 0.7  
+B. 0.5  
+C. 0.3  
+D. 0.1"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0247,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2076,6.1031,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"P → DdEe × ddEE, what is the probability of offspring showing dominant traits for both traits?  
+A. 25%  
+B. 50%  
+C. 75%  
+D. 100%"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-II_0287,banglish_clean,benqa,mcq,choice,B,False,True,gain,D,B,0.2084,4.334,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Which of the following is a protein? i. Peptidase ii. Ojamailej iii. Carboxypeptidase which one is correct?  
+A. i or ii  
+B. i or iii  
+C. ii or iii  
+D. i, ii, or iii  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0042,banglish_clean,benqa,mcq,choice,D,True,True,same_correct,D,D,0.2447,4.0492,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Which of the following are correct?  
+i. Soil formation occurs  
+ii. Anabaena shows nitrogen fixation  
+iii. Its ecological role is significant  
+Which option is correct?  
+A. i and ii  
+B. i and iii  
+C. ii and iii  
+D. i, ii, and iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0056,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.1799,4.4702,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Which of the following is correct?  
+A. pat  
+B. ful  
+C. mul  
+D. kand"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0218,banglish_clean,benqa,mcq,choice,B,False,True,gain,D,B,1.2172,4.1551,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Which of the following is a cereal crop?  
+A. Oryza sativa  
+B. Triticum aestivum  
+C. Zea mays  
+D. Bambusa tulda  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0277,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.1825,5.1826,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Which type of plant is this?  
+A. solanesi  
+B. saikyadesi  
+C. malobhesi  
+D. poyesi"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Biology-I_0283,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.2464,7.7457,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"penper ring spot roger lokshon holo - i. patar botay pani bheja sobuj dag dekha jay ii. penper mishtota hras pay iii. foler akar bor hoy nicher konoti sothik?  
+A. i o ii  
+B. ii o iii  
+C. i o iii  
+D. i, ii, o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0013,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2072,5.4324,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Why is a knife used for cutting?  
+A. formalodihaid  
+B. ojasitalodihaid  
+C. pyaralodihaid  
+D. metalodihaid"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0194,banglish_clean,benqa,mcq,choice,A,False,True,gain,D,A,0.1813,2.0483,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Acts as a semiconductor-
+A. Ge  
+B. Zn  
+C. Cu  
+D. Al  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0228,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.2503,8.8963,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Ni(s) + 2Ag^{+}(aq) \xrightarrow{2e^{-}} Ni^{2+}(aq) + 2Ag(s); in the reaction, which of the following is correct?  
+i. Ni is oxidized  
+ii. Ag is reduced  
+iii. The reaction is an oxidation-reduction reaction  
+Which of the following options is correct?  
+A. i and ii  
+B. ii and iii  
+C. i and iii  
+D. i, ii, and iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0240,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,C,A,0.2466,4.6153,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"CH₃ - CH₂ - COONa + NaOH →[CaO, Δ] A + Na₂CO₃. What is the name of this reaction?  
+A. Decarboxylation reaction  
+B. Double carboxylation reaction  
+C. Decarboxylation fusion reaction  
+D. Friedel-Crafts reaction  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-II_0354,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2065,6.0475,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Which type of writer writes in the style of a narrative that is clearly directed by the author's intention?  
+A. porabrittakar  
+B. odhibrittakar  
+C. brittakar  
+D. soroloroikhik"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0028,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,C,C,0.1827,3.0606,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is the pH of 1% NaOH solution?  
+A. 0.8  
+B. 13.4  
+C. 13.2  
+D. 1  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0140,banglish_clean,benqa,mcq,choice,D,True,True,same_correct,D,D,0.2987,5.8215,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"CaF₂-solubility is given as 0.00655 g/L. What is the solubility product (Ksp) of CaF₂?  
+A. 3.7×10⁻¹³  
+B. 2.048×10⁻¹⁰  
+C. 3.7×10⁻¹²  
+D. 2.048×10⁻¹¹  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0174,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.2096,5.9672,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"bhinegar- i. increase in food consumption ii. enhance interest in news iii. reduce the incidence of bleeding disorders?  
+A. i and ii  
+B. i and iii  
+C. ii and iii  
+D. i, ii and iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0286,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,,0.1818,5.216,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is the pH range of urban soil?  
+A. 3.0-4  
+B. 6-May  
+C. 8-Jul  
+D. 11-Oct"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Chemistry-I_0328,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.183,4.9463,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Which block does Cl(17) belong to?  
+A. s-block  
+B. p-block  
+C. d-block  
+D. f-block"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-II_0043,banglish_clean,benqa,mcq,choice,D,True,True,same_correct,D,D,0.208,4.2479,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"9x^{2} - 24xy + 12y^{2} - 48x - 24y + 36 = 0 represents what type of conic section?  
+A. circle  
+B. parabola  
+C. ellipse  
+D. hyperbola  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-II_0230,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.3035,9.7875,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"5 ekok durotbe A o B bindute kriyarot 9 ebong 5 ekok maner somantoral bolodboy- i. osodrish hole lobdhir man 4 ekok ii. sodrish ebong lobdhi C bindute kriyarot hole BC = \frac{45}{14} ekok iii. sodrish hole lobdhir man 14 ekok nicher konoti sothik?  
+A. i o ii  
+B. i o iii  
+C. ii o iii  
+D. i, ii o iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0186,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.3008,10.8014,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is the equation of the circle with center at (-2, 3) and passing through the origin?  
+A. x^{2} + y^{2} + 4x - 6y + 9 = 0  
+B. x^{2} + y^{2} - 4x + 6y + 9 = 0  
+C. x^{2} + y^{2} + 4x - 6y + 4 = 0  
+D. x^{2} + y^{2} - 4x + 6y + 4 = 0  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0218,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,C,C,0.2496,4.2823,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is the area of triangle ABC?  
+A. c = acosB + bcosA  
+B. b = csinA + asinC  
+C. Δ = (1/2) abcosC  
+D. cosA = (b² + c² + a²) / (2bc)  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0310,banglish_clean,benqa,mcq,choice,B,True,True,same_correct,B,B,0.2072,3.4589,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is the derivative of log₁₀x with respect to x?
+A. 1/x  
+B. (1/x)log₁₀e  
+C. (1/x)logₑ10  
+D. log₁₀e  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0326,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,,,3.3191,5.4886,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"tan(α/2) = 7; 4sinα - 3cosα = ?
+A. 5
+B. 4
+C. 3
+D. 6"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Math-I_0383,banglish_clean,benqa,mcq,choice,D,True,True,same_correct,D,D,0.2075,3.6021,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"d/dx (log base 5 of x) = ?
+
+A. 1/x  
+B. (1/x) log base e of 5  
+C. 1/(5 ln x)  
+D. 1/(x ln 5)  
+
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0046,banglish_clean,benqa,mcq,choice,C,False,True,gain,D,C,0.2553,6.1386,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"In what way is the field reduced? i. it becomes empty ii. remains stable iii. becomes empty due to external influence. Which of the following is correct? A. i and ii B. ii and iii C. i and iii D. i, ii and iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0088,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.2101,6.0084,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"Which of the following can be easily understood? i. Protisoron ii. Protifolon iii. Somoborton?  
+A. i and ii  
+B. i and iii  
+C. ii and iii  
+D. i, ii and iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0213,banglish_clean,benqa,mcq,choice,D,False,False,same_wrong,C,C,0.2712,5.8335,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"In the process of compression, the relation at the point where the pressure and temperature are related in an adiabatic process is given by:
+A. P^{\gamma - 1} = constant  
+B. P^{\gamma} T^{\gamma + 1} = constant  
+C. P^{\gamma} T^{\gamma - 1} = constant  
+D. P^{1 - \gamma} T^{\gamma} = constant  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-II_0292,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,D,0.2484,5.5804,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"drishyoman bornalir toronggodoirghyer bistriti-
+A. 2000 \AA to 3000 \AA  
+B. 3000 \AA to 4000 \AA  
+C. 4000 \AA to 8000 \AA  
+D. 8000 \AA to 12000 \AA  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0133,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,D,D,0.2074,4.5135,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What will be the value of the internal energy for 3/2 mol of gas?  
+A. 3PV = 2RT  
+B. 2PV = \frac{1}{3} RT  
+C. 2PV = 3RT  
+D. \frac{PV}{RT}=\frac{2}{3}  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0214,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.2441,5.8509,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"When the temperature is 0°C, the absolute temperature should be-  
+A. 27°C  
+B. 273°C  
+C. 300°C  
+D. 546°C"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0253,banglish_clean,benqa,mcq,choice,A,False,False,same_wrong,D,,0.2529,8.7569,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What are the main aspects of the concept of 'mohakorsh sutr' as discussed in the text?  
+i. From the natural growth of the concept  
+ii. From the distinct and separate aspects of the concept  
+iii. From the concept of 'bhu-gorbhosth tapoghotit shokti'  
+Which of the following options is correct?  
+A. i and ii  
+B. i and iii  
+C. ii and iii  
+D. i, ii and iii"
+Qwen/Qwen3-4B-Instruct-2507,benqa_12th-Physics-I_0254,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,A,0.2047,6.1032,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is the dimensional formula of the area of a field in terms of the area of a field?  
+A. [LT^{-1}]  
+B. [LT^{-2}]  
+C. [MLT^{-1}]  
+D. [MLT^{-2}]"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Math_0031,banglish_clean,benqa,mcq,choice,D,True,True,same_correct,D,D,0.2078,6.1663,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"When the circumference of a circle is 5.15 meters, what is its diameter?  
+A. 0.82 meter  
+B. 0.96 meter  
+C. 1.28 meter  
+D. 1.64 meter"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Math_0072,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,D,0.2086,4.3907,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"779 songkhyati kon bijogonitiy rashir 111 tom pod?  
+A. 7k - 2  
+B. 7k + 2  
+C. 5555k + 224  
+D. 777k + 2  
+Answer with only A, B, C, or D."
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0042,banglish_clean,benqa,mcq,choice,B,False,False,same_wrong,D,,0.1806,5.0627,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"saban toirir mul upadan  
+A. esid  
+B. ksharok  
+C. lobon  
+D. glisarin"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0062,banglish_clean,benqa,mcq,choice,D,True,False,loss,D,,0.2048,4.9494,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What can be used as a substitute for butter?  
+A. fusofus  
+B. tbok  
+C. jokrit  
+D. britt"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0078,banglish_clean,benqa,mcq,choice,C,True,False,loss,C,,0.2455,6.9712,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"When the angle of incidence is 32°, the reflected ray is deviated by 90° from the incident ray. In this case, what is the angle of reflection?  
+A. 0°  
+B. 32°  
+C. 90°  
+D. 180°"
+Qwen/Qwen3-4B-Instruct-2507,benqa_8th-Science_0202,banglish_clean,benqa,mcq,choice,C,False,False,same_wrong,A,D,0.2452,5.5849,results/runs/qwen3_4b_validation100_v3_banglish/results/runs/qwen3_4b_validation100_v3_banglish.jsonl,results/runs/qwen3_4b_validation100_v3_selftranslate_en/results/runs/qwen3_4b_validation100_v3_selftranslate_en.jsonl,"What is the correct sequence of the steps in the process?  
+A. ghas → faitoplyangkoton → juplangkoton  
+B. ju-plangkoton → faitoplyangkoton → chhotomas  
+C. faitoplangkoton → ju-plangkoton → chhotomachh  
+D. ghas → byang → bagh"

@@ -1,0 +1,7 @@
+Result,Count,Delta,Interpretation
+Best single model,99/200,,Qwen3-4B is the strongest single BnSentMix row.
+Any-model diagnostic oracle,154/200,"+27.5 pts, CI [+21.5, +34.0]","Upper bound showing cross-model error complementarity, not deployable accuracy."
+Exactly one model correct,66/200,,Rows where the answer is recoverable by only one of the three models.
+All models wrong,46/200,,Residual hard natural code-mixed sentiment rows for this model set.
+Best pair oracle,133/200,,Qwen2.5-7B 8-bit vs Qwen3-4B has the largest pairwise oracle coverage.
+Majority + 7B fallback,106/200,"+4.0 pts, CI [0.0, +8.0]",Simple behavioral route; promising but not a locked deployment claim.

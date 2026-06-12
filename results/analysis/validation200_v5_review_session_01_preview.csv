@@ -1,0 +1,245 @@
+match_order,id,impact_rank,impact_tier,split,impact_score,impact_reasons,dataset,task_type,answer_type,priority_bucket,replacement_count,quality_label,reviewed_banglish,review_notes,substitutions,suggestion_notes,bangla,english,current_banglish_clean,auto_suggested_banglish_clean
+1,benqa_8th-Math_0167,3,tier_1_review_first,test,173,priority=both_wrong_multi_edit; heldout_test150; main_benqa_gap_slice; qwen25_v4_wrong; qwen25_recoverable_by_other_script; qwen25_agreement_route_gain; qwen3_v4_wrong; qwen3_recoverable_by_other_script; 5_suggested_replacements,benqa,mcq,choice,both_wrong_multi_edit,5,,,,ayotakar->ayotokar;doirghy->doirgho;ekoti->ekti;kot->koto;prosth->prostho,ayotakar->ayotokar (1); doirghy->doirgho (1); ekoti->ekti (1); kot->koto (1); prosth->prostho (1),"একটি আয়তাকার বাগানের দৈর্ঘ্য প্রস্থের দেড়গুণ। এর প্রস্থ 16 মিটার হলে, বাগানের পরিসীমা কত?
+A. 40 মিটার
+B. 64 মিটার
+C. 80 মিটার
+D. 96 মিটার
+Answer with only A, B, C, or D.","The length of a rectangular garden is one and half times its breadth. If breadth is 16 metres , what is its peremeter?
+A. 40m
+B. 64m
+C. 80m
+D. 96m
+Answer with only A, B, C, or D.","ekoti ayotakar baganer doirghy prosther derogun. er prosth 16 mitar hole, baganer porisima kot?
+A. 40 mitar
+B. 64 mitar
+C. 80 mitar
+D. 96 mitar
+Answer with only A, B, C, or D.","ekti ayotokar baganer doirgho prosther derogun. er prostho 16 mitar hole, baganer porisima koto?
+A. 40 mitar
+B. 64 mitar
+C. 80 mitar
+D. 96 mitar
+Answer with only A, B, C, or D."
+2,banglamath_0526,5,tier_1_review_first,test,170,priority=both_wrong_multi_edit; heldout_test150; qwen25_v4_wrong; qwen25_recoverable_by_other_script; qwen25_agreement_route_gain; qwen3_v4_wrong; qwen3_recoverable_by_other_script; 4_suggested_replacements; ksh_heavy,banglamath,short_answer,short_answer,both_wrong_multi_edit,4,,,,ekoti->ekti;kot->koto;kshetrofol->khetrofol;uchchota->ucchota,ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1); uchchota->ucchota (1),"একটি ত্রিভুজের ভূমি ১০ মিটার ও উচ্চতা ৬ মিটার হলে ক্ষেত্রফল কত
+Return only the final answer.","If a triangle has a base of 10 meters and height of 6 meters, what is its area?
+Return only the final answer.","ekoti tribhujer bhumi 10 mitar o uchchota 6 mitar hole kshetrofol kot
+Return only the final answer.","ekti tribhujer bhumi 10 mitar o ucchota 6 mitar hole khetrofol koto
+Return only the final answer."
+3,banglamath_0230,17,tier_1_review_first,test,155,priority=both_wrong_single_edit; heldout_test150; qwen25_v4_wrong; qwen25_recoverable_by_other_script; qwen25_agreement_route_gain; qwen3_v4_wrong; qwen3_recoverable_by_other_script; 1_suggested_replacements,banglamath,short_answer,short_answer,both_wrong_single_edit,1,,,,kot->koto,kot->koto (1),"২৫ টাকা ১২৫ টাকার শতকরা কত
+Return only the final answer.","25 Taka is what percent of 125 Taka?
+Return only the final answer.","25 taka 125 takar shotokora kot
+Return only the final answer.","25 taka 125 takar shotokora koto
+Return only the final answer."
+4,banglamath_0231,19,tier_1_review_first,test,152,priority=both_wrong_multi_edit; heldout_test150; qwen25_v4_wrong; qwen25_recoverable_by_other_script; qwen3_v4_wrong; qwen3_recoverable_by_other_script; 2_suggested_replacements,banglamath,short_answer,short_answer,both_wrong_multi_edit,2,,,,ekoti->ekti;kot->koto,ekoti->ekti (1); kot->koto (1),"একটি কলম ২০% লাভে ২৪ টাকায় বিক্রয় করলে ক্রয়মূল্য কত
+Return only the final answer.","If a pen is sold for 24 Taka with 20% profit, what was the cost price?
+Return only the final answer.","ekoti kolom 20% labhe 24 takay bikroy korole kroyomuly kot
+Return only the final answer.","ekti kolom 20% labhe 24 takay bikroy korole kroyomuly koto
+Return only the final answer."
+5,benqa_8th-Math_0085,20,tier_1_review_first,dev,152,priority=both_wrong_single_edit; dev50_tuning_slice; main_benqa_gap_slice; qwen25_v4_wrong; qwen25_recoverable_by_other_script; qwen3_v4_wrong; qwen3_recoverable_by_other_script; qwen3_agreement_route_gain; 1_suggested_replacements,benqa,mcq,choice,both_wrong_single_edit,1,,,,kot->koto,kot->koto (1),"4 ক্রমের ম্যাজিক বর্গের কোণাকুণি যোগফল কত?
+A. 15
+B. 16
+C. 34
+D. 65
+Answer with only A, B, C, or D.","What is the sum of diagonal of magie square of order 4?
+A. 15
+B. 16
+C. 34
+D. 65
+Answer with only A, B, C, or D.","4 kromer myajik borger konakuni jogofol kot?
+A. 15
+B. 16
+C. 34
+D. 65
+Answer with only A, B, C, or D.","4 kromer myajik borger konakuni jogofol koto?
+A. 15
+B. 16
+C. 34
+D. 65
+Answer with only A, B, C, or D."
+6,banglamath_0552,22,tier_1_review_first,test,148,priority=both_wrong_multi_edit; heldout_test150; qwen25_v4_wrong; qwen25_recoverable_by_other_script; qwen3_v4_wrong; 4_suggested_replacements; ksh_heavy,banglamath,short_answer,short_answer,both_wrong_multi_edit,4,,,,ekoti->ekti;kot->koto;kshetrofol->khetrofol;uchchota->ucchota,ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1); uchchota->ucchota (1),"একটি সামান্তরিকের ভূমি ৯০ গজ ও উচ্চতা ৫০ গজ হলে তার ক্ষেত্রফল কত
+Return only the final answer.","If a parallelogram has a base of 90 yards and height of 50 yards, what is its area?
+Return only the final answer.","ekoti samantoriker bhumi 90 goj o uchchota 50 goj hole tar kshetrofol kot
+Return only the final answer.","ekti samantoriker bhumi 90 goj o ucchota 50 goj hole tar khetrofol koto
+Return only the final answer."
+7,benqa_10th-Biology_0156,23,tier_1_review_first,test,148,priority=both_wrong_single_edit; heldout_test150; main_benqa_gap_slice; qwen25_v4_wrong; qwen3_v4_wrong; qwen3_recoverable_by_other_script; qwen3_agreement_route_gain; 1_suggested_replacements,benqa,mcq,choice,both_wrong_single_edit,1,,,,kot->koto,kot->koto (1),"আমিষে শতকরা কত ভাগ নাইট্রোজেন বিদ্যমান
+A. 12
+B. 14
+C. 16
+D. 18
+Answer with only A, B, C, or D.","What percentage of Nitrogen is present in protein?
+A. 12
+B. 14
+C. 16
+D. 18
+Answer with only A, B, C, or D.","amishe shotokora kot bhag naitrojen bidyoman
+A. 12
+B. 14
+C. 16
+D. 18
+Answer with only A, B, C, or D.","amishe shotokora koto bhag naitrojen bidyoman
+A. 12
+B. 14
+C. 16
+D. 18
+Answer with only A, B, C, or D."
+8,benqa_10th-Math_0271,24,tier_1_review_first,test,148,priority=both_wrong_single_edit; heldout_test150; main_benqa_gap_slice; qwen25_v4_wrong; qwen3_v4_wrong; qwen3_recoverable_by_other_script; qwen3_agreement_route_gain; 1_suggested_replacements,benqa,mcq,choice,both_wrong_single_edit,1,,,,kot->koto,kot->koto (1),"স্থূলকোণী ত্রিভুজের স্থূলকোণ ছাড়া বাকি কোণ দুটি কত হলে ত্রিভুজ অংকন সম্ভব?
+A. 30\degree ও 60\degree
+B. 40\degree ও 50\degree
+C. 45\degree ও 45\degree
+D. 50\degree ও 30\degree
+Answer with only A, B, C, or D.","To draw a triangle which is the value of rest two angles except obtuse angle of obtuse angle triangle?
+A. 30\degree and 60\degree
+B. 40\degree and 50\degree
+C. 45\degree and 45\degree
+D. 50\degree and 30\degree
+Answer with only A, B, C, or D.","sthulokoni tribhujer sthulokon chhara baki kon duti kot hole tribhuj ongkon sombhob?
+A. 30\degree o 60\degree
+B. 40\degree o 50\degree
+C. 45\degree o 45\degree
+D. 50\degree o 30\degree
+Answer with only A, B, C, or D.","sthulokoni tribhujer sthulokon chhara baki kon duti koto hole tribhuj ongkon sombhob?
+A. 30\degree o 60\degree
+B. 40\degree o 50\degree
+C. 45\degree o 45\degree
+D. 50\degree o 30\degree
+Answer with only A, B, C, or D."
+9,benqa_12th-Physics-II_0290,27,tier_1_review_first,test,145,priority=both_wrong_multi_edit; heldout_test150; main_benqa_gap_slice; qwen25_v4_wrong; qwen3_v4_wrong; qwen3_recoverable_by_other_script; 2_suggested_replacements,benqa,mcq,choice,both_wrong_multi_edit,2,,,,ekoti->ekti;kot->koto,ekoti->ekti (1); kot->koto (1),"একটি কার্নো ইঞ্জিনের কার্যনির্বাহক বস্তু 400 K তাপমাত্রার তাপ উৎস হতে 840 J তাপ গ্রহণ করে তাপগ্রাহকে 630 J তাপ বর্জন করে। তাপ গ্রাহকের তাপমাত্রা কত?
+A. 210 K
+B. 300 K
+C. 400 K
+D. 440 K
+Answer with only A, B, C, or D.","In Carnot's engine 840 J of heat is absorbed from a source at 400 K and is released 630 J of heat in the sink. What is the temperature of the sink?
+A. 210 K
+B. 300 K
+C. 400 K
+D. 440 K
+Answer with only A, B, C, or D.","ekoti karno injiner karyonirbahok bostu 400 K tapomatrar tap utos hote 840 J tap grohon kore tapograhoke 630 J tap borjon kore. tap grahoker tapomatra kot?
+A. 210 K
+B. 300 K
+C. 400 K
+D. 440 K
+Answer with only A, B, C, or D.","ekti karno injiner karyonirbahok bostu 400 K tapomatrar tap utos hote 840 J tap grohon kore tapograhoke 630 J tap borjon kore. tap grahoker tapomatra koto?
+A. 210 K
+B. 300 K
+C. 400 K
+D. 440 K
+Answer with only A, B, C, or D."
+10,banglamath_0538,28,tier_1_review_first,test,144,priority=both_wrong_multi_edit; heldout_test150; qwen25_v4_wrong; qwen3_v4_wrong; 8_suggested_replacements; ksh_heavy,banglamath,short_answer,short_answer,both_wrong_multi_edit,8,,,,ayotakar->ayotokar;choora->chowra;doirghy->doirgho;ekoti->ekti;kot->koto;kshetrofol->khetrofol;prosth->prostho;thakole->thakle,ayotakar->ayotokar (1); choora->chowra (1); doirghy->doirgho (1); ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1); prosth->prostho (1); thakole->thakle (1),"একটি আয়তাকার বাগানের দৈর্ঘ্য ৬০ মিটার ও প্রস্থ ৪০ মিটার। এর ভিতরে ২ মিটার চওড়া রাস্তা থাকলে রাস্তার ক্ষেত্রফল কত
+Return only the final answer.","A rectangular garden is 60m by 40m. If there’s a 2m wide path inside, what is the area of the path?
+Return only the final answer.","ekoti ayotakar baganer doirghy 60 mitar o prosth 40 mitar. er bhitore 2 mitar choora rasta thakole rastar kshetrofol kot
+Return only the final answer.","ekti ayotokar baganer doirgho 60 mitar o prostho 40 mitar. er bhitore 2 mitar chowra rasta thakle rastar khetrofol koto
+Return only the final answer."
+11,banglamath_0541,29,tier_1_review_first,test,144,priority=both_wrong_multi_edit; heldout_test150; qwen25_v4_wrong; qwen3_v4_wrong; 8_suggested_replacements; ksh_heavy,banglamath,short_answer,short_answer,both_wrong_multi_edit,8,,,,ayotakar->ayotokar;choora->chowra;doirghy->doirgho;ekoti->ekti;kot->koto;kshetrofol->khetrofol;prosth->prostho;thakole->thakle,ayotakar->ayotokar (1); choora->chowra (1); doirghy->doirgho (1); ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1); prosth->prostho (1); thakole->thakle (1),"একটি আয়তাকার বাগানের দৈর্ঘ্য ৫০ মি ও প্রস্থ ৩০ মি। এর ভিতরে ৩ মিটার চওড়া রাস্তা থাকলে রাস্তার ক্ষেত্রফল কত
+Return only the final answer.","A rectangular garden is 50m by 30m. If there’s a 3m wide path inside, what is the area of the path?
+Return only the final answer.","ekoti ayotakar baganer doirghy 50 mi o prosth 30 mi. er bhitore 3 mitar choora rasta thakole rastar kshetrofol kot
+Return only the final answer.","ekti ayotokar baganer doirgho 50 mi o prostho 30 mi. er bhitore 3 mitar chowra rasta thakle rastar khetrofol koto
+Return only the final answer."
+12,banglamath_1697,30,tier_1_review_first,test,143,priority=both_wrong_single_edit; heldout_test150; qwen25_v4_wrong; qwen3_v4_wrong; qwen3_recoverable_by_other_script; qwen3_agreement_route_gain; 1_suggested_replacements,banglamath,short_answer,short_answer,both_wrong_single_edit,1,,,,kot->koto,kot->koto (1),"৩০ কে ১/২ দিয়ে ভাগ করে ১০ যোগ করলে কত হয়?
+Return only the final answer.","Divide 30 by ½ and add 10. What is the result?
+Return only the final answer.","30 ke 1/2 diye bhag kore 10 jog korole kot hoy?
+Return only the final answer.","30 ke 1/2 diye bhag kore 10 jog korole koto hoy?
+Return only the final answer."
+13,banglamath_0549,31,tier_1_review_first,test,142,priority=both_wrong_multi_edit; heldout_test150; qwen25_v4_wrong; qwen3_v4_wrong; 7_suggested_replacements; ksh_heavy,banglamath,short_answer,short_answer,both_wrong_multi_edit,7,,,,choora->chowra;doirghy->doirgho;ekoti->ekti;kot->koto;kshetrofol->khetrofol;prosth->prostho;thakole->thakle,choora->chowra (1); doirghy->doirgho (1); ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1); prosth->prostho (1); thakole->thakle (1),"একটি বাগানের বাইরে ২.৫ মিটার চওড়া রাস্তা থাকলে রাস্তার ক্ষেত্রফল কত যদি বাগানের দৈর্ঘ্য ৫০ মি ও প্রস্থ ৩৫ মি হয়
+Return only the final answer.","If a 2.5m wide path surrounds a garden of 50m by 35m, what is the area of the path?
+Return only the final answer.","ekoti baganer baire 2.5 mitar choora rasta thakole rastar kshetrofol kot jodi baganer doirghy 50 mi o prosth 35 mi hoy
+Return only the final answer.","ekti baganer baire 2.5 mitar chowra rasta thakle rastar khetrofol koto jodi baganer doirgho 50 mi o prostho 35 mi hoy
+Return only the final answer."
+14,benqa_10th-Math_0032,33,tier_1_review_first,dev,140,priority=both_wrong_single_edit; dev50_tuning_slice; main_benqa_gap_slice; qwen25_v4_wrong; qwen25_recoverable_by_other_script; qwen25_agreement_route_gain; qwen3_v4_wrong; 1_suggested_replacements,benqa,mcq,choice,both_wrong_single_edit,1,,,,kot->koto,kot->koto (1),"(\sqrt{3})^{x+2} = 27 হলে x এর মান কত?
+A. 6
+B. 4
+C. 3
+D. 2
+Answer with only A, B, C, or D.","If (\sqrt{3})^{x+2} = 27, what is the value of x?
+A. 6
+B. 4
+C. 3
+D. 2
+Answer with only A, B, C, or D.","(\sqrt{3})^{x+2} = 27 hole x er man kot?
+A. 6
+B. 4
+C. 3
+D. 2
+Answer with only A, B, C, or D.","(\sqrt{3})^{x+2} = 27 hole x er man koto?
+A. 6
+B. 4
+C. 3
+D. 2
+Answer with only A, B, C, or D."
+15,banglamath_0540,34,tier_1_review_first,test,138,priority=both_wrong_multi_edit; heldout_test150; qwen25_v4_wrong; qwen3_v4_wrong; 5_suggested_replacements; ksh_heavy,banglamath,short_answer,short_answer,both_wrong_multi_edit,5,,,,doirghy->doirgho;ekoti->ekti;kot->koto;kshetrofol->khetrofol,doirghy->doirgho (2); ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1),"একটি ঘরের দৈর্ঘ্য প্রস্থের তিনগুণ এবং ক্ষেত্রফল ১৪৭ বর্গমিটার হলে ঘরটির দৈর্ঘ্য কত
+Return only the final answer.","If a room's length is three times its width and the area is 147 sq. meters, what is the length?
+Return only the final answer.","ekoti ghorer doirghy prosther tinogun ebong kshetrofol 147 borgomitar hole ghorotir doirghy kot
+Return only the final answer.","ekti ghorer doirgho prosther tinogun ebong khetrofol 147 borgomitar hole ghorotir doirgho koto
+Return only the final answer."
+16,benqa_12th-Biology-II_0122,38,tier_1_review_first,test,138,priority=both_wrong_single_edit; heldout_test150; main_benqa_gap_slice; qwen25_v4_wrong; qwen25_recoverable_by_other_script; qwen3_v4_wrong; 1_suggested_replacements,benqa,mcq,choice,both_wrong_single_edit,1,,,,kot->koto,kot->koto (1),"হৃৎপিন্ডের অলিন্দের ডায়াস্টোলের সময়কাল কত সেকেন্ড?
+A. 0.7
+B. 0.5
+C. 0.3
+D. 0.1
+Answer with only A, B, C, or D.","How mush second is the duration of diastole in the atrium of the heart?
+A. 0.7
+B. 0.5
+C. 0.3
+D. 0.1
+Answer with only A, B, C, or D.","hritopinder olinder dayastoler somoyokal kot sekend?
+A. 0.7
+B. 0.5
+C. 0.3
+D. 0.1
+Answer with only A, B, C, or D.","hritopinder olinder dayastoler somoyokal koto sekend?
+A. 0.7
+B. 0.5
+C. 0.3
+D. 0.1
+Answer with only A, B, C, or D."
+17,benqa_12th-Physics-II_0195,41,tier_1_review_first,test,138,priority=both_wrong_single_edit; heldout_test150; main_benqa_gap_slice; qwen25_v4_wrong; qwen25_recoverable_by_other_script; qwen3_v4_wrong; 1_suggested_replacements,benqa,mcq,choice,both_wrong_single_edit,1,,,,kot->koto,kot->koto (1),"পৃথিবীর ব্যাসার্ধ 6500 km এর ধারকত্ব কত?
+A. 711 F
+B. 722 \mu F
+C. 640 \mu F
+D. 614 \mu F
+Answer with only A, B, C, or D.","The radius of earth is 6500 km. What is its capacitance?
+A. 711 F
+B. 722 \mu F
+C. 640 \mu F
+D. 614 \mu F
+Answer with only A, B, C, or D.","prithibir byasardh 6500 km er dharokotto kot?
+A. 711 F
+B. 722 \mu F
+C. 640 \mu F
+D. 614 \mu F
+Answer with only A, B, C, or D.","prithibir byasardh 6500 km er dharokotto koto?
+A. 711 F
+B. 722 \mu F
+C. 640 \mu F
+D. 614 \mu F
+Answer with only A, B, C, or D."
+18,banglamath_0559,44,tier_2_high,test,134,priority=both_wrong_multi_edit; heldout_test150; qwen25_v4_wrong; qwen3_v4_wrong; 3_suggested_replacements; ksh_heavy,banglamath,short_answer,short_answer,both_wrong_multi_edit,3,,,,ekoti->ekti;kot->koto;kshetrofol->khetrofol,ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1),"একটি বর্গক্ষেত্রের পরিসীমা ১৬০ মিটার হলে তার ক্ষেত্রফল কত
+Return only the final answer.","If a square has a perimeter of 160 meters, what is its area?
+Return only the final answer.","ekoti borgokshetrer porisima 160 mitar hole tar kshetrofol kot
+Return only the final answer.","ekti borgokshetrer porisima 160 mitar hole tar khetrofol koto
+Return only the final answer."
+19,banglamath_0185,45,tier_2_high,test,133,priority=both_wrong_single_edit; heldout_test150; qwen25_v4_wrong; qwen25_recoverable_by_other_script; qwen3_v4_wrong; 1_suggested_replacements,banglamath,short_answer,short_answer,both_wrong_single_edit,1,,,,kot->koto,kot->koto (1),"১২০ কেজি চালে ১০ জন লোকের ২৭ দিন চলে। ৪৫ দিন চলতে কত কেজি চাল প্রয়োজন হবে
+Return only the final answer.","120 kg of rice lasts 10 people for 27 days. How much rice is needed to last 45 days?
+Return only the final answer.","120 keji chale 10 jon loker 27 din chole. 45 din cholote kot keji chal proyojon hobe
+Return only the final answer.","120 keji chale 10 jon loker 27 din chole. 45 din cholote koto keji chal proyojon hobe
+Return only the final answer."
+20,benqa_10th-Physics_0106,46,tier_2_high,test,133,priority=both_wrong_multi_edit; heldout_test150; main_benqa_gap_slice; qwen25_v4_wrong; qwen3_v4_wrong; 2_suggested_replacements,benqa,mcq,choice,both_wrong_multi_edit,2,,,,korote->korte;kot->koto,korote->korte (1); kot->koto (1),"বিনা বাধায় পড়ন্ত বস্তু 5 সেকেন্ডে 50 মিটার পথ অতিক্রম করলে 72 মিটার পথ অতিক্রম করতে কত সেকেন্ড সময় লাগবে?
+A. 6
+B. 7.2
+C. 9.5
+D. 12
+Answer with only A, B, C, or D.","If a freely falling body travels 50 m in 5 sec then how much time in second will need to travel thr distance of 72 meter?
+A. 6
+B. 7.2
+C. 9.5
+D. 12
+Answer with only A, B, C, or D.","bina badhay poront bostu 5 sekende 50 mitar poth otikrom korole 72 mitar poth otikrom korote kot sekend somoy lagobe?
+A. 6
+B. 7.2
+C. 9.5
+D. 12
+Answer with only A, B, C, or D.","bina badhay poront bostu 5 sekende 50 mitar poth otikrom korole 72 mitar poth otikrom korte koto sekend somoy lagobe?
+A. 6
+B. 7.2
+C. 9.5
+D. 12
+Answer with only A, B, C, or D."

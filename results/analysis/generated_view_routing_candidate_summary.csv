@@ -1,0 +1,34 @@
+route,rule,n,baseline_correct,routed_correct,delta_vs_baseline,gains,losses,routed_nonbaseline,actions,description
+Qwen2.5 protected-v3 phonetic + guarded EN,all_disagree_bn_tiebreak,36,9,8,-1,1,2,5,"all_disagree_use_bn,bn_en_agree_nonbaseline","Strict agreement, plus use generated-BN when all three views disagree."
+Qwen2.5 protected-v3 phonetic + guarded EN,all_disagree_en_tiebreak,36,9,9,0,2,2,5,"all_disagree_use_en,bn_en_agree_nonbaseline","Strict agreement, plus use generated-EN when all three views disagree."
+Qwen2.5 protected-v3 phonetic + guarded EN,baseline,36,9,9,0,0,0,0,baseline,Use Banglish answer.
+Qwen2.5 protected-v3 phonetic + guarded EN,generated_bn_if_baseline_empty,36,9,9,0,0,0,0,,Use generated-BN only when Banglish parsing is empty.
+Qwen2.5 protected-v3 phonetic + guarded EN,generated_bn_only,36,9,10,1,6,5,19,use_generated_bn,Always use generated-BN when parsed.
+Qwen2.5 protected-v3 phonetic + guarded EN,generated_bn_priority_nonbaseline,36,9,12,3,8,5,24,"bn_en_agree_nonbaseline,bn_nonbaseline_priority,en_nonbaseline_priority","Strict agreement, else prefer generated-BN when it differs from baseline."
+Qwen2.5 protected-v3 phonetic + guarded EN,generated_en_if_baseline_empty,36,9,9,0,0,0,0,,Use generated-EN only when Banglish parsing is empty.
+Qwen2.5 protected-v3 phonetic + guarded EN,generated_en_only,36,9,11,2,4,2,10,use_generated_en,Always use generated-EN when parsed.
+Qwen2.5 protected-v3 phonetic + guarded EN,generated_en_priority_nonbaseline,36,9,13,4,9,5,24,"bn_en_agree_nonbaseline,bn_nonbaseline_priority,en_nonbaseline_priority","Strict agreement, else prefer generated-EN when it differs from baseline."
+Qwen2.5 protected-v3 phonetic + guarded EN,strict_generated_agreement,36,9,8,-1,0,1,1,bn_en_agree_nonbaseline,Route only when generated-BN and generated-EN agree on a non-baseline answer.
+Qwen2.5 protected-v3 phonetic + guarded EN,three_view_majority,36,9,8,-1,0,1,1,"banglish_bn_majority,banglish_en_majority,bn_en_majority","Use any two-of-three answer majority, else baseline."
+Qwen3 historical protected-v1 BNB + raw self-translate EN,all_disagree_bn_tiebreak,36,15,17,2,2,0,3,"all_disagree_use_bn,bn_en_agree_nonbaseline","Strict agreement, plus use generated-BN when all three views disagree."
+Qwen3 historical protected-v1 BNB + raw self-translate EN,all_disagree_en_tiebreak,36,15,16,1,1,0,3,"all_disagree_use_en,bn_en_agree_nonbaseline","Strict agreement, plus use generated-EN when all three views disagree."
+Qwen3 historical protected-v1 BNB + raw self-translate EN,baseline,36,15,15,0,0,0,0,baseline,Use Banglish answer.
+Qwen3 historical protected-v1 BNB + raw self-translate EN,generated_bn_if_baseline_empty,36,15,16,1,1,0,2,baseline_empty_use_bn,Use generated-BN only when Banglish parsing is empty.
+Qwen3 historical protected-v1 BNB + raw self-translate EN,generated_bn_only,36,15,17,2,4,2,10,use_generated_bn,Always use generated-BN when parsed.
+Qwen3 historical protected-v1 BNB + raw self-translate EN,generated_bn_priority_nonbaseline,36,15,13,-2,5,7,16,"bn_en_agree_nonbaseline,bn_nonbaseline_priority,en_nonbaseline_priority","Strict agreement, else prefer generated-BN when it differs from baseline."
+Qwen3 historical protected-v1 BNB + raw self-translate EN,generated_en_if_baseline_empty,36,15,15,0,0,0,0,,Use generated-EN only when Banglish parsing is empty.
+Qwen3 historical protected-v1 BNB + raw self-translate EN,generated_en_only,36,15,12,-3,2,5,9,use_generated_en,Always use generated-EN when parsed.
+Qwen3 historical protected-v1 BNB + raw self-translate EN,generated_en_priority_nonbaseline,36,15,12,-3,4,7,16,"bn_en_agree_nonbaseline,bn_nonbaseline_priority,en_nonbaseline_priority","Strict agreement, else prefer generated-EN when it differs from baseline."
+Qwen3 historical protected-v1 BNB + raw self-translate EN,strict_generated_agreement,36,15,16,1,1,0,2,bn_en_agree_nonbaseline,Route only when generated-BN and generated-EN agree on a non-baseline answer.
+Qwen3 historical protected-v1 BNB + raw self-translate EN,three_view_majority,36,15,16,1,1,0,2,"banglish_bn_majority,banglish_en_majority,bn_en_majority","Use any two-of-three answer majority, else baseline."
+Qwen3 protected-v3 BNB + guarded EN,all_disagree_bn_tiebreak,36,15,17,2,2,0,3,"all_disagree_use_bn,bn_en_agree_nonbaseline","Strict agreement, plus use generated-BN when all three views disagree."
+Qwen3 protected-v3 BNB + guarded EN,all_disagree_en_tiebreak,36,15,17,2,2,0,3,"all_disagree_use_en,bn_en_agree_nonbaseline","Strict agreement, plus use generated-EN when all three views disagree."
+Qwen3 protected-v3 BNB + guarded EN,baseline,36,15,15,0,0,0,0,baseline,Use Banglish answer.
+Qwen3 protected-v3 BNB + guarded EN,generated_bn_if_baseline_empty,36,15,15,0,0,0,1,baseline_empty_use_bn,Use generated-BN only when Banglish parsing is empty.
+Qwen3 protected-v3 BNB + guarded EN,generated_bn_only,36,15,17,2,4,2,10,use_generated_bn,Always use generated-BN when parsed.
+Qwen3 protected-v3 BNB + guarded EN,generated_bn_priority_nonbaseline,36,15,15,0,4,4,12,"bn_en_agree_nonbaseline,bn_nonbaseline_priority,en_nonbaseline_priority","Strict agreement, else prefer generated-BN when it differs from baseline."
+Qwen3 protected-v3 BNB + guarded EN,generated_en_if_baseline_empty,36,15,15,0,0,0,0,,Use generated-EN only when Banglish parsing is empty.
+Qwen3 protected-v3 BNB + guarded EN,generated_en_only,36,15,15,0,2,2,5,use_generated_en,Always use generated-EN when parsed.
+Qwen3 protected-v3 BNB + guarded EN,generated_en_priority_nonbaseline,36,15,15,0,4,4,12,"bn_en_agree_nonbaseline,bn_nonbaseline_priority,en_nonbaseline_priority","Strict agreement, else prefer generated-EN when it differs from baseline."
+Qwen3 protected-v3 BNB + guarded EN,strict_generated_agreement,36,15,16,1,1,0,1,bn_en_agree_nonbaseline,Route only when generated-BN and generated-EN agree on a non-baseline answer.
+Qwen3 protected-v3 BNB + guarded EN,three_view_majority,36,15,16,1,1,0,1,"banglish_bn_majority,banglish_en_majority,bn_en_majority","Use any two-of-three answer majority, else baseline."

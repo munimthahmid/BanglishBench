@@ -1,0 +1,2 @@
+label,n,left_correct,right_correct,left_accuracy,right_accuracy,delta_right_minus_left,ci95_low,ci95_high,bootstrap_p_opposite_direction,left_filter,right_filter,key_columns,samples,seed
+phi35_validation200_v4_banglish_minus_english,200,80,40,0.4,0.2,-0.2,-0.28,-0.115,0.0,model=microsoft/Phi-3.5-mini-instruct;variant=english;prompt_mode=baseline,model=microsoft/Phi-3.5-mini-instruct;variant=banglish_clean;prompt_mode=baseline,id,10000,42

@@ -1,0 +1,13 @@
+group,calls,total_chars,mean_chars,max_chars,total_approx_tokens,mean_approx_tokens,max_approx_tokens
+overall,600,144960,241.6,526,36471,60.8,132
+dataset=banglamath,168,36278,215.9,486,9127,54.3,122
+dataset=banglamath;variant=bangla,56,11814,211.0,438,2974,53.1,110
+dataset=banglamath;variant=banglish_clean,56,12460,222.5,486,3135,56.0,122
+dataset=banglamath;variant=english,56,12004,214.4,369,3018,53.9,93
+dataset=benqa,432,108682,251.6,526,27344,63.3,132
+dataset=benqa;variant=bangla,144,35042,243.3,494,8820,61.2,124
+dataset=benqa;variant=banglish_clean,144,36034,250.2,505,9061,62.9,127
+dataset=benqa;variant=english,144,37606,261.2,526,9463,65.7,132
+variant=bangla,200,46856,234.3,494,11794,59.0,124
+variant=banglish_clean,200,48494,242.5,505,12196,61.0,127
+variant=english,200,49610,248.1,526,12481,62.4,132

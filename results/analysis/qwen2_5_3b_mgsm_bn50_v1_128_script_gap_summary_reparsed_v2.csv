@@ -1,0 +1,5 @@
+model,dataset,task_type,pattern,n
+Qwen/Qwen2.5-3B-Instruct,mgsm,math_word_problem,all_wrong,41
+Qwen/Qwen2.5-3B-Instruct,mgsm,math_word_problem,bangla_only_correct,2
+Qwen/Qwen2.5-3B-Instruct,mgsm,math_word_problem,banglish_drop_vs_bangla_english,1
+Qwen/Qwen2.5-3B-Instruct,mgsm,math_word_problem,english_only_correct,6

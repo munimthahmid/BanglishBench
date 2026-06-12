@@ -1,0 +1,321 @@
+% ============================================================
+%  Script Matters — custom clean beamer theme  (v2, visual)
+%  Compile parent with lualatex (run twice for nav/refs)
+% ============================================================
+
+\usetheme{default}
+\useinnertheme{rectangles}
+\setbeamertemplate{navigation symbols}{}
+
+% ---------- Fonts (lualatex + fontspec) ----------
+\usepackage{fontspec}
+\setsansfont{Noto Sans}[
+  Renderer = HarfBuzz,
+  UprightFont = *,
+  BoldFont    = * Bold,
+  ItalicFont  = * Italic,
+  BoldItalicFont = * Bold Italic ]
+\setmainfont{Noto Sans}[Renderer=HarfBuzz]
+\setmonofont{DejaVu Sans Mono}[Scale=0.82]
+\newfontfamily\bengalifont{Noto Sans Bengali}[
+  Renderer = HarfBuzz,
+  Script = Bengali,
+  UprightFont = *,
+  BoldFont = * Bold ]
+\newcommand{\bn}[1]{{\bengalifont #1}}
+\renewcommand{\familydefault}{\sfdefault}
+
+% ---------- Colour palette ----------
+\definecolor{buetnavy}{HTML}{16324F}    % deep header navy
+\definecolor{buetnavy2}{HTML}{1B4068}
+\definecolor{navytab}{HTML}{0F2538}      % darker strip for nav row
+\definecolor{accent}{HTML}{2E78B5}       % section blue
+\definecolor{accentlt}{HTML}{EDF5FC}     % pale blue panel
+\definecolor{ink}{HTML}{23303B}          % body text
+\definecolor{subink}{HTML}{5C6B78}       % muted text
+\definecolor{rule}{HTML}{C9D6E2}
+\definecolor{cardline}{HTML}{DCE4EC}
+\definecolor{paper}{HTML}{F7F9FC}
+
+% data-series colours (match thesis figures)
+\definecolor{cBangla}{HTML}{2A9D8F}      % teal
+\definecolor{cBanglish}{HTML}{E0734F}    % orange
+\definecolor{cEnglish}{HTML}{3D6D8C}     % steel blue
+\definecolor{good}{HTML}{2A9D8F}
+\definecolor{bad}{HTML}{C24A3A}
+\definecolor{warn}{HTML}{E0A33E}
+
+% UI mock colours (for "Banglish in the wild")
+\definecolor{msgblue}{HTML}{0A7CFF}      % outgoing chat bubble
+\definecolor{msggray}{HTML}{E9E9EB}      % incoming chat bubble
+\definecolor{ytred}{HTML}{FF0000}
+\definecolor{starorange}{HTML}{F5A623}
+\definecolor{uichrome}{HTML}{F1F3F4}
+
+\setbeamercolor{normal text}{fg=ink}
+\setbeamercolor{background canvas}{bg=paper}
+\setbeamercolor{structure}{fg=accent}
+\setbeamercolor{itemize item}{fg=accent}
+\setbeamercolor{itemize subitem}{fg=cBanglish}
+\setbeamercolor{alerted text}{fg=bad}
+\setbeamercolor{frametitle}{fg=white,bg=buetnavy}
+
+\setbeamerfont{frametitle}{series=\bfseries,size=\Large}
+\setbeamerfont{title}{series=\bfseries,size=\huge}
+\setbeamerfont{itemize/enumerate body}{size=\normalsize}
+\setbeamerfont{itemize/enumerate subbody}{size=\small}
+
+% ============================================================
+%  Section navigation  (persistent top tabs, auto-tracked)
+% ============================================================
+\newcounter{secidx}\setcounter{secidx}{0}
+\setbeamercolor{navbar}{bg=navytab,fg=white}
+
+% one tab: #1 = its index, #2 = label
+\newcommand{\navtab}[2]{%
+  \ifnum\value{secidx}=#1\relax
+    \tikz[baseline=-0.6ex]{\node[fill=accent,rounded corners=2.5pt,
+       inner xsep=5pt,inner ysep=2pt,text=white,
+       font=\bfseries\scriptsize]{#2};}%
+  \else
+    {\color{white!42}\scriptsize #2}%
+  \fi}
+
+\setbeamertemplate{headline}{%
+  \nointerlineskip%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.3ex,dp=1.1ex,%
+        leftskip=0.5cm,rightskip=0.5cm]{navbar}%
+    \hbox to \dimexpr\paperwidth-1.0cm\relax{%
+      \navtab{1}{Motivation}\hfil
+      \navtab{2}{Benchmark}\hfil
+      \navtab{3}{Results}\hfil
+      \navtab{4}{Why It Fails}\hfil
+      \navtab{5}{Frontier \& Scale}\hfil
+      \navtab{6}{Mitigation}%
+    }%
+  \end{beamercolorbox}%
+  \nointerlineskip\hbox{\color{accent}\rule{\paperwidth}{1.3pt}}%
+}
+
+% ---------- Frame title: navy bar with optional subtitle ----------
+\setbeamertemplate{frametitle}{%
+  \nointerlineskip%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.6ex,dp=1.4ex,leftskip=0.45cm,rightskip=0.45cm]{frametitle}%
+    \insertframetitle\strut%
+  \end{beamercolorbox}%
+  \vskip0.30cm%
+}
+% helper for "Title | subtitle"
+\newcommand{\subt}[1]{{\normalfont\fontsize{12}{12}\selectfont\;\textbf{|}\;#1}}
+
+% ---------- itemize look ----------
+\setbeamertemplate{itemize item}{\small\raise0.15ex\hbox{\textbullet}}
+\setbeamertemplate{itemize subitem}{\scriptsize\raise0.2ex\hbox{--}}
+\setlength{\leftmargini}{1.1em}
+
+% ---------- Footline: name | short title | frame number ----------
+\setbeamertemplate{footline}{%
+  \hbox{%
+    \begin{beamercolorbox}[wd=.36\paperwidth,ht=2.6ex,dp=1.1ex,leftskip=.3cm]{}%
+      {\color{subink}\scriptsize Munim Thahmid \textbullet\ 2005097}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.40\paperwidth,ht=2.6ex,dp=1.1ex,center]{}%
+      {\color{subink}\scriptsize Script Matters}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.24\paperwidth,ht=2.6ex,dp=1.1ex,rightskip=.3cm]{}%
+      \hfill{\color{subink}\scriptsize\insertframenumber\,/\,\inserttotalframenumber}%
+    \end{beamercolorbox}%
+  }%
+}
+
+% ============================================================
+%  BUET logo badge (red gear on a white disc → works on navy)
+% ============================================================
+\newcommand{\buetbadge}[1]{% #1 = diameter, e.g. 1.1cm
+  \tikz{\node[circle,fill=white,inner sep=1.4pt,line width=0pt]
+        {\includegraphics[width=#1]{buetlogo.png}};}}
+
+% ---------- Section divider frames (auto-numbered) ----------
+\tikzfading[name=divfade,left color=transparent!0,right color=transparent!100]
+\newcommand{\sectiondivider}[2]{%
+  \stepcounter{secidx}%
+  {\setbeamertemplate{footline}{}%
+  \begin{frame}[plain]
+    \begin{tikzpicture}[remember picture,overlay]
+      \fill[buetnavy] (current page.south west) rectangle (current page.north east);
+      % dissolving-script artwork, right side, faded into the navy
+      \node[anchor=east,inner sep=0pt] (art) at (current page.east)
+        {\includegraphics[height=\paperheight]{img/script-dissolve.png}};
+      \fill[buetnavy,path fading=divfade]
+        (art.north west) rectangle ([xshift=3.0cm]art.south west);
+      \fill[accent] ([yshift=-0.9cm]current page.west)
+        rectangle ([xshift=-6.1cm,yshift=-1.5cm]current page.east);
+      \node[anchor=west,text=accentlt,font=\bfseries\footnotesize]
+        at ([xshift=1.0cm,yshift=2.05cm]current page.west)
+        {SECTION \thesecidx\, /\, 6};
+      % progress dots
+      \coordinate (dotbase) at ([xshift=4.2cm,yshift=2.05cm]current page.west);
+      \foreach \i in {1,...,6}{%
+        \ifnum\i=\value{secidx}
+          \fill[accent] ($(dotbase)+(\i*0.34cm,0)$) circle (0.075);
+        \else
+          \fill[white!25] ($(dotbase)+(\i*0.34cm,0)$) circle (0.05);
+        \fi}
+      \node[anchor=west,text=white,font=\bfseries\fontsize{28}{32}\selectfont,text width=8.8cm]
+        at ([xshift=1.0cm,yshift=0.9cm]current page.west) {#1};
+      \node[anchor=west,text=accentlt,font=\large,text width=8.6cm]
+        at ([xshift=1.05cm,yshift=-2.15cm]current page.west) {#2};
+      \node[anchor=south west,text=white!55,font=\scriptsize]
+        at ([xshift=1.0cm,yshift=0.7cm]current page.south west) {Script Matters \textbullet\ BUET CSE};
+      \node[anchor=south east] at ([xshift=-1.0cm,yshift=0.65cm]current page.south east)
+        {\buetbadge{1.0cm}};
+    \end{tikzpicture}
+  \end{frame}}
+}
+
+% ============================================================
+%  Handy boxes
+% ============================================================
+\newtcolorbox{keybox}{
+  colback=accentlt, colframe=accent, boxrule=0.8pt, arc=2pt,
+  left=8pt,right=8pt,top=6pt,bottom=6pt, enhanced,
+  borderline west={3pt}{0pt}{accent},
+  before upper={\raggedright\setlength{\parindent}{0pt}}
+}
+\newtcolorbox{takebox}[1]{
+  colback=cBangla!8, colframe=cBangla, boxrule=0.8pt, arc=2pt,
+  left=8pt,right=8pt,top=5pt,bottom=5pt, enhanced,
+  fonttitle=\bfseries\color{white}, coltitle=white,
+  colbacktitle=cBangla, title={#1},
+  before upper={\raggedright\setlength{\parindent}{0pt}}
+}
+
+% ---------- Stat card: big coloured number + caption ----------
+% \statcard{width}{accentcolour}{BIGNUMBER}{caption}
+\newcommand{\statcard}[4]{%
+  \begin{tcolorbox}[width=#1,colback=white,colframe=cardline,boxrule=0.6pt,
+     arc=3pt,left=7pt,right=5pt,top=4pt,bottom=4pt,enhanced,nobeforeafter,
+     borderline west={3pt}{0pt}{#2},drop fuzzy shadow={cardline}]
+    {\color{#2}\bfseries\fontsize{20}{21}\selectfont #3}\\[1.5pt]
+    {\color{subink}\scriptsize #4}
+  \end{tcolorbox}}
+
+% ---------- Plain feature card (icon + title + body) ----------
+% \featurecard{width}{accentcolour}{\icon}{title}{body}
+\newcommand{\featurecard}[5]{%
+  \begin{tcolorbox}[width=#1,colback=white,colframe=cardline,boxrule=0.6pt,
+     arc=3pt,left=7pt,right=7pt,top=4pt,bottom=4pt,enhanced,nobeforeafter,
+     borderline west={3pt}{0pt}{#2},drop fuzzy shadow={cardline}]
+    {\color{#2}#3\ \bfseries\footnotesize #4}\\[2pt]
+    {\color{ink}\scriptsize #5}
+  \end{tcolorbox}}
+
+% chips
+\newcommand{\chip}[2]{\tikz[baseline=(x.base)]{\node[fill=#1,rounded corners=2pt,inner sep=2.5pt,text=white,font=\footnotesize\bfseries](x){#2};}}
+
+% model-name pill (light, for protocol slide)
+\newcommand{\mchip}[1]{\tikz[baseline=(x.base)]{\node[fill=accentlt,draw=rule,line width=0.5pt,
+  rounded corners=3.5pt,inner xsep=5pt,inner ysep=3pt,text=ink,font=\scriptsize\bfseries](x){#1};}}
+
+% inline data bar for result tables: \accbar{count}{max}{colour}
+\newcommand{\accbar}[3]{%
+  \tikz[baseline=-0.35ex]{%
+    \fill[#3!16] (0,0) rectangle (1.25,0.15);
+    \fill[#3]    (0,0) rectangle ({1.25*#1/#2},0.15);}\,%
+  {\footnotesize #1}}
+
+% ============================================================
+%  Lightweight TikZ line-icons  ( \ic{name}{colour} )
+% ============================================================
+\tikzset{
+  icbase/.style={line width=1.0pt,line cap=round,line join=round}
+}
+% each icon drawn inside a 1em-ish box, baseline aligned
+\newcommand{\ic}[2]{% #1 = name, #2 = colour
+  \tikz[baseline=-0.55ex,scale=0.95]{\csname icon@#1\endcsname{#2}}}
+
+\makeatletter
+\newcommand{\icon@chat}[1]{% speech bubble
+  \draw[icbase,#1] (0,0.05) -- (0,0.18)
+    .. controls (0,0.30) and (0.10,0.36) .. (0.22,0.36)
+    -- (0.46,0.36)
+    .. controls (0.58,0.36) and (0.68,0.30) .. (0.68,0.18)
+    -- (0.68,0.06)
+    .. controls (0.68,-0.06) and (0.58,-0.12) .. (0.46,-0.12)
+    -- (0.20,-0.12) -- (0.10,-0.24) -- (0.10,-0.12)
+    .. controls (0.03,-0.12) and (0,-0.04) .. (0,0.05) -- cycle;}
+\newcommand{\icon@search}[1]{% magnifier
+  \draw[icbase,#1] (0.10,0.34) circle (0.16);
+  \draw[icbase,#1] (0.22,0.10) -- (0.38,-0.06);}
+\newcommand{\icon@star}[1]{\node[#1]{\ding{72}};}
+\newcommand{\icon@check}[1]{\draw[icbase,#1] (0,0.06) -- (0.14,-0.10) -- (0.44,0.30);}
+\newcommand{\icon@cross}[1]{\draw[icbase,#1] (0.02,0.30) -- (0.40,-0.10);
+  \draw[icbase,#1] (0.40,0.30) -- (0.02,-0.10);}
+\newcommand{\icon@warn}[1]{% warning triangle
+  \draw[icbase,#1] (0.22,0.40) -- (0.46,-0.10) -- (-0.02,-0.10) -- cycle;
+  \draw[icbase,#1] (0.22,0.26) -- (0.22,0.08);
+  \fill[#1] (0.22,-0.01) circle (0.025);}
+\newcommand{\icon@flask}[1]{% science flask
+  \draw[icbase,#1] (0.10,0.36) -- (0.10,0.14) -- (-0.04,-0.10)
+    .. controls (-0.08,-0.16) and (-0.02,-0.20) .. (0.06,-0.20)
+    -- (0.40,-0.20)
+    .. controls (0.48,-0.20) and (0.54,-0.16) .. (0.50,-0.10)
+    -- (0.36,0.14) -- (0.36,0.36);
+  \draw[icbase,#1] (0.04,0.36) -- (0.42,0.36);
+  \draw[icbase,#1] (0.02,0.02) -- (0.44,0.02);}
+\newcommand{\icon@target}[1]{% target / paired
+  \draw[icbase,#1] (0.22,0.12) circle (0.24);
+  \draw[icbase,#1] (0.22,0.12) circle (0.11);
+  \fill[#1] (0.22,0.12) circle (0.03);}
+\newcommand{\icon@scale}[1]{% balance / boundary
+  \draw[icbase,#1] (0.22,0.40) -- (0.22,-0.16);
+  \draw[icbase,#1] (-0.02,0.30) -- (0.46,0.30);
+  \draw[icbase,#1] (0.06,-0.16) -- (0.38,-0.16);
+  \draw[icbase,#1] (-0.02,0.30) .. controls (-0.10,0.10) and (0.06,0.10) .. (-0.02,0.30);
+  \draw[icbase,#1] (-0.10,0.12) -- (0.06,0.12);
+  \draw[icbase,#1] (0.38,0.12) -- (0.54,0.12);}
+\newcommand{\icon@ruler}[1]{% tokens / measurement
+  \draw[icbase,#1] (-0.02,0.30) rectangle (0.46,0.04);
+  \foreach \x in {0.08,0.16,0.24,0.32,0.40}
+    \draw[icbase,#1] (\x,0.30) -- (\x,0.18);}
+\newcommand{\icon@gear}[1]{% mitigation / fix
+  \draw[icbase,#1] (0.22,0.12) circle (0.13);
+  \foreach \a in {0,45,...,315}
+    \draw[icbase,#1] (\a:0.13)++(0.22,0.12) -- ++(\a:0.09);}
+\newcommand{\icon@bolt}[1]{% gap / shock
+  \draw[icbase,#1,fill=#1] (0.26,0.40) -- (0.06,0.10) -- (0.20,0.10)
+     -- (0.14,-0.18) -- (0.40,0.16) -- (0.24,0.16) -- cycle;}
+\newcommand{\icon@doc}[1]{% reviewed doc
+  \draw[icbase,#1] (0.04,0.38) -- (0.04,-0.16) -- (0.42,-0.16) -- (0.42,0.24)
+     -- (0.28,0.38) -- cycle;
+  \draw[icbase,#1] (0.28,0.38) -- (0.28,0.24) -- (0.42,0.24);
+  \draw[icbase,#1] (0.12,0.06) -- (0.34,0.06);
+  \draw[icbase,#1] (0.12,-0.04) -- (0.34,-0.04);}
+\newcommand{\icon@globe}[1]{% language / script
+  \draw[icbase,#1] (0.22,0.12) circle (0.24);
+  \draw[icbase,#1] (-0.02,0.12) -- (0.46,0.12);
+  \draw[icbase,#1] (0.22,0.36) .. controls (0.04,0.24) and (0.04,0.0) .. (0.22,-0.12);
+  \draw[icbase,#1] (0.22,0.36) .. controls (0.40,0.24) and (0.40,0.0) .. (0.22,-0.12);}
+\makeatother
+
+% ---------- table state markers (capability matrix) ----------
+\newcommand{\cyes}{\ic{check}{good}}
+\newcommand{\cno}{\ic{cross}{subink!55}}
+\newcommand{\cpart}{\tikz[baseline=-0.5ex]{%
+  \fill[warn] (0,0) -- ++(0,0.10) arc (90:270:0.10) -- cycle;
+  \draw[warn,line width=0.7pt] (0,0) circle (0.10);}}
+
+% ============================================================
+%  pgfplots defaults
+% ============================================================
+\pgfplotsset{compat=1.18}
+\pgfplotsset{
+  every axis/.append style={
+    font=\footnotesize,
+    axis line style={rule},
+    tick label style={color=ink},
+    label style={color=ink},
+    title style={color=ink,font=\small\bfseries},
+    grid style={rule!60,line width=0.3pt},
+  }
+}

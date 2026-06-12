@@ -1,0 +1,19 @@
+model,dataset,comparison,n,left_correct,right_correct,delta_right_minus_left,ci95_low,ci95_high,bootstrap_p_opposite_direction,gains,losses,samples,seed
+Qwen2.5-3B,all,banglish_minus_bangla,200,54,41,-0.065,-0.1251,0.0,0.0278,15,28,10000,20260531
+Qwen2.5-3B,all,banglish_minus_english,200,71,41,-0.15,-0.22,-0.075,0.0001,15,45,10000,20260531
+Qwen2.5-3B,benqa,banglish_minus_bangla,144,49,41,-0.0556,-0.1389,0.0278,0.1083,15,23,10000,20260531
+Qwen2.5-3B,benqa,banglish_minus_english,144,66,41,-0.1736,-0.2708,-0.0764,0.0002,15,40,10000,20260531
+Qwen2.5-3B,banglamath,banglish_minus_bangla,56,5,0,-0.0893,-0.1786,-0.0179,0.0057,0,5,10000,20260531
+Qwen2.5-3B,banglamath,banglish_minus_english,56,5,0,-0.0893,-0.1786,-0.0179,0.0051,0,5,10000,20260531
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,200,65,47,-0.09,-0.165,-0.02,0.0074,19,37,10000,20260531
+Qwen2.5-7B 8-bit,all,banglish_minus_english,200,94,47,-0.235,-0.31,-0.16,0.0,13,60,10000,20260531
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,144,60,47,-0.0903,-0.1875,0.0069,0.0372,19,32,10000,20260531
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,144,86,47,-0.2708,-0.375,-0.1736,0.0,13,52,10000,20260531
+Qwen2.5-7B 8-bit,banglamath,banglish_minus_bangla,56,5,0,-0.0893,-0.1607,-0.0179,0.0048,0,5,10000,20260531
+Qwen2.5-7B 8-bit,banglamath,banglish_minus_english,56,8,0,-0.1429,-0.2321,-0.0536,0.0,0,8,10000,20260531
+Qwen3-4B,all,banglish_minus_bangla,200,80,49,-0.155,-0.22,-0.09,0.0,8,39,10000,20260531
+Qwen3-4B,all,banglish_minus_english,200,88,49,-0.195,-0.27,-0.12,0.0,13,52,10000,20260531
+Qwen3-4B,benqa,banglish_minus_bangla,144,76,47,-0.2014,-0.2847,-0.1181,0.0,8,37,10000,20260531
+Qwen3-4B,benqa,banglish_minus_english,144,82,47,-0.2431,-0.3403,-0.1458,0.0,13,48,10000,20260531
+Qwen3-4B,banglamath,banglish_minus_bangla,56,4,2,-0.0357,-0.0893,0.0,0.1267,0,2,10000,20260531
+Qwen3-4B,banglamath,banglish_minus_english,56,6,2,-0.0714,-0.1429,-0.0179,0.0158,0,4,10000,20260531

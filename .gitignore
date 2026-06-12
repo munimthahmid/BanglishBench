@@ -1,0 +1,148 @@
+# Publication whitelist for the thesis repository.
+# Everything is ignored by default. Only source, curated artifacts, and
+# reproducibility materials explicitly unignored below are eligible for Git.
+
+/*
+
+# Repository metadata and public docs
+!/.gitignore
+!/README.md
+!/requirements*.txt
+
+# Main thesis book source and final PDF
+!/Thesis Template UG/
+/Thesis Template UG/**
+!/Thesis Template UG/**/
+!/Thesis Template UG/README
+!/Thesis Template UG/README.bangla
+!/Thesis Template UG/buetcseugthesis.tex
+!/Thesis Template UG/buetcseugthesis.sty
+!/Thesis Template UG/buetcseugthesis.bib
+!/Thesis Template UG/buetcseugthesisbibliography.tex
+!/Thesis Template UG/buetcseugthesisabstract.tex
+!/Thesis Template UG/buetcseugthesisacknowledgement.tex
+!/Thesis Template UG/usebangla.sty
+!/Thesis Template UG/buetcseugthesis.pdf
+!/Thesis Template UG/chapters/**/*.tex
+!/Thesis Template UG/figures/**
+!/Thesis Template UG/inputs/**/*.tex
+!/Thesis Template UG/parameters/**/*.txt
+
+# Defense/presentation source and public assets
+!/presentation/
+/presentation/**
+!/presentation/**/
+!/presentation/README.md
+!/presentation/main.tex
+!/presentation/theme.tex
+!/presentation/buetlogo.png
+!/presentation/main.pdf
+!/presentation/img/**
+!/defense_presentation/
+/defense_presentation/**
+!/defense_presentation/**/
+!/defense_presentation/main.tex
+
+# Thesis reports and public figures
+!/reports/
+/reports/**
+!/reports/**/
+!/reports/**/*.md
+!/reports/figures/**
+
+# Curated result tables and analysis outputs.
+# Raw model runs and API payloads remain ignored.
+!/results/
+/results/**
+!/results/**/
+!/results/tables/**/*.csv
+!/results/tables/**/*.md
+!/results/analysis/*.csv
+!/results/analysis/*.md
+!/results/tokenization/**/*.csv
+
+# Public dataset slices and review artifacts used for reproducibility
+!/data/
+/data/**
+!/data/**/
+!/data/slices/**/*.jsonl
+!/data/slices/**/*.json
+!/data/slices/**/*.csv
+!/data/slices/**/*.md
+!/data/generated_views/**/*.jsonl
+!/human_review/
+/human_review/**
+!/human_review/**/
+!/human_review/**/*.jsonl
+
+# Reproduction/analysis scripts
+!/scripts/
+/scripts/**
+!/scripts/**/
+!/scripts/**/*.py
+
+# Local bibliography seed only; third-party literature code clones stay ignored
+!/literature/
+/literature/**
+!/literature/**/
+!/literature/references_seed.bib
+
+# Always keep private/local/generated material out of Git, even if patterns
+# above are relaxed later.
+.env
+.env.*
+.claude/
+.codex/
+.agents/
+.kaggle/
+*.pem
+secrets/
+credentials.*
+*_credentials.*
+*_credential.*
+kaggle*.json
+kaggle*.txt
+kaggle (*).json
+claude_conversation.txt
+gpu_config.txt
+
+# Virtual environments, caches, and build products
+.venv*/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# LaTeX/generated build files, except explicitly allowed final PDFs above
+*.aux
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.loa
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Large/local experiment outputs
+results/runs/
+results/api_audit/
+results/generated_views/
+data/api_audit/
+data/raw/
+data/processed/
+data/pilot*/
+kaggle_jobs/
+sample_presentation/
+literature/code/

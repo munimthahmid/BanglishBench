@@ -1,0 +1,37 @@
+model,gold,variant,variant_label,n,correct,accuracy,pred_A,pred_B,pred_C,pred_D,pred_invalid
+Qwen2.5-3B,A,bangla,Bangla,29,6,0.2069,6,8,4,11,0
+Qwen2.5-3B,A,banglish_clean,Reviewed Banglish,29,4,0.1379,4,14,3,8,0
+Qwen2.5-3B,A,english,English,29,14,0.4828,14,6,3,6,0
+Qwen2.5-3B,B,bangla,Bangla,35,13,0.3714,6,13,3,13,0
+Qwen2.5-3B,B,banglish_clean,Reviewed Banglish,35,14,0.4,5,14,10,6,0
+Qwen2.5-3B,B,english,English,35,18,0.5143,5,18,2,10,0
+Qwen2.5-3B,C,bangla,Bangla,41,16,0.3902,7,11,16,7,0
+Qwen2.5-3B,C,banglish_clean,Reviewed Banglish,41,9,0.2195,8,13,9,11,0
+Qwen2.5-3B,C,english,English,41,16,0.3902,6,9,16,10,0
+Qwen2.5-3B,D,bangla,Bangla,39,14,0.359,4,13,8,14,0
+Qwen2.5-3B,D,banglish_clean,Reviewed Banglish,39,14,0.359,5,15,5,14,0
+Qwen2.5-3B,D,english,English,39,18,0.4615,3,10,8,18,0
+Qwen2.5-7B 8-bit,A,bangla,Bangla,29,17,0.5862,17,6,4,2,0
+Qwen2.5-7B 8-bit,A,banglish_clean,Reviewed Banglish,29,10,0.3448,10,11,3,5,0
+Qwen2.5-7B 8-bit,A,english,English,29,20,0.6897,20,3,2,4,0
+Qwen2.5-7B 8-bit,B,bangla,Bangla,35,14,0.4,8,14,7,6,0
+Qwen2.5-7B 8-bit,B,banglish_clean,Reviewed Banglish,35,18,0.5143,7,18,5,5,0
+Qwen2.5-7B 8-bit,B,english,English,35,25,0.7143,4,25,2,4,0
+Qwen2.5-7B 8-bit,C,bangla,Bangla,41,23,0.561,6,8,23,4,0
+Qwen2.5-7B 8-bit,C,banglish_clean,Reviewed Banglish,41,11,0.2683,7,14,11,7,2
+Qwen2.5-7B 8-bit,C,english,English,41,24,0.5854,7,8,24,2,0
+Qwen2.5-7B 8-bit,D,bangla,Bangla,39,6,0.1538,5,17,11,6,0
+Qwen2.5-7B 8-bit,D,banglish_clean,Reviewed Banglish,39,8,0.2051,9,14,8,8,0
+Qwen2.5-7B 8-bit,D,english,English,39,17,0.4359,4,11,7,17,0
+Qwen3-4B,A,bangla,Bangla,29,13,0.4483,13,3,3,9,1
+Qwen3-4B,A,banglish_clean,Reviewed Banglish,29,1,0.0345,1,2,5,20,1
+Qwen3-4B,A,english,English,29,12,0.4138,12,2,1,11,3
+Qwen3-4B,B,bangla,Bangla,35,13,0.3714,0,13,5,14,3
+Qwen3-4B,B,banglish_clean,Reviewed Banglish,35,3,0.0857,0,3,3,27,2
+Qwen3-4B,B,english,English,35,18,0.5143,2,18,2,10,3
+Qwen3-4B,C,bangla,Bangla,41,18,0.439,5,6,18,12,0
+Qwen3-4B,C,banglish_clean,Reviewed Banglish,41,9,0.2195,1,1,9,30,0
+Qwen3-4B,C,english,English,41,24,0.5854,6,2,24,9,0
+Qwen3-4B,D,bangla,Bangla,39,32,0.8205,2,2,3,32,0
+Qwen3-4B,D,banglish_clean,Reviewed Banglish,39,34,0.8718,1,1,3,34,0
+Qwen3-4B,D,english,English,39,28,0.7179,2,3,4,28,2

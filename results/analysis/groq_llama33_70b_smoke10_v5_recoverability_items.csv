@@ -1,0 +1,4 @@
+request_id,id,dataset,answer_type,variant,gold,parsed,secondary_parsed,secondary_reason,raw_excerpt
+banglamath_0231::english::baseline,banglamath_0231,banglamath,short_answer,english,২০ টাকা,20,20,short_numeric_only,20
+banglamath_0552::banglish_clean::baseline,banglamath_0552,banglamath,short_answer,banglish_clean,৪৫০০ বর্গগজ,4500,4500,short_numeric_only,4500
+banglamath_0552::english::baseline,banglamath_0552,banglamath,short_answer,english,৪৫০০ বর্গগজ,4500 square yards,4500 square yards,short_extended_unit,4500 square yards

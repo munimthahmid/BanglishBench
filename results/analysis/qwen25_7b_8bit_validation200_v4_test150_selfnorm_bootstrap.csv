@@ -1,0 +1,2 @@
+label,n,left_correct,right_correct,left_accuracy,right_accuracy,delta_right_minus_left,ci95_low,ci95_high,bootstrap_p_opposite_direction,left_filter,right_filter,key_columns,samples,seed
+qwen25_7b_8bit_validation200_v4_test150_selfnorm,150,35,29,0.2333,0.1933,-0.04,-0.12,0.04,0.1882,model=Qwen/Qwen2.5-7B-Instruct;variant=banglish_clean;prompt_mode=baseline,model=Qwen/Qwen2.5-7B-Instruct;variant=banglish_clean;prompt_mode=banglish_self_normalize,id,10000,42

@@ -1,0 +1,11 @@
+model,score_mode,n,bangla,banglish_clean,english,banglish_minus_bangla_points,banglish_minus_english_points,variant,variant_label,reference_model,model_correct,reference_correct,model_minus_reference_points,model_only,reference_only,exact_binomial_p_two_sided
+Gemini 3.5 Flash,strict,200,163,136,144,-13.5,-4.0,,,,,,,,,
+Gemini 3.5 Flash,secondary,200,170,161,165,-4.5,-2.0,,,,,,,,,
+GPT-5.5 low cap1024,strict,200,172,169,154,-1.5,7.5,,,,,,,,,
+GPT-5.5 low cap1024,secondary,200,173,174,168,0.5,3.0,,,,,,,,,
+GPT-5.5 low cap1024,strict,200,,,,,,bangla,Bangla,Gemini 3.5 Flash,172,163,4.5,14,5,0.063568
+GPT-5.5 low cap1024,strict,200,,,,,,banglish_clean,Reviewed Banglish,Gemini 3.5 Flash,169,136,16.5,37,4,1.03e-07
+GPT-5.5 low cap1024,strict,200,,,,,,english,English,Gemini 3.5 Flash,154,144,5.0,15,5,0.041389
+GPT-5.5 low cap1024,secondary,200,,,,,,bangla,Bangla,Gemini 3.5 Flash,173,170,1.5,8,5,0.581055
+GPT-5.5 low cap1024,secondary,200,,,,,,banglish_clean,Reviewed Banglish,Gemini 3.5 Flash,174,161,6.5,16,3,0.004425
+GPT-5.5 low cap1024,secondary,200,,,,,,english,English,Gemini 3.5 Flash,168,165,1.5,8,5,0.581055

@@ -1,0 +1,11 @@
+model,score_mode,n,bangla,banglish_clean,english,banglish_minus_bangla_points,banglish_minus_english_points,variant,variant_label,reference_model,model_correct,reference_correct,model_minus_reference_points,model_only,reference_only,exact_binomial_p_two_sided
+Gemini 3.5 Flash,strict,200,163,136,144,-13.5,-4.0,,,,,,,,,
+Gemini 3.5 Flash,secondary,200,170,161,165,-4.5,-2.0,,,,,,,,,
+Groq Llama 3.3 70B Versatile,strict,200,90,48,102,-21.0,-27.0,,,,,,,,,
+Groq Llama 3.3 70B Versatile,secondary,200,92,56,111,-18.0,-27.5,,,,,,,,,
+Groq Llama 3.3 70B Versatile,strict,200,,,,,,bangla,Bangla,Gemini 3.5 Flash,90,163,-36.5,4,77,2.91e-16
+Groq Llama 3.3 70B Versatile,strict,200,,,,,,banglish_clean,Reviewed Banglish,Gemini 3.5 Flash,48,136,-44.0,6,94,1.91e-15
+Groq Llama 3.3 70B Versatile,strict,200,,,,,,english,English,Gemini 3.5 Flash,102,144,-21.0,6,48,3.26e-09
+Groq Llama 3.3 70B Versatile,secondary,200,,,,,,bangla,Bangla,Gemini 3.5 Flash,92,170,-39.0,3,81,5.14e-16
+Groq Llama 3.3 70B Versatile,secondary,200,,,,,,banglish_clean,Reviewed Banglish,Gemini 3.5 Flash,56,161,-52.5,3,108,1.24e-15
+Groq Llama 3.3 70B Versatile,secondary,200,,,,,,english,English,Gemini 3.5 Flash,111,165,-27.0,2,56,1.19e-14

@@ -1,0 +1,4 @@
+repair_strategy,n,raw_hard_fail,raw_warning,raw_digit_fail,raw_formula_fail,raw_line_count_warn,qwen3_banglish_correct,qwen3_guarded_en_correct,qwen3_delta,qwen3_gains,qwen3_losses,qwen3_agreement_routed_items,qwen3_agreement_routed_correct,qwen3_route_total_correct,qwen25_banglish_correct,qwen25_guarded_en_correct,qwen25_delta,qwen25_gains,qwen25_losses,qwen25_agreement_routed_items,qwen25_agreement_routed_correct,qwen25_route_total_correct
+all,36,16,18,5,16,18,15,15,0,2,2,1,1,16,9,11,2,4,2,1,0,8
+source_fallback_after_failed_repair,15,15,8,5,15,8,7,7,0,0,0,0,0,7,4,4,0,0,0,0,0,4
+translated_stem_source_tail,21,1,10,0,1,10,8,8,0,2,2,1,1,9,5,7,2,4,2,1,0,4

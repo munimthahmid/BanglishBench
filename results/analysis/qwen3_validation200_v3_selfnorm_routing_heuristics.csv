@@ -1,0 +1,10 @@
+heuristic,n,correct,accuracy,used_selfnorm,used_selfnorm_rate
+always_baseline,200,46,0.23,0,0.0
+always_selfnorm,200,21,0.105,200,1.0
+selfnorm_if_options_preserved,200,22,0.11,197,0.985
+selfnorm_if_digits_formulas_preserved,200,26,0.13,184,0.92
+selfnorm_if_all_structure_preserved,200,27,0.135,182,0.91
+selfnorm_if_bengali_ratio_ge_0_5,200,40,0.2,109,0.545
+selfnorm_if_structure_and_bengali_ratio_ge_0_3,200,32,0.16,149,0.745
+selfnorm_if_banglamath,200,49,0.245,56,0.28
+selfnorm_if_benqa,200,18,0.09,144,0.72

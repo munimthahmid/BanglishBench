@@ -1,0 +1,69 @@
+{
+  "benqa_dir": "literature/code/BEnQA/data/BEnQA",
+  "created_at_utc": "2026-06-05T05:40:18.852453+00:00",
+  "excluded_slices": [
+    "data/slices/validation_200_v5.jsonl"
+  ],
+  "notes": [
+    "This is an extended BEnQA-only publication-scale layer, not a replacement for validation-200 v5.",
+    "Rows already present in the frozen validation-200 v5 BEnQA core are excluded by source file and row.",
+    "Banglish fields are rule-based bootstrap romanizations until the AI-assisted review artifacts are applied.",
+    "Do not describe this layer as human-reviewed unless a separate human review is completed and logged."
+  ],
+  "output": "data/slices/benqa_extended_1000_v1.jsonl",
+  "pool_counts": {
+    "excluded_gold_core": 144,
+    "pool_items": 4939,
+    "pool_subject:10th-Biology": 339,
+    "pool_subject:10th-Chemistry": 377,
+    "pool_subject:10th-Math": 375,
+    "pool_subject:10th-Math-II": 386,
+    "pool_subject:10th-Physics": 308,
+    "pool_subject:12th-Biology-I": 299,
+    "pool_subject:12th-Biology-II": 317,
+    "pool_subject:12th-Chemistry-I": 356,
+    "pool_subject:12th-Chemistry-II": 378,
+    "pool_subject:12th-Math-I": 385,
+    "pool_subject:12th-Math-II": 387,
+    "pool_subject:12th-Physics-I": 293,
+    "pool_subject:12th-Physics-II": 321,
+    "pool_subject:8th-Math": 203,
+    "pool_subject:8th-Science": 215,
+    "skipped_invalid_answer": 2,
+    "skipped_missing_choice": 2,
+    "source_rows_seen": 5087
+  },
+  "report": "reports/benqa_extended_1000_v1.md",
+  "requested_count": 1000,
+  "seed": 20260605,
+  "summary": {
+    "counts_by_dataset": {
+      "benqa": 1000
+    },
+    "counts_by_grade": {
+      "10th": 322,
+      "12th": 575,
+      "8th": 103
+    },
+    "counts_by_subject": {
+      "Biology": 77,
+      "Biology-I": 77,
+      "Biology-II": 77,
+      "Chemistry": 77,
+      "Chemistry-I": 77,
+      "Chemistry-II": 77,
+      "Math": 77,
+      "Math-I": 77,
+      "Math-II": 77,
+      "Physics": 77,
+      "Physics-I": 77,
+      "Physics-II": 77,
+      "Science": 76
+    },
+    "english_available": 1000,
+    "quality_status": {
+      "auto_romanized_unverified_extended_v1": 1000
+    },
+    "total_items": 1000
+  }
+}

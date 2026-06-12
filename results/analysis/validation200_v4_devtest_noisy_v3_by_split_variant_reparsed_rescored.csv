@@ -1,0 +1,5 @@
+split,model,prompt_mode,variant,n,unique_items,correct,accuracy,parsed_empty,mean_seconds,total_seconds
+dev,Qwen/Qwen2.5-3B-Instruct,baseline,banglish_noisy,50,50,7,0.14,0,0.4053,20.2664
+dev,Qwen/Qwen3-4B-Instruct-2507,baseline,banglish_noisy,50,50,15,0.3,2,1.7702,88.5112
+test,Qwen/Qwen2.5-3B-Instruct,baseline,banglish_noisy,150,150,34,0.2267,0,0.4192,62.8824
+test,Qwen/Qwen3-4B-Instruct-2507,baseline,banglish_noisy,150,150,31,0.2067,1,1.7102,256.5336

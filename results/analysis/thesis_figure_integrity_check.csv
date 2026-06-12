@@ -1,0 +1,26 @@
+figure,check,status,detail
+reports/figures/main_script_gap.svg,size,ok,bytes=5389
+reports/figures/main_script_gap.svg,xml_parse,ok,parseable
+reports/figures/main_script_gap.svg,root_svg,ok,{http://www.w3.org/2000/svg}svg
+reports/figures/main_script_gap.svg,geometry,ok,width=980 height=560 viewBox=0 0 980 560
+reports/figures/main_script_gap.svg,title_text,ok,Validation-200 Frozen V5 Main Script Gap
+reports/figures/main_script_gap.svg,text_count,ok,text_nodes=26
+reports/figures/main_script_gap.svg,rect_count,ok,rect_nodes=13
+reports/figures/selfnorm_delta.svg,size,ok,bytes=3506
+reports/figures/selfnorm_delta.svg,xml_parse,ok,parseable
+reports/figures/selfnorm_delta.svg,root_svg,ok,{http://www.w3.org/2000/svg}svg
+reports/figures/selfnorm_delta.svg,geometry,ok,width=880 height=500 viewBox=0 0 880 500
+reports/figures/selfnorm_delta.svg,title_text,ok,Self-Normalization Delta vs Banglish Baseline
+reports/figures/selfnorm_delta.svg,text_count,ok,text_nodes=18
+reports/figures/selfnorm_delta.svg,rect_count,ok,rect_nodes=4
+reports/figures/cross_script_recovery.svg,size,ok,bytes=5540
+reports/figures/cross_script_recovery.svg,xml_parse,ok,parseable
+reports/figures/cross_script_recovery.svg,root_svg,ok,{http://www.w3.org/2000/svg}svg
+reports/figures/cross_script_recovery.svg,geometry,ok,width=980 height=560 viewBox=0 0 980 560
+reports/figures/cross_script_recovery.svg,title_text,ok,Cross-Script Recovery Signals
+reports/figures/cross_script_recovery.svg,text_count,ok,text_nodes=27
+reports/figures/cross_script_recovery.svg,rect_count,ok,rect_nodes=13
+reports/figures/README.md,exists,ok,present
+reports/figures/README.md,mentions_main_script_gap.svg,ok,main_script_gap.svg
+reports/figures/README.md,mentions_selfnorm_delta.svg,ok,selfnorm_delta.svg
+reports/figures/README.md,mentions_cross_script_recovery.svg,ok,cross_script_recovery.svg

@@ -1,0 +1,11 @@
+model,score_mode,n,bangla,banglish_clean,english,banglish_minus_bangla_points,banglish_minus_english_points,variant,variant_label,reference_model,model_correct,reference_correct,model_minus_reference_points,model_only,reference_only,exact_binomial_p_two_sided
+Gemini 3.5 Flash,strict,1,1,1,1,0.0,0.0,,,,,,,,,
+Gemini 3.5 Flash,secondary,1,1,1,1,0.0,0.0,,,,,,,,,
+DeepSeek V4 Flash,strict,1,1,1,1,0.0,0.0,,,,,,,,,
+DeepSeek V4 Flash,secondary,1,1,1,1,0.0,0.0,,,,,,,,,
+DeepSeek V4 Flash,strict,1,,,,,,bangla,Bangla,Gemini 3.5 Flash,1,1,0.0,0,0,
+DeepSeek V4 Flash,strict,1,,,,,,banglish_clean,Reviewed Banglish,Gemini 3.5 Flash,1,1,0.0,0,0,
+DeepSeek V4 Flash,strict,1,,,,,,english,English,Gemini 3.5 Flash,1,1,0.0,0,0,
+DeepSeek V4 Flash,secondary,1,,,,,,bangla,Bangla,Gemini 3.5 Flash,1,1,0.0,0,0,
+DeepSeek V4 Flash,secondary,1,,,,,,banglish_clean,Reviewed Banglish,Gemini 3.5 Flash,1,1,0.0,0,0,
+DeepSeek V4 Flash,secondary,1,,,,,,english,English,Gemini 3.5 Flash,1,1,0.0,0,0,

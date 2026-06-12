@@ -1,0 +1,3505 @@
+id,dataset,field,changed,suggestion_notes,old_text,new_text
+benqa_12th-Biology-I_0265,benqa,banglish_clean,True,achhe->ache (1); ekoti->ekti (1); konoti->konti (1),"mi. 'k' byoboharik klase ekoti nomunar poryobekshon kore dekholo metajailem kendrer dike, bhaskular bandol 9ti ebong kichhu ekokoshi rom achhe. poryobekshit boishishtyogulo kibhabe udbhidoke banchiye rakhote sahajy kore? i. pani o khonij lobon poribohon kore ii. prostutokrit khabar poribohon kore iii. khaddo prostut kore nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D.","mi. 'k' byoboharik klase ekti nomunar poryobekshon kore dekholo metajailem kendrer dike, bhaskular bandol 9ti ebong kichhu ekokoshi rom ache. poryobekshit boishishtyogulo kibhabe udbhidoke banchiye rakhote sahajy kore? i. pani o khonij lobon poribohon kore ii. prostutokrit khabar poribohon kore iii. khaddo prostut kore nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0265,benqa,banglish_noisy,True,ekoti->ekti (1); konoti->konti (1),"mi. 'k' byoboharik klase ekoti nomunar poryobekson kore dekolo metajailem kendrer dike, vaskular bandol 9ti ebong kichu ekokosi rom ache. poryobeksit boysistyogulo kivabe udvidoke banchiye rakote sahajy kore? i. pani o konij lobon poribohon kore ii. prostutokrit kabar poribohon kore iii. kaddo prostut kore nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D.","mi. 'k' byoboharik klase ekti nomunar poryobekson kore dekolo metajailem kendrer dike, vaskular bandol 9ti ebong kichu ekokosi rom ache. poryobeksit boysistyogulo kivabe udvidoke banchiye rakote sahajy kore? i. pani o konij lobon poribohon kore ii. prostutokrit kabar poribohon kore iii. kaddo prostut kore nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0240,benqa,banglish_clean,False,,"CH_{3} - CH_{2} - COONa + NaOH \xrightarrow[\Delta]{CaO} A + Na_{2}CO_{3} uddipoker bikriyati ki name porichit?
+A. urtoj bikriya
+B. di-karboksileshon bikriya
+C. urtoj fitig bikriya
+D. fridel kraf‌t bikriya
+Answer with only A, B, C, or D.","CH_{3} - CH_{2} - COONa + NaOH \xrightarrow[\Delta]{CaO} A + Na_{2}CO_{3} uddipoker bikriyati ki name porichit?
+A. urtoj bikriya
+B. di-karboksileshon bikriya
+C. urtoj fitig bikriya
+D. fridel kraf‌t bikriya
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0240,benqa,banglish_noisy,False,,"CH_{3} - CH_{2} - COONa + NaOH \xrightarrow[\Delta]{CaO} A + Na_{2}CO_{3} uddipoker bikriyati ki name porichit?
+A. urtoj bikriya
+B. di-karboksileson bikriya
+C. urtoj fitig bikriya
+D. fridel kraf‌t bikriya
+Answer with only A, B, C, or D.","CH_{3} - CH_{2} - COONa + NaOH \xrightarrow[\Delta]{CaO} A + Na_{2}CO_{3} uddipoker bikriyati ki name porichit?
+A. urtoj bikriya
+B. di-karboksileson bikriya
+C. urtoj fitig bikriya
+D. fridel kraf‌t bikriya
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0111,benqa,banglish_clean,False,,"1s^{2}2s^{2}2p^{2} ilekotron binyasobishisht mouloti poryay saronir kon grupe obosthit?
+A. grup-1
+B. grup-3
+C. grup-5
+D. grup-13
+Answer with only A, B, C, or D.","1s^{2}2s^{2}2p^{2} ilekotron binyasobishisht mouloti poryay saronir kon grupe obosthit?
+A. grup-1
+B. grup-3
+C. grup-5
+D. grup-13
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0111,benqa,banglish_noisy,False,,"1s^{2}2s^{2}2p^{2} ilekotron binyasobisist mouloti poryay saronir kon grupe obosthit?
+A. grup-1
+B. grup-3
+C. grup-5
+D. grup-13
+Answer with only A, B, C, or D.","1s^{2}2s^{2}2p^{2} ilekotron binyasobisist mouloti poryay saronir kon grupe obosthit?
+A. grup-1
+B. grup-3
+C. grup-5
+D. grup-13
+Answer with only A, B, C, or D."
+benqa_10th-Math_0186,benqa,banglish_clean,False,,"2x + y = 1 o x = - 4 somikoronodboyer somadhan bindu kon chortubhage obosthit?
+A. 4th
+B. 3rd
+C. 2nd
+D. 1st
+Answer with only A, B, C, or D.","2x + y = 1 o x = - 4 somikoronodboyer somadhan bindu kon chortubhage obosthit?
+A. 4th
+B. 3rd
+C. 2nd
+D. 1st
+Answer with only A, B, C, or D."
+benqa_10th-Math_0186,benqa,banglish_noisy,False,,"2x + y = 1 o x = - 4 somikoronodboyer somadhan bindu kon chortuvage obosthit?
+A. 4th
+B. 3rd
+C. 2nd
+D. 1st
+Answer with only A, B, C, or D.","2x + y = 1 o x = - 4 somikoronodboyer somadhan bindu kon chortuvage obosthit?
+A. 4th
+B. 3rd
+C. 2nd
+D. 1st
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0194,benqa,banglish_clean,False,,"semikondaktor hisebe byobohrit hoy-
+A. Ge
+B. Zn
+C. Cu
+D. Al
+Answer with only A, B, C, or D.","semikondaktor hisebe byobohrit hoy-
+A. Ge
+B. Zn
+C. Cu
+D. Al
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0194,benqa,banglish_noisy,False,,"semikondaktor hisebe byobohrit hoy-
+A. Ge
+B. Zn
+C. Cu
+D. Al
+Answer with only A, B, C, or D.","semikondaktor hisebe byobohrit hoy-
+A. Ge
+B. Zn
+C. Cu
+D. Al
+Answer with only A, B, C, or D."
+banglamath_0234,banglamath,banglish_clean,True,ekoti->ekti (1); kot->koto (1),"ekoti kaj k 10 dine o kh 15 dine korole tara ekotre kot dine korobe
+Return only the final answer.","ekti kaj k 10 dine o kh 15 dine korole tara ekotre koto dine korobe
+Return only the final answer."
+banglamath_0234,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"ekoti kaj k 10 dine o k 15 dine korole tara ekotre kot dine korobe
+Return only the final answer.","ekti kaj k 10 dine o k 15 dine korole tara ekotre koto dine korobe
+Return only the final answer."
+benqa_12th-Chemistry-II_0054,benqa,banglish_clean,False,,"amaider karyokori mulok holo-
+A. \text{-CONH_{2}}
+B. \text{-COX}
+C. \text{-CHO}
+D. \text{-NH_{2}}
+Answer with only A, B, C, or D.","amaider karyokori mulok holo-
+A. \text{-CONH_{2}}
+B. \text{-COX}
+C. \text{-CHO}
+D. \text{-NH_{2}}
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0054,benqa,banglish_noisy,False,,"amaider karyokori mulok holo-
+A. \text{-CONH_{2}}
+B. \text{-COX}
+C. \text{-CHO}
+D. \text{-NH_{2}}
+Answer with only A, B, C, or D.","amaider karyokori mulok holo-
+A. \text{-CONH_{2}}
+B. \text{-COX}
+C. \text{-CHO}
+D. \text{-NH_{2}}
+Answer with only A, B, C, or D."
+banglamath_0522,banglamath,banglish_clean,True,choora->chowra (1); kot->koto (1); kshetrofol->khetrofol (1); thakole->thakle (1),"jomir bhitore 2 mitar choora rasta thakole rastabade jomir kshetrofol kot
+Return only the final answer.","jomir bhitore 2 mitar chowra rasta thakle rastabade jomir khetrofol koto
+Return only the final answer."
+banglamath_0522,banglamath,banglish_noisy,True,choora->chowra (1); kot->koto (1); thakole->thakle (1),"jomir vitore 2 mitar choora rasta thakole rastabade jomir ksetrofol kot
+Return only the final answer.","jomir vitore 2 mitar chowra rasta thakle rastabade jomir ksetrofol koto
+Return only the final answer."
+benqa_12th-Math-II_0234,benqa,banglish_clean,False,,"jodi x^{2} - 4x + 3 = 0 somikoroner mulodboy \alpha ebong \beta hoy tobe \frac{1}{\alpha} + frac{1}{\beta} er man-
+A. \frac{4}{3}
+B. \frac{3}{4}
+C. \frac-4}{3}
+D. \frac{-3}{4}
+Answer with only A, B, C, or D.","jodi x^{2} - 4x + 3 = 0 somikoroner mulodboy \alpha ebong \beta hoy tobe \frac{1}{\alpha} + frac{1}{\beta} er man-
+A. \frac{4}{3}
+B. \frac{3}{4}
+C. \frac-4}{3}
+D. \frac{-3}{4}
+Answer with only A, B, C, or D."
+benqa_12th-Math-II_0234,benqa,banglish_noisy,False,,"jodi x^{2} - 4x + 3 = 0 somikoroner mulodboy \alfa ebong \beta hoy tobe \frac{1}{\alfa} + frac{1}{\beta} er man-
+A. \frac{4}{3}
+B. \frac{3}{4}
+C. \frac-4}{3}
+D. \frac{-3}{4}
+Answer with only A, B, C, or D.","jodi x^{2} - 4x + 3 = 0 somikoroner mulodboy \alfa ebong \beta hoy tobe \frac{1}{\alfa} + frac{1}{\beta} er man-
+A. \frac{4}{3}
+B. \frac{3}{4}
+C. \frac-4}{3}
+D. \frac{-3}{4}
+Answer with only A, B, C, or D."
+benqa_10th-Math_0271,benqa,banglish_clean,True,kot->koto (1),"sthulokoni tribhujer sthulokon chhara baki kon duti kot hole tribhuj ongkon sombhob?
+A. 30\degree o 60\degree
+B. 40\degree o 50\degree
+C. 45\degree o 45\degree
+D. 50\degree o 30\degree
+Answer with only A, B, C, or D.","sthulokoni tribhujer sthulokon chhara baki kon duti koto hole tribhuj ongkon sombhob?
+A. 30\degree o 60\degree
+B. 40\degree o 50\degree
+C. 45\degree o 45\degree
+D. 50\degree o 30\degree
+Answer with only A, B, C, or D."
+benqa_10th-Math_0271,benqa,banglish_noisy,True,kot->koto (1),"sthulokoni trivujer sthulokon chara baki kon duti kot hole trivuj ongkon somvob?
+A. 30\degree o 60\degree
+B. 40\degree o 50\degree
+C. 45\degree o 45\degree
+D. 50\degree o 30\degree
+Answer with only A, B, C, or D.","sthulokoni trivujer sthulokon chara baki kon duti koto hole trivuj ongkon somvob?
+A. 30\degree o 60\degree
+B. 40\degree o 50\degree
+C. 45\degree o 45\degree
+D. 50\degree o 30\degree
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0045,benqa,banglish_clean,True,kot->koto (1),"kon nirdisht bhorer kono bostur beg dwigun korole gotishokti kot gun hobe?
+A. charogun
+B. dwigun
+C. ordhek
+D. soman
+Answer with only A, B, C, or D.","kon nirdisht bhorer kono bostur beg dwigun korole gotishokti koto gun hobe?
+A. charogun
+B. dwigun
+C. ordhek
+D. soman
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0045,benqa,banglish_noisy,True,kot->koto (1),"kon nirdist vorer kono bostur beg dwigun korole gotisokti kot gun hobe?
+A. charogun
+B. dwigun
+C. ordhek
+D. soman
+Answer with only A, B, C, or D.","kon nirdist vorer kono bostur beg dwigun korole gotisokti koto gun hobe?
+A. charogun
+B. dwigun
+C. ordhek
+D. soman
+Answer with only A, B, C, or D."
+benqa_8th-Science_0086,benqa,banglish_clean,False,,"konotir projonon ofoseter madhyome hoy?
+A. topapana
+B. pudina
+C. pinyaj
+D. peyara
+Answer with only A, B, C, or D.","konotir projonon ofoseter madhyome hoy?
+A. topapana
+B. pudina
+C. pinyaj
+D. peyara
+Answer with only A, B, C, or D."
+benqa_8th-Science_0086,benqa,banglish_noisy,False,,"konotir projonon ofoseter madhyome hoy?
+A. topapana
+B. pudina
+C. pinyaj
+D. peyara
+Answer with only A, B, C, or D.","konotir projonon ofoseter madhyome hoy?
+A. topapana
+B. pudina
+C. pinyaj
+D. peyara
+Answer with only A, B, C, or D."
+benqa_10th-Math-II_0139,benqa,banglish_clean,True,kot->koto (1),"\frac{1}{2},\frac{1}{10},\frac{1}{30}, ..... onukromotir 10 tom pod kot?
+A. \frac{1}{1010}
+B. \frac{1}{1100}
+C. \frac{1}{11000}
+D. \frac{1}{10010}
+Answer with only A, B, C, or D.","\frac{1}{2},\frac{1}{10},\frac{1}{30}, ..... onukromotir 10 tom pod koto?
+A. \frac{1}{1010}
+B. \frac{1}{1100}
+C. \frac{1}{11000}
+D. \frac{1}{10010}
+Answer with only A, B, C, or D."
+benqa_10th-Math-II_0139,benqa,banglish_noisy,True,kot->koto (1),"\frac{1}{2},\frac{1}{10},\frac{1}{30}, ..... onukromotir 10 tom pod kot?
+A. \frac{1}{1010}
+B. \frac{1}{1100}
+C. \frac{1}{11000}
+D. \frac{1}{10010}
+Answer with only A, B, C, or D.","\frac{1}{2},\frac{1}{10},\frac{1}{30}, ..... onukromotir 10 tom pod koto?
+A. \frac{1}{1010}
+B. \frac{1}{1100}
+C. \frac{1}{11000}
+D. \frac{1}{10010}
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0325,benqa,banglish_clean,False,,"rui machher shreni pakhonay rokt poribohon kore nicher kon dhomoni?
+A. iliyak
+B. pyarail
+C. siliyako-mesentarik
+D. saboklabhiyan
+Answer with only A, B, C, or D.","rui machher shreni pakhonay rokt poribohon kore nicher kon dhomoni?
+A. iliyak
+B. pyarail
+C. siliyako-mesentarik
+D. saboklabhiyan
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0325,benqa,banglish_noisy,False,,"rui macher sreni pakonay rokt poribohon kore nicher kon dhomoni?
+A. iliyak
+B. pyarail
+C. siliyako-mesentarik
+D. saboklaviyan
+Answer with only A, B, C, or D.","rui macher sreni pakonay rokt poribohon kore nicher kon dhomoni?
+A. iliyak
+B. pyarail
+C. siliyako-mesentarik
+D. saboklaviyan
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0289,benqa,banglish_clean,True,ekoti->ekti (1); kot->koto (1),"30^{\circ}C tapomatray ekoti gyasoke sthirochape uttopt kore ayoton tinogun kora holo. gyasotir churant tapomatra kot?
+A. 90^{\circ}C
+B. 300^{\circ}C
+C. 436^{\circ}C
+D. 636^{\circ}C
+Answer with only A, B, C, or D.","30^{\circ}C tapomatray ekti gyasoke sthirochape uttopt kore ayoton tinogun kora holo. gyasotir churant tapomatra koto?
+A. 90^{\circ}C
+B. 300^{\circ}C
+C. 436^{\circ}C
+D. 636^{\circ}C
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0289,benqa,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"30^{\circ}C tapomatray ekoti gyasoke sthirochape uttopt kore ayoton tinogun kora holo. gyasotir churant tapomatra kot?
+A. 90^{\circ}C
+B. 300^{\circ}C
+C. 436^{\circ}C
+D. 636^{\circ}C
+Answer with only A, B, C, or D.","30^{\circ}C tapomatray ekti gyasoke sthirochape uttopt kore ayoton tinogun kora holo. gyasotir churant tapomatra koto?
+A. 90^{\circ}C
+B. 300^{\circ}C
+C. 436^{\circ}C
+D. 636^{\circ}C
+Answer with only A, B, C, or D."
+banglamath_0541,banglamath,banglish_clean,True,ayotakar->ayotokar (1); choora->chowra (1); doirghy->doirgho (1); ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1); prosth->prostho (1); thakole->thakle (1),"ekoti ayotakar baganer doirghy 50 mi o prosth 30 mi. er bhitore 3 mitar choora rasta thakole rastar kshetrofol kot
+Return only the final answer.","ekti ayotokar baganer doirgho 50 mi o prostho 30 mi. er bhitore 3 mitar chowra rasta thakle rastar khetrofol koto
+Return only the final answer."
+banglamath_0541,banglamath,banglish_noisy,True,ayotakar->ayotokar (1); choora->chowra (1); ekoti->ekti (1); kot->koto (1); prosth->prostho (1); thakole->thakle (1),"ekoti ayotakar baganer doyrghy 50 mi o prosth 30 mi. er vitore 3 mitar choora rasta thakole rastar ksetrofol kot
+Return only the final answer.","ekti ayotokar baganer doyrghy 50 mi o prostho 30 mi. er vitore 3 mitar chowra rasta thakle rastar ksetrofol koto
+Return only the final answer."
+benqa_8th-Math_0190,benqa,banglish_clean,True,achhe->ache (1); ayotakar->ayotokar (1); doirghy->doirgho (1); ekoti->ekti (2); kot->koto (1); kshetrofol->khetrofol (1); prosth->prostho (1),"ekoti ayotakar parker doirghy 40 mitar ebong prosth 30 mitar. parkotir baire charodike 2.5 mitar bistrit ekoti rasta achhe. rastar kshetrofol kot?
+A. 325 borgomitar
+B. 375 borgomitar
+C. 875 borgomitar
+D. 1575 borgomitar
+Answer with only A, B, C, or D.","ekti ayotokar parker doirgho 40 mitar ebong prostho 30 mitar. parkotir baire charodike 2.5 mitar bistrit ekti rasta ache. rastar khetrofol koto?
+A. 325 borgomitar
+B. 375 borgomitar
+C. 875 borgomitar
+D. 1575 borgomitar
+Answer with only A, B, C, or D."
+benqa_8th-Math_0190,benqa,banglish_noisy,True,ayotakar->ayotokar (1); ekoti->ekti (2); kot->koto (1); prosth->prostho (1),"ekoti ayotakar parker doyrghy 40 mitar ebong prosth 30 mitar. parkotir baire charodike 2.5 mitar bistrit ekoti rasta ache. rastar ksetrofol kot?
+A. 325 borgomitar
+B. 375 borgomitar
+C. 875 borgomitar
+D. 1575 borgomitar
+Answer with only A, B, C, or D.","ekti ayotokar parker doyrghy 40 mitar ebong prostho 30 mitar. parkotir baire charodike 2.5 mitar bistrit ekti rasta ache. rastar ksetrofol koto?
+A. 325 borgomitar
+B. 375 borgomitar
+C. 875 borgomitar
+D. 1575 borgomitar
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0042,benqa,banglish_clean,True,konoti->konti (1),"saikaser prodhan mul nosht hooyar fole- i. osthanik mul srishti hoy ii. Anabaena dwara akrant hoy iii. er akriti samudrik probaler mot hoy nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D.","saikaser prodhan mul nosht hooyar fole- i. osthanik mul srishti hoy ii. Anabaena dwara akrant hoy iii. er akriti samudrik probaler mot hoy nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0042,benqa,banglish_noisy,True,konoti->konti (1),"saikaser prodhan mul nost hooyar fole- i. osthanik mul sristi hoy ii. Anabaena dwara akrant hoy iii. er akriti samudrik probaler mot hoy nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D.","saikaser prodhan mul nost hooyar fole- i. osthanik mul sristi hoy ii. Anabaena dwara akrant hoy iii. er akriti samudrik probaler mot hoy nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D."
+banglamath_0557,banglamath,banglish_clean,True,ekoti->ekti (1); kot->koto (1),"ekoti baganer porisima 120 mitar hole charodike bera dite kot khoroch hobe jodi proti mitare khoroch 31/4 taka hoy
+Return only the final answer.","ekti baganer porisima 120 mitar hole charodike bera dite koto khoroch hobe jodi proti mitare khoroch 31/4 taka hoy
+Return only the final answer."
+banglamath_0557,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"ekoti baganer porisima 120 mitar hole charodike bera dite kot koroch hobe jodi proti mitare koroch 31/4 taka hoy
+Return only the final answer.","ekti baganer porisima 120 mitar hole charodike bera dite koto koroch hobe jodi proti mitare koroch 31/4 taka hoy
+Return only the final answer."
+benqa_12th-Biology-I_0218,benqa,banglish_clean,False,,"gomer boigganik nam ki?
+A. Oryza sativa
+B. Triticum aestivum
+C. Zea mays
+D. Bambusa tulda
+Answer with only A, B, C, or D.","gomer boigganik nam ki?
+A. Oryza sativa
+B. Triticum aestivum
+C. Zea mays
+D. Bambusa tulda
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0218,benqa,banglish_noisy,False,,"gomer boygganik nam ki?
+A. Oryza sativa
+B. Triticum aestivum
+C. Zea mays
+D. Bambusa tulda
+Answer with only A, B, C, or D.","gomer boygganik nam ki?
+A. Oryza sativa
+B. Triticum aestivum
+C. Zea mays
+D. Bambusa tulda
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0342,benqa,banglish_clean,False,,"f(x) = x^{2} - x fangshonotir kon bindute ongkit sporshok x-oksher somantoral?
+A. \left ( \frac{-1}{2}, \frac{-1}{4} \right )
+B. \left ( \frac{-1}{2}, \frac{1}{4} \right )
+C. \left ( \frac{1}{2}, \frac{-1}{4} \right )
+D. \left ( \frac{1}{2}, \frac{1}{4} \right )
+Answer with only A, B, C, or D.","f(x) = x^{2} - x fangshonotir kon bindute ongkit sporshok x-oksher somantoral?
+A. \left ( \frac{-1}{2}, \frac{-1}{4} \right )
+B. \left ( \frac{-1}{2}, \frac{1}{4} \right )
+C. \left ( \frac{1}{2}, \frac{-1}{4} \right )
+D. \left ( \frac{1}{2}, \frac{1}{4} \right )
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0342,benqa,banglish_noisy,False,,"f(x) = x^{2} - x fangsonotir kon bindute ongkit sporsok x-okser somantoral?
+A. \left ( \frac{-1}{2}, \frac{-1}{4} \right )
+B. \left ( \frac{-1}{2}, \frac{1}{4} \right )
+C. \left ( \frac{1}{2}, \frac{-1}{4} \right )
+D. \left ( \frac{1}{2}, \frac{1}{4} \right )
+Answer with only A, B, C, or D.","f(x) = x^{2} - x fangsonotir kon bindute ongkit sporsok x-okser somantoral?
+A. \left ( \frac{-1}{2}, \frac{-1}{4} \right )
+B. \left ( \frac{-1}{2}, \frac{1}{4} \right )
+C. \left ( \frac{1}{2}, \frac{-1}{4} \right )
+D. \left ( \frac{1}{2}, \frac{1}{4} \right )
+Answer with only A, B, C, or D."
+banglamath_0236,banglamath,banglish_clean,True,kot->koto (1),"10ti bolopener dam 60 taka hole 2ti bolopener dam kot
+Return only the final answer.","10ti bolopener dam 60 taka hole 2ti bolopener dam koto
+Return only the final answer."
+banglamath_0236,banglamath,banglish_noisy,True,kot->koto (1),"10ti bolopener dam 60 taka hole 2ti bolopener dam kot
+Return only the final answer.","10ti bolopener dam 60 taka hole 2ti bolopener dam koto
+Return only the final answer."
+benqa_12th-Biology-II_0122,benqa,banglish_clean,True,kot->koto (1),"hritopinder olinder dayastoler somoyokal kot sekend?
+A. 0.7
+B. 0.5
+C. 0.3
+D. 0.1
+Answer with only A, B, C, or D.","hritopinder olinder dayastoler somoyokal koto sekend?
+A. 0.7
+B. 0.5
+C. 0.3
+D. 0.1
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0122,benqa,banglish_noisy,True,kot->koto (1),"hritopinder olinder dayastoler somoyokal kot sekend?
+A. 0.7
+B. 0.5
+C. 0.3
+D. 0.1
+Answer with only A, B, C, or D.","hritopinder olinder dayastoler somoyokal koto sekend?
+A. 0.7
+B. 0.5
+C. 0.3
+D. 0.1
+Answer with only A, B, C, or D."
+banglamath_0189,banglamath,banglish_clean,True,ekoti->ekti (1); korote->korte (2),"ekoti kaj 2 jon purush othoba 3 jon balok somponn korote pare. 9 jon balok kotojon purusher soman kaj korote parobe
+Return only the final answer.","ekti kaj 2 jon purush othoba 3 jon balok somponn korte pare. 9 jon balok kotojon purusher soman kaj korte parobe
+Return only the final answer."
+banglamath_0189,banglamath,banglish_noisy,True,ekoti->ekti (1); korote->korte (2),"ekoti kaj 2 jon purus othoba 3 jon balok somponn korote pare. 9 jon balok kotojon puruser soman kaj korote parobe
+Return only the final answer.","ekti kaj 2 jon purus othoba 3 jon balok somponn korte pare. 9 jon balok kotojon puruser soman kaj korte parobe
+Return only the final answer."
+benqa_12th-Biology-II_0119,benqa,banglish_clean,False,,"Hydra-r kon dhoroner cholonoke jonka cholon bole?
+A. glaidin
+B. somarosonting
+C. luping
+D. hanta
+Answer with only A, B, C, or D.","Hydra-r kon dhoroner cholonoke jonka cholon bole?
+A. glaidin
+B. somarosonting
+C. luping
+D. hanta
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0119,benqa,banglish_noisy,False,,"Hydra-r kon dhoroner cholonoke jonka cholon bole?
+A. glaidin
+B. somarosonting
+C. luping
+D. hanta
+Answer with only A, B, C, or D.","Hydra-r kon dhoroner cholonoke jonka cholon bole?
+A. glaidin
+B. somarosonting
+C. luping
+D. hanta
+Answer with only A, B, C, or D."
+benqa_10th-Math-II_0367,benqa,banglish_clean,True,ekoti->ekti (1); kot->koto (1),"ekoti niropeksh chhokka ekobar nikshep kora hole moulik songkhya asar sombhabona kot?
+A. \frac{1}{6}
+B. \frac{1}{3}
+C. \frac{1}{2}
+D. \frac{2}{3}
+Answer with only A, B, C, or D.","ekti niropeksh chhokka ekobar nikshep kora hole moulik songkhya asar sombhabona koto?
+A. \frac{1}{6}
+B. \frac{1}{3}
+C. \frac{1}{2}
+D. \frac{2}{3}
+Answer with only A, B, C, or D."
+benqa_10th-Math-II_0367,benqa,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"ekoti niropeks chokka ekobar niksep kora hole moulik songkya asar somvabona kot?
+A. \frac{1}{6}
+B. \frac{1}{3}
+C. \frac{1}{2}
+D. \frac{2}{3}
+Answer with only A, B, C, or D.","ekti niropeks chokka ekobar niksep kora hole moulik songkya asar somvabona koto?
+A. \frac{1}{6}
+B. \frac{1}{3}
+C. \frac{1}{2}
+D. \frac{2}{3}
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0256,benqa,banglish_clean,False,,"somoyer sapekshe ontokolon kore sorol chhondit goti-somponn bostur ontorok somikoron theke ki paoya jay?
+A. kompangk
+B. poryayokal
+C. beg
+D. tworon
+Answer with only A, B, C, or D.","somoyer sapekshe ontokolon kore sorol chhondit goti-somponn bostur ontorok somikoron theke ki paoya jay?
+A. kompangk
+B. poryayokal
+C. beg
+D. tworon
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0256,benqa,banglish_noisy,False,,"somoyer sapekse ontokolon kore sorol chondit goti-somponn bostur ontorok somikoron theke ki paoya jay?
+A. kompangk
+B. poryayokal
+C. beg
+D. tworon
+Answer with only A, B, C, or D.","somoyer sapekse ontokolon kore sorol chondit goti-somponn bostur ontorok somikoron theke ki paoya jay?
+A. kompangk
+B. poryayokal
+C. beg
+D. tworon
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0253,benqa,banglish_clean,True,konoti->konti (1),"mohakorsh sutr byobohar kore je somost kaj kora sombhob- i. prakritik gyas uttolon ii. bibhinn khonij podarth uttolon iii. bhu-gorbhosth tapoghotit shokti uttolon nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","mohakorsh sutr byobohar kore je somost kaj kora sombhob- i. prakritik gyas uttolon ii. bibhinn khonij podarth uttolon iii. bhu-gorbhosth tapoghotit shokti uttolon nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0253,benqa,banglish_noisy,True,konoti->konti (1),"mohakors sutr byobohar kore je somost kaj kora somvob- i. prakritik gyas uttolon ii. bivinn konij podarth uttolon iii. vu-gorvosth tapoghotit sokti uttolon nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","mohakors sutr byobohar kore je somost kaj kora somvob- i. prakritik gyas uttolon ii. bivinn konij podarth uttolon iii. vu-gorvosth tapoghotit sokti uttolon nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0191,benqa,banglish_clean,True,konoti->konti (1),"CH_{3}-CH_{2}-C \equiv CH + Cl_{2} \rightarrow A A + Cl_{2} \rightarrow B uddipoke A jougoti- i. songjojon bikriya dey ii. plastik toirite byobohrit hoy iii. 'B' opeksha kom sokriy nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","CH_{3}-CH_{2}-C \equiv CH + Cl_{2} \rightarrow A A + Cl_{2} \rightarrow B uddipoke A jougoti- i. songjojon bikriya dey ii. plastik toirite byobohrit hoy iii. 'B' opeksha kom sokriy nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0191,benqa,banglish_noisy,True,konoti->konti (1),"CH_{3}-CH_{2}-C \equiv CH + Cl_{2} \rightarrow A A + Cl_{2} \rightarrow B uddipoke A jougoti- i. songjojon bikriya dey ii. plastik toyrite byobohrit hoy iii. 'B' opeksa kom sokriy nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","CH_{3}-CH_{2}-C \equiv CH + Cl_{2} \rightarrow A A + Cl_{2} \rightarrow B uddipoke A jougoti- i. songjojon bikriya dey ii. plastik toyrite byobohrit hoy iii. 'B' opeksa kom sokriy nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0174,benqa,banglish_clean,True,konoti->konti (1),"bhinegar- i. khadder byakoteriya dhbongs kora ii. khabarer ruchi briddhi kore iii. rokt sonchalon komay nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","bhinegar- i. khadder byakoteriya dhbongs kora ii. khabarer ruchi briddhi kore iii. rokt sonchalon komay nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0174,benqa,banglish_noisy,True,konoti->konti (1),"vinegar- i. kadder byakoteriya dhbongs kora ii. kabarer ruchi briddhi kore iii. rokt sonchalon komay nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","vinegar- i. kadder byakoteriya dhbongs kora ii. kabarer ruchi briddhi kore iii. rokt sonchalon komay nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0339,benqa,banglish_clean,False,,"nicher kon udbhide salokosongshleshon har beshi?
+A. bot gachh
+B. kanthal
+C. peyara
+D. kochuripana
+Answer with only A, B, C, or D.","nicher kon udbhide salokosongshleshon har beshi?
+A. bot gachh
+B. kanthal
+C. peyara
+D. kochuripana
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0339,benqa,banglish_noisy,False,,"nicher kon udvide salokosongsleson har besi?
+A. bot gach
+B. kanthal
+C. peyara
+D. kochuripana
+Answer with only A, B, C, or D.","nicher kon udvide salokosongsleson har besi?
+A. bot gach
+B. kanthal
+C. peyara
+D. kochuripana
+Answer with only A, B, C, or D."
+benqa_10th-Math-II_0062,benqa,banglish_clean,True,konoti->konti (1),"M(3, 3), N(6, 6) ebong R(12, 3t) tinoti bindu. M o N bindu dwara songjogokari rekhar somikoron nicher konoti?
+A. x - 3y - 12 = 0
+B. 3x - y - 6 = 0
+C. 3x - y - 12 = 0
+D. x - 3y + 12 = 0
+Answer with only A, B, C, or D.","M(3, 3), N(6, 6) ebong R(12, 3t) tinoti bindu. M o N bindu dwara songjogokari rekhar somikoron nicher konti?
+A. x - 3y - 12 = 0
+B. 3x - y - 6 = 0
+C. 3x - y - 12 = 0
+D. x - 3y + 12 = 0
+Answer with only A, B, C, or D."
+benqa_10th-Math-II_0062,benqa,banglish_noisy,True,konoti->konti (1),"M(3, 3), N(6, 6) ebong R(12, 3t) tinoti bindu. M o N bindu dwara songjogokari rekar somikoron nicher konoti?
+A. x - 3y - 12 = 0
+B. 3x - y - 6 = 0
+C. 3x - y - 12 = 0
+D. x - 3y + 12 = 0
+Answer with only A, B, C, or D.","M(3, 3), N(6, 6) ebong R(12, 3t) tinoti bindu. M o N bindu dwara songjogokari rekar somikoron nicher konti?
+A. x - 3y - 12 = 0
+B. 3x - y - 6 = 0
+C. 3x - y - 12 = 0
+D. x - 3y + 12 = 0
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0260,benqa,banglish_clean,True,kot->koto (1),"bhinegare kot shotangsh pani bidyoman?
+A. 6%
+B. 15%
+C. 70%
+D. 90%
+Answer with only A, B, C, or D.","bhinegare koto shotangsh pani bidyoman?
+A. 6%
+B. 15%
+C. 70%
+D. 90%
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0260,benqa,banglish_noisy,True,kot->koto (1),"vinegare kot sotangs pani bidyoman?
+A. 6%
+B. 15%
+C. 70%
+D. 90%
+Answer with only A, B, C, or D.","vinegare koto sotangs pani bidyoman?
+A. 6%
+B. 15%
+C. 70%
+D. 90%
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0077,benqa,banglish_clean,False,,"nicher kon dhape kromatidogulo merumukhi cholote shuru kore?
+A. profej
+B. metafej
+C. anafej
+D. telofej
+Answer with only A, B, C, or D.","nicher kon dhape kromatidogulo merumukhi cholote shuru kore?
+A. profej
+B. metafej
+C. anafej
+D. telofej
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0077,benqa,banglish_noisy,False,,"nicher kon dhape kromatidogulo merumuki cholote suru kore?
+A. profej
+B. metafej
+C. anafej
+D. telofej
+Answer with only A, B, C, or D.","nicher kon dhape kromatidogulo merumuki cholote suru kore?
+A. profej
+B. metafej
+C. anafej
+D. telofej
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0084,benqa,banglish_clean,False,,"sthir obosthan theke somotborone bostur jekono somoyer beg bostur otikrant durotter-
+A. somanupatik
+B. borger somanupatik
+C. borger byostanupatik
+D. borgomuler somanupatik
+Answer with only A, B, C, or D.","sthir obosthan theke somotborone bostur jekono somoyer beg bostur otikrant durotter-
+A. somanupatik
+B. borger somanupatik
+C. borger byostanupatik
+D. borgomuler somanupatik
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0084,benqa,banglish_noisy,False,,"sthir obosthan theke somotborone bostur jekono somoyer beg bostur otikrant durotter-
+A. somanupatik
+B. borger somanupatik
+C. borger byostanupatik
+D. borgomuler somanupatik
+Answer with only A, B, C, or D.","sthir obosthan theke somotborone bostur jekono somoyer beg bostur otikrant durotter-
+A. somanupatik
+B. borger somanupatik
+C. borger byostanupatik
+D. borgomuler somanupatik
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0267,benqa,banglish_clean,True,konoti->konti (1),"apekshikotar totto onusare- i. t = \frac{t_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}} ii. L = \frac{L_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}} iii. m = \frac{m_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}} nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","apekshikotar totto onusare- i. t = \frac{t_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}} ii. L = \frac{L_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}} iii. m = \frac{m_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}} nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0267,benqa,banglish_noisy,True,konoti->konti (1),"apeksikotar totto onusare- i. t = \frac{t_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}} ii. L = \frac{L_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}} iii. m = \frac{m_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}} nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","apeksikotar totto onusare- i. t = \frac{t_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}} ii. L = \frac{L_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}} iii. m = \frac{m_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}} nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+banglamath_1693,banglamath,banglish_clean,True,kot->koto (1),"dui ongkeroekoti songkhyar tin bhager ek bhag o char bhager ek bhager jogofol 14 .songkhyati kot hisaboti koro.
+Return only the final answer.","dui ongkeroekoti songkhyar tin bhager ek bhag o char bhager ek bhager jogofol 14 .songkhyati koto hisaboti koro.
+Return only the final answer."
+banglamath_1693,banglamath,banglish_noisy,True,kot->koto (1),"dui ongkeroekoti songkyar tin vager ek vag o char vager ek vager jogofol 14 .songkyati kot hisaboti koro.
+Return only the final answer.","dui ongkeroekoti songkyar tin vager ek vag o char vager ek vager jogofol 14 .songkyati koto hisaboti koro.
+Return only the final answer."
+banglamath_0227,banglamath,banglish_clean,True,kot->koto (1),"dui bondhur bari theke skuler durotter onupat 2:3 ebong prothom bondhur durotto 5 kimi hole dwitiy bondhur durotto kot
+Return only the final answer.","dui bondhur bari theke skuler durotter onupat 2:3 ebong prothom bondhur durotto 5 kimi hole dwitiy bondhur durotto koto
+Return only the final answer."
+banglamath_0227,banglamath,banglish_noisy,True,kot->koto (1),"dui bondhur bari theke skuler durotter onupat 2:3 ebong prothom bondhur durotto 5 kimi hole dwitiy bondhur durotto kot
+Return only the final answer.","dui bondhur bari theke skuler durotter onupat 2:3 ebong prothom bondhur durotto 5 kimi hole dwitiy bondhur durotto koto
+Return only the final answer."
+benqa_12th-Chemistry-II_0354,benqa,banglish_clean,False,,"sthir tapomatray nirdisht bhorer gyaser ayoton bonam chaper lekhochitroti kon dhoroner?
+A. porabrittakar
+B. odhibrittakar
+C. brittakar
+D. soroloroikhik
+Answer with only A, B, C, or D.","sthir tapomatray nirdisht bhorer gyaser ayoton bonam chaper lekhochitroti kon dhoroner?
+A. porabrittakar
+B. odhibrittakar
+C. brittakar
+D. soroloroikhik
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0354,benqa,banglish_noisy,False,,"sthir tapomatray nirdist vorer gyaser ayoton bonam chaper lekochitroti kon dhoroner?
+A. porabrittakar
+B. odhibrittakar
+C. brittakar
+D. soroloroykik
+Answer with only A, B, C, or D.","sthir tapomatray nirdist vorer gyaser ayoton bonam chaper lekochitroti kon dhoroner?
+A. porabrittakar
+B. odhibrittakar
+C. brittakar
+D. soroloroykik
+Answer with only A, B, C, or D."
+banglamath_0532,banglamath,banglish_clean,False,,"16 ekor jomite 28 metrik ton dhan hole proti ekor jomite ki poriman dhan fole
+Return only the final answer.","16 ekor jomite 28 metrik ton dhan hole proti ekor jomite ki poriman dhan fole
+Return only the final answer."
+banglamath_0532,banglamath,banglish_noisy,False,,"16 ekor jomite 28 metrik ton dhan hole proti ekor jomite ki poriman dhan fole
+Return only the final answer.","16 ekor jomite 28 metrik ton dhan hole proti ekor jomite ki poriman dhan fole
+Return only the final answer."
+benqa_10th-Biology_0277,benqa,banglish_clean,True,konoti->konti (1),"motin tamak patay ek dhoroner mojaik rog dekhote pel. ullikhit roger bhairaser bongshogotiy bostute bondhon bidyoman- i. A = T ii. G = C iii. A = U nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","motin tamak patay ek dhoroner mojaik rog dekhote pel. ullikhit roger bhairaser bongshogotiy bostute bondhon bidyoman- i. A = T ii. G = C iii. A = U nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0277,benqa,banglish_noisy,True,konoti->konti (1),"motin tamak patay ek dhoroner mojaik rog dekote pel. ullikit roger vairaser bongsogotiy bostute bondhon bidyoman- i. A = T ii. G = C iii. A = U nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","motin tamak patay ek dhoroner mojaik rog dekote pel. ullikit roger vairaser bongsogotiy bostute bondhon bidyoman- i. A = T ii. G = C iii. A = U nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+banglamath_0184,banglamath,banglish_clean,True,korote->korte (2); kot->koto (1),"9000 taka biniyoge protidin 450 taka labh hole 600 taka labh korote kot biniyog korote hobe
+Return only the final answer.","9000 taka biniyoge protidin 450 taka labh hole 600 taka labh korte koto biniyog korte hobe
+Return only the final answer."
+banglamath_0184,banglamath,banglish_noisy,True,korote->korte (2); kot->koto (1),"9000 taka biniyoge protidin 450 taka lav hole 600 taka lav korote kot biniyog korote hobe
+Return only the final answer.","9000 taka biniyoge protidin 450 taka lav hole 600 taka lav korte koto biniyog korte hobe
+Return only the final answer."
+benqa_10th-Math_0324,benqa,banglish_clean,True,konoti->konti (1),"a = \sqrt{3} ebong b = \sqrt{12} hole nicher konoti omulod songkhya?
+A. a + b
+B. ab
+C. \frac{a}{b}
+D. \frac{b}{a}
+Answer with only A, B, C, or D.","a = \sqrt{3} ebong b = \sqrt{12} hole nicher konti omulod songkhya?
+A. a + b
+B. ab
+C. \frac{a}{b}
+D. \frac{b}{a}
+Answer with only A, B, C, or D."
+benqa_10th-Math_0324,benqa,banglish_noisy,True,konoti->konti (1),"a = \sqrt{3} ebong b = \sqrt{12} hole nicher konoti omulod songkya?
+A. a + b
+B. ab
+C. \frac{a}{b}
+D. \frac{b}{a}
+Answer with only A, B, C, or D.","a = \sqrt{3} ebong b = \sqrt{12} hole nicher konti omulod songkya?
+A. a + b
+B. ab
+C. \frac{a}{b}
+D. \frac{b}{a}
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0388,benqa,banglish_clean,True,konoti->konti (1),"skyandiyamer sorboshesh shoktistorer sothik ilekotron binyas konoti?
+A. 3s^{2}3p^{6}3d^{5}4s^{1}
+B. 3s^{2}3p^{6}3d^{3}4s^{2}
+C. 3s^{2}3p^{6}3d^{2}4s^{2}
+D. 3s^{2}3p^{6}3d^{1}4s^{2}
+Answer with only A, B, C, or D.","skyandiyamer sorboshesh shoktistorer sothik ilekotron binyas konti?
+A. 3s^{2}3p^{6}3d^{5}4s^{1}
+B. 3s^{2}3p^{6}3d^{3}4s^{2}
+C. 3s^{2}3p^{6}3d^{2}4s^{2}
+D. 3s^{2}3p^{6}3d^{1}4s^{2}
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0388,benqa,banglish_noisy,True,konoti->konti (1),"skyandiyamer sorboses soktistorer sothik ilekotron binyas konoti?
+A. 3s^{2}3p^{6}3d^{5}4s^{1}
+B. 3s^{2}3p^{6}3d^{3}4s^{2}
+C. 3s^{2}3p^{6}3d^{2}4s^{2}
+D. 3s^{2}3p^{6}3d^{1}4s^{2}
+Answer with only A, B, C, or D.","skyandiyamer sorboses soktistorer sothik ilekotron binyas konti?
+A. 3s^{2}3p^{6}3d^{5}4s^{1}
+B. 3s^{2}3p^{6}3d^{3}4s^{2}
+C. 3s^{2}3p^{6}3d^{2}4s^{2}
+D. 3s^{2}3p^{6}3d^{1}4s^{2}
+Answer with only A, B, C, or D."
+banglamath_0542,banglamath,banglish_clean,True,doirghy->doirgho (1); kot->koto (1); prosth->prostho (1),"rastabade baganer porisimay bera dite proti mitare 25 taka hisebe mot kot khoroch hobe jodi rastabade baganer doirghy 44 mi o prosth 24 mi hoy
+Return only the final answer.","rastabade baganer porisimay bera dite proti mitare 25 taka hisebe mot koto khoroch hobe jodi rastabade baganer doirgho 44 mi o prostho 24 mi hoy
+Return only the final answer."
+banglamath_0542,banglamath,banglish_noisy,True,kot->koto (1); prosth->prostho (1),"rastabade baganer porisimay bera dite proti mitare 25 taka hisebe mot kot koroch hobe jodi rastabade baganer doyrghy 44 mi o prosth 24 mi hoy
+Return only the final answer.","rastabade baganer porisimay bera dite proti mitare 25 taka hisebe mot koto koroch hobe jodi rastabade baganer doyrghy 44 mi o prostho 24 mi hoy
+Return only the final answer."
+benqa_12th-Physics-II_0292,benqa,banglish_clean,False,,"drishyoman bornalir toronggodoirghyer bistriti-
+A. 2000 \AA theke 3000 \AA poryont
+B. 3000 \AA theke 4000 \AA poryont
+C. 4000 \AA theke 8000 \AA poryont
+D. 8000 \AA theke 12000 \AA poryont
+Answer with only A, B, C, or D.","drishyoman bornalir toronggodoirghyer bistriti-
+A. 2000 \AA theke 3000 \AA poryont
+B. 3000 \AA theke 4000 \AA poryont
+C. 4000 \AA theke 8000 \AA poryont
+D. 8000 \AA theke 12000 \AA poryont
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0292,benqa,banglish_noisy,False,,"drisyoman bornalir toronggodoyrghyer bistriti-
+A. 2000 \AA theke 3000 \AA poryont
+B. 3000 \AA theke 4000 \AA poryont
+C. 4000 \AA theke 8000 \AA poryont
+D. 8000 \AA theke 12000 \AA poryont
+Answer with only A, B, C, or D.","drisyoman bornalir toronggodoyrghyer bistriti-
+A. 2000 \AA theke 3000 \AA poryont
+B. 3000 \AA theke 4000 \AA poryont
+C. 4000 \AA theke 8000 \AA poryont
+D. 8000 \AA theke 12000 \AA poryont
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0294,benqa,banglish_clean,True,konoti->konti (1),"benojiner karbon-karbon dwi-bondhon kon orobitaroler odhikromone srishti hoy? i. sp^{2} - sp^{2} ii. p - p iii. sp^{2} - sp^{3} nicher konoti sothik?
+A. i
+B. iii
+C. i o ii
+D. ii o iii
+Answer with only A, B, C, or D.","benojiner karbon-karbon dwi-bondhon kon orobitaroler odhikromone srishti hoy? i. sp^{2} - sp^{2} ii. p - p iii. sp^{2} - sp^{3} nicher konti sothik?
+A. i
+B. iii
+C. i o ii
+D. ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0294,benqa,banglish_noisy,True,konoti->konti (1),"benojiner karbon-karbon dwi-bondhon kon orobitaroler odhikromone sristi hoy? i. sp^{2} - sp^{2} ii. p - p iii. sp^{2} - sp^{3} nicher konoti sothik?
+A. i
+B. iii
+C. i o ii
+D. ii o iii
+Answer with only A, B, C, or D.","benojiner karbon-karbon dwi-bondhon kon orobitaroler odhikromone sristi hoy? i. sp^{2} - sp^{2} ii. p - p iii. sp^{2} - sp^{3} nicher konti sothik?
+A. i
+B. iii
+C. i o ii
+D. ii o iii
+Answer with only A, B, C, or D."
+benqa_8th-Science_0014,benqa,banglish_clean,True,konoti->konti (1),"animiya roger lokshon- i. ojon kome jaoya ii. khaoyay oniha iii. durbol laga nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","animiya roger lokshon- i. ojon kome jaoya ii. khaoyay oniha iii. durbol laga nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_8th-Science_0014,benqa,banglish_noisy,True,konoti->konti (1),"animiya roger lokson- i. ojon kome jaoya ii. kaoyay oniha iii. durbol laga nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","animiya roger lokson- i. ojon kome jaoya ii. kaoyay oniha iii. durbol laga nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+banglamath_1688,banglamath,banglish_clean,True,ekoti->ekti (1); korote->korte (1); penyaj->peyaj (5),"kon ekoti biyer onushthane ranna korote baburchi o tar sohokormi mot 400ti penyaj katen. baburchi proti minite ontot 3ti penyaj ebong tar sohokormi proti minite ontot 2ti penyaj katote pare. jodi baburchi tar sohokormir cheye 25 minit age penyaj kata bondh, tobe ke kototi penyaj ketechhil ar kar kotokshon somoy legechhil?
+Return only the final answer.","kon ekti biyer onushthane ranna korte baburchi o tar sohokormi mot 400ti peyaj katen. baburchi proti minite ontot 3ti peyaj ebong tar sohokormi proti minite ontot 2ti peyaj katote pare. jodi baburchi tar sohokormir cheye 25 minit age peyaj kata bondh, tobe ke kototi peyaj ketechhil ar kar kotokshon somoy legechhil?
+Return only the final answer."
+banglamath_1688,banglamath,banglish_noisy,True,ekoti->ekti (1); korote->korte (1); penyaj->peyaj (5),"kon ekoti biyer onusthane ranna korote baburchi o tar sohokormi mot 400ti penyaj katen. baburchi proti minite ontot 3ti penyaj ebong tar sohokormi proti minite ontot 2ti penyaj katote pare. jodi baburchi tar sohokormir cheye 25 minit age penyaj kata bondh, tobe ke kototi penyaj ketechil ar kar kotokson somoy legechil?
+Return only the final answer.","kon ekti biyer onusthane ranna korte baburchi o tar sohokormi mot 400ti peyaj katen. baburchi proti minite ontot 3ti peyaj ebong tar sohokormi proti minite ontot 2ti peyaj katote pare. jodi baburchi tar sohokormir cheye 25 minit age peyaj kata bondh, tobe ke kototi peyaj ketechil ar kar kotokson somoy legechil?
+Return only the final answer."
+benqa_12th-Math-I_0120,benqa,banglish_clean,True,konoti->konti (1),"(3, -4) bindugami ebong x-oksher somantoral sorolorekhar somikoron konoti?
+A. y - 3 = 0
+B. y + 3 = 0
+C. y - 4 = 0
+D. y + 4 = 1
+Answer with only A, B, C, or D.","(3, -4) bindugami ebong x-oksher somantoral sorolorekhar somikoron konti?
+A. y - 3 = 0
+B. y + 3 = 0
+C. y - 4 = 0
+D. y + 4 = 1
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0120,benqa,banglish_noisy,True,konoti->konti (1),"(3, -4) bindugami ebong x-okser somantoral sorolorekar somikoron konoti?
+A. y - 3 = 0
+B. y + 3 = 0
+C. y - 4 = 0
+D. y + 4 = 1
+Answer with only A, B, C, or D.","(3, -4) bindugami ebong x-okser somantoral sorolorekar somikoron konti?
+A. y - 3 = 0
+B. y + 3 = 0
+C. y - 4 = 0
+D. y + 4 = 1
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0160,benqa,banglish_clean,False,,"trofojoyet \rightarrow sigonet ring \rightarrow A \rightarrow saijont \rightarrow merojoyet A dhape nicher kon podarthoti toiri hoy?
+A. himolaisin
+B. himojoyen
+C. laisolesithin
+D. pairojen
+Answer with only A, B, C, or D.","trofojoyet \rightarrow sigonet ring \rightarrow A \rightarrow saijont \rightarrow merojoyet A dhape nicher kon podarthoti toiri hoy?
+A. himolaisin
+B. himojoyen
+C. laisolesithin
+D. pairojen
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0160,benqa,banglish_noisy,False,,"trofojoyet \rightarrow sigonet ring \rightarrow A \rightarrow saijont \rightarrow merojoyet A dhape nicher kon podarthoti toyri hoy?
+A. himolaisin
+B. himojoyen
+C. laisolesithin
+D. pairojen
+Answer with only A, B, C, or D.","trofojoyet \rightarrow sigonet ring \rightarrow A \rightarrow saijont \rightarrow merojoyet A dhape nicher kon podarthoti toyri hoy?
+A. himolaisin
+B. himojoyen
+C. laisolesithin
+D. pairojen
+Answer with only A, B, C, or D."
+banglamath_0230,banglamath,banglish_clean,True,kot->koto (1),"25 taka 125 takar shotokora kot
+Return only the final answer.","25 taka 125 takar shotokora koto
+Return only the final answer."
+banglamath_0230,banglamath,banglish_noisy,True,kot->koto (1),"25 taka 125 takar sotokora kot
+Return only the final answer.","25 taka 125 takar sotokora koto
+Return only the final answer."
+banglamath_1685,banglamath,banglish_clean,False,,"2 bochhor por jiboner boyos hobe, 2 bochhor purbe jiboner boyos ja chhil tar dwigun. 3 bochhor por jiboner boyos jodi 3 bochhor purbe jiboner boyoser soman hoy, tobe kar boyos beshi, jiboner naki julir?
+Return only the final answer.","2 bochhor por jiboner boyos hobe, 2 bochhor purbe jiboner boyos ja chhil tar dwigun. 3 bochhor por jiboner boyos jodi 3 bochhor purbe jiboner boyoser soman hoy, tobe kar boyos beshi, jiboner naki julir?
+Return only the final answer."
+banglamath_1685,banglamath,banglish_noisy,False,,"2 bochor por jiboner boyos hobe, 2 bochor purbe jiboner boyos ja chil tar dwigun. 3 bochor por jiboner boyos jodi 3 bochor purbe jiboner boyoser soman hoy, tobe kar boyos besi, jiboner naki julir?
+Return only the final answer.","2 bochor por jiboner boyos hobe, 2 bochor purbe jiboner boyos ja chil tar dwigun. 3 bochor por jiboner boyos jodi 3 bochor purbe jiboner boyoser soman hoy, tobe kar boyos besi, jiboner naki julir?
+Return only the final answer."
+banglamath_1692,banglamath,banglish_clean,True,ekoti->ekti (1); kot->koto (1),"ekoti jouth poribarer mot sodosy (purush, mohila o shishu) 20 jon. poribarer kortababur adesh 20 mon dhan poribarer sokol sodosyer modhye bhag kore deya hobe. bhager niyom holoh protyek purush pabe 3 mon, protyek mohila pabe 2 mon, ebong protyek shishu pabe 1 mon dhan. proshn hochchhe, kotojon kore dhan pabe? orthat poribarotir purush, mohilader o shishuder songkhya kot?
+Return only the final answer.","ekti jouth poribarer mot sodosy (purush, mohila o shishu) 20 jon. poribarer kortababur adesh 20 mon dhan poribarer sokol sodosyer modhye bhag kore deya hobe. bhager niyom holoh protyek purush pabe 3 mon, protyek mohila pabe 2 mon, ebong protyek shishu pabe 1 mon dhan. proshn hochchhe, kotojon kore dhan pabe? orthat poribarotir purush, mohilader o shishuder songkhya koto?
+Return only the final answer."
+banglamath_1692,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"ekoti jouth poribarer mot sodosy (purus, mohila o sisu) 20 jon. poribarer kortababur ades 20 mon dhan poribarer sokol sodosyer modhye vag kore deya hobe. vager niyom holoh protyek purus pabe 3 mon, protyek mohila pabe 2 mon, ebong protyek sisu pabe 1 mon dhan. prosn hochche, kotojon kore dhan pabe? orthat poribarotir purus, mohilader o sisuder songkya kot?
+Return only the final answer.","ekti jouth poribarer mot sodosy (purus, mohila o sisu) 20 jon. poribarer kortababur ades 20 mon dhan poribarer sokol sodosyer modhye vag kore deya hobe. vager niyom holoh protyek purus pabe 3 mon, protyek mohila pabe 2 mon, ebong protyek sisu pabe 1 mon dhan. prosn hochche, kotojon kore dhan pabe? orthat poribarotir purus, mohilader o sisuder songkya koto?
+Return only the final answer."
+benqa_8th-Science_0153,benqa,banglish_clean,True,konoti->konti (1),"pakostholir esiditi niramoye konoti upojogi?
+A. kyalosiyam
+B. esitik esid
+C. ojoluminiyam haidroksaid
+D. amoniyam haidroksaid
+Answer with only A, B, C, or D.","pakostholir esiditi niramoye konti upojogi?
+A. kyalosiyam
+B. esitik esid
+C. ojoluminiyam haidroksaid
+D. amoniyam haidroksaid
+Answer with only A, B, C, or D."
+benqa_8th-Science_0153,benqa,banglish_noisy,True,konoti->konti (1),"pakostholir esiditi niramoye konoti upojogi?
+A. kyalosiyam
+B. esitik esid
+C. ojoluminiyam haidroksaid
+D. amoniyam haidroksaid
+Answer with only A, B, C, or D.","pakostholir esiditi niramoye konti upojogi?
+A. kyalosiyam
+B. esitik esid
+C. ojoluminiyam haidroksaid
+D. amoniyam haidroksaid
+Answer with only A, B, C, or D."
+banglamath_0228,banglamath,banglish_clean,False,,"40% ke sadharon bhognangshe prokash korole ki hoy
+Return only the final answer.","40% ke sadharon bhognangshe prokash korole ki hoy
+Return only the final answer."
+banglamath_0228,banglamath,banglish_noisy,False,,"40% ke sadharon vognangse prokas korole ki hoy
+Return only the final answer.","40% ke sadharon vognangse prokas korole ki hoy
+Return only the final answer."
+benqa_12th-Physics-I_0109,benqa,banglish_clean,False,,"torker opor nam ki?
+A. ghorshon bol
+B. jorotar bhramok
+C. ghurnon bol
+D. kendromukhi bol
+Answer with only A, B, C, or D.","torker opor nam ki?
+A. ghorshon bol
+B. jorotar bhramok
+C. ghurnon bol
+D. kendromukhi bol
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0109,benqa,banglish_noisy,False,,"torker opor nam ki?
+A. ghorson bol
+B. jorotar vramok
+C. ghurnon bol
+D. kendromuki bol
+Answer with only A, B, C, or D.","torker opor nam ki?
+A. ghorson bol
+B. jorotar vramok
+C. ghurnon bol
+D. kendromuki bol
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0181,benqa,banglish_clean,False,,"myaleriya jibanur joun jonone sochol o lombakritir jaigoter nam ki?
+A. sporojoyet
+B. uosist
+C. uokinet
+D. jaigot
+Answer with only A, B, C, or D.","myaleriya jibanur joun jonone sochol o lombakritir jaigoter nam ki?
+A. sporojoyet
+B. uosist
+C. uokinet
+D. jaigot
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0181,benqa,banglish_noisy,False,,"myaleriya jibanur joun jonone sochol o lombakritir jaigoter nam ki?
+A. sporojoyet
+B. uosist
+C. uokinet
+D. jaigot
+Answer with only A, B, C, or D.","myaleriya jibanur joun jonone sochol o lombakritir jaigoter nam ki?
+A. sporojoyet
+B. uosist
+C. uokinet
+D. jaigot
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0222,benqa,banglish_clean,True,konoti->konti (1),"udbhid konoti mati hote ney?
+A. naitrojen
+B. haidrojen
+C. oksijen
+D. karbon
+Answer with only A, B, C, or D.","udbhid konti mati hote ney?
+A. naitrojen
+B. haidrojen
+C. oksijen
+D. karbon
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0222,benqa,banglish_noisy,True,konoti->konti (1),"udvid konoti mati hote ney?
+A. naitrojen
+B. haidrojen
+C. oksijen
+D. karbon
+Answer with only A, B, C, or D.","udvid konti mati hote ney?
+A. naitrojen
+B. haidrojen
+C. oksijen
+D. karbon
+Answer with only A, B, C, or D."
+benqa_8th-Math_0167,benqa,banglish_clean,True,ayotakar->ayotokar (1); doirghy->doirgho (1); ekoti->ekti (1); kot->koto (1); prosth->prostho (1),"ekoti ayotakar baganer doirghy prosther derogun. er prosth 16 mitar hole, baganer porisima kot?
+A. 40 mitar
+B. 64 mitar
+C. 80 mitar
+D. 96 mitar
+Answer with only A, B, C, or D.","ekti ayotokar baganer doirgho prosther derogun. er prostho 16 mitar hole, baganer porisima koto?
+A. 40 mitar
+B. 64 mitar
+C. 80 mitar
+D. 96 mitar
+Answer with only A, B, C, or D."
+benqa_8th-Math_0167,benqa,banglish_noisy,True,ayotakar->ayotokar (1); ekoti->ekti (1); kot->koto (1); prosth->prostho (1),"ekoti ayotakar baganer doyrghy prosther derogun. er prosth 16 mitar hole, baganer porisima kot?
+A. 40 mitar
+B. 64 mitar
+C. 80 mitar
+D. 96 mitar
+Answer with only A, B, C, or D.","ekti ayotokar baganer doyrghy prosther derogun. er prostho 16 mitar hole, baganer porisima koto?
+A. 40 mitar
+B. 64 mitar
+C. 80 mitar
+D. 96 mitar
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0218,benqa,banglish_clean,True,konoti->konti (1); kshetre->khetre (1),"jekono tribhuj ABC er kshetre nicher konoti sothik?
+A. c = acosB + bcosA
+B. b = csinA + asinC
+C. \Delta = \frac{1}{2} abcosC
+D. cosA = \frac{b^{2} + c^{2} + a^{2}}{2bc}
+Answer with only A, B, C, or D.","jekono tribhuj ABC er khetre nicher konti sothik?
+A. c = acosB + bcosA
+B. b = csinA + asinC
+C. \Delta = \frac{1}{2} abcosC
+D. cosA = \frac{b^{2} + c^{2} + a^{2}}{2bc}
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0218,benqa,banglish_noisy,True,konoti->konti (1),"jekono trivuj ABC er ksetre nicher konoti sothik?
+A. c = acosB + bcosA
+B. b = csinA + asinC
+C. \Delta = \frac{1}{2} abcosC
+D. cosA = \frac{b^{2} + c^{2} + a^{2}}{2bc}
+Answer with only A, B, C, or D.","jekono trivuj ABC er ksetre nicher konti sothik?
+A. c = acosB + bcosA
+B. b = csinA + asinC
+C. \Delta = \frac{1}{2} abcosC
+D. cosA = \frac{b^{2} + c^{2} + a^{2}}{2bc}
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0088,benqa,banglish_clean,False,,"x-er sapekshe ln ax er ontoroj-
+A. \frac{a}{x}
+B. \frac{x}{a}
+C. \frac{1}{x}
+D. \frac{1}{ax}
+Answer with only A, B, C, or D.","x-er sapekshe ln ax er ontoroj-
+A. \frac{a}{x}
+B. \frac{x}{a}
+C. \frac{1}{x}
+D. \frac{1}{ax}
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0088,benqa,banglish_noisy,False,,"x-er sapekse ln ax er ontoroj-
+A. \frac{a}{x}
+B. \frac{x}{a}
+C. \frac{1}{x}
+D. \frac{1}{ax}
+Answer with only A, B, C, or D.","x-er sapekse ln ax er ontoroj-
+A. \frac{a}{x}
+B. \frac{x}{a}
+C. \frac{1}{x}
+D. \frac{1}{ax}
+Answer with only A, B, C, or D."
+benqa_12th-Math-II_0043,benqa,banglish_clean,False,,"9x^{2} - 24xy + 12y^{2} - 48x - 24y + 36 = 0 somikoronoti ki nirdesh kore?
+A. britt
+B. porabritt
+C. upobritt
+D. odhibritt
+Answer with only A, B, C, or D.","9x^{2} - 24xy + 12y^{2} - 48x - 24y + 36 = 0 somikoronoti ki nirdesh kore?
+A. britt
+B. porabritt
+C. upobritt
+D. odhibritt
+Answer with only A, B, C, or D."
+benqa_12th-Math-II_0043,benqa,banglish_noisy,False,,"9x^{2} - 24xy + 12y^{2} - 48x - 24y + 36 = 0 somikoronoti ki nirdes kore?
+A. britt
+B. porabritt
+C. upobritt
+D. odhibritt
+Answer with only A, B, C, or D.","9x^{2} - 24xy + 12y^{2} - 48x - 24y + 36 = 0 somikoronoti ki nirdes kore?
+A. britt
+B. porabritt
+C. upobritt
+D. odhibritt
+Answer with only A, B, C, or D."
+banglamath_0550,banglamath,banglish_clean,True,kot->koto (1); kshetrofol->khetrofol (1),"rastasoh baganer porisima 190 mitar hole soman porisima bishisht borgakar mather kshetrofol kot
+Return only the final answer.","rastasoh baganer porisima 190 mitar hole soman porisima bishisht borgakar mather khetrofol koto
+Return only the final answer."
+banglamath_0550,banglamath,banglish_noisy,True,kot->koto (1),"rastasoh baganer porisima 190 mitar hole soman porisima bisist borgakar mather ksetrofol kot
+Return only the final answer.","rastasoh baganer porisima 190 mitar hole soman porisima bisist borgakar mather ksetrofol koto
+Return only the final answer."
+benqa_12th-Chemistry-I_0227,benqa,banglish_clean,True,kot->koto (1); kshetre->khetre (1),"braket sirijer kshetre n_{2} er man kot?
+A. 2
+B. 3
+C. 4
+D. 5
+Answer with only A, B, C, or D.","braket sirijer khetre n_{2} er man koto?
+A. 2
+B. 3
+C. 4
+D. 5
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0227,benqa,banglish_noisy,True,kot->koto (1),"braket sirijer ksetre n_{2} er man kot?
+A. 2
+B. 3
+C. 4
+D. 5
+Answer with only A, B, C, or D.","braket sirijer ksetre n_{2} er man koto?
+A. 2
+B. 3
+C. 4
+D. 5
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0085,benqa,banglish_clean,True,konoti->konti (1); kshetre->khetre (1),"fotoner kshetre- i. sthir bhor shuny ii. shokti h\upsilon iii. beg 3 \times 10^{8} ms^{-1} nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","fotoner khetre- i. sthir bhor shuny ii. shokti h\upsilon iii. beg 3 \times 10^{8} ms^{-1} nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0085,benqa,banglish_noisy,True,konoti->konti (1),"fotoner ksetre- i. sthir vor suny ii. sokti h\upsilon iii. beg 3 \times 10^{8} ms^{-1} nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","fotoner ksetre- i. sthir vor suny ii. sokti h\upsilon iii. beg 3 \times 10^{8} ms^{-1} nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0197,benqa,banglish_clean,True,konoti->konti (1),"kosher sokol joibik kriya niyontron kore konoti?
+A. niukloyas
+B. raibojom
+C. laisojom
+D. maitokondriya
+Answer with only A, B, C, or D.","kosher sokol joibik kriya niyontron kore konti?
+A. niukloyas
+B. raibojom
+C. laisojom
+D. maitokondriya
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0197,benqa,banglish_noisy,True,konoti->konti (1),"koser sokol joybik kriya niyontron kore konoti?
+A. niukloyas
+B. raibojom
+C. laisojom
+D. maitokondriya
+Answer with only A, B, C, or D.","koser sokol joybik kriya niyontron kore konti?
+A. niukloyas
+B. raibojom
+C. laisojom
+D. maitokondriya
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0037,benqa,banglish_clean,True,konoti->konti (1),"enotropir ekok nicher konoti?
+A. NK^{-1}
+B. JK^{-1}
+C. JK^{-1} mol^{-1}
+D. ekokohin rashi
+Answer with only A, B, C, or D.","enotropir ekok nicher konti?
+A. NK^{-1}
+B. JK^{-1}
+C. JK^{-1} mol^{-1}
+D. ekokohin rashi
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0037,benqa,banglish_noisy,True,konoti->konti (1),"enotropir ekok nicher konoti?
+A. NK^{-1}
+B. JK^{-1}
+C. JK^{-1} mol^{-1}
+D. ekokohin rasi
+Answer with only A, B, C, or D.","enotropir ekok nicher konti?
+A. NK^{-1}
+B. JK^{-1}
+C. JK^{-1} mol^{-1}
+D. ekokohin rasi
+Answer with only A, B, C, or D."
+banglamath_0533,banglamath,banglish_clean,False,,"ek mase 20000 metrik ton rod toiri hole doinik ki poriman rod toiri hoy
+Return only the final answer.","ek mase 20000 metrik ton rod toiri hole doinik ki poriman rod toiri hoy
+Return only the final answer."
+banglamath_0533,banglamath,banglish_noisy,False,,"ek mase 20000 metrik ton rod toyri hole doynik ki poriman rod toyri hoy
+Return only the final answer.","ek mase 20000 metrik ton rod toyri hole doynik ki poriman rod toyri hoy
+Return only the final answer."
+benqa_12th-Math-II_0230,benqa,banglish_clean,True,konoti->konti (1),"5 ekok durotbe A o B bindute kriyarot 9 ebong 5 ekok maner somantoral bolodboy- i. osodrish hole lobdhir man 4 ekok ii. sodrish ebong lobdhi C bindute kriyarot hole BC = \frac{45}{14} ekok iii. sodrish hole lobdhir man 14 ekok nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","5 ekok durotbe A o B bindute kriyarot 9 ebong 5 ekok maner somantoral bolodboy- i. osodrish hole lobdhir man 4 ekok ii. sodrish ebong lobdhi C bindute kriyarot hole BC = \frac{45}{14} ekok iii. sodrish hole lobdhir man 14 ekok nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Math-II_0230,benqa,banglish_noisy,True,konoti->konti (1),"5 ekok durotbe A o B bindute kriyarot 9 ebong 5 ekok maner somantoral bolodboy- i. osodris hole lobdhir man 4 ekok ii. sodris ebong lobdhi C bindute kriyarot hole BC = \frac{45}{14} ekok iii. sodris hole lobdhir man 14 ekok nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","5 ekok durotbe A o B bindute kriyarot 9 ebong 5 ekok maner somantoral bolodboy- i. osodris hole lobdhir man 4 ekok ii. sodris ebong lobdhi C bindute kriyarot hole BC = \frac{45}{14} ekok iii. sodris hole lobdhir man 14 ekok nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0214,benqa,banglish_clean,False,,"sthir ayotone 0^{\circ}C tapomatray kono gyaser chap dwigun korole er churant tapomatra hobe-
+A. 27^{\circ}C
+B. 273^{\circ}C
+C. 300^{\circ}C
+D. 546^{\circ}C
+Answer with only A, B, C, or D.","sthir ayotone 0^{\circ}C tapomatray kono gyaser chap dwigun korole er churant tapomatra hobe-
+A. 27^{\circ}C
+B. 273^{\circ}C
+C. 300^{\circ}C
+D. 546^{\circ}C
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0214,benqa,banglish_noisy,False,,"sthir ayotone 0^{\circ}C tapomatray kono gyaser chap dwigun korole er churant tapomatra hobe-
+A. 27^{\circ}C
+B. 273^{\circ}C
+C. 300^{\circ}C
+D. 546^{\circ}C
+Answer with only A, B, C, or D.","sthir ayotone 0^{\circ}C tapomatray kono gyaser chap dwigun korole er churant tapomatra hobe-
+A. 27^{\circ}C
+B. 273^{\circ}C
+C. 300^{\circ}C
+D. 546^{\circ}C
+Answer with only A, B, C, or D."
+banglamath_0232,banglamath,banglish_clean,True,ekoti->ekti (1); kot->koto (1),"ekoti boi 15% komishone 170 takay bikroy korole prokrit muly kot
+Return only the final answer.","ekti boi 15% komishone 170 takay bikroy korole prokrit muly koto
+Return only the final answer."
+banglamath_0232,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"ekoti boy 15% komisone 170 takay bikroy korole prokrit muly kot
+Return only the final answer.","ekti boy 15% komisone 170 takay bikroy korole prokrit muly koto
+Return only the final answer."
+banglamath_0182,banglamath,banglish_clean,True,kot->koto (1),"7 keji chaler dam 280 taka hole 15 keji chaler dam kot
+Return only the final answer.","7 keji chaler dam 280 taka hole 15 keji chaler dam koto
+Return only the final answer."
+banglamath_0182,banglamath,banglish_noisy,True,kot->koto (1),"7 keji chaler dam 280 taka hole 15 keji chaler dam kot
+Return only the final answer.","7 keji chaler dam 280 taka hole 15 keji chaler dam koto
+Return only the final answer."
+benqa_10th-Physics_0198,benqa,banglish_clean,False,,"nicher kon rashigulo bhektor rashi?
+A. druti, kaj o beg
+B. torit bibhob, soron o tworon
+C. druti, soron o beg
+D. bhorobeg, soron o ojon
+Answer with only A, B, C, or D.","nicher kon rashigulo bhektor rashi?
+A. druti, kaj o beg
+B. torit bibhob, soron o tworon
+C. druti, soron o beg
+D. bhorobeg, soron o ojon
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0198,benqa,banglish_noisy,False,,"nicher kon rasigulo vektor rasi?
+A. druti, kaj o beg
+B. torit bivob, soron o tworon
+C. druti, soron o beg
+D. vorobeg, soron o ojon
+Answer with only A, B, C, or D.","nicher kon rasigulo vektor rasi?
+A. druti, kaj o beg
+B. torit bivob, soron o tworon
+C. druti, soron o beg
+D. vorobeg, soron o ojon
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0049,benqa,banglish_clean,False,,"otitis midiya' kon ongger rog?
+A. chokh
+B. nak
+C. kan
+D. gola
+Answer with only A, B, C, or D.","otitis midiya' kon ongger rog?
+A. chokh
+B. nak
+C. kan
+D. gola
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0049,benqa,banglish_noisy,False,,"otitis midiya' kon ongger rog?
+A. chok
+B. nak
+C. kan
+D. gola
+Answer with only A, B, C, or D.","otitis midiya' kon ongger rog?
+A. chok
+B. nak
+C. kan
+D. gola
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0280,benqa,banglish_clean,True,konoti->konti (1),"konoti prothom byobohrit dhatu?
+A. Au
+B. Ag
+C. Sn
+D. Cu
+Answer with only A, B, C, or D.","konti prothom byobohrit dhatu?
+A. Au
+B. Ag
+C. Sn
+D. Cu
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0280,benqa,banglish_noisy,True,konoti->konti (1),"konoti prothom byobohrit dhatu?
+A. Au
+B. Ag
+C. Sn
+D. Cu
+Answer with only A, B, C, or D.","konti prothom byobohrit dhatu?
+A. Au
+B. Ag
+C. Sn
+D. Cu
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0128,benqa,banglish_clean,True,konoti->konti (1),"shbasokendr mostishker je ongshe thake- i. ponos ii. serebelam iii. medula obolonggata nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D.","shbasokendr mostishker je ongshe thake- i. ponos ii. serebelam iii. medula obolonggata nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0128,benqa,banglish_noisy,True,konoti->konti (1),"sbasokendr mostisker je ongse thake- i. ponos ii. serebelam iii. medula obolonggata nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D.","sbasokendr mostisker je ongse thake- i. ponos ii. serebelam iii. medula obolonggata nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D."
+benqa_8th-Math_0031,benqa,banglish_clean,True,ekoti->ekti (1); kot->koto (1),"ekoti garir chakar poridhi 5.15 mitar hole, chakatir byas kot?
+A. 0.82 mitar
+B. 0.96 mitar
+C. 1.28 mitar
+D. 1.64 mitar
+Answer with only A, B, C, or D.","ekti garir chakar poridhi 5.15 mitar hole, chakatir byas koto?
+A. 0.82 mitar
+B. 0.96 mitar
+C. 1.28 mitar
+D. 1.64 mitar
+Answer with only A, B, C, or D."
+benqa_8th-Math_0031,benqa,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"ekoti garir chakar poridhi 5.15 mitar hole, chakatir byas kot?
+A. 0.82 mitar
+B. 0.96 mitar
+C. 1.28 mitar
+D. 1.64 mitar
+Answer with only A, B, C, or D.","ekti garir chakar poridhi 5.15 mitar hole, chakatir byas koto?
+A. 0.82 mitar
+B. 0.96 mitar
+C. 1.28 mitar
+D. 1.64 mitar
+Answer with only A, B, C, or D."
+banglamath_1698,banglamath,banglish_clean,False,,"daktar ek rogike sokal 6ta theke dupur 12ta poryont adh ghonta poropor 1ti tebolet khete bololen. rogir mot kototi tebolet proyojon?
+Return only the final answer.","daktar ek rogike sokal 6ta theke dupur 12ta poryont adh ghonta poropor 1ti tebolet khete bololen. rogir mot kototi tebolet proyojon?
+Return only the final answer."
+banglamath_1698,banglamath,banglish_noisy,False,,"daktar ek rogike sokal 6ta theke dupur 12ta poryont adh ghonta poropor 1ti tebolet kete bololen. rogir mot kototi tebolet proyojon?
+Return only the final answer.","daktar ek rogike sokal 6ta theke dupur 12ta poryont adh ghonta poropor 1ti tebolet kete bololen. rogir mot kototi tebolet proyojon?
+Return only the final answer."
+benqa_12th-Chemistry-I_0328,benqa,banglish_clean,False,,"Cl(17) kon bloker moul?
+A. s-blok
+B. p-blok
+C. d-blok
+D. f-blok
+Answer with only A, B, C, or D.","Cl(17) kon bloker moul?
+A. s-blok
+B. p-blok
+C. d-blok
+D. f-blok
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0328,benqa,banglish_noisy,False,,"Cl(17) kon bloker moul?
+A. s-blok
+B. p-blok
+C. d-blok
+D. f-blok
+Answer with only A, B, C, or D.","Cl(17) kon bloker moul?
+A. s-blok
+B. p-blok
+C. d-blok
+D. f-blok
+Answer with only A, B, C, or D."
+banglamath_1694,banglamath,banglish_clean,True,ekoti->ekti (2),"ekoti 500 mitar lomba trener goti 60 kilomitar hole ,ordhokilomitar lomba ekoti setu pari dite trenotir kotokshon somoy lagobe?
+Return only the final answer.","ekti 500 mitar lomba trener goti 60 kilomitar hole ,ordhokilomitar lomba ekti setu pari dite trenotir kotokshon somoy lagobe?
+Return only the final answer."
+banglamath_1694,banglamath,banglish_noisy,True,ekoti->ekti (2),"ekoti 500 mitar lomba trener goti 60 kilomitar hole ,ordhokilomitar lomba ekoti setu pari dite trenotir kotokson somoy lagobe?
+Return only the final answer.","ekti 500 mitar lomba trener goti 60 kilomitar hole ,ordhokilomitar lomba ekti setu pari dite trenotir kotokson somoy lagobe?
+Return only the final answer."
+benqa_12th-Physics-II_0046,benqa,banglish_clean,True,konoti->konti (1); kshetre->khetre (1),"ruddhotapiy poribortoner kshetre- i. hothat songghotit hoy ii. tapomatra sthir thake iii. enotropir poriborton shuny nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","ruddhotapiy poribortoner khetre- i. hothat songghotit hoy ii. tapomatra sthir thake iii. enotropir poriborton shuny nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0046,benqa,banglish_noisy,True,konoti->konti (1),"ruddhotapiy poribortoner ksetre- i. hothat songghotit hoy ii. tapomatra sthir thake iii. enotropir poriborton suny nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","ruddhotapiy poribortoner ksetre- i. hothat songghotit hoy ii. tapomatra sthir thake iii. enotropir poriborton suny nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0186,benqa,banglish_clean,True,konoti->konti (1),"(-2, 3) bindute kendr ebong y-okshoke sporsh kore erup britter somikoron konoti?
+A. x^{2} + y^{2} + 4x - 6y + 9 = 0
+B. x^{2} + y^{2} - 4x + 6y + 9 = 0
+C. x^{2} + y^{2} + 4x - 6y + 4 = 0
+D. x^{2} + y^{2} - 4x + 6y + 4 = 0
+Answer with only A, B, C, or D.","(-2, 3) bindute kendr ebong y-okshoke sporsh kore erup britter somikoron konti?
+A. x^{2} + y^{2} + 4x - 6y + 9 = 0
+B. x^{2} + y^{2} - 4x + 6y + 9 = 0
+C. x^{2} + y^{2} + 4x - 6y + 4 = 0
+D. x^{2} + y^{2} - 4x + 6y + 4 = 0
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0186,benqa,banglish_noisy,True,konoti->konti (1),"(-2, 3) bindute kendr ebong y-oksoke spors kore erup britter somikoron konoti?
+A. x^{2} + y^{2} + 4x - 6y + 9 = 0
+B. x^{2} + y^{2} - 4x + 6y + 9 = 0
+C. x^{2} + y^{2} + 4x - 6y + 4 = 0
+D. x^{2} + y^{2} - 4x + 6y + 4 = 0
+Answer with only A, B, C, or D.","(-2, 3) bindute kendr ebong y-oksoke spors kore erup britter somikoron konti?
+A. x^{2} + y^{2} + 4x - 6y + 9 = 0
+B. x^{2} + y^{2} - 4x + 6y + 9 = 0
+C. x^{2} + y^{2} + 4x - 6y + 4 = 0
+D. x^{2} + y^{2} - 4x + 6y + 4 = 0
+Answer with only A, B, C, or D."
+banglamath_0553,banglamath,banglish_clean,True,kshetrofol->khetrofol (2),"samantoriker mejhe pathor dwara dhakote kototi pathor lagobe jodi mejher kshetrofol 4500 borgogoj o pathorer kshetrofol 4 borgogoj hoy
+Return only the final answer.","samantoriker mejhe pathor dwara dhakote kototi pathor lagobe jodi mejher khetrofol 4500 borgogoj o pathorer khetrofol 4 borgogoj hoy
+Return only the final answer."
+banglamath_0553,banglamath,banglish_noisy,False,,"samantoriker mejhe pathor dwara dhakote kototi pathor lagobe jodi mejher ksetrofol 4500 borgogoj o pathorer ksetrofol 4 borgogoj hoy
+Return only the final answer.","samantoriker mejhe pathor dwara dhakote kototi pathor lagobe jodi mejher ksetrofol 4500 borgogoj o pathorer ksetrofol 4 borgogoj hoy
+Return only the final answer."
+benqa_8th-Science_0127,benqa,banglish_clean,True,achhe->ache (1),"kon groher sobocheye beshi upogroh achhe?
+A. shoni
+B. brihospoti
+C. iurenas
+D. nepochun
+Answer with only A, B, C, or D.","kon groher sobocheye beshi upogroh ache?
+A. shoni
+B. brihospoti
+C. iurenas
+D. nepochun
+Answer with only A, B, C, or D."
+benqa_8th-Science_0127,benqa,banglish_noisy,False,,"kon groher sobocheye besi upogroh ache?
+A. soni
+B. brihospoti
+C. iurenas
+D. nepochun
+Answer with only A, B, C, or D.","kon groher sobocheye besi upogroh ache?
+A. soni
+B. brihospoti
+C. iurenas
+D. nepochun
+Answer with only A, B, C, or D."
+banglamath_0226,banglamath,banglish_clean,True,kot->koto (1),"550 takake 5:6 onupate bhag korole prothom ongsh kot hobe
+Return only the final answer.","550 takake 5:6 onupate bhag korole prothom ongsh koto hobe
+Return only the final answer."
+banglamath_0226,banglamath,banglish_noisy,True,kot->koto (1),"550 takake 5:6 onupate vag korole prothom ongs kot hobe
+Return only the final answer.","550 takake 5:6 onupate vag korole prothom ongs koto hobe
+Return only the final answer."
+benqa_8th-Math_0085,benqa,banglish_clean,True,kot->koto (1),"4 kromer myajik borger konakuni jogofol kot?
+A. 15
+B. 16
+C. 34
+D. 65
+Answer with only A, B, C, or D.","4 kromer myajik borger konakuni jogofol koto?
+A. 15
+B. 16
+C. 34
+D. 65
+Answer with only A, B, C, or D."
+benqa_8th-Math_0085,benqa,banglish_noisy,True,kot->koto (1),"4 kromer myajik borger konakuni jogofol kot?
+A. 15
+B. 16
+C. 34
+D. 65
+Answer with only A, B, C, or D.","4 kromer myajik borger konakuni jogofol koto?
+A. 15
+B. 16
+C. 34
+D. 65
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0310,benqa,banglish_clean,True,konoti->konti (1),"\frac{d}{dx}(log_{10}x) er man konoti?
+A. \frac{1}{x}
+B. \frac{1}{x}log_{10}e
+C. \frac{1}{x}log_{e}10
+D. log_{10}e
+Answer with only A, B, C, or D.","\frac{d}{dx}(log_{10}x) er man konti?
+A. \frac{1}{x}
+B. \frac{1}{x}log_{10}e
+C. \frac{1}{x}log_{e}10
+D. log_{10}e
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0310,benqa,banglish_noisy,True,konoti->konti (1),"\frac{d}{dx}(log_{10}x) er man konoti?
+A. \frac{1}{x}
+B. \frac{1}{x}log_{10}e
+C. \frac{1}{x}log_{e}10
+D. log_{10}e
+Answer with only A, B, C, or D.","\frac{d}{dx}(log_{10}x) er man konti?
+A. \frac{1}{x}
+B. \frac{1}{x}log_{10}e
+C. \frac{1}{x}log_{e}10
+D. log_{10}e
+Answer with only A, B, C, or D."
+benqa_8th-Science_0062,benqa,banglish_clean,False,,"nicher konotike mutr toiriri karokhana hisebe obhihit kora jay?
+A. fusofus
+B. twok
+C. jokrit
+D. britt
+Answer with only A, B, C, or D.","nicher konotike mutr toiriri karokhana hisebe obhihit kora jay?
+A. fusofus
+B. twok
+C. jokrit
+D. britt
+Answer with only A, B, C, or D."
+benqa_8th-Science_0062,benqa,banglish_noisy,False,,"nicher konotike mutr toyriri karokana hisebe ovihit kora jay?
+A. fusofus
+B. twok
+C. jokrit
+D. britt
+Answer with only A, B, C, or D.","nicher konotike mutr toyriri karokana hisebe ovihit kora jay?
+A. fusofus
+B. twok
+C. jokrit
+D. britt
+Answer with only A, B, C, or D."
+benqa_8th-Science_0098,benqa,banglish_clean,True,ekoti->ekti (1); kot->koto (1),"ishar basar bedorume duti tiubolait o ekoti fyan pyaralale songjukt kora hoy. bedorumer bortonir sathe 10 ampiyar maner fiuj byobohar kora hoy. dwitiy upokoronotir jony karyokori fiuj kot?
+A. 5 ampiyar
+B. 10 ampiyar
+C. 15 ampiyar
+D. 30 ampiyar
+Answer with only A, B, C, or D.","ishar basar bedorume duti tiubolait o ekti fyan pyaralale songjukt kora hoy. bedorumer bortonir sathe 10 ampiyar maner fiuj byobohar kora hoy. dwitiy upokoronotir jony karyokori fiuj koto?
+A. 5 ampiyar
+B. 10 ampiyar
+C. 15 ampiyar
+D. 30 ampiyar
+Answer with only A, B, C, or D."
+benqa_8th-Science_0098,benqa,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"isar basar bedorume duti tiubolait o ekoti fyan pyaralale songjukt kora hoy. bedorumer bortonir sathe 10 ampiyar maner fiuj byobohar kora hoy. dwitiy upokoronotir jony karyokori fiuj kot?
+A. 5 ampiyar
+B. 10 ampiyar
+C. 15 ampiyar
+D. 30 ampiyar
+Answer with only A, B, C, or D.","isar basar bedorume duti tiubolait o ekti fyan pyaralale songjukt kora hoy. bedorumer bortonir sathe 10 ampiyar maner fiuj byobohar kora hoy. dwitiy upokoronotir jony karyokori fiuj koto?
+A. 5 ampiyar
+B. 10 ampiyar
+C. 15 ampiyar
+D. 30 ampiyar
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0008,benqa,banglish_clean,False,,"\vec{P} o \vec{Q} duti bhektor rashir modhyoborti kon 120^{\circ} hole tader lobdhir man-
+A. P + Q
+B. \sqrt{P^{2}+Q^{2}+PQ}
+C. P - Q
+D. \sqrt{P^{2}+Q^{2}-PQ}
+Answer with only A, B, C, or D.","\vec{P} o \vec{Q} duti bhektor rashir modhyoborti kon 120^{\circ} hole tader lobdhir man-
+A. P + Q
+B. \sqrt{P^{2}+Q^{2}+PQ}
+C. P - Q
+D. \sqrt{P^{2}+Q^{2}-PQ}
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0008,benqa,banglish_noisy,False,,"\vec{P} o \vec{Q} duti vektor rasir modhyoborti kon 120^{\circ} hole tader lobdhir man-
+A. P + Q
+B. \sqrt{P^{2}+Q^{2}+PQ}
+C. P - Q
+D. \sqrt{P^{2}+Q^{2}-PQ}
+Answer with only A, B, C, or D.","\vec{P} o \vec{Q} duti vektor rasir modhyoborti kon 120^{\circ} hole tader lobdhir man-
+A. P + Q
+B. \sqrt{P^{2}+Q^{2}+PQ}
+C. P - Q
+D. \sqrt{P^{2}+Q^{2}-PQ}
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0106,benqa,banglish_clean,True,konoti->konti (1),"nicher konoti shuny doshar somotuly?
+A. \pi/2
+B. \pi
+C. 3\pi/2
+D. 2\pi
+Answer with only A, B, C, or D.","nicher konti shuny doshar somotuly?
+A. \pi/2
+B. \pi
+C. 3\pi/2
+D. 2\pi
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0106,benqa,banglish_noisy,True,konoti->konti (1),"nicher konoti suny dosar somotuly?
+A. \pi/2
+B. \pi
+C. 3\pi/2
+D. 2\pi
+Answer with only A, B, C, or D.","nicher konti suny dosar somotuly?
+A. \pi/2
+B. \pi
+C. 3\pi/2
+D. 2\pi
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0219,benqa,banglish_clean,False,,"purn torongg rekotifayarer sorbochch kototi dayod proyojon?
+A. 1
+B. 2
+C. 3
+D. 4
+Answer with only A, B, C, or D.","purn torongg rekotifayarer sorbochch kototi dayod proyojon?
+A. 1
+B. 2
+C. 3
+D. 4
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0219,benqa,banglish_noisy,False,,"purn torongg rekotifayarer sorbochch kototi dayod proyojon?
+A. 1
+B. 2
+C. 3
+D. 4
+Answer with only A, B, C, or D.","purn torongg rekotifayarer sorbochch kototi dayod proyojon?
+A. 1
+B. 2
+C. 3
+D. 4
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0143,benqa,banglish_clean,False,,"akosmik kidoni okejo hote pare kon karone?
+A. dayabetis
+B. nefraitis
+C. maratmok dayoriya
+D. uchch roktochap
+Answer with only A, B, C, or D.","akosmik kidoni okejo hote pare kon karone?
+A. dayabetis
+B. nefraitis
+C. maratmok dayoriya
+D. uchch roktochap
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0143,benqa,banglish_noisy,False,,"akosmik kidoni okejo hote pare kon karone?
+A. dayabetis
+B. nefraitis
+C. maratmok dayoriya
+D. uchch roktochap
+Answer with only A, B, C, or D.","akosmik kidoni okejo hote pare kon karone?
+A. dayabetis
+B. nefraitis
+C. maratmok dayoriya
+D. uchch roktochap
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0067,benqa,banglish_clean,True,konoti->konti (1),"32g O_{2} er orth holo- i. 1 mole O_{2} ii. proman obosthay 24.8L ayoton iii. adogedror songkhyar soman onu nicher konoti sothik?
+A. i
+B. i o ii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","32g O_{2} er orth holo- i. 1 mole O_{2} ii. proman obosthay 24.8L ayoton iii. adogedror songkhyar soman onu nicher konti sothik?
+A. i
+B. i o ii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0067,benqa,banglish_noisy,True,konoti->konti (1),"32g O_{2} er orth holo- i. 1 mole O_{2} ii. proman obosthay 24.8L ayoton iii. adogedror songkyar soman onu nicher konoti sothik?
+A. i
+B. i o ii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","32g O_{2} er orth holo- i. 1 mole O_{2} ii. proman obosthay 24.8L ayoton iii. adogedror songkyar soman onu nicher konti sothik?
+A. i
+B. i o ii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0037,benqa,banglish_clean,True,konoti->konti (1),"dhatur golonangk briddhi pay, jokhon- i. dhatob kelase mukt ilekotron beshi thake ii. ayonikoron bibhob hras pay iii. poromanur akar kshudr hoy nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","dhatur golonangk briddhi pay, jokhon- i. dhatob kelase mukt ilekotron beshi thake ii. ayonikoron bibhob hras pay iii. poromanur akar kshudr hoy nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0037,benqa,banglish_noisy,True,konoti->konti (1),"dhatur golonangk briddhi pay, jokon- i. dhatob kelase mukt ilekotron besi thake ii. ayonikoron bivob hras pay iii. poromanur akar ksudr hoy nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","dhatur golonangk briddhi pay, jokon- i. dhatob kelase mukt ilekotron besi thake ii. ayonikoron bivob hras pay iii. poromanur akar ksudr hoy nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+banglamath_0519,banglamath,banglish_clean,True,ayotakar->ayotokar (1); doirghy->doirgho (1); ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1); prosth->prostho (1),"ekoti ayotakar baganer doirghy 150 mitar o prosth 50 mitar hole kshetrofol kot
+Return only the final answer.","ekti ayotokar baganer doirgho 150 mitar o prostho 50 mitar hole khetrofol koto
+Return only the final answer."
+banglamath_0519,banglamath,banglish_noisy,True,ayotakar->ayotokar (1); ekoti->ekti (1); kot->koto (1); prosth->prostho (1),"ekoti ayotakar baganer doyrghy 150 mitar o prosth 50 mitar hole ksetrofol kot
+Return only the final answer.","ekti ayotokar baganer doyrghy 150 mitar o prostho 50 mitar hole ksetrofol koto
+Return only the final answer."
+banglamath_0540,banglamath,banglish_clean,True,doirghy->doirgho (2); ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1),"ekoti ghorer doirghy prosther tinogun ebong kshetrofol 147 borgomitar hole ghorotir doirghy kot
+Return only the final answer.","ekti ghorer doirgho prosther tinogun ebong khetrofol 147 borgomitar hole ghorotir doirgho koto
+Return only the final answer."
+banglamath_0540,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"ekoti ghorer doyrghy prosther tinogun ebong ksetrofol 147 borgomitar hole ghorotir doyrghy kot
+Return only the final answer.","ekti ghorer doyrghy prosther tinogun ebong ksetrofol 147 borgomitar hole ghorotir doyrghy koto
+Return only the final answer."
+banglamath_0237,banglamath,banglish_clean,True,kot->koto (1),"1 dojon dimer dam 48 taka hole 16ti dimer dam kot
+Return only the final answer.","1 dojon dimer dam 48 taka hole 16ti dimer dam koto
+Return only the final answer."
+banglamath_0237,banglamath,banglish_noisy,True,kot->koto (1),"1 dojon dimer dam 48 taka hole 16ti dimer dam kot
+Return only the final answer.","1 dojon dimer dam 48 taka hole 16ti dimer dam koto
+Return only the final answer."
+benqa_10th-Math-II_0347,benqa,banglish_clean,True,kot->koto (1),"cos\left ( - \frac{35\pi}{6} \right ) er man kot?
+A. - \frac{\sqrt{3}}{2}
+B. - \frac{1}{2}
+C. \frac{1}{2}
+D. \frac{\sqrt{3}}{2}
+Answer with only A, B, C, or D.","cos\left ( - \frac{35\pi}{6} \right ) er man koto?
+A. - \frac{\sqrt{3}}{2}
+B. - \frac{1}{2}
+C. \frac{1}{2}
+D. \frac{\sqrt{3}}{2}
+Answer with only A, B, C, or D."
+benqa_10th-Math-II_0347,benqa,banglish_noisy,True,kot->koto (1),"cos\left ( - \frac{35\pi}{6} \right ) er man kot?
+A. - \frac{\sqrt{3}}{2}
+B. - \frac{1}{2}
+C. \frac{1}{2}
+D. \frac{\sqrt{3}}{2}
+Answer with only A, B, C, or D.","cos\left ( - \frac{35\pi}{6} \right ) er man koto?
+A. - \frac{\sqrt{3}}{2}
+B. - \frac{1}{2}
+C. \frac{1}{2}
+D. \frac{\sqrt{3}}{2}
+Answer with only A, B, C, or D."
+benqa_12th-Math-II_0214,benqa,banglish_clean,False,,"tan^{-1}\ \frac{1}{\sqrt{3}} + tan^{-1}x = \frac{\pi}{2} hole x = ?
+A. \frac{1}{\sqrt{3}}
+B. - \frac{1}{\sqrt{3}}
+C. \sqrt{3}
+D. - \sqrt{3}
+Answer with only A, B, C, or D.","tan^{-1}\ \frac{1}{\sqrt{3}} + tan^{-1}x = \frac{\pi}{2} hole x = ?
+A. \frac{1}{\sqrt{3}}
+B. - \frac{1}{\sqrt{3}}
+C. \sqrt{3}
+D. - \sqrt{3}
+Answer with only A, B, C, or D."
+benqa_12th-Math-II_0214,benqa,banglish_noisy,False,,"tan^{-1}\ \frac{1}{\sqrt{3}} + tan^{-1}x = \frac{\pi}{2} hole x = ?
+A. \frac{1}{\sqrt{3}}
+B. - \frac{1}{\sqrt{3}}
+C. \sqrt{3}
+D. - \sqrt{3}
+Answer with only A, B, C, or D.","tan^{-1}\ \frac{1}{\sqrt{3}} + tan^{-1}x = \frac{\pi}{2} hole x = ?
+A. \frac{1}{\sqrt{3}}
+B. - \frac{1}{\sqrt{3}}
+C. \sqrt{3}
+D. - \sqrt{3}
+Answer with only A, B, C, or D."
+banglamath_0181,banglamath,banglish_clean,True,thakole->thakle (1),"kajer poriman oporibortit thakole lok songkhya barale somoy ki hoy
+Return only the final answer.","kajer poriman oporibortit thakle lok songkhya barale somoy ki hoy
+Return only the final answer."
+banglamath_0181,banglamath,banglish_noisy,True,thakole->thakle (1),"kajer poriman oporibortit thakole lok songkya barale somoy ki hoy
+Return only the final answer.","kajer poriman oporibortit thakle lok songkya barale somoy ki hoy
+Return only the final answer."
+banglamath_0183,banglamath,banglish_clean,True,achhe->ache (1); ekoti->ekti (1); kot->koto (1),"ekoti chhatrabase 50 joner 15 diner khaddo mojud achhe. oi khadde 25 joner kot din cholobe
+Return only the final answer.","ekti chhatrabase 50 joner 15 diner khaddo mojud ache. oi khadde 25 joner koto din cholobe
+Return only the final answer."
+banglamath_0183,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"ekoti chatrabase 50 joner 15 diner kaddo mojud ache. oy kadde 25 joner kot din cholobe
+Return only the final answer.","ekti chatrabase 50 joner 15 diner kaddo mojud ache. oy kadde 25 joner koto din cholobe
+Return only the final answer."
+benqa_10th-Biology_0215,benqa,banglish_clean,True,konoti->konti (1),"C_{6}H_{12}O_{6}\xarrowright{enojaim}C_{3}H_{4}O_{3} uddipoker prokriyati- i. sobat o obat shbosoner prothom dhap ii. kosher maitokondriyay ghote thake iii. ete nit onu ATP utoponn hoy nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","C_{6}H_{12}O_{6}\xarrowright{enojaim}C_{3}H_{4}O_{3} uddipoker prokriyati- i. sobat o obat shbosoner prothom dhap ii. kosher maitokondriyay ghote thake iii. ete nit onu ATP utoponn hoy nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0215,benqa,banglish_noisy,True,konoti->konti (1),"C_{6}H_{12}O_{6}\xarrowright{enojaim}C_{3}H_{4}O_{3} uddipoker prokriyati- i. sobat o obat sbosoner prothom dhap ii. koser maitokondriyay ghote thake iii. ete nit onu ATP utoponn hoy nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","C_{6}H_{12}O_{6}\xarrowright{enojaim}C_{3}H_{4}O_{3} uddipoker prokriyati- i. sobat o obat sbosoner prothom dhap ii. koser maitokondriyay ghote thake iii. ete nit onu ATP utoponn hoy nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0336,benqa,banglish_clean,True,konoti->konti (1),"A \rightarrow CaCO_{3}(s) \xrightarrow{\Delta} CaO(s) + X(g) B \rightarrow 250 mL 0.2 molar NaCl drobon A-er 'X' gyasoti- i. CO_{2} ii. omlodhormi iii. bayu opeksha bhari nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","A \rightarrow CaCO_{3}(s) \xrightarrow{\Delta} CaO(s) + X(g) B \rightarrow 250 mL 0.2 molar NaCl drobon A-er 'X' gyasoti- i. CO_{2} ii. omlodhormi iii. bayu opeksha bhari nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0336,benqa,banglish_noisy,True,konoti->konti (1),"A \rightarrow CaCO_{3}(s) \xrightarrow{\Delta} CaO(s) + X(g) B \rightarrow 250 mL 0.2 molar NaCl drobon A-er 'X' gyasoti- i. CO_{2} ii. omlodhormi iii. bayu opeksa vari nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","A \rightarrow CaCO_{3}(s) \xrightarrow{\Delta} CaO(s) + X(g) B \rightarrow 250 mL 0.2 molar NaCl drobon A-er 'X' gyasoti- i. CO_{2} ii. omlodhormi iii. bayu opeksa vari nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+banglamath_0185,banglamath,banglish_clean,True,kot->koto (1),"120 keji chale 10 jon loker 27 din chole. 45 din cholote kot keji chal proyojon hobe
+Return only the final answer.","120 keji chale 10 jon loker 27 din chole. 45 din cholote koto keji chal proyojon hobe
+Return only the final answer."
+banglamath_0185,banglamath,banglish_noisy,True,kot->koto (1),"120 keji chale 10 jon loker 27 din chole. 45 din cholote kot keji chal proyojon hobe
+Return only the final answer.","120 keji chale 10 jon loker 27 din chole. 45 din cholote koto keji chal proyojon hobe
+Return only the final answer."
+banglamath_1690,banglamath,banglish_clean,False,,"khelona gari niye khelar somoy mintu dekholo , sentur garir songkhya tar cheye beshi ebong sentu ke bololo, tumi amake duita gari dao tahole amader garir songkhya soman hobe .sentu ulto jor kore mintur theke 2ti gari niye hisab kore bolol tar garir songkhya ekhon mintur dwigun . shurute kar koyoti gari chhil ?
+Return only the final answer.","khelona gari niye khelar somoy mintu dekholo , sentur garir songkhya tar cheye beshi ebong sentu ke bololo, tumi amake duita gari dao tahole amader garir songkhya soman hobe .sentu ulto jor kore mintur theke 2ti gari niye hisab kore bolol tar garir songkhya ekhon mintur dwigun . shurute kar koyoti gari chhil ?
+Return only the final answer."
+banglamath_1690,banglamath,banglish_noisy,False,,"kelona gari niye kelar somoy mintu dekolo , sentur garir songkya tar cheye besi ebong sentu ke bololo, tumi amake duita gari dao tahole amader garir songkya soman hobe .sentu ulto jor kore mintur theke 2ti gari niye hisab kore bolol tar garir songkya ekon mintur dwigun . surute kar koyoti gari chil ?
+Return only the final answer.","kelona gari niye kelar somoy mintu dekolo , sentur garir songkya tar cheye besi ebong sentu ke bololo, tumi amake duita gari dao tahole amader garir songkya soman hobe .sentu ulto jor kore mintur theke 2ti gari niye hisab kore bolol tar garir songkya ekon mintur dwigun . surute kar koyoti gari chil ?
+Return only the final answer."
+benqa_10th-Chemistry_0041,benqa,banglish_clean,True,ekoti->ekti (1),"nicher kon tothyoti sothik?
+A. C_{2}H_{4} opeksha C_{2}H{6} odhik sokriy
+B. CH_{4} ksharoker sathe bikriya kore
+C. ithanol ekoti haidrokarbon
+D. polipropinoke ri-saikel kora jay
+Answer with only A, B, C, or D.","nicher kon tothyoti sothik?
+A. C_{2}H_{4} opeksha C_{2}H{6} odhik sokriy
+B. CH_{4} ksharoker sathe bikriya kore
+C. ithanol ekti haidrokarbon
+D. polipropinoke ri-saikel kora jay
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0041,benqa,banglish_noisy,True,ekoti->ekti (1),"nicher kon tothyoti sothik?
+A. C_{2}H_{4} opeksa C_{2}H{6} odhik sokriy
+B. CH_{4} ksaroker sathe bikriya kore
+C. ithanol ekoti haidrokarbon
+D. polipropinoke ri-saikel kora jay
+Answer with only A, B, C, or D.","nicher kon tothyoti sothik?
+A. C_{2}H_{4} opeksa C_{2}H{6} odhik sokriy
+B. CH_{4} ksaroker sathe bikriya kore
+C. ithanol ekti haidrokarbon
+D. polipropinoke ri-saikel kora jay
+Answer with only A, B, C, or D."
+banglamath_1687,banglamath,banglish_clean,True,kot->koto (1),"4ti kanthal ebong 5ti toromujer ojoner somoshti 32kilogram. 5ti kathal ebong 4ti toromujer ojoner somoshti 31 kilogram. uporer sob kathaler ojon soman ebong sob toromujer ojon soman . 1 kathal o 1 toromujer ojon kot?
+Return only the final answer.","4ti kanthal ebong 5ti toromujer ojoner somoshti 32kilogram. 5ti kathal ebong 4ti toromujer ojoner somoshti 31 kilogram. uporer sob kathaler ojon soman ebong sob toromujer ojon soman . 1 kathal o 1 toromujer ojon koto?
+Return only the final answer."
+banglamath_1687,banglamath,banglish_noisy,True,kot->koto (1),"4ti kanthal ebong 5ti toromujer ojoner somosti 32kilogram. 5ti kathal ebong 4ti toromujer ojoner somosti 31 kilogram. uporer sob kathaler ojon soman ebong sob toromujer ojon soman . 1 kathal o 1 toromujer ojon kot?
+Return only the final answer.","4ti kanthal ebong 5ti toromujer ojoner somosti 32kilogram. 5ti kathal ebong 4ti toromujer ojoner somosti 31 kilogram. uporer sob kathaler ojon soman ebong sob toromujer ojon soman . 1 kathal o 1 toromujer ojon koto?
+Return only the final answer."
+benqa_10th-Physics_0021,benqa,banglish_clean,True,konoti->konti (1),"konoti moulik ekok?
+A. jul
+B. niuton
+C. kyandela
+D. pyasokel
+Answer with only A, B, C, or D.","konti moulik ekok?
+A. jul
+B. niuton
+C. kyandela
+D. pyasokel
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0021,benqa,banglish_noisy,True,konoti->konti (1),"konoti moulik ekok?
+A. jul
+B. niuton
+C. kyandela
+D. pyasokel
+Answer with only A, B, C, or D.","konti moulik ekok?
+A. jul
+B. niuton
+C. kyandela
+D. pyasokel
+Answer with only A, B, C, or D."
+benqa_10th-Math_0032,benqa,banglish_clean,True,kot->koto (1),"(\sqrt{3})^{x+2} = 27 hole x er man kot?
+A. 6
+B. 4
+C. 3
+D. 2
+Answer with only A, B, C, or D.","(\sqrt{3})^{x+2} = 27 hole x er man koto?
+A. 6
+B. 4
+C. 3
+D. 2
+Answer with only A, B, C, or D."
+benqa_10th-Math_0032,benqa,banglish_noisy,True,kot->koto (1),"(\sqrt{3})^{x+2} = 27 hole x er man kot?
+A. 6
+B. 4
+C. 3
+D. 2
+Answer with only A, B, C, or D.","(\sqrt{3})^{x+2} = 27 hole x er man koto?
+A. 6
+B. 4
+C. 3
+D. 2
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0326,benqa,banglish_clean,False,,"tan\frac{\alpha}{2} = 7 hole 4sin\alpha - 3cos\alpha = ?
+A. 5
+B. 4
+C. 3
+D. 6
+Answer with only A, B, C, or D.","tan\frac{\alpha}{2} = 7 hole 4sin\alpha - 3cos\alpha = ?
+A. 5
+B. 4
+C. 3
+D. 6
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0326,benqa,banglish_noisy,False,,"tan\frac{\alfa}{2} = 7 hole 4sin\alfa - 3cos\alfa = ?
+A. 5
+B. 4
+C. 3
+D. 6
+Answer with only A, B, C, or D.","tan\frac{\alfa}{2} = 7 hole 4sin\alfa - 3cos\alfa = ?
+A. 5
+B. 4
+C. 3
+D. 6
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0283,benqa,banglish_clean,True,konoti->konti (1),"penper ring spot roger lokshon holo- i. patar botay pani bheja sobuj dag dekha jay ii. penper mishtota hras pay iii. foler akar bor hoy nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D.","penper ring spot roger lokshon holo- i. patar botay pani bheja sobuj dag dekha jay ii. penper mishtota hras pay iii. foler akar bor hoy nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0283,benqa,banglish_noisy,True,konoti->konti (1),"penper ring spot roger lokson holo- i. patar botay pani veja sobuj dag deka jay ii. penper mistota hras pay iii. foler akar bor hoy nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D.","penper ring spot roger lokson holo- i. patar botay pani veja sobuj dag deka jay ii. penper mistota hras pay iii. foler akar bor hoy nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0055,benqa,banglish_clean,True,korote->korte (1),"panite santar katar somoy kon badha otikrom korote hoy?
+A. sthiti ghorshon
+B. goti ghorshon
+C. abort ghorshon
+D. probahi ghorshon
+Answer with only A, B, C, or D.","panite santar katar somoy kon badha otikrom korte hoy?
+A. sthiti ghorshon
+B. goti ghorshon
+C. abort ghorshon
+D. probahi ghorshon
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0055,benqa,banglish_noisy,True,korote->korte (1),"panite santar katar somoy kon badha otikrom korote hoy?
+A. sthiti ghorson
+B. goti ghorson
+C. abort ghorson
+D. probahi ghorson
+Answer with only A, B, C, or D.","panite santar katar somoy kon badha otikrom korte hoy?
+A. sthiti ghorson
+B. goti ghorson
+C. abort ghorson
+D. probahi ghorson
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0028,benqa,banglish_clean,True,kot->koto (1),"1% NaOH droboner pH kot?
+A. 0.8
+B. 13.4
+C. 13.2
+D. 1
+Answer with only A, B, C, or D.","1% NaOH droboner pH koto?
+A. 0.8
+B. 13.4
+C. 13.2
+D. 1
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0028,benqa,banglish_noisy,True,kot->koto (1),"1% NaOH droboner pH kot?
+A. 0.8
+B. 13.4
+C. 13.2
+D. 1
+Answer with only A, B, C, or D.","1% NaOH droboner pH koto?
+A. 0.8
+B. 13.4
+C. 13.2
+D. 1
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0374,benqa,banglish_clean,False,,"ithilin glaikol kon dhoroner joug?
+A. alodihaid
+B. alokohol
+C. alokin
+D. alokain
+Answer with only A, B, C, or D.","ithilin glaikol kon dhoroner joug?
+A. alodihaid
+B. alokohol
+C. alokin
+D. alokain
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0374,benqa,banglish_noisy,False,,"ithilin glaikol kon dhoroner joug?
+A. alodihaid
+B. alokohol
+C. alokin
+D. alokain
+Answer with only A, B, C, or D.","ithilin glaikol kon dhoroner joug?
+A. alodihaid
+B. alokohol
+C. alokin
+D. alokain
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0156,benqa,banglish_clean,True,kot->koto (1),"amishe shotokora kot bhag naitrojen bidyoman
+A. 12
+B. 14
+C. 16
+D. 18
+Answer with only A, B, C, or D.","amishe shotokora koto bhag naitrojen bidyoman
+A. 12
+B. 14
+C. 16
+D. 18
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0156,benqa,banglish_noisy,True,kot->koto (1),"amise sotokora kot vag naitrojen bidyoman
+A. 12
+B. 14
+C. 16
+D. 18
+Answer with only A, B, C, or D.","amise sotokora koto vag naitrojen bidyoman
+A. 12
+B. 14
+C. 16
+D. 18
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0383,benqa,banglish_clean,True,kot->koto (1),"\frac{d}{dx} (log_{5}x) = kot?
+A. \frac{1}{x}
+B. \frac{1}{x}log_{e}5
+C. \frac{1}{5 lnx}
+D. \frac{1}{x ln5}
+Answer with only A, B, C, or D.","\frac{d}{dx} (log_{5}x) = koto?
+A. \frac{1}{x}
+B. \frac{1}{x}log_{e}5
+C. \frac{1}{5 lnx}
+D. \frac{1}{x ln5}
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0383,benqa,banglish_noisy,True,kot->koto (1),"\frac{d}{dx} (log_{5}x) = kot?
+A. \frac{1}{x}
+B. \frac{1}{x}log_{e}5
+C. \frac{1}{5 lnx}
+D. \frac{1}{x ln5}
+Answer with only A, B, C, or D.","\frac{d}{dx} (log_{5}x) = koto?
+A. \frac{1}{x}
+B. \frac{1}{x}log_{e}5
+C. \frac{1}{5 lnx}
+D. \frac{1}{x ln5}
+Answer with only A, B, C, or D."
+banglamath_0538,banglamath,banglish_clean,True,ayotakar->ayotokar (1); choora->chowra (1); doirghy->doirgho (1); ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1); prosth->prostho (1); thakole->thakle (1),"ekoti ayotakar baganer doirghy 60 mitar o prosth 40 mitar. er bhitore 2 mitar choora rasta thakole rastar kshetrofol kot
+Return only the final answer.","ekti ayotokar baganer doirgho 60 mitar o prostho 40 mitar. er bhitore 2 mitar chowra rasta thakle rastar khetrofol koto
+Return only the final answer."
+banglamath_0538,banglamath,banglish_noisy,True,ayotakar->ayotokar (1); choora->chowra (1); ekoti->ekti (1); kot->koto (1); prosth->prostho (1); thakole->thakle (1),"ekoti ayotakar baganer doyrghy 60 mitar o prosth 40 mitar. er vitore 2 mitar choora rasta thakole rastar ksetrofol kot
+Return only the final answer.","ekti ayotokar baganer doyrghy 60 mitar o prostho 40 mitar. er vitore 2 mitar chowra rasta thakle rastar ksetrofol koto
+Return only the final answer."
+benqa_10th-Biology_0213,benqa,banglish_clean,False,,"laisojomer sathe nicher konotir karyogot mil royechhe?
+A. losika kosh
+B. snayu kosh
+C. jonon kosh
+D. osthi kosh
+Answer with only A, B, C, or D.","laisojomer sathe nicher konotir karyogot mil royechhe?
+A. losika kosh
+B. snayu kosh
+C. jonon kosh
+D. osthi kosh
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0213,benqa,banglish_noisy,False,,"laisojomer sathe nicher konotir karyogot mil royeche?
+A. losika kos
+B. snayu kos
+C. jonon kos
+D. osthi kos
+Answer with only A, B, C, or D.","laisojomer sathe nicher konotir karyogot mil royeche?
+A. losika kos
+B. snayu kos
+C. jonon kos
+D. osthi kos
+Answer with only A, B, C, or D."
+benqa_10th-Math-II_0326,benqa,banglish_clean,True,kot->koto (1),"sin B = \sqrt{2} - cosB hole, B = kot?
+A. \frac{\pi}{2}
+B. \frac{\pi}{3}
+C. \frac{\pi}{4}
+D. \frac{\pi}{6}
+Answer with only A, B, C, or D.","sin B = \sqrt{2} - cosB hole, B = koto?
+A. \frac{\pi}{2}
+B. \frac{\pi}{3}
+C. \frac{\pi}{4}
+D. \frac{\pi}{6}
+Answer with only A, B, C, or D."
+benqa_10th-Math-II_0326,benqa,banglish_noisy,True,kot->koto (1),"sin B = \sqrt{2} - cosB hole, B = kot?
+A. \frac{\pi}{2}
+B. \frac{\pi}{3}
+C. \frac{\pi}{4}
+D. \frac{\pi}{6}
+Answer with only A, B, C, or D.","sin B = \sqrt{2} - cosB hole, B = koto?
+A. \frac{\pi}{2}
+B. \frac{\pi}{3}
+C. \frac{\pi}{4}
+D. \frac{\pi}{6}
+Answer with only A, B, C, or D."
+banglamath_0518,banglamath,banglish_clean,True,ayotakar->ayotokar (1); doirghy->doirgho (2); ekoti->ekti (1); kot->koto (1),"ekoti ayotakar baganer doirghy prosther tinogun ebong porisima 400 mitar hole baganer doirghy kot
+Return only the final answer.","ekti ayotokar baganer doirgho prosther tinogun ebong porisima 400 mitar hole baganer doirgho koto
+Return only the final answer."
+banglamath_0518,banglamath,banglish_noisy,True,ayotakar->ayotokar (1); ekoti->ekti (1); kot->koto (1),"ekoti ayotakar baganer doyrghy prosther tinogun ebong porisima 400 mitar hole baganer doyrghy kot
+Return only the final answer.","ekti ayotokar baganer doyrghy prosther tinogun ebong porisima 400 mitar hole baganer doyrghy koto
+Return only the final answer."
+benqa_12th-Biology-II_0321,benqa,banglish_clean,True,konoti->konti (1),"pranijogoter dwitiy brihottom porb konoti?
+A. Cnidaria
+B. Annelida
+C. Mollusca
+D. Athropoda
+Answer with only A, B, C, or D.","pranijogoter dwitiy brihottom porb konti?
+A. Cnidaria
+B. Annelida
+C. Mollusca
+D. Athropoda
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0321,benqa,banglish_noisy,True,konoti->konti (1),"pranijogoter dwitiy brihottom porb konoti?
+A. Cnidaria
+B. Annelida
+C. Mollusca
+D. Athropoda
+Answer with only A, B, C, or D.","pranijogoter dwitiy brihottom porb konti?
+A. Cnidaria
+B. Annelida
+C. Mollusca
+D. Athropoda
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0287,benqa,banglish_clean,True,konoti->konti (2),"protin poripake ongsh ney konoti? i. peposin ii. amailej iii. karboksipepotaid nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D.","protin poripake ongsh ney konti? i. peposin ii. amailej iii. karboksipepotaid nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0287,benqa,banglish_noisy,True,konoti->konti (2),"protin poripake ongs ney konoti? i. peposin ii. amailej iii. karboksipepotaid nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D.","protin poripake ongs ney konti? i. peposin ii. amailej iii. karboksipepotaid nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0079,benqa,banglish_clean,True,konoti->konti (1),"porom shuny tapomatra konoti?
+A. 273^{\circ}C
+B. 0^{\circ}C
+C. -273^{\circ}C
+D. -373^{\circ}C
+Answer with only A, B, C, or D.","porom shuny tapomatra konti?
+A. 273^{\circ}C
+B. 0^{\circ}C
+C. -273^{\circ}C
+D. -373^{\circ}C
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0079,benqa,banglish_noisy,True,konoti->konti (1),"porom suny tapomatra konoti?
+A. 273^{\circ}C
+B. 0^{\circ}C
+C. -273^{\circ}C
+D. -373^{\circ}C
+Answer with only A, B, C, or D.","porom suny tapomatra konti?
+A. 273^{\circ}C
+B. 0^{\circ}C
+C. -273^{\circ}C
+D. -373^{\circ}C
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0140,benqa,banglish_clean,True,kot->koto (1),"CaF_{2}-er somprikt joliy drobone floraid ayoner ghonomatra 0.00655 gL^{-1} hole CaF_{2} er drabyota gunofol kot hobe?
+A. 3.7\times 10^{-13}
+B. 2.048\times 10^{-10}
+C. 3.7\times 10^{-12}
+D. 2.048\times 10^{-11}
+Answer with only A, B, C, or D.","CaF_{2}-er somprikt joliy drobone floraid ayoner ghonomatra 0.00655 gL^{-1} hole CaF_{2} er drabyota gunofol koto hobe?
+A. 3.7\times 10^{-13}
+B. 2.048\times 10^{-10}
+C. 3.7\times 10^{-12}
+D. 2.048\times 10^{-11}
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0140,benqa,banglish_noisy,True,kot->koto (1),"CaF_{2}-er somprikt joliy drobone floraid ayoner ghonomatra 0.00655 gL^{-1} hole CaF_{2} er drabyota gunofol kot hobe?
+A. 3.7\times 10^{-13}
+B. 2.048\times 10^{-10}
+C. 3.7\times 10^{-12}
+D. 2.048\times 10^{-11}
+Answer with only A, B, C, or D.","CaF_{2}-er somprikt joliy drobone floraid ayoner ghonomatra 0.00655 gL^{-1} hole CaF_{2} er drabyota gunofol koto hobe?
+A. 3.7\times 10^{-13}
+B. 2.048\times 10^{-10}
+C. 3.7\times 10^{-12}
+D. 2.048\times 10^{-11}
+Answer with only A, B, C, or D."
+banglamath_0233,banglamath,banglish_clean,True,ekoti->ekti (1); kot->koto (1),"6 jon lok ekoti kaj 28 dine korole 24 jon lok kot dine korobe
+Return only the final answer.","6 jon lok ekti kaj 28 dine korole 24 jon lok koto dine korobe
+Return only the final answer."
+banglamath_0233,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"6 jon lok ekoti kaj 28 dine korole 24 jon lok kot dine korobe
+Return only the final answer.","6 jon lok ekti kaj 28 dine korole 24 jon lok koto dine korobe
+Return only the final answer."
+benqa_8th-Science_0042,benqa,banglish_clean,False,,"saban toirir mul upadan
+A. esid
+B. ksharok
+C. lobon
+D. glisarin
+Answer with only A, B, C, or D.","saban toirir mul upadan
+A. esid
+B. ksharok
+C. lobon
+D. glisarin
+Answer with only A, B, C, or D."
+benqa_8th-Science_0042,benqa,banglish_noisy,False,,"saban toyrir mul upadan
+A. esid
+B. ksarok
+C. lobon
+D. glisarin
+Answer with only A, B, C, or D.","saban toyrir mul upadan
+A. esid
+B. ksarok
+C. lobon
+D. glisarin
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0303,benqa,banglish_clean,False,,"nicher kon esidoti sobocheye shoktishali?
+A. HF
+B. HCI
+C. HBr
+D. HI
+Answer with only A, B, C, or D.","nicher kon esidoti sobocheye shoktishali?
+A. HF
+B. HCI
+C. HBr
+D. HI
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0303,benqa,banglish_noisy,False,,"nicher kon esidoti sobocheye soktisali?
+A. HF
+B. HCI
+C. HBr
+D. HI
+Answer with only A, B, C, or D.","nicher kon esidoti sobocheye soktisali?
+A. HF
+B. HCI
+C. HBr
+D. HI
+Answer with only A, B, C, or D."
+banglamath_1699,banglamath,banglish_clean,True,kot->koto (1),"A - B = 10, AB = 16 hole A² + B² = kot?
+Return only the final answer.","A - B = 10, AB = 16 hole A² + B² = koto?
+Return only the final answer."
+banglamath_1699,banglamath,banglish_noisy,True,kot->koto (1),"A - B = 10, AB = 16 hole A² + B² = kot?
+Return only the final answer.","A - B = 10, AB = 16 hole A² + B² = koto?
+Return only the final answer."
+banglamath_0552,banglamath,banglish_clean,True,ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1); uchchota->ucchota (1),"ekoti samantoriker bhumi 90 goj o uchchota 50 goj hole tar kshetrofol kot
+Return only the final answer.","ekti samantoriker bhumi 90 goj o ucchota 50 goj hole tar khetrofol koto
+Return only the final answer."
+banglamath_0552,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1); uchchota->ucchota (1),"ekoti samantoriker vumi 90 goj o uchchota 50 goj hole tar ksetrofol kot
+Return only the final answer.","ekti samantoriker vumi 90 goj o ucchota 50 goj hole tar ksetrofol koto
+Return only the final answer."
+benqa_12th-Physics-II_0290,benqa,banglish_clean,True,ekoti->ekti (1); kot->koto (1),"ekoti karno injiner karyonirbahok bostu 400 K tapomatrar tap utos hote 840 J tap grohon kore tapograhoke 630 J tap borjon kore. tap grahoker tapomatra kot?
+A. 210 K
+B. 300 K
+C. 400 K
+D. 440 K
+Answer with only A, B, C, or D.","ekti karno injiner karyonirbahok bostu 400 K tapomatrar tap utos hote 840 J tap grohon kore tapograhoke 630 J tap borjon kore. tap grahoker tapomatra koto?
+A. 210 K
+B. 300 K
+C. 400 K
+D. 440 K
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0290,benqa,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"ekoti karno injiner karyonirbahok bostu 400 K tapomatrar tap utos hote 840 J tap grohon kore tapograhoke 630 J tap borjon kore. tap grahoker tapomatra kot?
+A. 210 K
+B. 300 K
+C. 400 K
+D. 440 K
+Answer with only A, B, C, or D.","ekti karno injiner karyonirbahok bostu 400 K tapomatrar tap utos hote 840 J tap grohon kore tapograhoke 630 J tap borjon kore. tap grahoker tapomatra koto?
+A. 210 K
+B. 300 K
+C. 400 K
+D. 440 K
+Answer with only A, B, C, or D."
+benqa_8th-Math_0072,benqa,banglish_clean,False,,"779 songkhyati kon bijogonitiy rashir 111 tom pod?
+A. 7k - 2
+B. 7k + 2
+C. 5555k + 224
+D. 777k + 2
+Answer with only A, B, C, or D.","779 songkhyati kon bijogonitiy rashir 111 tom pod?
+A. 7k - 2
+B. 7k + 2
+C. 5555k + 224
+D. 777k + 2
+Answer with only A, B, C, or D."
+benqa_8th-Math_0072,benqa,banglish_noisy,False,,"779 songkyati kon bijogonitiy rasir 111 tom pod?
+A. 7k - 2
+B. 7k + 2
+C. 5555k + 224
+D. 777k + 2
+Answer with only A, B, C, or D.","779 songkyati kon bijogonitiy rasir 111 tom pod?
+A. 7k - 2
+B. 7k + 2
+C. 5555k + 224
+D. 777k + 2
+Answer with only A, B, C, or D."
+banglamath_0539,banglamath,banglish_clean,True,ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1),"ekoti ghorer mejhe karpet diye murote proti borgomitare 7.50 taka dore 1102.50 taka khoroch hole ghorer kshetrofol kot
+Return only the final answer.","ekti ghorer mejhe karpet diye murote proti borgomitare 7.50 taka dore 1102.50 taka khoroch hole ghorer khetrofol koto
+Return only the final answer."
+banglamath_0539,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"ekoti ghorer mejhe karpet diye murote proti borgomitare 7.50 taka dore 1102.50 taka koroch hole ghorer ksetrofol kot
+Return only the final answer.","ekti ghorer mejhe karpet diye murote proti borgomitare 7.50 taka dore 1102.50 taka koroch hole ghorer ksetrofol koto
+Return only the final answer."
+benqa_12th-Physics-I_0133,benqa,banglish_clean,True,konoti->konti (1),"\frac{3}{2} mol gyaser jony adorsh gyas somikoron hobe konoti?
+A. 3PV = 2RT
+B. 2PV = \frac{1}{3} RT
+C. 2PV = 3RT
+D. \frac{PV}{RT}=\frac{2}{3}
+Answer with only A, B, C, or D.","\frac{3}{2} mol gyaser jony adorsh gyas somikoron hobe konti?
+A. 3PV = 2RT
+B. 2PV = \frac{1}{3} RT
+C. 2PV = 3RT
+D. \frac{PV}{RT}=\frac{2}{3}
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0133,benqa,banglish_noisy,True,konoti->konti (1),"\frac{3}{2} mol gyaser jony adors gyas somikoron hobe konoti?
+A. 3PV = 2RT
+B. 2PV = \frac{1}{3} RT
+C. 2PV = 3RT
+D. \frac{PV}{RT}=\frac{2}{3}
+Answer with only A, B, C, or D.","\frac{3}{2} mol gyaser jony adors gyas somikoron hobe konti?
+A. 3PV = 2RT
+B. 2PV = \frac{1}{3} RT
+C. 2PV = 3RT
+D. \frac{PV}{RT}=\frac{2}{3}
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0128,benqa,banglish_clean,True,konoti->konti (1),"ister shboson prokriyay konoti utoponn hoy?
+A. lyakotik esid
+B. glukoj
+C. oksalo asitik esid
+D. glisarik esid
+Answer with only A, B, C, or D.","ister shboson prokriyay konti utoponn hoy?
+A. lyakotik esid
+B. glukoj
+C. oksalo asitik esid
+D. glisarik esid
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0128,benqa,banglish_noisy,True,konoti->konti (1),"ister sboson prokriyay konoti utoponn hoy?
+A. lyakotik esid
+B. glukoj
+C. oksalo asitik esid
+D. glisarik esid
+Answer with only A, B, C, or D.","ister sboson prokriyay konti utoponn hoy?
+A. lyakotik esid
+B. glukoj
+C. oksalo asitik esid
+D. glisarik esid
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0195,benqa,banglish_clean,True,kot->koto (1),"prithibir byasardh 6500 km er dharokotto kot?
+A. 711 F
+B. 722 \mu F
+C. 640 \mu F
+D. 614 \mu F
+Answer with only A, B, C, or D.","prithibir byasardh 6500 km er dharokotto koto?
+A. 711 F
+B. 722 \mu F
+C. 640 \mu F
+D. 614 \mu F
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0195,benqa,banglish_noisy,True,kot->koto (1),"prithibir byasardh 6500 km er dharokotto kot?
+A. 711 F
+B. 722 \mu F
+C. 640 \mu F
+D. 614 \mu F
+Answer with only A, B, C, or D.","prithibir byasardh 6500 km er dharokotto koto?
+A. 711 F
+B. 722 \mu F
+C. 640 \mu F
+D. 614 \mu F
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0190,benqa,banglish_clean,False,,"nicher konotir bondhon kon sobocheye bor?
+A. CH_{4}
+B. BCl_{3}
+C. NH_{3}
+D. H_{2}O
+Answer with only A, B, C, or D.","nicher konotir bondhon kon sobocheye bor?
+A. CH_{4}
+B. BCl_{3}
+C. NH_{3}
+D. H_{2}O
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0190,benqa,banglish_noisy,False,,"nicher konotir bondhon kon sobocheye bor?
+A. CH_{4}
+B. BCl_{3}
+C. NH_{3}
+D. H_{2}O
+Answer with only A, B, C, or D.","nicher konotir bondhon kon sobocheye bor?
+A. CH_{4}
+B. BCl_{3}
+C. NH_{3}
+D. H_{2}O
+Answer with only A, B, C, or D."
+benqa_8th-Math_0062,benqa,banglish_clean,False,,"nicher kon binduti x-oksher upor obosthit?
+A. (- 5, 5)
+B. (3, - 3)
+C. (0, 4)
+D. (2, 0)
+Answer with only A, B, C, or D.","nicher kon binduti x-oksher upor obosthit?
+A. (- 5, 5)
+B. (3, - 3)
+C. (0, 4)
+D. (2, 0)
+Answer with only A, B, C, or D."
+benqa_8th-Math_0062,benqa,banglish_noisy,False,,"nicher kon binduti x-okser upor obosthit?
+A. (- 5, 5)
+B. (3, - 3)
+C. (0, 4)
+D. (2, 0)
+Answer with only A, B, C, or D.","nicher kon binduti x-okser upor obosthit?
+A. (- 5, 5)
+B. (3, - 3)
+C. (0, 4)
+D. (2, 0)
+Answer with only A, B, C, or D."
+banglamath_0549,banglamath,banglish_clean,True,choora->chowra (1); doirghy->doirgho (1); ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1); prosth->prostho (1); thakole->thakle (1),"ekoti baganer baire 2.5 mitar choora rasta thakole rastar kshetrofol kot jodi baganer doirghy 50 mi o prosth 35 mi hoy
+Return only the final answer.","ekti baganer baire 2.5 mitar chowra rasta thakle rastar khetrofol koto jodi baganer doirgho 50 mi o prostho 35 mi hoy
+Return only the final answer."
+banglamath_0549,banglamath,banglish_noisy,True,choora->chowra (1); ekoti->ekti (1); kot->koto (1); prosth->prostho (1); thakole->thakle (1),"ekoti baganer baire 2.5 mitar choora rasta thakole rastar ksetrofol kot jodi baganer doyrghy 50 mi o prosth 35 mi hoy
+Return only the final answer.","ekti baganer baire 2.5 mitar chowra rasta thakle rastar ksetrofol koto jodi baganer doyrghy 50 mi o prostho 35 mi hoy
+Return only the final answer."
+benqa_12th-Math-I_0029,benqa,banglish_clean,False,,"(-5, 10) bindugami sorolorekha x-oksher dhonatmok diker sathe tan^{-1}\frac{3}{4} kon utoponn kore. sorolorekhar somikoron-
+A. 4x + 3y - 10 = 0
+B. 3x - 4y - 55 = 0
+C. 3x + 4y + 55 = 0
+D. 4x + 3y + 30 = 0
+Answer with only A, B, C, or D.","(-5, 10) bindugami sorolorekha x-oksher dhonatmok diker sathe tan^{-1}\frac{3}{4} kon utoponn kore. sorolorekhar somikoron-
+A. 4x + 3y - 10 = 0
+B. 3x - 4y - 55 = 0
+C. 3x + 4y + 55 = 0
+D. 4x + 3y + 30 = 0
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0029,benqa,banglish_noisy,False,,"(-5, 10) bindugami soroloreka x-okser dhonatmok diker sathe tan^{-1}\frac{3}{4} kon utoponn kore. sorolorekar somikoron-
+A. 4x + 3y - 10 = 0
+B. 3x - 4y - 55 = 0
+C. 3x + 4y + 55 = 0
+D. 4x + 3y + 30 = 0
+Answer with only A, B, C, or D.","(-5, 10) bindugami soroloreka x-okser dhonatmok diker sathe tan^{-1}\frac{3}{4} kon utoponn kore. sorolorekar somikoron-
+A. 4x + 3y - 10 = 0
+B. 3x - 4y - 55 = 0
+C. 3x + 4y + 55 = 0
+D. 4x + 3y + 30 = 0
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0322,benqa,banglish_clean,False,,"konotir onute dwi-bondhon bidyoman?
+A. haidrojen
+B. oksijen
+C. naitrojen
+D. klorin
+Answer with only A, B, C, or D.","konotir onute dwi-bondhon bidyoman?
+A. haidrojen
+B. oksijen
+C. naitrojen
+D. klorin
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0322,benqa,banglish_noisy,False,,"konotir onute dwi-bondhon bidyoman?
+A. haidrojen
+B. oksijen
+C. naitrojen
+D. klorin
+Answer with only A, B, C, or D.","konotir onute dwi-bondhon bidyoman?
+A. haidrojen
+B. oksijen
+C. naitrojen
+D. klorin
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0203,benqa,banglish_clean,True,konoti->konti (1),"pittoroser kaj hochchhe- i. chorbijatiy khaddoke imalosifai kora ii. bhitamin A,D,E,o K shoshone sohayota kore iii. kopar, jingk, parod o toksin podarth nishkashit kora nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D.","pittoroser kaj hochchhe- i. chorbijatiy khaddoke imalosifai kora ii. bhitamin A,D,E,o K shoshone sohayota kore iii. kopar, jingk, parod o toksin podarth nishkashit kora nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0203,benqa,banglish_noisy,True,konoti->konti (1),"pittoroser kaj hochche- i. chorbijatiy kaddoke imalosifai kora ii. vitamin A,D,E,o K sosone sohayota kore iii. kopar, jingk, parod o toksin podarth niskasit kora nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D.","pittoroser kaj hochche- i. chorbijatiy kaddoke imalosifai kora ii. vitamin A,D,E,o K sosone sohayota kore iii. kopar, jingk, parod o toksin podarth niskasit kora nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii, o iii
+Answer with only A, B, C, or D."
+banglamath_1703,banglamath,banglish_clean,True,ekoti->ekti (1),"ekoti jhurite dharonokshomota 120ti anaros othoba 144ti amer . jhurite 90ti anaros rakhar por ar kototi am rakha jabe?
+Return only the final answer.","ekti jhurite dharonokshomota 120ti anaros othoba 144ti amer . jhurite 90ti anaros rakhar por ar kototi am rakha jabe?
+Return only the final answer."
+banglamath_1703,banglamath,banglish_noisy,True,ekoti->ekti (1),"ekoti jhurite dharonoksomota 120ti anaros othoba 144ti amer . jhurite 90ti anaros rakar por ar kototi am raka jabe?
+Return only the final answer.","ekti jhurite dharonoksomota 120ti anaros othoba 144ti amer . jhurite 90ti anaros rakar por ar kototi am raka jabe?
+Return only the final answer."
+benqa_10th-Physics_0106,benqa,banglish_clean,True,korote->korte (1); kot->koto (1),"bina badhay poront bostu 5 sekende 50 mitar poth otikrom korole 72 mitar poth otikrom korote kot sekend somoy lagobe?
+A. 6
+B. 7.2
+C. 9.5
+D. 12
+Answer with only A, B, C, or D.","bina badhay poront bostu 5 sekende 50 mitar poth otikrom korole 72 mitar poth otikrom korte koto sekend somoy lagobe?
+A. 6
+B. 7.2
+C. 9.5
+D. 12
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0106,benqa,banglish_noisy,True,korote->korte (1); kot->koto (1),"bina badhay poront bostu 5 sekende 50 mitar poth otikrom korole 72 mitar poth otikrom korote kot sekend somoy lagobe?
+A. 6
+B. 7.2
+C. 9.5
+D. 12
+Answer with only A, B, C, or D.","bina badhay poront bostu 5 sekende 50 mitar poth otikrom korole 72 mitar poth otikrom korte koto sekend somoy lagobe?
+A. 6
+B. 7.2
+C. 9.5
+D. 12
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0187,benqa,banglish_clean,True,kot->koto (1),"2x - ky + 1 = 0 o 3x + 2y - 6 = 0 duiti sorolorekhar somikoron. dwitiy rekhatir lomb rekhar dhal kot?
+A. \frac{3}{2}
+B. \frac{2}{3}
+C. - \frac{2}{3}
+D. - \frac{3}{2}
+Answer with only A, B, C, or D.","2x - ky + 1 = 0 o 3x + 2y - 6 = 0 duiti sorolorekhar somikoron. dwitiy rekhatir lomb rekhar dhal koto?
+A. \frac{3}{2}
+B. \frac{2}{3}
+C. - \frac{2}{3}
+D. - \frac{3}{2}
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0187,benqa,banglish_noisy,True,kot->koto (1),"2x - ky + 1 = 0 o 3x + 2y - 6 = 0 duiti sorolorekar somikoron. dwitiy rekatir lomb rekar dhal kot?
+A. \frac{3}{2}
+B. \frac{2}{3}
+C. - \frac{2}{3}
+D. - \frac{3}{2}
+Answer with only A, B, C, or D.","2x - ky + 1 = 0 o 3x + 2y - 6 = 0 duiti sorolorekar somikoron. dwitiy rekatir lomb rekar dhal koto?
+A. \frac{3}{2}
+B. \frac{2}{3}
+C. - \frac{2}{3}
+D. - \frac{3}{2}
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0149,benqa,banglish_clean,False,,"konotir prantiy prachir gole noler srishti hoy?
+A. sibhokosh
+B. bhesel
+C. trakid
+D. songgikosh
+Answer with only A, B, C, or D.","konotir prantiy prachir gole noler srishti hoy?
+A. sibhokosh
+B. bhesel
+C. trakid
+D. songgikosh
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0149,benqa,banglish_noisy,False,,"konotir prantiy prachir gole noler sristi hoy?
+A. sivokos
+B. vesel
+C. trakid
+D. songgikos
+Answer with only A, B, C, or D.","konotir prantiy prachir gole noler sristi hoy?
+A. sivokos
+B. vesel
+C. trakid
+D. songgikos
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0130,benqa,banglish_clean,True,konoti->konti (1); kot->koto (1),"manobodeher ghonotb kot? i. kontrol rod thake ii. bipul poriman tap shokti nirgot hoy iii. jbalani hisebe iureniyam byobohrit hoy nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","manobodeher ghonotb koto? i. kontrol rod thake ii. bipul poriman tap shokti nirgot hoy iii. jbalani hisebe iureniyam byobohrit hoy nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0130,benqa,banglish_noisy,True,konoti->konti (1); kot->koto (1),"manobodeher ghonotb kot? i. kontrol rod thake ii. bipul poriman tap sokti nirgot hoy iii. jbalani hisebe iureniyam byobohrit hoy nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","manobodeher ghonotb koto? i. kontrol rod thake ii. bipul poriman tap sokti nirgot hoy iii. jbalani hisebe iureniyam byobohrit hoy nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0286,benqa,banglish_clean,True,kot->koto (1),"urbor matir jony otyanukul pH kot?
+A. 3.0-4
+B. 6-May
+C. 8-Jul
+D. 11-Oct
+Answer with only A, B, C, or D.","urbor matir jony otyanukul pH koto?
+A. 3.0-4
+B. 6-May
+C. 8-Jul
+D. 11-Oct
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0286,benqa,banglish_noisy,True,kot->koto (1),"urbor matir jony otyanukul pH kot?
+A. 3.0-4
+B. 6-May
+C. 8-Jul
+D. 11-Oct
+Answer with only A, B, C, or D.","urbor matir jony otyanukul pH koto?
+A. 3.0-4
+B. 6-May
+C. 8-Jul
+D. 11-Oct
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0131,benqa,banglish_clean,True,konoti->konti (1),"tharmomitir mul somikoron nicher konoti?
+A. \frac{N}{\theta - \theta_{ice}} = \frac{X_{\theta} - X_{ice}}{X_{steam} - X_{ice}}
+B. \frac{\theta - \theta_{ice}}{N} = \frac{X_{\theta} - X_{ice}}{X_{steam} - X_{ice}}
+C. \frac{N}{\theta - \theta_{ice}} = \frac{X_{steam} - X_{ice}{X_{\theta} - X_{ice}}}
+D. \frac{\theta - \theta_{ice}}{N} = \frac{X_{steam} - X_{ice}}{X_{\theta} - X_{ice}}
+Answer with only A, B, C, or D.","tharmomitir mul somikoron nicher konti?
+A. \frac{N}{\theta - \theta_{ice}} = \frac{X_{\theta} - X_{ice}}{X_{steam} - X_{ice}}
+B. \frac{\theta - \theta_{ice}}{N} = \frac{X_{\theta} - X_{ice}}{X_{steam} - X_{ice}}
+C. \frac{N}{\theta - \theta_{ice}} = \frac{X_{steam} - X_{ice}{X_{\theta} - X_{ice}}}
+D. \frac{\theta - \theta_{ice}}{N} = \frac{X_{steam} - X_{ice}}{X_{\theta} - X_{ice}}
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0131,benqa,banglish_noisy,True,konoti->konti (1),"tharmomitir mul somikoron nicher konoti?
+A. \frac{N}{\theta - \theta_{ice}} = \frac{X_{\theta} - X_{ice}}{X_{steam} - X_{ice}}
+B. \frac{\theta - \theta_{ice}}{N} = \frac{X_{\theta} - X_{ice}}{X_{steam} - X_{ice}}
+C. \frac{N}{\theta - \theta_{ice}} = \frac{X_{steam} - X_{ice}{X_{\theta} - X_{ice}}}
+D. \frac{\theta - \theta_{ice}}{N} = \frac{X_{steam} - X_{ice}}{X_{\theta} - X_{ice}}
+Answer with only A, B, C, or D.","tharmomitir mul somikoron nicher konti?
+A. \frac{N}{\theta - \theta_{ice}} = \frac{X_{\theta} - X_{ice}}{X_{steam} - X_{ice}}
+B. \frac{\theta - \theta_{ice}}{N} = \frac{X_{\theta} - X_{ice}}{X_{steam} - X_{ice}}
+C. \frac{N}{\theta - \theta_{ice}} = \frac{X_{steam} - X_{ice}{X_{\theta} - X_{ice}}}
+D. \frac{\theta - \theta_{ice}}{N} = \frac{X_{steam} - X_{ice}}{X_{\theta} - X_{ice}}
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0188,benqa,banglish_clean,False,,"torol jojok tisyu koy prokar?
+A. 2
+B. 3
+C. 4
+D. 5
+Answer with only A, B, C, or D.","torol jojok tisyu koy prokar?
+A. 2
+B. 3
+C. 4
+D. 5
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0188,benqa,banglish_noisy,False,,"torol jojok tisyu koy prokar?
+A. 2
+B. 3
+C. 4
+D. 5
+Answer with only A, B, C, or D.","torol jojok tisyu koy prokar?
+A. 2
+B. 3
+C. 4
+D. 5
+Answer with only A, B, C, or D."
+banglamath_1686,banglamath,banglish_clean,False,,"5ti apeloke 6 jon baloker majhe somanobhabe bhag kore dite hobe. kibhabe? (bi: dr: proyojon hole apeloke sorbochch soman 3 tukorate kata jabe.)
+Return only the final answer.","5ti apeloke 6 jon baloker majhe somanobhabe bhag kore dite hobe. kibhabe? (bi: dr: proyojon hole apeloke sorbochch soman 3 tukorate kata jabe.)
+Return only the final answer."
+banglamath_1686,banglamath,banglish_noisy,False,,"5ti apeloke 6 jon baloker majhe somanovabe vag kore dite hobe. kivabe? (bi: dr: proyojon hole apeloke sorbochch soman 3 tukorate kata jabe.)
+Return only the final answer.","5ti apeloke 6 jon baloker majhe somanovabe vag kore dite hobe. kivabe? (bi: dr: proyojon hole apeloke sorbochch soman 3 tukorate kata jabe.)
+Return only the final answer."
+banglamath_0188,banglamath,banglish_clean,True,ekoti->ekti (1); kot->koto (1),"25 jon lok doinik 6 ghonta porishrom kore ekoti kaj 8 dine shesh kore. 10 jon lok doinik kot ghonta porishrom kore oi kajoti shesh korobe
+Return only the final answer.","25 jon lok doinik 6 ghonta porishrom kore ekti kaj 8 dine shesh kore. 10 jon lok doinik koto ghonta porishrom kore oi kajoti shesh korobe
+Return only the final answer."
+banglamath_0188,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"25 jon lok doynik 6 ghonta porisrom kore ekoti kaj 8 dine ses kore. 10 jon lok doynik kot ghonta porisrom kore oy kajoti ses korobe
+Return only the final answer.","25 jon lok doynik 6 ghonta porisrom kore ekti kaj 8 dine ses kore. 10 jon lok doynik koto ghonta porisrom kore oy kajoti ses korobe
+Return only the final answer."
+benqa_10th-Physics_0036,benqa,banglish_clean,True,kot->koto (1),"70 keji ojoner ekojon byokti 5 minite 100 m uchu pahare uthe, tar kshomota kot oyat? [g = 9.8 ms^{-2}]
+A. 3500
+B. 1400
+C. 228.67
+D. 0.14
+Answer with only A, B, C, or D.","70 keji ojoner ekojon byokti 5 minite 100 m uchu pahare uthe, tar kshomota koto oyat? [g = 9.8 ms^{-2}]
+A. 3500
+B. 1400
+C. 228.67
+D. 0.14
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0036,benqa,banglish_noisy,True,kot->koto (1),"70 keji ojoner ekojon byokti 5 minite 100 m uchu pahare uthe, tar ksomota kot oyat? [g = 9.8 ms^{-2}]
+A. 3500
+B. 1400
+C. 228.67
+D. 0.14
+Answer with only A, B, C, or D.","70 keji ojoner ekojon byokti 5 minite 100 m uchu pahare uthe, tar ksomota koto oyat? [g = 9.8 ms^{-2}]
+A. 3500
+B. 1400
+C. 228.67
+D. 0.14
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0218,benqa,banglish_clean,True,kot->koto (1),"panir onute \angle HOH er man kot?
+A. 120^{\circ}
+B. 109^{\circ}
+C. 107^{\circ}
+D. 104.5^{\circ}
+Answer with only A, B, C, or D.","panir onute \angle HOH er man koto?
+A. 120^{\circ}
+B. 109^{\circ}
+C. 107^{\circ}
+D. 104.5^{\circ}
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-I_0218,benqa,banglish_noisy,True,kot->koto (1),"panir onute \angle HOH er man kot?
+A. 120^{\circ}
+B. 109^{\circ}
+C. 107^{\circ}
+D. 104.5^{\circ}
+Answer with only A, B, C, or D.","panir onute \angle HOH er man koto?
+A. 120^{\circ}
+B. 109^{\circ}
+C. 107^{\circ}
+D. 104.5^{\circ}
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0090,benqa,banglish_clean,True,konoti->konti (1),"potonggoporagi ful konoti?
+A. dhan
+B. kochu
+C. sorisha
+D. akh
+Answer with only A, B, C, or D.","potonggoporagi ful konti?
+A. dhan
+B. kochu
+C. sorisha
+D. akh
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0090,benqa,banglish_noisy,True,konoti->konti (1),"potonggoporagi ful konoti?
+A. dhan
+B. kochu
+C. sorisa
+D. ak
+Answer with only A, B, C, or D.","potonggoporagi ful konti?
+A. dhan
+B. kochu
+C. sorisa
+D. ak
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0117,benqa,banglish_clean,True,konoti->konti (1),"alodihaid o kitoner modhye parthoky niruponer jony byobohrit bikarok- i. tolen bikarok ii. 2 : 4 - DNPH iii. feling drobon nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","alodihaid o kitoner modhye parthoky niruponer jony byobohrit bikarok- i. tolen bikarok ii. 2 : 4 - DNPH iii. feling drobon nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0117,benqa,banglish_noisy,True,konoti->konti (1),"alodihaid o kitoner modhye parthoky niruponer jony byobohrit bikarok- i. tolen bikarok ii. 2 : 4 - DNPH iii. feling drobon nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","alodihaid o kitoner modhye parthoky niruponer jony byobohrit bikarok- i. tolen bikarok ii. 2 : 4 - DNPH iii. feling drobon nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0034,benqa,banglish_clean,True,konoti->konti (1),"kshudrantrer kshudr ongsh konoti?
+A. pailoras
+B. diodenam
+C. jejunam
+D. iliyam
+Answer with only A, B, C, or D.","kshudrantrer kshudr ongsh konti?
+A. pailoras
+B. diodenam
+C. jejunam
+D. iliyam
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0034,benqa,banglish_noisy,True,konoti->konti (1),"ksudrantrer ksudr ongs konoti?
+A. pailoras
+B. diodenam
+C. jejunam
+D. iliyam
+Answer with only A, B, C, or D.","ksudrantrer ksudr ongs konti?
+A. pailoras
+B. diodenam
+C. jejunam
+D. iliyam
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0088,benqa,banglish_clean,True,konoti->konti (1),"haigen‌s er nitir sahajye byakhya kora jay- i. protisoron ii. protifolon iii. somoborton nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","haigen‌s er nitir sahajye byakhya kora jay- i. protisoron ii. protifolon iii. somoborton nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0088,benqa,banglish_noisy,True,konoti->konti (1),"haigen‌s er nitir sahajye byakya kora jay- i. protisoron ii. protifolon iii. somoborton nicher konoti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","haigen‌s er nitir sahajye byakya kora jay- i. protisoron ii. protifolon iii. somoborton nicher konti sothik?
+A. i o ii
+B. i o iii
+C. ii o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+banglamath_1696,banglamath,banglish_clean,True,kot->koto (1),"20 gram lobon diye 10% lobonomishrit shorobot banate kot litar panir dorokar?
+Return only the final answer.","20 gram lobon diye 10% lobonomishrit shorobot banate koto litar panir dorokar?
+Return only the final answer."
+banglamath_1696,banglamath,banglish_noisy,True,kot->koto (1),"20 gram lobon diye 10% lobonomisrit sorobot banate kot litar panir dorokar?
+Return only the final answer.","20 gram lobon diye 10% lobonomisrit sorobot banate koto litar panir dorokar?
+Return only the final answer."
+banglamath_0531,banglamath,banglish_clean,True,kot->koto (1),"ek khond jomite 500 keji 700 gram alu hole 11 khond jomite kot alu hobe
+Return only the final answer.","ek khond jomite 500 keji 700 gram alu hole 11 khond jomite koto alu hobe
+Return only the final answer."
+banglamath_0531,banglamath,banglish_noisy,True,kot->koto (1),"ek kond jomite 500 keji 700 gram alu hole 11 kond jomite kot alu hobe
+Return only the final answer.","ek kond jomite 500 keji 700 gram alu hole 11 kond jomite koto alu hobe
+Return only the final answer."
+benqa_12th-Chemistry-II_0305,benqa,banglish_clean,True,kot->koto (1),"27^oC tapomatray O_2 er RMS man kot?
+A. 453.23 ms^{-1}
+B. 463.34 ms^{-1}
+C. 473.45 ms^{-1}
+D. 483.56 ms^{-1}
+Answer with only A, B, C, or D.","27^oC tapomatray O_2 er RMS man koto?
+A. 453.23 ms^{-1}
+B. 463.34 ms^{-1}
+C. 473.45 ms^{-1}
+D. 483.56 ms^{-1}
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0305,benqa,banglish_noisy,True,kot->koto (1),"27^oC tapomatray O_2 er RMS man kot?
+A. 453.23 ms^{-1}
+B. 463.34 ms^{-1}
+C. 473.45 ms^{-1}
+D. 483.56 ms^{-1}
+Answer with only A, B, C, or D.","27^oC tapomatray O_2 er RMS man koto?
+A. 453.23 ms^{-1}
+B. 463.34 ms^{-1}
+C. 473.45 ms^{-1}
+D. 483.56 ms^{-1}
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0296,benqa,banglish_clean,False,,"iureniyamer chein bikriyar dwitiy dhape kototi niutron nirgot hoy?
+A. 2 ti
+B. 3 ti
+C. 6 ti
+D. 9 ti
+Answer with only A, B, C, or D.","iureniyamer chein bikriyar dwitiy dhape kototi niutron nirgot hoy?
+A. 2 ti
+B. 3 ti
+C. 6 ti
+D. 9 ti
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0296,benqa,banglish_noisy,False,,"iureniyamer chein bikriyar dwitiy dhape kototi niutron nirgot hoy?
+A. 2 ti
+B. 3 ti
+C. 6 ti
+D. 9 ti
+Answer with only A, B, C, or D.","iureniyamer chein bikriyar dwitiy dhape kototi niutron nirgot hoy?
+A. 2 ti
+B. 3 ti
+C. 6 ti
+D. 9 ti
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0150,benqa,banglish_clean,True,konoti->konti (1),"konoti skelar rashi?
+A. beg
+B. druti
+C. soron
+D. tworon
+Answer with only A, B, C, or D.","konti skelar rashi?
+A. beg
+B. druti
+C. soron
+D. tworon
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0150,benqa,banglish_noisy,True,konoti->konti (1),"konoti skelar rasi?
+A. beg
+B. druti
+C. soron
+D. tworon
+Answer with only A, B, C, or D.","konti skelar rasi?
+A. beg
+B. druti
+C. soron
+D. tworon
+Answer with only A, B, C, or D."
+banglamath_0526,banglamath,banglish_clean,True,ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1); uchchota->ucchota (1),"ekoti tribhujer bhumi 10 mitar o uchchota 6 mitar hole kshetrofol kot
+Return only the final answer.","ekti tribhujer bhumi 10 mitar o ucchota 6 mitar hole khetrofol koto
+Return only the final answer."
+banglamath_0526,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1); uchchota->ucchota (1),"ekoti trivujer vumi 10 mitar o uchchota 6 mitar hole ksetrofol kot
+Return only the final answer.","ekti trivujer vumi 10 mitar o ucchota 6 mitar hole ksetrofol koto
+Return only the final answer."
+benqa_10th-Chemistry_0110,benqa,banglish_clean,True,konoti->konti (1),"chuner panir songket konoti?
+A. CaCO_{3}
+B. CaO
+C. Ca(OH)_{2}
+D. Ca(HCO_{3})_{2}
+Answer with only A, B, C, or D.","chuner panir songket konti?
+A. CaCO_{3}
+B. CaO
+C. Ca(OH)_{2}
+D. Ca(HCO_{3})_{2}
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0110,benqa,banglish_noisy,True,konoti->konti (1),"chuner panir songket konoti?
+A. CaCO_{3}
+B. CaO
+C. Ca(OH)_{2}
+D. Ca(HCO_{3})_{2}
+Answer with only A, B, C, or D.","chuner panir songket konti?
+A. CaCO_{3}
+B. CaO
+C. Ca(OH)_{2}
+D. Ca(HCO_{3})_{2}
+Answer with only A, B, C, or D."
+benqa_10th-Math-II_0357,benqa,banglish_clean,True,konoti->konti (1),"\left ( 2 - \frac{x}{2} \right ){6} er bistritite (1.8875)^{6} nirnoyer jony x er man nicher konoti?
+A. -0.225
+B. -0.1125
+C. 0.01125
+D. 0.225
+Answer with only A, B, C, or D.","\left ( 2 - \frac{x}{2} \right ){6} er bistritite (1.8875)^{6} nirnoyer jony x er man nicher konti?
+A. -0.225
+B. -0.1125
+C. 0.01125
+D. 0.225
+Answer with only A, B, C, or D."
+benqa_10th-Math-II_0357,benqa,banglish_noisy,True,konoti->konti (1),"\left ( 2 - \frac{x}{2} \right ){6} er bistritite (1.8875)^{6} nirnoyer jony x er man nicher konoti?
+A. -0.225
+B. -0.1125
+C. 0.01125
+D. 0.225
+Answer with only A, B, C, or D.","\left ( 2 - \frac{x}{2} \right ){6} er bistritite (1.8875)^{6} nirnoyer jony x er man nicher konti?
+A. -0.225
+B. -0.1125
+C. 0.01125
+D. 0.225
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0013,benqa,banglish_clean,True,konoti->konti (1),"ghumer oushodh hisebe byobohrit hoy konoti?
+A. foromalodihaid
+B. asitalodihaid
+C. pyaralodihaid
+D. metalodihaid
+Answer with only A, B, C, or D.","ghumer oushodh hisebe byobohrit hoy konti?
+A. foromalodihaid
+B. asitalodihaid
+C. pyaralodihaid
+D. metalodihaid
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0013,benqa,banglish_noisy,True,konoti->konti (1),"ghumer ousodh hisebe byobohrit hoy konoti?
+A. foromalodihaid
+B. asitalodihaid
+C. pyaralodihaid
+D. metalodihaid
+Answer with only A, B, C, or D.","ghumer ousodh hisebe byobohrit hoy konti?
+A. foromalodihaid
+B. asitalodihaid
+C. pyaralodihaid
+D. metalodihaid
+Answer with only A, B, C, or D."
+benqa_8th-Science_0202,benqa,banglish_clean,True,konoti->konti (1),"sothik khaddo-shringkhol konoti?
+A. ghas \rightarrow faitoplyangkoton \rightarrow juplangkoton
+B. ju-plangkoton \rightarrow faitoplyangkoton\rightarrow chhotomas
+C. faitoplangkoton \rightarrow ju-plangkoton \rightarrow chhotomachh
+D. ghas\rightarrow byang\rightarrow bagh
+Answer with only A, B, C, or D.","sothik khaddo-shringkhol konti?
+A. ghas \rightarrow faitoplyangkoton \rightarrow juplangkoton
+B. ju-plangkoton \rightarrow faitoplyangkoton\rightarrow chhotomas
+C. faitoplangkoton \rightarrow ju-plangkoton \rightarrow chhotomachh
+D. ghas\rightarrow byang\rightarrow bagh
+Answer with only A, B, C, or D."
+benqa_8th-Science_0202,benqa,banglish_noisy,True,konoti->konti (1),"sothik kaddo-sringkol konoti?
+A. ghas \rightarrow faitoplyangkoton \rightarrow juplangkoton
+B. ju-plangkoton \rightarrow faitoplyangkoton\rightarrow chotomas
+C. faitoplangkoton \rightarrow ju-plangkoton \rightarrow chotomach
+D. ghas\rightarrow byang\rightarrow bagh
+Answer with only A, B, C, or D.","sothik kaddo-sringkol konti?
+A. ghas \rightarrow faitoplyangkoton \rightarrow juplangkoton
+B. ju-plangkoton \rightarrow faitoplyangkoton\rightarrow chotomas
+C. faitoplangkoton \rightarrow ju-plangkoton \rightarrow chotomach
+D. ghas\rightarrow byang\rightarrow bagh
+Answer with only A, B, C, or D."
+benqa_8th-Science_0078,benqa,banglish_clean,True,kot->koto (1),"alo kach theke bayu madhyome jaoyar somoy apoton kon 32^{\circ} hole protisorit roshniti madhyomer bibhedotol borabor jay. ekshetre protisoron koner man kot?
+A. 0^{\circ}
+B. 32^{\circ}
+C. 90^{\circ}
+D. 180^{\circ}
+Answer with only A, B, C, or D.","alo kach theke bayu madhyome jaoyar somoy apoton kon 32^{\circ} hole protisorit roshniti madhyomer bibhedotol borabor jay. ekshetre protisoron koner man koto?
+A. 0^{\circ}
+B. 32^{\circ}
+C. 90^{\circ}
+D. 180^{\circ}
+Answer with only A, B, C, or D."
+benqa_8th-Science_0078,benqa,banglish_noisy,True,kot->koto (1),"alo kach theke bayu madhyome jaoyar somoy apoton kon 32^{\circ} hole protisorit rosniti madhyomer bivedotol borabor jay. eksetre protisoron koner man kot?
+A. 0^{\circ}
+B. 32^{\circ}
+C. 90^{\circ}
+D. 180^{\circ}
+Answer with only A, B, C, or D.","alo kach theke bayu madhyome jaoyar somoy apoton kon 32^{\circ} hole protisorit rosniti madhyomer bivedotol borabor jay. eksetre protisoron koner man koto?
+A. 0^{\circ}
+B. 32^{\circ}
+C. 90^{\circ}
+D. 180^{\circ}
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0202,benqa,banglish_clean,True,kot->koto (1),"\int \frac{cosx}{\sqrt{sinx}} dx = kot?
+A. 2\sqrt{cosx} + c
+B. 2\sqrt{sinx} + c
+C. \frac{1}{2} \sqrt{cosx} + c
+D. \frac{1}{2} \sqrt{sinx} + c
+Answer with only A, B, C, or D.","\int \frac{cosx}{\sqrt{sinx}} dx = koto?
+A. 2\sqrt{cosx} + c
+B. 2\sqrt{sinx} + c
+C. \frac{1}{2} \sqrt{cosx} + c
+D. \frac{1}{2} \sqrt{sinx} + c
+Answer with only A, B, C, or D."
+benqa_12th-Math-I_0202,benqa,banglish_noisy,True,kot->koto (1),"\int \frac{cosx}{\sqrt{sinx}} dx = kot?
+A. 2\sqrt{cosx} + c
+B. 2\sqrt{sinx} + c
+C. \frac{1}{2} \sqrt{cosx} + c
+D. \frac{1}{2} \sqrt{sinx} + c
+Answer with only A, B, C, or D.","\int \frac{cosx}{\sqrt{sinx}} dx = koto?
+A. 2\sqrt{cosx} + c
+B. 2\sqrt{sinx} + c
+C. \frac{1}{2} \sqrt{cosx} + c
+D. \frac{1}{2} \sqrt{sinx} + c
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0213,benqa,banglish_clean,True,ekoti->ekti (1),"ruddhotapiy prokriyay ekoti adorsh gyaser chap o tapomatrar modhye sompork-
+A. P^{\gamma - 1} = dhrubok
+B. P^{\gamma} T^{\gama + 1} = dhrubok
+C. P^{\gamma} T^{\gamma - 1} = dhrubok
+D. P^{1 - \gamma} T^{\gamma} = dhrubok
+Answer with only A, B, C, or D.","ruddhotapiy prokriyay ekti adorsh gyaser chap o tapomatrar modhye sompork-
+A. P^{\gamma - 1} = dhrubok
+B. P^{\gamma} T^{\gama + 1} = dhrubok
+C. P^{\gamma} T^{\gamma - 1} = dhrubok
+D. P^{1 - \gamma} T^{\gamma} = dhrubok
+Answer with only A, B, C, or D."
+benqa_12th-Physics-II_0213,benqa,banglish_noisy,True,ekoti->ekti (1),"ruddhotapiy prokriyay ekoti adors gyaser chap o tapomatrar modhye sompork-
+A. P^{\gamma - 1} = dhrubok
+B. P^{\gamma} T^{\gama + 1} = dhrubok
+C. P^{\gamma} T^{\gamma - 1} = dhrubok
+D. P^{1 - \gamma} T^{\gamma} = dhrubok
+Answer with only A, B, C, or D.","ruddhotapiy prokriyay ekti adors gyaser chap o tapomatrar modhye sompork-
+A. P^{\gamma - 1} = dhrubok
+B. P^{\gamma} T^{\gama + 1} = dhrubok
+C. P^{\gamma} T^{\gamma - 1} = dhrubok
+D. P^{1 - \gamma} T^{\gamma} = dhrubok
+Answer with only A, B, C, or D."
+banglamath_1684,banglamath,banglish_clean,True,kot->koto (1),"karim saheber 3 putr ebong prothom 2 jon jomoj . 3 putrer bortoman boyoser somoshti 29 bochhor. 6 bochhor purbe tader boyoser somoshti chhil 12 bochhor. putroder bortoman boyos kot?
+Return only the final answer.","karim saheber 3 putr ebong prothom 2 jon jomoj . 3 putrer bortoman boyoser somoshti 29 bochhor. 6 bochhor purbe tader boyoser somoshti chhil 12 bochhor. putroder bortoman boyos koto?
+Return only the final answer."
+banglamath_1684,banglamath,banglish_noisy,True,kot->koto (1),"karim saheber 3 putr ebong prothom 2 jon jomoj . 3 putrer bortoman boyoser somosti 29 bochor. 6 bochor purbe tader boyoser somosti chil 12 bochor. putroder bortoman boyos kot?
+Return only the final answer.","karim saheber 3 putr ebong prothom 2 jon jomoj . 3 putrer bortoman boyoser somosti 29 bochor. 6 bochor purbe tader boyoser somosti chil 12 bochor. putroder bortoman boyos koto?
+Return only the final answer."
+banglamath_0186,banglamath,banglish_clean,True,kot->koto (1),"2 kuintal chale 15 jon chhatrer 30 din chole. oi chale 20 jon chhatrer kot din cholobe
+Return only the final answer.","2 kuintal chale 15 jon chhatrer 30 din chole. oi chale 20 jon chhatrer koto din cholobe
+Return only the final answer."
+banglamath_0186,banglamath,banglish_noisy,True,kot->koto (1),"2 kuintal chale 15 jon chatrer 30 din chole. oy chale 20 jon chatrer kot din cholobe
+Return only the final answer.","2 kuintal chale 15 jon chatrer 30 din chole. oy chale 20 jon chatrer koto din cholobe
+Return only the final answer."
+banglamath_0231,banglamath,banglish_clean,True,ekoti->ekti (1); kot->koto (1),"ekoti kolom 20% labhe 24 takay bikroy korole kroyomuly kot
+Return only the final answer.","ekti kolom 20% labhe 24 takay bikroy korole kroyomuly koto
+Return only the final answer."
+banglamath_0231,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"ekoti kolom 20% lave 24 takay bikroy korole kroyomuly kot
+Return only the final answer.","ekti kolom 20% lave 24 takay bikroy korole kroyomuly koto
+Return only the final answer."
+benqa_8th-Science_0159,benqa,banglish_clean,True,konoti->konti (1),"nicher konoti rosalo fol?
+A. ata
+B. kola
+C. anaros
+D. kanthal
+Answer with only A, B, C, or D.","nicher konti rosalo fol?
+A. ata
+B. kola
+C. anaros
+D. kanthal
+Answer with only A, B, C, or D."
+benqa_8th-Science_0159,benqa,banglish_noisy,True,konoti->konti (1),"nicher konoti rosalo fol?
+A. ata
+B. kola
+C. anaros
+D. kanthal
+Answer with only A, B, C, or D.","nicher konti rosalo fol?
+A. ata
+B. kola
+C. anaros
+D. kanthal
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0280,benqa,banglish_clean,True,konoti->konti (1),"tamar rodhokotb konoti?
+A. 1.6 \times 10^{-8}\Omega m
+B. 1.68 \times 10^{-8}\Omega m
+C. 2.44 \times 10^{-8}\Omega m
+D. 5.5 \times 10^{-8}\Omega m
+Answer with only A, B, C, or D.","tamar rodhokotb konti?
+A. 1.6 \times 10^{-8}\Omega m
+B. 1.68 \times 10^{-8}\Omega m
+C. 2.44 \times 10^{-8}\Omega m
+D. 5.5 \times 10^{-8}\Omega m
+Answer with only A, B, C, or D."
+benqa_10th-Physics_0280,benqa,banglish_noisy,True,konoti->konti (1),"tamar rodhokotb konoti?
+A. 1.6 \times 10^{-8}\Omega m
+B. 1.68 \times 10^{-8}\Omega m
+C. 2.44 \times 10^{-8}\Omega m
+D. 5.5 \times 10^{-8}\Omega m
+Answer with only A, B, C, or D.","tamar rodhokotb konti?
+A. 1.6 \times 10^{-8}\Omega m
+B. 1.68 \times 10^{-8}\Omega m
+C. 2.44 \times 10^{-8}\Omega m
+D. 5.5 \times 10^{-8}\Omega m
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0132,benqa,banglish_clean,True,konoti->konti (1),"bisforok podarth konoti?
+A. ti.en.ti
+B. benojin
+C. toluin
+D. jailin
+Answer with only A, B, C, or D.","bisforok podarth konti?
+A. ti.en.ti
+B. benojin
+C. toluin
+D. jailin
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0132,benqa,banglish_noisy,True,konoti->konti (1),"bisforok podarth konoti?
+A. ti.en.ti
+B. benojin
+C. toluin
+D. jailin
+Answer with only A, B, C, or D.","bisforok podarth konti?
+A. ti.en.ti
+B. benojin
+C. toluin
+D. jailin
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0228,benqa,banglish_clean,True,ekoti->ekti (1); konoti->konti (1),"Ni(s) + 2Ag^{+}(aq) \xrightarrow{2e^{-}} Ni^{2+}(aq) + 2Ag(s); bikriyatite- i. Ni jarit hoy ii. Ag jarit hoy iii. bikriyati ekoti ridoks bikriya nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","Ni(s) + 2Ag^{+}(aq) \xrightarrow{2e^{-}} Ni^{2+}(aq) + 2Ag(s); bikriyatite- i. Ni jarit hoy ii. Ag jarit hoy iii. bikriyati ekti ridoks bikriya nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0228,benqa,banglish_noisy,True,ekoti->ekti (1); konoti->konti (1),"Ni(s) + 2Ag^{+}(aq) \xrightarrow{2e^{-}} Ni^{2+}(aq) + 2Ag(s); bikriyatite- i. Ni jarit hoy ii. Ag jarit hoy iii. bikriyati ekoti ridoks bikriya nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","Ni(s) + 2Ag^{+}(aq) \xrightarrow{2e^{-}} Ni^{2+}(aq) + 2Ag(s); bikriyatite- i. Ni jarit hoy ii. Ag jarit hoy iii. bikriyati ekti ridoks bikriya nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0254,benqa,banglish_clean,True,konoti->konti (1); kshetre->khetre (1),"mohakorsh kshetr prabolyer matrar kshetre konoti sothik?
+A. [LT^{-1}]
+B. [LT^{-2}]
+C. [MLT^{-1}]
+D. [MLT^{-2}]
+Answer with only A, B, C, or D.","mohakorsh kshetr prabolyer matrar khetre konti sothik?
+A. [LT^{-1}]
+B. [LT^{-2}]
+C. [MLT^{-1}]
+D. [MLT^{-2}]
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0254,benqa,banglish_noisy,True,konoti->konti (1),"mohakors ksetr prabolyer matrar ksetre konoti sothik?
+A. [LT^{-1}]
+B. [LT^{-2}]
+C. [MLT^{-1}]
+D. [MLT^{-2}]
+Answer with only A, B, C, or D.","mohakors ksetr prabolyer matrar ksetre konti sothik?
+A. [LT^{-1}]
+B. [LT^{-2}]
+C. [MLT^{-1}]
+D. [MLT^{-2}]
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0057,benqa,banglish_clean,True,konoti->konti (1),"goni saheb tar bagane emon kichhu gachh lagiyechhen jar CO_{2} bijaroner prothom sthayi podarth oksalo esitik esid. goni saheb lagiyechhen- i. bhutta ii. begun iii. akh nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","goni saheb tar bagane emon kichhu gachh lagiyechhen jar CO_{2} bijaroner prothom sthayi podarth oksalo esitik esid. goni saheb lagiyechhen- i. bhutta ii. begun iii. akh nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_10th-Biology_0057,benqa,banglish_noisy,True,konoti->konti (1),"goni saheb tar bagane emon kichu gach lagiyechen jar CO_{2} bijaroner prothom sthayi podarth oksalo esitik esid. goni saheb lagiyechen- i. vutta ii. begun iii. ak nicher konoti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D.","goni saheb tar bagane emon kichu gach lagiyechen jar CO_{2} bijaroner prothom sthayi podarth oksalo esitik esid. goni saheb lagiyechen- i. vutta ii. begun iii. ak nicher konti sothik?
+A. i o ii
+B. ii o iii
+C. i o iii
+D. i, ii o iii
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0247,benqa,banglish_clean,True,kot->koto (1),"P \rightarrow DdEe \times ddEE uddipoke ullikhit kros dwara muk o bodhir sontan hobar sombhabona kot?
+A. 25%
+B. 50%
+C. 75%
+D. 100%
+Answer with only A, B, C, or D.","P \rightarrow DdEe \times ddEE uddipoke ullikhit kros dwara muk o bodhir sontan hobar sombhabona koto?
+A. 25%
+B. 50%
+C. 75%
+D. 100%
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0247,benqa,banglish_noisy,True,kot->koto (1),"P \rightarrow DdEe \times ddEE uddipoke ullikit kros dwara muk o bodhir sontan hobar somvabona kot?
+A. 25%
+B. 50%
+C. 75%
+D. 100%
+Answer with only A, B, C, or D.","P \rightarrow DdEe \times ddEE uddipoke ullikit kros dwara muk o bodhir sontan hobar somvabona koto?
+A. 25%
+B. 50%
+C. 75%
+D. 100%
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0039,benqa,banglish_clean,False,,"udbhider ontohstiliy ongsh hochchhe-
+A. haipodarmis
+B. epidarmis
+C. mojjaroshmi
+D. karteks
+Answer with only A, B, C, or D.","udbhider ontohstiliy ongsh hochchhe-
+A. haipodarmis
+B. epidarmis
+C. mojjaroshmi
+D. karteks
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0039,benqa,banglish_noisy,False,,"udvider ontohstiliy ongs hochche-
+A. haipodarmis
+B. epidarmis
+C. mojjarosmi
+D. karteks
+Answer with only A, B, C, or D.","udvider ontohstiliy ongs hochche-
+A. haipodarmis
+B. epidarmis
+C. mojjarosmi
+D. karteks
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0235,benqa,banglish_clean,True,konoti->konti (1),"nicher konoti luis esid?
+A. AlCl_{3}
+B. H_{2}CO_{3}
+C. NH_{3}
+D. H_{3}PO_{4}
+Answer with only A, B, C, or D.","nicher konti luis esid?
+A. AlCl_{3}
+B. H_{2}CO_{3}
+C. NH_{3}
+D. H_{3}PO_{4}
+Answer with only A, B, C, or D."
+benqa_12th-Chemistry-II_0235,benqa,banglish_noisy,True,konoti->konti (1),"nicher konoti luis esid?
+A. AlCl_{3}
+B. H_{2}CO_{3}
+C. NH_{3}
+D. H_{3}PO_{4}
+Answer with only A, B, C, or D.","nicher konti luis esid?
+A. AlCl_{3}
+B. H_{2}CO_{3}
+C. NH_{3}
+D. H_{3}PO_{4}
+Answer with only A, B, C, or D."
+banglamath_1697,banglamath,banglish_clean,True,kot->koto (1),"30 ke 1/2 diye bhag kore 10 jog korole kot hoy?
+Return only the final answer.","30 ke 1/2 diye bhag kore 10 jog korole koto hoy?
+Return only the final answer."
+banglamath_1697,banglamath,banglish_noisy,True,kot->koto (1),"30 ke 1/2 diye vag kore 10 jog korole kot hoy?
+Return only the final answer.","30 ke 1/2 diye vag kore 10 jog korole koto hoy?
+Return only the final answer."
+benqa_8th-Science_0024,benqa,banglish_clean,False,,"maitosiser konodhare kromojomogulo ingreji bornomala J er mot hoy?
+A. profej
+B. metafej
+C. enafej
+D. telofej
+Answer with only A, B, C, or D.","maitosiser konodhare kromojomogulo ingreji bornomala J er mot hoy?
+A. profej
+B. metafej
+C. enafej
+D. telofej
+Answer with only A, B, C, or D."
+benqa_8th-Science_0024,benqa,banglish_noisy,False,,"maitosiser konodhare kromojomogulo ingreji bornomala J er mot hoy?
+A. profej
+B. metafej
+C. enafej
+D. telofej
+Answer with only A, B, C, or D.","maitosiser konodhare kromojomogulo ingreji bornomala J er mot hoy?
+A. profej
+B. metafej
+C. enafej
+D. telofej
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0179,benqa,banglish_clean,False,,"rokt jomat bandhote kon dhatob ayon sohayota kore?
+A. Ca^{++}
+B. Mg^{++}
+C. Cu^{++}
+D. Fe^{++}
+Answer with only A, B, C, or D.","rokt jomat bandhote kon dhatob ayon sohayota kore?
+A. Ca^{++}
+B. Mg^{++}
+C. Cu^{++}
+D. Fe^{++}
+Answer with only A, B, C, or D."
+benqa_12th-Biology-II_0179,benqa,banglish_noisy,False,,"rokt jomat bandhote kon dhatob ayon sohayota kore?
+A. Ca^{++}
+B. Mg^{++}
+C. Cu^{++}
+D. Fe^{++}
+Answer with only A, B, C, or D.","rokt jomat bandhote kon dhatob ayon sohayota kore?
+A. Ca^{++}
+B. Mg^{++}
+C. Cu^{++}
+D. Fe^{++}
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0277,benqa,banglish_clean,False,,"konotike ghas gotr bola hoy?
+A. solanesi
+B. saikyadesi
+C. malobhesi
+D. poyesi
+Answer with only A, B, C, or D.","konotike ghas gotr bola hoy?
+A. solanesi
+B. saikyadesi
+C. malobhesi
+D. poyesi
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0277,benqa,banglish_noisy,False,,"konotike ghas gotr bola hoy?
+A. solanesi
+B. saikyadesi
+C. malovesi
+D. poyesi
+Answer with only A, B, C, or D.","konotike ghas gotr bola hoy?
+A. solanesi
+B. saikyadesi
+C. malovesi
+D. poyesi
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0194,benqa,banglish_clean,False,,"nicher kon mouloti odhik sokriy?
+A. O
+B. P
+C. N
+D. F
+Answer with only A, B, C, or D.","nicher kon mouloti odhik sokriy?
+A. O
+B. P
+C. N
+D. F
+Answer with only A, B, C, or D."
+benqa_10th-Chemistry_0194,benqa,banglish_noisy,False,,"nicher kon mouloti odhik sokriy?
+A. O
+B. P
+C. N
+D. F
+Answer with only A, B, C, or D.","nicher kon mouloti odhik sokriy?
+A. O
+B. P
+C. N
+D. F
+Answer with only A, B, C, or D."
+banglamath_0187,banglamath,banglish_clean,True,ekoti->ekti (1); korote->korte (2),"ekoti bandh toiri korote 360 jon shromiker 25 din lage. 18 dine kajoti shesh korote kotojon otirikt shromik lagobe
+Return only the final answer.","ekti bandh toiri korte 360 jon shromiker 25 din lage. 18 dine kajoti shesh korte kotojon otirikt shromik lagobe
+Return only the final answer."
+banglamath_0187,banglamath,banglish_noisy,True,ekoti->ekti (1); korote->korte (2),"ekoti bandh toyri korote 360 jon sromiker 25 din lage. 18 dine kajoti ses korote kotojon otirikt sromik lagobe
+Return only the final answer.","ekti bandh toyri korte 360 jon sromiker 25 din lage. 18 dine kajoti ses korte kotojon otirikt sromik lagobe
+Return only the final answer."
+banglamath_0559,banglamath,banglish_clean,True,ekoti->ekti (1); kot->koto (1); kshetrofol->khetrofol (1),"ekoti borgokshetrer porisima 160 mitar hole tar kshetrofol kot
+Return only the final answer.","ekti borgokshetrer porisima 160 mitar hole tar khetrofol koto
+Return only the final answer."
+banglamath_0559,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1),"ekoti borgoksetrer porisima 160 mitar hole tar ksetrofol kot
+Return only the final answer.","ekti borgoksetrer porisima 160 mitar hole tar ksetrofol koto
+Return only the final answer."
+banglamath_0521,banglamath,banglish_clean,True,doirghy->doirgho (1); ekoti->ekti (1); kot->koto (1); prosth->prostho (1),"ekoti jomir doirghy 20 mitar o prosth 15 mitar hole tar porisima kot
+Return only the final answer.","ekti jomir doirgho 20 mitar o prostho 15 mitar hole tar porisima koto
+Return only the final answer."
+banglamath_0521,banglamath,banglish_noisy,True,ekoti->ekti (1); kot->koto (1); prosth->prostho (1),"ekoti jomir doyrghy 20 mitar o prosth 15 mitar hole tar porisima kot
+Return only the final answer.","ekti jomir doyrghy 20 mitar o prostho 15 mitar hole tar porisima koto
+Return only the final answer."
+banglamath_1691,banglamath,banglish_clean,True,achhe->ache (1); ekoti->ekti (2); korote->korte (1),"beru goyalar kachhe ekoti kolosite 10 litar dudh ebong dudh mapar duti khali patr , ekoti 5 litarer, oporoti 3 litarer. se kretake 1 litar dudh bikri korote chay. goyalar kachhe jedojesob patr achhe shudhu ta diye kibhabe kretake 1 litar dudh deya sombhob?
+Return only the final answer.","beru goyalar kachhe ekti kolosite 10 litar dudh ebong dudh mapar duti khali patr , ekti 5 litarer, oporoti 3 litarer. se kretake 1 litar dudh bikri korte chay. goyalar kachhe jedojesob patr ache shudhu ta diye kibhabe kretake 1 litar dudh deya sombhob?
+Return only the final answer."
+banglamath_1691,banglamath,banglish_noisy,True,ekoti->ekti (2); korote->korte (1),"beru goyalar kache ekoti kolosite 10 litar dudh ebong dudh mapar duti kali patr , ekoti 5 litarer, oporoti 3 litarer. se kretake 1 litar dudh bikri korote chay. goyalar kache jedojesob patr ache sudhu ta diye kivabe kretake 1 litar dudh deya somvob?
+Return only the final answer.","beru goyalar kache ekti kolosite 10 litar dudh ebong dudh mapar duti kali patr , ekti 5 litarer, oporoti 3 litarer. se kretake 1 litar dudh bikri korte chay. goyalar kache jedojesob patr ache sudhu ta diye kivabe kretake 1 litar dudh deya somvob?
+Return only the final answer."
+benqa_12th-Physics-I_0157,benqa,banglish_clean,False,,"bhor ebong beg ubhoyoke briddhi kore jothakrome tinogun kora hole gotishoktir briddhir poriman kotogun hobe?
+A. 27
+B. 21
+C. 18
+D. 8
+Answer with only A, B, C, or D.","bhor ebong beg ubhoyoke briddhi kore jothakrome tinogun kora hole gotishoktir briddhir poriman kotogun hobe?
+A. 27
+B. 21
+C. 18
+D. 8
+Answer with only A, B, C, or D."
+benqa_12th-Physics-I_0157,benqa,banglish_noisy,False,,"vor ebong beg uvoyoke briddhi kore jothakrome tinogun kora hole gotisoktir briddhir poriman kotogun hobe?
+A. 27
+B. 21
+C. 18
+D. 8
+Answer with only A, B, C, or D.","vor ebong beg uvoyoke briddhi kore jothakrome tinogun kora hole gotisoktir briddhir poriman kotogun hobe?
+A. 27
+B. 21
+C. 18
+D. 8
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0056,benqa,banglish_clean,False,,"konotite haidothod thakote pare?
+A. pata
+B. ful
+C. mul
+D. kand
+Answer with only A, B, C, or D.","konotite haidothod thakote pare?
+A. pata
+B. ful
+C. mul
+D. kand
+Answer with only A, B, C, or D."
+benqa_12th-Biology-I_0056,benqa,banglish_noisy,False,,"konotite haidothod thakote pare?
+A. pata
+B. ful
+C. mul
+D. kand
+Answer with only A, B, C, or D.","konotite haidothod thakote pare?
+A. pata
+B. ful
+C. mul
+D. kand
+Answer with only A, B, C, or D."
+banglamath_0229,banglamath,banglish_clean,False,,"150% ke doshomik bhognangshe prokash korole ki hoy
+Return only the final answer.","150% ke doshomik bhognangshe prokash korole ki hoy
+Return only the final answer."
+banglamath_0229,banglamath,banglish_noisy,False,,"150% ke dosomik vognangse prokas korole ki hoy
+Return only the final answer.","150% ke dosomik vognangse prokas korole ki hoy
+Return only the final answer."
+benqa_10th-Math-II_0102,benqa,banglish_clean,True,kot->koto (1),"M(1, - 1), N(2, 2) ebong R(4, a) bindu tinoti somorekh hole, a er man kot?
+A. 2
+B. 4
+C. 6
+D. 8
+Answer with only A, B, C, or D.","M(1, - 1), N(2, 2) ebong R(4, a) bindu tinoti somorekh hole, a er man koto?
+A. 2
+B. 4
+C. 6
+D. 8
+Answer with only A, B, C, or D."
+benqa_10th-Math-II_0102,benqa,banglish_noisy,True,kot->koto (1),"M(1, - 1), N(2, 2) ebong R(4, a) bindu tinoti somorek hole, a er man kot?
+A. 2
+B. 4
+C. 6
+D. 8
+Answer with only A, B, C, or D.","M(1, - 1), N(2, 2) ebong R(4, a) bindu tinoti somorek hole, a er man koto?
+A. 2
+B. 4
+C. 6
+D. 8
+Answer with only A, B, C, or D."
+banglamath_0558,banglamath,banglish_clean,True,ayotakar->ayotokar (1); doirghy->doirgho (1); kot->koto (1); prosth->prostho (1),"60 mitar dirgh ayotakar baganer doirghy prosther 3 gun hole prosth kot
+Return only the final answer.","60 mitar dirgh ayotokar baganer doirgho prosther 3 gun hole prostho koto
+Return only the final answer."
+banglamath_0558,banglamath,banglish_noisy,True,ayotakar->ayotokar (1); kot->koto (1); prosth->prostho (1),"60 mitar dirgh ayotakar baganer doyrghy prosther 3 gun hole prosth kot
+Return only the final answer.","60 mitar dirgh ayotokar baganer doyrghy prosther 3 gun hole prostho koto
+Return only the final answer."
+banglamath_1695,banglamath,banglish_clean,False,,"1ti parke 1/3 bhag narokelogachh, 1/4 gachhoam gachh, 1/5 bhag bot gachh ebong 39ti fuler gachh. bagane kon gachh kototi royechhe ebong mot gachh koyoti ?
+Return only the final answer.","1ti parke 1/3 bhag narokelogachh, 1/4 gachhoam gachh, 1/5 bhag bot gachh ebong 39ti fuler gachh. bagane kon gachh kototi royechhe ebong mot gachh koyoti ?
+Return only the final answer."
+banglamath_1695,banglamath,banglish_noisy,False,,"1ti parke 1/3 vag narokelogach, 1/4 gachoam gach, 1/5 vag bot gach ebong 39ti fuler gach. bagane kon gach kototi royeche ebong mot gach koyoti ?
+Return only the final answer.","1ti parke 1/3 vag narokelogach, 1/4 gachoam gach, 1/5 vag bot gach ebong 39ti fuler gach. bagane kon gach kototi royeche ebong mot gach koyoti ?
+Return only the final answer."
+benqa_10th-Math_0044,benqa,banglish_clean,True,achhe->ache (1); ekoti->ekti (1),"ekoti borger kototi protisamy rekha achhe?
+A. 8ti
+B. 6ti
+C. 4ti
+D. 2ti
+Answer with only A, B, C, or D.","ekti borger kototi protisamy rekha ache?
+A. 8ti
+B. 6ti
+C. 4ti
+D. 2ti
+Answer with only A, B, C, or D."
+benqa_10th-Math_0044,benqa,banglish_noisy,True,ekoti->ekti (1),"ekoti borger kototi protisamy reka ache?
+A. 8ti
+B. 6ti
+C. 4ti
+D. 2ti
+Answer with only A, B, C, or D.","ekti borger kototi protisamy reka ache?
+A. 8ti
+B. 6ti
+C. 4ti
+D. 2ti
+Answer with only A, B, C, or D."

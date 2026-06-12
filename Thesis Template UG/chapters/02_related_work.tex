@@ -1,0 +1,47 @@
+\chapter{Related Work}
+
+\section{Bengali evaluation}
+
+BEnQA introduced a Bengali-English question answering benchmark based on science questions from Bangladeshi education \cite{shafayat-etal-2024-benqa}. BanglaMATH introduced a Bengali math word-problem benchmark and showed language bias in mathematical reasoning \cite{banglamath2025}. MGSM provides multilingual GSM8K-style arithmetic items and supports broader multilingual reasoning evaluation \cite{mgsm2022,gsm8k2021}.
+
+Recent Bengali benchmarks cover many other directions: open-domain QA \cite{banglaquad2024}, multitask knowledge \cite{bnmmlu2025}, linguistic and cultural knowledge \cite{bluck2025}, textbook QA \cite{nctbqa2026}, inference \cite{bnli2025}, social and cultural alignment \cite{banglasocialbench2026}, multimodal cultural understanding \cite{banglaverse2026}, long-form speech \cite{bengaliloop2026}, safety \cite{banglaguard2026}, and biomedical QA \cite{banglamedqa2025}. This growing landscape is important for positioning our work. We do not claim that Bengali is unevaluated. The gap is more specific: controlled downstream Bangla/Banglish/English script-equivalence evaluation remains undermeasured.
+
+\subsection{Romanized Bangla and code-mixed text}
+
+BanglaTLit shows that romanized Bangla is widespread and spelling-variable, requiring dedicated back-transliteration resources \cite{fahim-etal-2024-banglatlit}. BanglishRev documents Bangla-English and code-mixed product reviews \cite{banglishrev2024}. BAN-TH focuses on transliterated Bangla hate speech \cite{banth2024}, BnSentMix on Bengali-English code-mixed sentiment \cite{bnsentmix2024}, and MixSarc on implicit meaning in Bangla-English code-mixed text \cite{mixsarc2026}. These resources show that Banglish and related code-mixed forms are practical user-facing formats.
+
+Most of these datasets are classification corpora. They are useful prevalence evidence, but they do not directly measure whether a QA or math item with the same answer becomes harder when the script changes. That paired downstream question is the core of Script Matters.
+
+\subsection{Script robustness and transliteration}
+
+Prior work on Bangla transliteration perturbations shows that replacing Bangla words or sentences with transliterated forms can expose model vulnerabilities \cite{haider-etal-2025-robustness}. Related transliteration resources also motivate normalization as a possible bridge for Romanized Bengali inputs \cite{indotranslit2025}. Recent work on romanized scripts in Indian-language triage and Romanized Nepali LLM evaluation supports the broader claim that romanized South Asian language inputs deserve direct evaluation \cite{scriptgap2025,romanizednepali2026}.
+
+Our work differs in three ways. We use full task-equivalent variants rather than local perturbations. We preserve the item and gold answer across Bangla, Banglish, and English. And we analyze failure recoverability, tokenization, review sensitivity, frontier-model behavior, and mitigation attempts under one protocol. Table~\ref{tab:related-work} summarizes the comparison with the three nearest neighbors.
+
+\begin{table}[H]
+\centering
+\caption{Comparison with the nearest prior work on romanized South Asian script robustness. ``Partial'' marks design elements present in a weaker form (word/sentence-level perturbation rather than full task-equivalent variants; automatic rather than human-reviewed transliteration).}
+\label{tab:related-work}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\hline
+Work & Paired items & Human-reviewed & Downstream & Mitigation & Scale \\
+ & & romanization & QA/math & study & extension \\
+\hline
+Transliteration perturbations \cite{haider-etal-2025-robustness} & Partial & No & No & No & No \\
+Script-gap triage \cite{scriptgap2025} & Yes & No & No & No & No \\
+Romanized Nepali \cite{romanizednepali2026} & Partial & No & No & Yes & No \\
+\textbf{This thesis} & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} \\
+\hline
+\end{tabular}%
+}
+\end{table}
+
+The perturbation study replaces words or salient tokens inside existing classification datasets, so its paired contrast is local rather than item-equivalent, and it does not evaluate answer-preserving QA or math tasks. The script-gap triage study pairs native and romanized versions of real clinical queries but evaluates a single classification task without human review of the romanized text or any mitigation analysis. The Romanized Nepali study fine-tunes 8B models on transliterated instruction data --- a training-side adaptation similar in spirit to our mitigation chapter --- but evaluates generation fluency metrics rather than gold-answer task accuracy. None of the three combines paired gold-answer evaluation, human-reviewed romanization, multi-model downstream measurement, mitigation probes, and a human-reviewed scale extension under one protocol.
+
+\subsection{Tokenization and latent language}
+
+Tokenizer design can create unequal costs and context budgets across languages \cite{tokenizerfairness2023}. At the same time, multilingual LLMs can show latent English or romanized-language behavior \cite{wendler-etal-2024-llamas,thinkenglish2025,romanlens2025}. These findings motivate our tokenization and cross-script oracle analyses. However, they do not imply that explicit Banglish input will be robust. Our results show the opposite for many models: Banglish can be token-cheaper than native Bangla and still less accurate.
+
+\endinput

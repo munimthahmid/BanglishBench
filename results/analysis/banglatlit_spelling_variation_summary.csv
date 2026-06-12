@@ -1,0 +1,8 @@
+metric,value
+rows_total,4000
+rows_token_aligned,2754
+row_token_alignment_share,0.6885
+aligned_token_pairs,24418
+unique_bangla_tokens_aligned,4281
+bangla_tokens_with_2plus_latin_variants_min3,825
+bangla_tokens_with_2plus_repeated_latin_variants_min3,299

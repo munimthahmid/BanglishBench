@@ -1,0 +1,42 @@
+field,pattern_name,id,snippet
+banglish_clean,tb_virama_b,mgsm_bn_0009,r pore bujhote paren je tini barite gurutbopurn kichhu bhule esechhen ebong tai ti
+banglish_clean,tb_virama_b,mgsm_bn_0017,re. tahole duidine protiti tren kot durotb otikrom korechhe? Return only the final
+banglish_clean,tb_virama_b,mgsm_bn_0020,"ontay 4 mail hobe, tahole oboshisht durotb otikrom korar jony tanke kot bege (mail"
+banglish_clean,tb_virama_b,mgsm_bn_0042,ose bishalakar dragon parg 1000 fut durotber modhye thaka je konoo kichhur upore m
+banglish_clean,oja_loanword,mgsm_bn_0006,kailar tanr notun ojapartomenter jony kanch kinote dokane giy
+banglish_clean,oja_loanword,mgsm_bn_0021,tiyangsh jol ebong ami ta 15 litar painoojapol dringk -e meshate chai jar modhye pa
+banglish_clean,oja_loanword,mgsm_bn_0026,"1.50 dore 4ti apel, ebong koyek-baks pitoja ordar korechhilen. mari mot $50 orthopr"
+banglish_clean,oja_loanword,mgsm_bn_0031,dyarel o ojalener boyoser onupat 7:11. jodi tander d
+banglish_clean,oja_loanword,mgsm_bn_0035,ojaroner theke siobhaner kachhe 2ti kom rot
+banglish_clean,oja_loanword,mgsm_bn_0050,richard 15 florer ekoti ojapartoment bilding-e thaken. protiti flor
+banglish_clean,ksh_heavy,mgsm_bn_0009,roti ghonta 80 mail bege gari chalate sokshom hon. 4 ghontar sheshe tini bari theke
+banglish_clean,ksh_heavy,mgsm_bn_0015,"konoo ekoti nacher klase 20 jon shiksharthir modhye, 20% somosamoyik nache, 25"
+banglish_clean,ksh_heavy,mgsm_bn_0018,jil shikshokota korar jony proti ghontay $20 ebong
+banglish_clean,ksh_heavy,mgsm_bn_0042,"in, jetike poli 400 fut durotb obodhi nikshep korote paren, kintu sei durotb dragon"
+banglish_clean,ksh_heavy,mgsm_bn_0044,"g thake, ebong aponar doinik kyalorir lokshyomatra jodi 2000 hoye thake o aponi iti"
+banglish_clean,db_cluster,mgsm_bn_0006,"ilen. ekoti kancher dam $5, kintu proti dbitiy glaser jony dam hoy mulyer 60% matr"
+banglish_clean,db_cluster,mgsm_bn_0011,om mase 60 bar daunolod kora hoyechhil. dbitiy mase daunoloder songkhya prothom ma
+banglish_clean,db_cluster,mgsm_bn_0029,tanr trip shesh hooyar 15 mail age tini dbitiyobar themechhilen. prothomobar o dbi
+banglish_clean,db_cluster,mgsm_bn_0030,"utor dam $33 hoy ebong onyotir dam etir dbigun hoy, tobe buter dam kot dolar? Retu"
+banglish_clean,db_cluster,mgsm_bn_0036,20 minite tini 4 poyent skor korechhen. dbitiy 20 minite tini 25% beshi poyent sko
+banglish_clean,db_cluster,mgsm_bn_0041,ar bener iPhone sujir iPhone-er tulonay dbigun purono. jodi sujir iPhone 1 bochhor
+banglish_clean,db_cluster,mgsm_bn_0048,jon nil tai-er dbigun lal tai kroy korechhen. nil tai-er 
+banglish_clean,jn_cluster,mgsm_bn_0042,"gonotike hotya korote pare emon ekomatr jnat ostr hol sborn jyabholin, jetike poli"
+banglish_noisy,tb_virama_b,mgsm_bn_0009,r pore bujhote paren je tini barite gurutbopurn kichu vule esechen ebong tai tini 
+banglish_noisy,tb_virama_b,mgsm_bn_0017,re. tahole duidine protiti tren kot durotb otikrom koreche? Return only the final 
+banglish_noisy,tb_virama_b,mgsm_bn_0020,"ghontay 4 mail hobe, tahole obosist durotb otikrom korar jony tanke kot bege (mail"
+banglish_noisy,tb_virama_b,mgsm_bn_0042,bose bisalakar dragon parg 1000 fut durotber modhye thaka je konoo kichur upore mu
+banglish_noisy,oja_loanword,mgsm_bn_0006,kailar tanr notun ojapartomenter jony kanch kinote dokane giy
+banglish_noisy,oja_loanword,mgsm_bn_0021,itiyangs jol ebong ami ta 15 litar painoojapol dringk -e mesate chai jar modhye pan
+banglish_noisy,oja_loanword,mgsm_bn_0026,"1.50 dore 4ti apel, ebong koyek-baks pitoja ordar korechilen. mari mot $50 orthopro"
+banglish_noisy,oja_loanword,mgsm_bn_0031,dyarel o ojalener boyoser onupat 7:11. jodi tander d
+banglish_noisy,oja_loanword,mgsm_bn_0035,ojaroner theke siovaner kache 2ti kom rotn 
+banglish_noisy,oja_loanword,mgsm_bn_0050,richard 15 florer ekoti ojapartoment bilding-e thaken. protiti flor
+banglish_noisy,db_cluster,mgsm_bn_0006,"ilen. ekoti kancher dam $5, kintu proti dbitiy glaser jony dam hoy mulyer 60% matr"
+banglish_noisy,db_cluster,mgsm_bn_0011,hom mase 60 bar daunolod kora hoyechil. dbitiy mase daunoloder songkya prothom mas
+banglish_noisy,db_cluster,mgsm_bn_0029,. tanr trip ses hooyar 15 mail age tini dbitiyobar themechilen. prothomobar o dbit
+banglish_noisy,db_cluster,mgsm_bn_0030,"utor dam $33 hoy ebong onyotir dam etir dbigun hoy, tobe buter dam kot dolar? Retu"
+banglish_noisy,db_cluster,mgsm_bn_0036, 20 minite tini 4 poyent skor korechen. dbitiy 20 minite tini 25% besi poyent skor
+banglish_noisy,db_cluster,mgsm_bn_0041,ar bener iPhone sujir iPhone-er tulonay dbigun purono. jodi sujir iPhone 1 bochor 
+banglish_noisy,db_cluster,mgsm_bn_0048,jon nil tai-er dbigun lal tai kroy korechen. nil tai-er t
+banglish_noisy,jn_cluster,mgsm_bn_0042,"gonotike hotya korote pare emon ekomatr jnat ostr hol sborn jyavolin, jetike poli "

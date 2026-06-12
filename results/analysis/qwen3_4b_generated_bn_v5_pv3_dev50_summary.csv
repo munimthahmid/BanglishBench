@@ -1,0 +1,4 @@
+model,variant,n,correct,accuracy,parsed_empty,mean_seconds,total_seconds
+Qwen/Qwen3-4B-Instruct-2507,banglish_clean,36,15,0.4167,2,0.4334,15.6025
+Qwen/Qwen3-4B-Instruct-2507,generated_bn_bnb_protected_v3,36,17,0.4722,1,0.3624,13.046
+Qwen/Qwen3-4B-Instruct-2507,generated_bn_phonetic_protected_v3,36,14,0.3889,1,0.3726,13.4146

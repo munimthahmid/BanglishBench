@@ -1,0 +1,2 @@
+model,selected_on,evaluated_on,selected_heuristic,dev_correct,dev_n,dev_accuracy,test_correct,test_n,test_accuracy,test_used_selfnorm,test_used_selfnorm_rate
+Qwen/Qwen3-4B-Instruct-2507,dev,test,selfnorm_if_banglamath,15,50,0.3,34,150,0.2267,42,0.28

@@ -1,0 +1,4 @@
+Protocol,Selected result,Baseline context,Post-hoc context,Interpretation
+Pilot40-selected rule,72/160,best single heldout 87/160,best heldout route 95/160,Ordered 40-row pilot underperforms; not a reliable route selector.
+Hash5 cross-validation,106/200,Qwen3 99/200; Qwen2.5-7B 98/200,majority + Qwen2.5-7B fallback=5,Majority + Qwen2.5-7B fallback is a weak deployable candidate.
+Block40 cross-validation,84/200,Qwen3 99/200; Qwen2.5-7B 98/200,majority + Qwen2.5-7B fallback=3;majority + Qwen3 fallback=1;single Qwen3=1,Ordered blocks expose split sensitivity; do not claim deployed mitigation.

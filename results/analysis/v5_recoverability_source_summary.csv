@@ -1,0 +1,301 @@
+model_group,dataset,metric,n,denominator,rate,detail
+all_models,all,pattern:all_wrong,278,600,0.4633,No script view is correct
+all_models,all,pattern:bangla_only_correct,28,600,0.0467,Only native Bangla is correct
+all_models,all,pattern:english_only_correct,81,600,0.135,Only English is correct
+all_models,all,pattern:bangla_english_correct_banglish_wrong,76,600,0.1267,Bangla and English are correct; Banglish is wrong
+all_models,all,pattern:banglish_only_correct,20,600,0.0333,Only reviewed Banglish is correct
+all_models,all,pattern:bangla_banglish_correct_english_wrong,21,600,0.035,Bangla and Banglish are correct; English is wrong
+all_models,all,pattern:banglish_english_correct_bangla_wrong,22,600,0.0367,Banglish and English are correct; Bangla is wrong
+all_models,all,pattern:all_correct,74,600,0.1233,All three script views are correct
+all_models,all,banglish_correct,137,600,0.2283,Reviewed Banglish correct model-item slots
+all_models,all,banglish_wrong,463,600,0.7717,Reviewed Banglish incorrect model-item slots
+all_models,all,recoverable_banglish_miss,185,600,0.3083,Banglish miss where Bangla or English is correct
+all_models,all,all_script_hard,278,600,0.4633,No script view is correct
+all_models,all,bangla_any_recovery,104,600,0.1733,Banglish miss recoverable by native Bangla
+all_models,all,english_any_recovery,157,600,0.2617,Banglish miss recoverable by English
+all_models,all,bangla_only_recovery,28,600,0.0467,Only native Bangla recovers the Banglish miss
+all_models,all,english_only_recovery,81,600,0.135,Only English recovers the Banglish miss
+all_models,all,both_alternate_recovery,76,600,0.1267,Both Bangla and English recover the Banglish miss
+all_models,all,banglish_unique_success,20,600,0.0333,Only Banglish is correct
+all_models,all,miss_share:recoverable_banglish_miss,185,463,0.3996,Share of Banglish misses recoverable by Bangla or English
+all_models,all,miss_share:all_script_hard,278,463,0.6004,Share of Banglish misses with no script correct
+all_models,all,miss_share:bangla_any_recovery,104,463,0.2246,Share of Banglish misses recoverable by native Bangla
+all_models,all,miss_share:english_any_recovery,157,463,0.3391,Share of Banglish misses recoverable by English
+all_models,all,miss_share:bangla_only_recovery,28,463,0.0605,Share of Banglish misses recoverable only by native Bangla
+all_models,all,miss_share:english_only_recovery,81,463,0.1749,Share of Banglish misses recoverable only by English
+all_models,all,miss_share:both_alternate_recovery,76,463,0.1641,Share of Banglish misses recovered by both alternate scripts
+all_models,benqa,pattern:all_wrong,133,432,0.3079,No script view is correct
+all_models,benqa,pattern:bangla_only_correct,24,432,0.0556,Only native Bangla is correct
+all_models,benqa,pattern:english_only_correct,72,432,0.1667,Only English is correct
+all_models,benqa,pattern:bangla_english_correct_banglish_wrong,68,432,0.1574,Bangla and English are correct; Banglish is wrong
+all_models,benqa,pattern:banglish_only_correct,20,432,0.0463,Only reviewed Banglish is correct
+all_models,benqa,pattern:bangla_banglish_correct_english_wrong,21,432,0.0486,Bangla and Banglish are correct; English is wrong
+all_models,benqa,pattern:banglish_english_correct_bangla_wrong,22,432,0.0509,Banglish and English are correct; Bangla is wrong
+all_models,benqa,pattern:all_correct,72,432,0.1667,All three script views are correct
+all_models,benqa,banglish_correct,135,432,0.3125,Reviewed Banglish correct model-item slots
+all_models,benqa,banglish_wrong,297,432,0.6875,Reviewed Banglish incorrect model-item slots
+all_models,benqa,recoverable_banglish_miss,164,432,0.3796,Banglish miss where Bangla or English is correct
+all_models,benqa,all_script_hard,133,432,0.3079,No script view is correct
+all_models,benqa,bangla_any_recovery,92,432,0.213,Banglish miss recoverable by native Bangla
+all_models,benqa,english_any_recovery,140,432,0.3241,Banglish miss recoverable by English
+all_models,benqa,bangla_only_recovery,24,432,0.0556,Only native Bangla recovers the Banglish miss
+all_models,benqa,english_only_recovery,72,432,0.1667,Only English recovers the Banglish miss
+all_models,benqa,both_alternate_recovery,68,432,0.1574,Both Bangla and English recover the Banglish miss
+all_models,benqa,banglish_unique_success,20,432,0.0463,Only Banglish is correct
+all_models,benqa,miss_share:recoverable_banglish_miss,164,297,0.5522,Share of Banglish misses recoverable by Bangla or English
+all_models,benqa,miss_share:all_script_hard,133,297,0.4478,Share of Banglish misses with no script correct
+all_models,benqa,miss_share:bangla_any_recovery,92,297,0.3098,Share of Banglish misses recoverable by native Bangla
+all_models,benqa,miss_share:english_any_recovery,140,297,0.4714,Share of Banglish misses recoverable by English
+all_models,benqa,miss_share:bangla_only_recovery,24,297,0.0808,Share of Banglish misses recoverable only by native Bangla
+all_models,benqa,miss_share:english_only_recovery,72,297,0.2424,Share of Banglish misses recoverable only by English
+all_models,benqa,miss_share:both_alternate_recovery,68,297,0.229,Share of Banglish misses recovered by both alternate scripts
+all_models,banglamath,pattern:all_wrong,145,168,0.8631,No script view is correct
+all_models,banglamath,pattern:bangla_only_correct,4,168,0.0238,Only native Bangla is correct
+all_models,banglamath,pattern:english_only_correct,9,168,0.0536,Only English is correct
+all_models,banglamath,pattern:bangla_english_correct_banglish_wrong,8,168,0.0476,Bangla and English are correct; Banglish is wrong
+all_models,banglamath,pattern:banglish_only_correct,0,168,0.0,Only reviewed Banglish is correct
+all_models,banglamath,pattern:bangla_banglish_correct_english_wrong,0,168,0.0,Bangla and Banglish are correct; English is wrong
+all_models,banglamath,pattern:banglish_english_correct_bangla_wrong,0,168,0.0,Banglish and English are correct; Bangla is wrong
+all_models,banglamath,pattern:all_correct,2,168,0.0119,All three script views are correct
+all_models,banglamath,banglish_correct,2,168,0.0119,Reviewed Banglish correct model-item slots
+all_models,banglamath,banglish_wrong,166,168,0.9881,Reviewed Banglish incorrect model-item slots
+all_models,banglamath,recoverable_banglish_miss,21,168,0.125,Banglish miss where Bangla or English is correct
+all_models,banglamath,all_script_hard,145,168,0.8631,No script view is correct
+all_models,banglamath,bangla_any_recovery,12,168,0.0714,Banglish miss recoverable by native Bangla
+all_models,banglamath,english_any_recovery,17,168,0.1012,Banglish miss recoverable by English
+all_models,banglamath,bangla_only_recovery,4,168,0.0238,Only native Bangla recovers the Banglish miss
+all_models,banglamath,english_only_recovery,9,168,0.0536,Only English recovers the Banglish miss
+all_models,banglamath,both_alternate_recovery,8,168,0.0476,Both Bangla and English recover the Banglish miss
+all_models,banglamath,banglish_unique_success,0,168,0.0,Only Banglish is correct
+all_models,banglamath,miss_share:recoverable_banglish_miss,21,166,0.1265,Share of Banglish misses recoverable by Bangla or English
+all_models,banglamath,miss_share:all_script_hard,145,166,0.8735,Share of Banglish misses with no script correct
+all_models,banglamath,miss_share:bangla_any_recovery,12,166,0.0723,Share of Banglish misses recoverable by native Bangla
+all_models,banglamath,miss_share:english_any_recovery,17,166,0.1024,Share of Banglish misses recoverable by English
+all_models,banglamath,miss_share:bangla_only_recovery,4,166,0.0241,Share of Banglish misses recoverable only by native Bangla
+all_models,banglamath,miss_share:english_only_recovery,9,166,0.0542,Share of Banglish misses recoverable only by English
+all_models,banglamath,miss_share:both_alternate_recovery,8,166,0.0482,Share of Banglish misses recovered by both alternate scripts
+Qwen2.5-3B,all,pattern:all_wrong,101,200,0.505,No script view is correct
+Qwen2.5-3B,all,pattern:bangla_only_correct,13,200,0.065,Only native Bangla is correct
+Qwen2.5-3B,all,pattern:english_only_correct,30,200,0.15,Only English is correct
+Qwen2.5-3B,all,pattern:bangla_english_correct_banglish_wrong,15,200,0.075,Bangla and English are correct; Banglish is wrong
+Qwen2.5-3B,all,pattern:banglish_only_correct,7,200,0.035,Only reviewed Banglish is correct
+Qwen2.5-3B,all,pattern:bangla_banglish_correct_english_wrong,8,200,0.04,Bangla and Banglish are correct; English is wrong
+Qwen2.5-3B,all,pattern:banglish_english_correct_bangla_wrong,8,200,0.04,Banglish and English are correct; Bangla is wrong
+Qwen2.5-3B,all,pattern:all_correct,18,200,0.09,All three script views are correct
+Qwen2.5-3B,all,banglish_correct,41,200,0.205,Reviewed Banglish correct model-item slots
+Qwen2.5-3B,all,banglish_wrong,159,200,0.795,Reviewed Banglish incorrect model-item slots
+Qwen2.5-3B,all,recoverable_banglish_miss,58,200,0.29,Banglish miss where Bangla or English is correct
+Qwen2.5-3B,all,all_script_hard,101,200,0.505,No script view is correct
+Qwen2.5-3B,all,bangla_any_recovery,28,200,0.14,Banglish miss recoverable by native Bangla
+Qwen2.5-3B,all,english_any_recovery,45,200,0.225,Banglish miss recoverable by English
+Qwen2.5-3B,all,bangla_only_recovery,13,200,0.065,Only native Bangla recovers the Banglish miss
+Qwen2.5-3B,all,english_only_recovery,30,200,0.15,Only English recovers the Banglish miss
+Qwen2.5-3B,all,both_alternate_recovery,15,200,0.075,Both Bangla and English recover the Banglish miss
+Qwen2.5-3B,all,banglish_unique_success,7,200,0.035,Only Banglish is correct
+Qwen2.5-3B,all,miss_share:recoverable_banglish_miss,58,159,0.3648,Share of Banglish misses recoverable by Bangla or English
+Qwen2.5-3B,all,miss_share:all_script_hard,101,159,0.6352,Share of Banglish misses with no script correct
+Qwen2.5-3B,all,miss_share:bangla_any_recovery,28,159,0.1761,Share of Banglish misses recoverable by native Bangla
+Qwen2.5-3B,all,miss_share:english_any_recovery,45,159,0.283,Share of Banglish misses recoverable by English
+Qwen2.5-3B,all,miss_share:bangla_only_recovery,13,159,0.0818,Share of Banglish misses recoverable only by native Bangla
+Qwen2.5-3B,all,miss_share:english_only_recovery,30,159,0.1887,Share of Banglish misses recoverable only by English
+Qwen2.5-3B,all,miss_share:both_alternate_recovery,15,159,0.0943,Share of Banglish misses recovered by both alternate scripts
+Qwen2.5-3B,benqa,pattern:all_wrong,52,144,0.3611,No script view is correct
+Qwen2.5-3B,benqa,pattern:bangla_only_correct,11,144,0.0764,Only native Bangla is correct
+Qwen2.5-3B,benqa,pattern:english_only_correct,28,144,0.1944,Only English is correct
+Qwen2.5-3B,benqa,pattern:bangla_english_correct_banglish_wrong,12,144,0.0833,Bangla and English are correct; Banglish is wrong
+Qwen2.5-3B,benqa,pattern:banglish_only_correct,7,144,0.0486,Only reviewed Banglish is correct
+Qwen2.5-3B,benqa,pattern:bangla_banglish_correct_english_wrong,8,144,0.0556,Bangla and Banglish are correct; English is wrong
+Qwen2.5-3B,benqa,pattern:banglish_english_correct_bangla_wrong,8,144,0.0556,Banglish and English are correct; Bangla is wrong
+Qwen2.5-3B,benqa,pattern:all_correct,18,144,0.125,All three script views are correct
+Qwen2.5-3B,benqa,banglish_correct,41,144,0.2847,Reviewed Banglish correct model-item slots
+Qwen2.5-3B,benqa,banglish_wrong,103,144,0.7153,Reviewed Banglish incorrect model-item slots
+Qwen2.5-3B,benqa,recoverable_banglish_miss,51,144,0.3542,Banglish miss where Bangla or English is correct
+Qwen2.5-3B,benqa,all_script_hard,52,144,0.3611,No script view is correct
+Qwen2.5-3B,benqa,bangla_any_recovery,23,144,0.1597,Banglish miss recoverable by native Bangla
+Qwen2.5-3B,benqa,english_any_recovery,40,144,0.2778,Banglish miss recoverable by English
+Qwen2.5-3B,benqa,bangla_only_recovery,11,144,0.0764,Only native Bangla recovers the Banglish miss
+Qwen2.5-3B,benqa,english_only_recovery,28,144,0.1944,Only English recovers the Banglish miss
+Qwen2.5-3B,benqa,both_alternate_recovery,12,144,0.0833,Both Bangla and English recover the Banglish miss
+Qwen2.5-3B,benqa,banglish_unique_success,7,144,0.0486,Only Banglish is correct
+Qwen2.5-3B,benqa,miss_share:recoverable_banglish_miss,51,103,0.4951,Share of Banglish misses recoverable by Bangla or English
+Qwen2.5-3B,benqa,miss_share:all_script_hard,52,103,0.5049,Share of Banglish misses with no script correct
+Qwen2.5-3B,benqa,miss_share:bangla_any_recovery,23,103,0.2233,Share of Banglish misses recoverable by native Bangla
+Qwen2.5-3B,benqa,miss_share:english_any_recovery,40,103,0.3883,Share of Banglish misses recoverable by English
+Qwen2.5-3B,benqa,miss_share:bangla_only_recovery,11,103,0.1068,Share of Banglish misses recoverable only by native Bangla
+Qwen2.5-3B,benqa,miss_share:english_only_recovery,28,103,0.2718,Share of Banglish misses recoverable only by English
+Qwen2.5-3B,benqa,miss_share:both_alternate_recovery,12,103,0.1165,Share of Banglish misses recovered by both alternate scripts
+Qwen2.5-3B,banglamath,pattern:all_wrong,49,56,0.875,No script view is correct
+Qwen2.5-3B,banglamath,pattern:bangla_only_correct,2,56,0.0357,Only native Bangla is correct
+Qwen2.5-3B,banglamath,pattern:english_only_correct,2,56,0.0357,Only English is correct
+Qwen2.5-3B,banglamath,pattern:bangla_english_correct_banglish_wrong,3,56,0.0536,Bangla and English are correct; Banglish is wrong
+Qwen2.5-3B,banglamath,pattern:banglish_only_correct,0,56,0.0,Only reviewed Banglish is correct
+Qwen2.5-3B,banglamath,pattern:bangla_banglish_correct_english_wrong,0,56,0.0,Bangla and Banglish are correct; English is wrong
+Qwen2.5-3B,banglamath,pattern:banglish_english_correct_bangla_wrong,0,56,0.0,Banglish and English are correct; Bangla is wrong
+Qwen2.5-3B,banglamath,pattern:all_correct,0,56,0.0,All three script views are correct
+Qwen2.5-3B,banglamath,banglish_correct,0,56,0.0,Reviewed Banglish correct model-item slots
+Qwen2.5-3B,banglamath,banglish_wrong,56,56,1.0,Reviewed Banglish incorrect model-item slots
+Qwen2.5-3B,banglamath,recoverable_banglish_miss,7,56,0.125,Banglish miss where Bangla or English is correct
+Qwen2.5-3B,banglamath,all_script_hard,49,56,0.875,No script view is correct
+Qwen2.5-3B,banglamath,bangla_any_recovery,5,56,0.0893,Banglish miss recoverable by native Bangla
+Qwen2.5-3B,banglamath,english_any_recovery,5,56,0.0893,Banglish miss recoverable by English
+Qwen2.5-3B,banglamath,bangla_only_recovery,2,56,0.0357,Only native Bangla recovers the Banglish miss
+Qwen2.5-3B,banglamath,english_only_recovery,2,56,0.0357,Only English recovers the Banglish miss
+Qwen2.5-3B,banglamath,both_alternate_recovery,3,56,0.0536,Both Bangla and English recover the Banglish miss
+Qwen2.5-3B,banglamath,banglish_unique_success,0,56,0.0,Only Banglish is correct
+Qwen2.5-3B,banglamath,miss_share:recoverable_banglish_miss,7,56,0.125,Share of Banglish misses recoverable by Bangla or English
+Qwen2.5-3B,banglamath,miss_share:all_script_hard,49,56,0.875,Share of Banglish misses with no script correct
+Qwen2.5-3B,banglamath,miss_share:bangla_any_recovery,5,56,0.0893,Share of Banglish misses recoverable by native Bangla
+Qwen2.5-3B,banglamath,miss_share:english_any_recovery,5,56,0.0893,Share of Banglish misses recoverable by English
+Qwen2.5-3B,banglamath,miss_share:bangla_only_recovery,2,56,0.0357,Share of Banglish misses recoverable only by native Bangla
+Qwen2.5-3B,banglamath,miss_share:english_only_recovery,2,56,0.0357,Share of Banglish misses recoverable only by English
+Qwen2.5-3B,banglamath,miss_share:both_alternate_recovery,3,56,0.0536,Share of Banglish misses recovered by both alternate scripts
+Qwen2.5-7B 8-bit,all,pattern:all_wrong,85,200,0.425,No script view is correct
+Qwen2.5-7B 8-bit,all,pattern:bangla_only_correct,8,200,0.04,Only native Bangla is correct
+Qwen2.5-7B 8-bit,all,pattern:english_only_correct,31,200,0.155,Only English is correct
+Qwen2.5-7B 8-bit,all,pattern:bangla_english_correct_banglish_wrong,29,200,0.145,Bangla and English are correct; Banglish is wrong
+Qwen2.5-7B 8-bit,all,pattern:banglish_only_correct,8,200,0.04,Only reviewed Banglish is correct
+Qwen2.5-7B 8-bit,all,pattern:bangla_banglish_correct_english_wrong,5,200,0.025,Bangla and Banglish are correct; English is wrong
+Qwen2.5-7B 8-bit,all,pattern:banglish_english_correct_bangla_wrong,11,200,0.055,Banglish and English are correct; Bangla is wrong
+Qwen2.5-7B 8-bit,all,pattern:all_correct,23,200,0.115,All three script views are correct
+Qwen2.5-7B 8-bit,all,banglish_correct,47,200,0.235,Reviewed Banglish correct model-item slots
+Qwen2.5-7B 8-bit,all,banglish_wrong,153,200,0.765,Reviewed Banglish incorrect model-item slots
+Qwen2.5-7B 8-bit,all,recoverable_banglish_miss,68,200,0.34,Banglish miss where Bangla or English is correct
+Qwen2.5-7B 8-bit,all,all_script_hard,85,200,0.425,No script view is correct
+Qwen2.5-7B 8-bit,all,bangla_any_recovery,37,200,0.185,Banglish miss recoverable by native Bangla
+Qwen2.5-7B 8-bit,all,english_any_recovery,60,200,0.3,Banglish miss recoverable by English
+Qwen2.5-7B 8-bit,all,bangla_only_recovery,8,200,0.04,Only native Bangla recovers the Banglish miss
+Qwen2.5-7B 8-bit,all,english_only_recovery,31,200,0.155,Only English recovers the Banglish miss
+Qwen2.5-7B 8-bit,all,both_alternate_recovery,29,200,0.145,Both Bangla and English recover the Banglish miss
+Qwen2.5-7B 8-bit,all,banglish_unique_success,8,200,0.04,Only Banglish is correct
+Qwen2.5-7B 8-bit,all,miss_share:recoverable_banglish_miss,68,153,0.4444,Share of Banglish misses recoverable by Bangla or English
+Qwen2.5-7B 8-bit,all,miss_share:all_script_hard,85,153,0.5556,Share of Banglish misses with no script correct
+Qwen2.5-7B 8-bit,all,miss_share:bangla_any_recovery,37,153,0.2418,Share of Banglish misses recoverable by native Bangla
+Qwen2.5-7B 8-bit,all,miss_share:english_any_recovery,60,153,0.3922,Share of Banglish misses recoverable by English
+Qwen2.5-7B 8-bit,all,miss_share:bangla_only_recovery,8,153,0.0523,Share of Banglish misses recoverable only by native Bangla
+Qwen2.5-7B 8-bit,all,miss_share:english_only_recovery,31,153,0.2026,Share of Banglish misses recoverable only by English
+Qwen2.5-7B 8-bit,all,miss_share:both_alternate_recovery,29,153,0.1895,Share of Banglish misses recovered by both alternate scripts
+Qwen2.5-7B 8-bit,benqa,pattern:all_wrong,39,144,0.2708,No script view is correct
+Qwen2.5-7B 8-bit,benqa,pattern:bangla_only_correct,6,144,0.0417,Only native Bangla is correct
+Qwen2.5-7B 8-bit,benqa,pattern:english_only_correct,26,144,0.1806,Only English is correct
+Qwen2.5-7B 8-bit,benqa,pattern:bangla_english_correct_banglish_wrong,26,144,0.1806,Bangla and English are correct; Banglish is wrong
+Qwen2.5-7B 8-bit,benqa,pattern:banglish_only_correct,8,144,0.0556,Only reviewed Banglish is correct
+Qwen2.5-7B 8-bit,benqa,pattern:bangla_banglish_correct_english_wrong,5,144,0.0347,Bangla and Banglish are correct; English is wrong
+Qwen2.5-7B 8-bit,benqa,pattern:banglish_english_correct_bangla_wrong,11,144,0.0764,Banglish and English are correct; Bangla is wrong
+Qwen2.5-7B 8-bit,benqa,pattern:all_correct,23,144,0.1597,All three script views are correct
+Qwen2.5-7B 8-bit,benqa,banglish_correct,47,144,0.3264,Reviewed Banglish correct model-item slots
+Qwen2.5-7B 8-bit,benqa,banglish_wrong,97,144,0.6736,Reviewed Banglish incorrect model-item slots
+Qwen2.5-7B 8-bit,benqa,recoverable_banglish_miss,58,144,0.4028,Banglish miss where Bangla or English is correct
+Qwen2.5-7B 8-bit,benqa,all_script_hard,39,144,0.2708,No script view is correct
+Qwen2.5-7B 8-bit,benqa,bangla_any_recovery,32,144,0.2222,Banglish miss recoverable by native Bangla
+Qwen2.5-7B 8-bit,benqa,english_any_recovery,52,144,0.3611,Banglish miss recoverable by English
+Qwen2.5-7B 8-bit,benqa,bangla_only_recovery,6,144,0.0417,Only native Bangla recovers the Banglish miss
+Qwen2.5-7B 8-bit,benqa,english_only_recovery,26,144,0.1806,Only English recovers the Banglish miss
+Qwen2.5-7B 8-bit,benqa,both_alternate_recovery,26,144,0.1806,Both Bangla and English recover the Banglish miss
+Qwen2.5-7B 8-bit,benqa,banglish_unique_success,8,144,0.0556,Only Banglish is correct
+Qwen2.5-7B 8-bit,benqa,miss_share:recoverable_banglish_miss,58,97,0.5979,Share of Banglish misses recoverable by Bangla or English
+Qwen2.5-7B 8-bit,benqa,miss_share:all_script_hard,39,97,0.4021,Share of Banglish misses with no script correct
+Qwen2.5-7B 8-bit,benqa,miss_share:bangla_any_recovery,32,97,0.3299,Share of Banglish misses recoverable by native Bangla
+Qwen2.5-7B 8-bit,benqa,miss_share:english_any_recovery,52,97,0.5361,Share of Banglish misses recoverable by English
+Qwen2.5-7B 8-bit,benqa,miss_share:bangla_only_recovery,6,97,0.0619,Share of Banglish misses recoverable only by native Bangla
+Qwen2.5-7B 8-bit,benqa,miss_share:english_only_recovery,26,97,0.268,Share of Banglish misses recoverable only by English
+Qwen2.5-7B 8-bit,benqa,miss_share:both_alternate_recovery,26,97,0.268,Share of Banglish misses recovered by both alternate scripts
+Qwen2.5-7B 8-bit,banglamath,pattern:all_wrong,46,56,0.8214,No script view is correct
+Qwen2.5-7B 8-bit,banglamath,pattern:bangla_only_correct,2,56,0.0357,Only native Bangla is correct
+Qwen2.5-7B 8-bit,banglamath,pattern:english_only_correct,5,56,0.0893,Only English is correct
+Qwen2.5-7B 8-bit,banglamath,pattern:bangla_english_correct_banglish_wrong,3,56,0.0536,Bangla and English are correct; Banglish is wrong
+Qwen2.5-7B 8-bit,banglamath,pattern:banglish_only_correct,0,56,0.0,Only reviewed Banglish is correct
+Qwen2.5-7B 8-bit,banglamath,pattern:bangla_banglish_correct_english_wrong,0,56,0.0,Bangla and Banglish are correct; English is wrong
+Qwen2.5-7B 8-bit,banglamath,pattern:banglish_english_correct_bangla_wrong,0,56,0.0,Banglish and English are correct; Bangla is wrong
+Qwen2.5-7B 8-bit,banglamath,pattern:all_correct,0,56,0.0,All three script views are correct
+Qwen2.5-7B 8-bit,banglamath,banglish_correct,0,56,0.0,Reviewed Banglish correct model-item slots
+Qwen2.5-7B 8-bit,banglamath,banglish_wrong,56,56,1.0,Reviewed Banglish incorrect model-item slots
+Qwen2.5-7B 8-bit,banglamath,recoverable_banglish_miss,10,56,0.1786,Banglish miss where Bangla or English is correct
+Qwen2.5-7B 8-bit,banglamath,all_script_hard,46,56,0.8214,No script view is correct
+Qwen2.5-7B 8-bit,banglamath,bangla_any_recovery,5,56,0.0893,Banglish miss recoverable by native Bangla
+Qwen2.5-7B 8-bit,banglamath,english_any_recovery,8,56,0.1429,Banglish miss recoverable by English
+Qwen2.5-7B 8-bit,banglamath,bangla_only_recovery,2,56,0.0357,Only native Bangla recovers the Banglish miss
+Qwen2.5-7B 8-bit,banglamath,english_only_recovery,5,56,0.0893,Only English recovers the Banglish miss
+Qwen2.5-7B 8-bit,banglamath,both_alternate_recovery,3,56,0.0536,Both Bangla and English recover the Banglish miss
+Qwen2.5-7B 8-bit,banglamath,banglish_unique_success,0,56,0.0,Only Banglish is correct
+Qwen2.5-7B 8-bit,banglamath,miss_share:recoverable_banglish_miss,10,56,0.1786,Share of Banglish misses recoverable by Bangla or English
+Qwen2.5-7B 8-bit,banglamath,miss_share:all_script_hard,46,56,0.8214,Share of Banglish misses with no script correct
+Qwen2.5-7B 8-bit,banglamath,miss_share:bangla_any_recovery,5,56,0.0893,Share of Banglish misses recoverable by native Bangla
+Qwen2.5-7B 8-bit,banglamath,miss_share:english_any_recovery,8,56,0.1429,Share of Banglish misses recoverable by English
+Qwen2.5-7B 8-bit,banglamath,miss_share:bangla_only_recovery,2,56,0.0357,Share of Banglish misses recoverable only by native Bangla
+Qwen2.5-7B 8-bit,banglamath,miss_share:english_only_recovery,5,56,0.0893,Share of Banglish misses recoverable only by English
+Qwen2.5-7B 8-bit,banglamath,miss_share:both_alternate_recovery,3,56,0.0536,Share of Banglish misses recovered by both alternate scripts
+Qwen3-4B,all,pattern:all_wrong,92,200,0.46,No script view is correct
+Qwen3-4B,all,pattern:bangla_only_correct,7,200,0.035,Only native Bangla is correct
+Qwen3-4B,all,pattern:english_only_correct,20,200,0.1,Only English is correct
+Qwen3-4B,all,pattern:bangla_english_correct_banglish_wrong,32,200,0.16,Bangla and English are correct; Banglish is wrong
+Qwen3-4B,all,pattern:banglish_only_correct,5,200,0.025,Only reviewed Banglish is correct
+Qwen3-4B,all,pattern:bangla_banglish_correct_english_wrong,8,200,0.04,Bangla and Banglish are correct; English is wrong
+Qwen3-4B,all,pattern:banglish_english_correct_bangla_wrong,3,200,0.015,Banglish and English are correct; Bangla is wrong
+Qwen3-4B,all,pattern:all_correct,33,200,0.165,All three script views are correct
+Qwen3-4B,all,banglish_correct,49,200,0.245,Reviewed Banglish correct model-item slots
+Qwen3-4B,all,banglish_wrong,151,200,0.755,Reviewed Banglish incorrect model-item slots
+Qwen3-4B,all,recoverable_banglish_miss,59,200,0.295,Banglish miss where Bangla or English is correct
+Qwen3-4B,all,all_script_hard,92,200,0.46,No script view is correct
+Qwen3-4B,all,bangla_any_recovery,39,200,0.195,Banglish miss recoverable by native Bangla
+Qwen3-4B,all,english_any_recovery,52,200,0.26,Banglish miss recoverable by English
+Qwen3-4B,all,bangla_only_recovery,7,200,0.035,Only native Bangla recovers the Banglish miss
+Qwen3-4B,all,english_only_recovery,20,200,0.1,Only English recovers the Banglish miss
+Qwen3-4B,all,both_alternate_recovery,32,200,0.16,Both Bangla and English recover the Banglish miss
+Qwen3-4B,all,banglish_unique_success,5,200,0.025,Only Banglish is correct
+Qwen3-4B,all,miss_share:recoverable_banglish_miss,59,151,0.3907,Share of Banglish misses recoverable by Bangla or English
+Qwen3-4B,all,miss_share:all_script_hard,92,151,0.6093,Share of Banglish misses with no script correct
+Qwen3-4B,all,miss_share:bangla_any_recovery,39,151,0.2583,Share of Banglish misses recoverable by native Bangla
+Qwen3-4B,all,miss_share:english_any_recovery,52,151,0.3444,Share of Banglish misses recoverable by English
+Qwen3-4B,all,miss_share:bangla_only_recovery,7,151,0.0464,Share of Banglish misses recoverable only by native Bangla
+Qwen3-4B,all,miss_share:english_only_recovery,20,151,0.1325,Share of Banglish misses recoverable only by English
+Qwen3-4B,all,miss_share:both_alternate_recovery,32,151,0.2119,Share of Banglish misses recovered by both alternate scripts
+Qwen3-4B,benqa,pattern:all_wrong,42,144,0.2917,No script view is correct
+Qwen3-4B,benqa,pattern:bangla_only_correct,7,144,0.0486,Only native Bangla is correct
+Qwen3-4B,benqa,pattern:english_only_correct,18,144,0.125,Only English is correct
+Qwen3-4B,benqa,pattern:bangla_english_correct_banglish_wrong,30,144,0.2083,Bangla and English are correct; Banglish is wrong
+Qwen3-4B,benqa,pattern:banglish_only_correct,5,144,0.0347,Only reviewed Banglish is correct
+Qwen3-4B,benqa,pattern:bangla_banglish_correct_english_wrong,8,144,0.0556,Bangla and Banglish are correct; English is wrong
+Qwen3-4B,benqa,pattern:banglish_english_correct_bangla_wrong,3,144,0.0208,Banglish and English are correct; Bangla is wrong
+Qwen3-4B,benqa,pattern:all_correct,31,144,0.2153,All three script views are correct
+Qwen3-4B,benqa,banglish_correct,47,144,0.3264,Reviewed Banglish correct model-item slots
+Qwen3-4B,benqa,banglish_wrong,97,144,0.6736,Reviewed Banglish incorrect model-item slots
+Qwen3-4B,benqa,recoverable_banglish_miss,55,144,0.3819,Banglish miss where Bangla or English is correct
+Qwen3-4B,benqa,all_script_hard,42,144,0.2917,No script view is correct
+Qwen3-4B,benqa,bangla_any_recovery,37,144,0.2569,Banglish miss recoverable by native Bangla
+Qwen3-4B,benqa,english_any_recovery,48,144,0.3333,Banglish miss recoverable by English
+Qwen3-4B,benqa,bangla_only_recovery,7,144,0.0486,Only native Bangla recovers the Banglish miss
+Qwen3-4B,benqa,english_only_recovery,18,144,0.125,Only English recovers the Banglish miss
+Qwen3-4B,benqa,both_alternate_recovery,30,144,0.2083,Both Bangla and English recover the Banglish miss
+Qwen3-4B,benqa,banglish_unique_success,5,144,0.0347,Only Banglish is correct
+Qwen3-4B,benqa,miss_share:recoverable_banglish_miss,55,97,0.567,Share of Banglish misses recoverable by Bangla or English
+Qwen3-4B,benqa,miss_share:all_script_hard,42,97,0.433,Share of Banglish misses with no script correct
+Qwen3-4B,benqa,miss_share:bangla_any_recovery,37,97,0.3814,Share of Banglish misses recoverable by native Bangla
+Qwen3-4B,benqa,miss_share:english_any_recovery,48,97,0.4948,Share of Banglish misses recoverable by English
+Qwen3-4B,benqa,miss_share:bangla_only_recovery,7,97,0.0722,Share of Banglish misses recoverable only by native Bangla
+Qwen3-4B,benqa,miss_share:english_only_recovery,18,97,0.1856,Share of Banglish misses recoverable only by English
+Qwen3-4B,benqa,miss_share:both_alternate_recovery,30,97,0.3093,Share of Banglish misses recovered by both alternate scripts
+Qwen3-4B,banglamath,pattern:all_wrong,50,56,0.8929,No script view is correct
+Qwen3-4B,banglamath,pattern:bangla_only_correct,0,56,0.0,Only native Bangla is correct
+Qwen3-4B,banglamath,pattern:english_only_correct,2,56,0.0357,Only English is correct
+Qwen3-4B,banglamath,pattern:bangla_english_correct_banglish_wrong,2,56,0.0357,Bangla and English are correct; Banglish is wrong
+Qwen3-4B,banglamath,pattern:banglish_only_correct,0,56,0.0,Only reviewed Banglish is correct
+Qwen3-4B,banglamath,pattern:bangla_banglish_correct_english_wrong,0,56,0.0,Bangla and Banglish are correct; English is wrong
+Qwen3-4B,banglamath,pattern:banglish_english_correct_bangla_wrong,0,56,0.0,Banglish and English are correct; Bangla is wrong
+Qwen3-4B,banglamath,pattern:all_correct,2,56,0.0357,All three script views are correct
+Qwen3-4B,banglamath,banglish_correct,2,56,0.0357,Reviewed Banglish correct model-item slots
+Qwen3-4B,banglamath,banglish_wrong,54,56,0.9643,Reviewed Banglish incorrect model-item slots
+Qwen3-4B,banglamath,recoverable_banglish_miss,4,56,0.0714,Banglish miss where Bangla or English is correct
+Qwen3-4B,banglamath,all_script_hard,50,56,0.8929,No script view is correct
+Qwen3-4B,banglamath,bangla_any_recovery,2,56,0.0357,Banglish miss recoverable by native Bangla
+Qwen3-4B,banglamath,english_any_recovery,4,56,0.0714,Banglish miss recoverable by English
+Qwen3-4B,banglamath,bangla_only_recovery,0,56,0.0,Only native Bangla recovers the Banglish miss
+Qwen3-4B,banglamath,english_only_recovery,2,56,0.0357,Only English recovers the Banglish miss
+Qwen3-4B,banglamath,both_alternate_recovery,2,56,0.0357,Both Bangla and English recover the Banglish miss
+Qwen3-4B,banglamath,banglish_unique_success,0,56,0.0,Only Banglish is correct
+Qwen3-4B,banglamath,miss_share:recoverable_banglish_miss,4,54,0.0741,Share of Banglish misses recoverable by Bangla or English
+Qwen3-4B,banglamath,miss_share:all_script_hard,50,54,0.9259,Share of Banglish misses with no script correct
+Qwen3-4B,banglamath,miss_share:bangla_any_recovery,2,54,0.037,Share of Banglish misses recoverable by native Bangla
+Qwen3-4B,banglamath,miss_share:english_any_recovery,4,54,0.0741,Share of Banglish misses recoverable by English
+Qwen3-4B,banglamath,miss_share:bangla_only_recovery,0,54,0.0,Share of Banglish misses recoverable only by native Bangla
+Qwen3-4B,banglamath,miss_share:english_only_recovery,2,54,0.037,Share of Banglish misses recoverable only by English
+Qwen3-4B,banglamath,miss_share:both_alternate_recovery,2,54,0.037,Share of Banglish misses recovered by both alternate scripts

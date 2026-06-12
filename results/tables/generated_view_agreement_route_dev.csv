@@ -1,0 +1,4 @@
+Route,n,Banglish,Generated-BN,Generated-EN,Routed,Routed-Banglish,Routed items,EN gate fallbacks,Decision
+Historical protected-v1 BNB generated-BN + Qwen3 generated-EN agreement,36,15,17,7,16,1,1,16,Do not test150; generated-EN bottleneck.
+Qwen3 protected-v3 BNB generated-BN + guarded generated-EN agreement,36,15,17,15,16,1,1,0,Weak dev-only +1 item; no held-out launch.
+Qwen2.5 protected-v3 phonetic generated-BN + guarded generated-EN agreement,36,9,10,11,8,-1,1,0,Negative dev route; drop for this model.

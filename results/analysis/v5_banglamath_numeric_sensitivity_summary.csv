@@ -1,0 +1,10 @@
+model,dataset,variant,variant_label,n,correct,wrong,gold_numeric_rows,parsed_full_numeric_signature,raw_full_numeric_signature,wrong_parsed_full_numeric_signature,wrong_raw_full_numeric_signature,optimistic_parsed_signature_correct,optimistic_raw_signature_correct,wrong_with_any_raw_number,wrong_without_raw_number,mean_gold_numeric_count,mean_raw_numeric_count
+Qwen2.5-3B,banglamath,bangla,Bangla,56,5,51,54,10,10,5,5,10,10,50,1,1.5,1.23
+Qwen2.5-3B,banglamath,banglish_clean,Reviewed Banglish,56,0,56,54,1,1,1,1,1,1,52,4,1.5,1.32
+Qwen2.5-3B,banglamath,english,English,56,5,51,54,9,10,4,5,9,10,48,3,1.5,1.41
+Qwen2.5-7B 8-bit,banglamath,bangla,Bangla,56,5,51,54,16,16,11,11,16,16,49,2,1.5,1.23
+Qwen2.5-7B 8-bit,banglamath,banglish_clean,Reviewed Banglish,56,0,56,54,5,5,5,5,5,5,54,2,1.5,1.02
+Qwen2.5-7B 8-bit,banglamath,english,English,56,8,48,54,20,20,12,12,20,20,45,3,1.5,1.25
+Qwen3-4B,banglamath,bangla,Bangla,56,4,52,54,16,19,12,15,16,19,50,2,1.5,4.07
+Qwen3-4B,banglamath,banglish_clean,Reviewed Banglish,56,2,54,54,5,10,3,8,5,10,44,10,1.5,3.07
+Qwen3-4B,banglamath,english,English,56,6,50,54,18,24,12,18,18,24,48,2,1.5,4.88

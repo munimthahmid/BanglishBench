@@ -1,0 +1,40 @@
+model,model_id,subject,n,bangla_correct,bangla_accuracy,banglish_clean_correct,banglish_clean_accuracy,english_correct,english_accuracy,banglish_minus_bangla_delta,banglish_minus_bangla_gains,banglish_minus_bangla_losses,banglish_minus_english_delta,banglish_minus_english_gains,banglish_minus_english_losses
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Biology,12,5,0.4167,0,0.0,3,0.25,-0.4167,0,5,-0.25,0,3
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Biology-I,11,3,0.2727,2,0.1818,7,0.6364,-0.0909,0,1,-0.4546,1,6
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Biology-II,11,3,0.2727,4,0.3636,6,0.5455,0.0909,2,1,-0.1819,1,3
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Chemistry,11,3,0.2727,4,0.3636,7,0.6364,0.0909,1,0,-0.2728,0,3
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Chemistry-I,11,4,0.3636,2,0.1818,5,0.4545,-0.1818,0,2,-0.2727,0,3
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Chemistry-II,11,2,0.1818,5,0.4545,6,0.5455,0.2727,5,2,-0.091,2,3
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Math,11,5,0.4545,3,0.2727,8,0.7273,-0.1818,1,3,-0.4546,1,6
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Math-I,11,3,0.2727,3,0.2727,2,0.1818,0.0,1,1,0.0909,1,0
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Math-II,11,6,0.5455,5,0.4545,3,0.2727,-0.091,0,1,0.1818,3,1
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Physics,11,5,0.4545,4,0.3636,7,0.6364,-0.0909,1,2,-0.2728,1,4
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Physics-I,11,4,0.3636,5,0.4545,5,0.4545,0.0909,2,1,0.0,1,1
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Physics-II,11,2,0.1818,3,0.2727,3,0.2727,0.0909,2,1,0.0,3,3
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,Science,11,4,0.3636,1,0.0909,4,0.3636,-0.2727,0,3,-0.2727,1,4
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Biology,12,5,0.4167,6,0.5,9,0.75,0.0833,2,1,-0.25,1,4
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Biology-I,11,6,0.5455,2,0.1818,8,0.7273,-0.3637,2,6,-0.5455,1,7
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Biology-II,11,6,0.5455,5,0.4545,6,0.5455,-0.091,2,3,-0.091,3,4
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Chemistry,11,3,0.2727,1,0.0909,6,0.5455,-0.1818,1,3,-0.4546,0,5
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Chemistry-I,11,5,0.4545,2,0.1818,7,0.6364,-0.2727,0,3,-0.4546,0,5
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Chemistry-II,11,5,0.4545,4,0.3636,9,0.8182,-0.0909,2,3,-0.4546,0,5
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Math,11,5,0.4545,2,0.1818,9,0.8182,-0.2727,0,3,-0.6364,1,8
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Math-I,11,5,0.4545,6,0.5455,6,0.5455,0.091,2,1,0.0,1,1
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Math-II,11,2,0.1818,2,0.1818,2,0.1818,0.0,1,1,0.0,1,1
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Physics,11,4,0.3636,5,0.4545,8,0.7273,0.0909,2,1,-0.2728,0,3
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Physics-I,11,6,0.5455,5,0.4545,6,0.5455,-0.091,2,3,-0.091,2,3
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Physics-II,11,3,0.2727,2,0.1818,4,0.3636,-0.0909,1,2,-0.1818,1,3
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,Science,11,5,0.4545,5,0.4545,6,0.5455,0.0,2,2,-0.091,2,3
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Biology,12,5,0.4167,3,0.25,4,0.3333,-0.1667,2,4,-0.0833,2,3
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Biology-I,11,6,0.5455,3,0.2727,6,0.5455,-0.2728,0,3,-0.2728,1,4
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Biology-II,11,6,0.5455,1,0.0909,4,0.3636,-0.4546,0,5,-0.2727,1,4
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Chemistry,11,7,0.6364,4,0.3636,8,0.7273,-0.2728,0,3,-0.3637,1,5
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Chemistry-I,11,7,0.6364,5,0.4545,9,0.8182,-0.1819,1,3,-0.3637,0,4
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Chemistry-II,11,7,0.6364,2,0.1818,8,0.7273,-0.4546,1,6,-0.5455,2,8
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Math,11,5,0.4545,2,0.1818,6,0.5455,-0.2727,0,3,-0.3637,0,4
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Math-I,11,5,0.4545,4,0.3636,5,0.4545,-0.0909,0,1,-0.0909,1,2
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Math-II,11,6,0.5455,8,0.7273,5,0.4545,0.1818,2,0,0.2728,3,0
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Physics,11,8,0.7273,6,0.5455,9,0.8182,-0.1818,1,3,-0.2727,1,4
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Physics-I,11,6,0.5455,4,0.3636,6,0.5455,-0.1819,0,2,-0.1819,0,2
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Physics-II,11,3,0.2727,2,0.1818,4,0.3636,-0.0909,0,1,-0.1818,0,2
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,Science,11,5,0.4545,3,0.2727,8,0.7273,-0.1818,1,3,-0.4546,1,6

@@ -1,0 +1,4 @@
+Model,Family,Slice,Bangla,Banglish,English,Banglish-Bangla,Banglish-English,Interpretation
+Qwen2.5-3B,Qwen2.5,validation_200_v3,54/200,38/200,71/200,"-8.0 pts, CI [-14.0, -2.0]","-16.5 pts, CI [-24.0, -9.0]",Main Qwen2.5 evidence for clean Banglish below native Bangla.
+Qwen2.5-7B 8-bit,Qwen2.5,validation_200_v4,65/200,48/200,94/200,"-8.5 pts, CI [-15.5, -1.5]","-23.0 pts, CI [-30.5, -15.5]",Strong Qwen2.5 scaling point; Banglish-below-Bangla persists at 7B.
+Qwen3-4B,Qwen3,validation_200_v3,80/200,46/200,88/200,"-17.0 pts, CI [-23.5, -10.5]","-21.0 pts, CI [-28.5, -13.5]",Strongest open-model evidence; robust Banglish-below-Bangla and Banglish-below-English gaps.

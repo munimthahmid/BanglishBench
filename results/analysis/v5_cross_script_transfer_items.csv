@@ -1,0 +1,601 @@
+model,model_id,dataset,task_type,answer_type,id,domain,subject,grade,gold,pattern,bangla_correct,reviewed_banglish_correct,english_correct,bangla_correct_banglish_wrong,english_correct_banglish_wrong,alternate_correct_banglish_wrong,both_alternates_correct_banglish_wrong,all_three_correct,all_three_wrong
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0181,math,,six,সময় কমে যায়,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0182,math,,six,৬০০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0183,math,,six,৩০ দিন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0184,math,,six,১২০০০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0185,math,,six,২০০ কেজি,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0186,math,,six,২২ ১/২ দিন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0187,math,,six,১৪০ জন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0188,math,,six,১৫ ঘণ্টা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0189,math,,six,৬ জন পুরুষ,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0226,math,,six,২৫০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0227,math,,six,৭.৫ কিমি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0228,math,,six,২/৫,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0229,math,,six,1.5,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0230,math,,six,20%,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0231,math,,six,২০ টাকা,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0232,math,,six,২০০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0233,math,,six,৭ দিন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0234,math,,six,৬ দিন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0236,math,,six,১২ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0237,math,,six,৬৪ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0518,math,,seven,১৫০ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0519,math,,seven,৭৫০০ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0521,math,,seven,৭০ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0522,math,,seven,১৭৬ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0526,math,,seven,৩০ বর্গ মিটার,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0531,math,,seven,৫ মেট্রিক টন ৫০৭ কেজি ৭০০ গ্রাম,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0532,math,,seven,১ মেট্রিক টন ৭৫০ কেজি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0533,math,,seven,৬৬৬ মেট্রিক টন ৬৬৬ কেজি ৬৬৬ গ্রাম (প্রায়),all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0538,math,,seven,৩৮৪ বর্গ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0539,math,,seven,১৪৭ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0540,math,,seven,২১ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0541,math,,seven,৪৪৪ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0542,math,,seven,৩৪০০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0549,math,,seven,৪৫০ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0550,math,,seven,২২৫৬.২৫ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0552,math,,seven,৪৫০০ বর্গগজ,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0553,math,,seven,১১২৫টি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0557,math,,seven,৯৩০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0558,math,,seven,২০ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_0559,math,,seven,১৬০০ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1684,math,,Eight,"১২, ১২, ৩ বছর",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1685,math,,Eight,দুইজনের বয়স সমান,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1686,math,,Eight,প্রতেকে পাবে ৫/৬ আপেল।অর্থাৎ ১টি আপেলের অর্ধেক +১টি আপেলের ১/৩ ভাগ।,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1687,math,,Eight,"কাঠালের ওজন ৩ কিলোগ্রাম , তরমুজের ওজন ৪ কিলোগ্রাম",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1688,math,,Eight,"বাবুর্চী কাটে ৭০ মিনিটে ২১০টি পেঁয়াজ, সহকারী কাটে ১৯০টি পেঁয়াজ ৯৫ মিনিটে",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1690,math,,Eight,"সেন্টুর ছিল ১০টি, মিন্টুর ছিল ১৪টি খেলনা গাড়ি",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1691,math,,Eight,প্রথমে ৩ লিটারের পাত্রে ৩ লিটার দুধ নিয়ে তা ৫ লিটারের পাত্রে ঢালতে হবে। এবারও একইভাবে আবারও ৩ লিটার দুধ নিয়ে ৫ লিটারের পাত্রে আছে আরো ঢালতে হবে যতক্ষণ না ৫ লিটারের পাত্রটি পূর্ণ হয়। পাত্রটি পূর্ণ হওয়ার পর যে অবশিষ্ট দুধ ৩ লিটারের পাত্রে থেকে যাবে তার পরিমাণ ১ লিটার।,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1692,math,,Eight,"১জন পুরুষ, ৫ জন মহিলা এবং ১৪ জন শিশু",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1693,math,,Eight,24,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1694,math,,Eight,১ মিনিট,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1695,math,,Eight,"নারিকেল গাছ 60টি, আম গাছ ৪৫টি, বট গাছ ৩৬টি, ফুলের গাছ ৩৯টি",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1696,math,,Eight,০.১৮ লিটার অথবা ১.৮ লিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1697,math,,Eight,70,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1698,math,,Eight,১৩ টা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1699,math,,Eight,132,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,banglamath,short_answer,short_answer,banglamath_1703,math,,Eight,৩৬টি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0057,biology,Biology,10th,C,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0090,biology,Biology,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0128,biology,Biology,10th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0143,biology,Biology,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0149,biology,Biology,10th,B,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0156,biology,Biology,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0188,biology,Biology,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0197,biology,Biology,10th,D,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0213,biology,Biology,10th,A,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0215,biology,Biology,10th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0277,biology,Biology,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0339,biology,Biology,10th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0041,chemistry,Chemistry,10th,D,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0110,chemistry,Chemistry,10th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0111,chemistry,Chemistry,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0132,chemistry,Chemistry,10th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0191,chemistry,Chemistry,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0194,chemistry,Chemistry,10th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0280,chemistry,Chemistry,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0322,chemistry,Chemistry,10th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0336,chemistry,Chemistry,10th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0374,chemistry,Chemistry,10th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0388,chemistry,Chemistry,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0062,math-ii,Math-II,10th,C,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0102,math-ii,Math-II,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0139,math-ii,Math-II,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0326,math-ii,Math-II,10th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0347,math-ii,Math-II,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0357,math-ii,Math-II,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0367,math-ii,Math-II,10th,C,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Math_0032,math,Math,10th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Math_0044,math,Math,10th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Math_0186,math,Math,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Math_0271,math,Math,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Math_0324,math,Math,10th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0021,physics,Physics,10th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0036,physics,Physics,10th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0045,physics,Physics,10th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0055,physics,Physics,10th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0084,physics,Physics,10th,D,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0106,physics,Physics,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0130,physics,Physics,10th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0150,physics,Physics,10th,B,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0198,physics,Physics,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0280,physics,Physics,10th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0296,physics,Physics,10th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0034,biology-ii,Biology-II,12th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0049,biology-ii,Biology-II,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0119,biology-ii,Biology-II,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0122,biology-ii,Biology-II,12th,A,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0128,biology-ii,Biology-II,12th,B,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0179,biology-ii,Biology-II,12th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0203,biology-ii,Biology-II,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0247,biology-ii,Biology-II,12th,B,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0287,biology-ii,Biology-II,12th,B,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0321,biology-ii,Biology-II,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0325,biology-ii,Biology-II,12th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0039,biology-i,Biology-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0042,biology-i,Biology-I,12th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0056,biology-i,Biology-I,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0077,biology-i,Biology-I,12th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0160,biology-i,Biology-I,12th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0181,biology-i,Biology-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0218,biology-i,Biology-I,12th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0222,biology-i,Biology-I,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0265,biology-i,Biology-I,12th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0277,biology-i,Biology-I,12th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0283,biology-i,Biology-I,12th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0013,chemistry-ii,Chemistry-II,12th,C,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0054,chemistry-ii,Chemistry-II,12th,A,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0067,chemistry-ii,Chemistry-II,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0117,chemistry-ii,Chemistry-II,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0194,chemistry-ii,Chemistry-II,12th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0228,chemistry-ii,Chemistry-II,12th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0235,chemistry-ii,Chemistry-II,12th,A,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0240,chemistry-ii,Chemistry-II,12th,B,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0294,chemistry-ii,Chemistry-II,12th,C,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0305,chemistry-ii,Chemistry-II,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0354,chemistry-ii,Chemistry-II,12th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0028,chemistry-i,Chemistry-I,12th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0037,chemistry-i,Chemistry-I,12th,C,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0140,chemistry-i,Chemistry-I,12th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0174,chemistry-i,Chemistry-I,12th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0190,chemistry-i,Chemistry-I,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0218,chemistry-i,Chemistry-I,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0227,chemistry-i,Chemistry-I,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0260,chemistry-i,Chemistry-I,12th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0286,chemistry-i,Chemistry-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0303,chemistry-i,Chemistry-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0328,chemistry-i,Chemistry-I,12th,B,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-II_0043,math-ii,Math-II,12th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-II_0214,math-ii,Math-II,12th,C,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-II_0230,math-ii,Math-II,12th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-II_0234,math-ii,Math-II,12th,A,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0029,math-i,Math-I,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0088,math-i,Math-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0120,math-i,Math-I,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0186,math-i,Math-I,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0187,math-i,Math-I,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0202,math-i,Math-I,12th,B,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0218,math-i,Math-I,12th,A,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0310,math-i,Math-I,12th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0326,math-i,Math-I,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0342,math-i,Math-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0383,math-i,Math-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0037,physics-ii,Physics-II,12th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0046,physics-ii,Physics-II,12th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0085,physics-ii,Physics-II,12th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0088,physics-ii,Physics-II,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0131,physics-ii,Physics-II,12th,B,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0195,physics-ii,Physics-II,12th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0213,physics-ii,Physics-II,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0219,physics-ii,Physics-II,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0267,physics-ii,Physics-II,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0290,physics-ii,Physics-II,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0292,physics-ii,Physics-II,12th,C,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0008,physics-i,Physics-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0079,physics-i,Physics-I,12th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0106,physics-i,Physics-I,12th,D,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0109,physics-i,Physics-I,12th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0133,physics-i,Physics-I,12th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0157,physics-i,Physics-I,12th,A,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0214,physics-i,Physics-I,12th,B,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0253,physics-i,Physics-I,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0254,physics-i,Physics-I,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0256,physics-i,Physics-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0289,physics-i,Physics-I,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Math_0031,math,Math,8th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Math_0062,math,Math,8th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Math_0072,math,Math,8th,B,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Math_0085,math,Math,8th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Math_0167,math,Math,8th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Math_0190,math,Math,8th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Science_0014,science,Science,8th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Science_0024,science,Science,8th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Science_0042,science,Science,8th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Science_0062,science,Science,8th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Science_0078,science,Science,8th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Science_0086,science,Science,8th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Science_0098,science,Science,8th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Science_0127,science,Science,8th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Science_0153,science,Science,8th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Science_0159,science,Science,8th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-3B,Qwen/Qwen2.5-3B-Instruct,benqa,mcq,choice,benqa_8th-Science_0202,science,Science,8th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0181,math,,six,সময় কমে যায়,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0182,math,,six,৬০০ টাকা,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0183,math,,six,৩০ দিন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0184,math,,six,১২০০০ টাকা,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0185,math,,six,২০০ কেজি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0186,math,,six,২২ ১/২ দিন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0187,math,,six,১৪০ জন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0188,math,,six,১৫ ঘণ্টা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0189,math,,six,৬ জন পুরুষ,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0226,math,,six,২৫০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0227,math,,six,৭.৫ কিমি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0228,math,,six,২/৫,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0229,math,,six,1.5,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0230,math,,six,20%,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0231,math,,six,২০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0232,math,,six,২০০ টাকা,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0233,math,,six,৭ দিন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0234,math,,six,৬ দিন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0236,math,,six,১২ টাকা,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0237,math,,six,৬৪ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0518,math,,seven,১৫০ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0519,math,,seven,৭৫০০ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0521,math,,seven,৭০ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0522,math,,seven,১৭৬ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0526,math,,seven,৩০ বর্গ মিটার,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0531,math,,seven,৫ মেট্রিক টন ৫০৭ কেজি ৭০০ গ্রাম,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0532,math,,seven,১ মেট্রিক টন ৭৫০ কেজি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0533,math,,seven,৬৬৬ মেট্রিক টন ৬৬৬ কেজি ৬৬৬ গ্রাম (প্রায়),all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0538,math,,seven,৩৮৪ বর্গ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0539,math,,seven,১৪৭ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0540,math,,seven,২১ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0541,math,,seven,৪৪৪ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0542,math,,seven,৩৪০০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0549,math,,seven,৪৫০ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0550,math,,seven,২২৫৬.২৫ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0552,math,,seven,৪৫০০ বর্গগজ,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0553,math,,seven,১১২৫টি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0557,math,,seven,৯৩০ টাকা,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0558,math,,seven,২০ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_0559,math,,seven,১৬০০ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1684,math,,Eight,"১২, ১২, ৩ বছর",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1685,math,,Eight,দুইজনের বয়স সমান,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1686,math,,Eight,প্রতেকে পাবে ৫/৬ আপেল।অর্থাৎ ১টি আপেলের অর্ধেক +১টি আপেলের ১/৩ ভাগ।,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1687,math,,Eight,"কাঠালের ওজন ৩ কিলোগ্রাম , তরমুজের ওজন ৪ কিলোগ্রাম",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1688,math,,Eight,"বাবুর্চী কাটে ৭০ মিনিটে ২১০টি পেঁয়াজ, সহকারী কাটে ১৯০টি পেঁয়াজ ৯৫ মিনিটে",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1690,math,,Eight,"সেন্টুর ছিল ১০টি, মিন্টুর ছিল ১৪টি খেলনা গাড়ি",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1691,math,,Eight,প্রথমে ৩ লিটারের পাত্রে ৩ লিটার দুধ নিয়ে তা ৫ লিটারের পাত্রে ঢালতে হবে। এবারও একইভাবে আবারও ৩ লিটার দুধ নিয়ে ৫ লিটারের পাত্রে আছে আরো ঢালতে হবে যতক্ষণ না ৫ লিটারের পাত্রটি পূর্ণ হয়। পাত্রটি পূর্ণ হওয়ার পর যে অবশিষ্ট দুধ ৩ লিটারের পাত্রে থেকে যাবে তার পরিমাণ ১ লিটার।,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1692,math,,Eight,"১জন পুরুষ, ৫ জন মহিলা এবং ১৪ জন শিশু",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1693,math,,Eight,24,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1694,math,,Eight,১ মিনিট,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1695,math,,Eight,"নারিকেল গাছ 60টি, আম গাছ ৪৫টি, বট গাছ ৩৬টি, ফুলের গাছ ৩৯টি",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1696,math,,Eight,০.১৮ লিটার অথবা ১.৮ লিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1697,math,,Eight,70,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1698,math,,Eight,১৩ টা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1699,math,,Eight,132,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,banglamath,short_answer,short_answer,banglamath_1703,math,,Eight,৩৬টি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0057,biology,Biology,10th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0090,biology,Biology,10th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0128,biology,Biology,10th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0143,biology,Biology,10th,C,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0149,biology,Biology,10th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0156,biology,Biology,10th,C,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0188,biology,Biology,10th,A,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0197,biology,Biology,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0213,biology,Biology,10th,A,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0215,biology,Biology,10th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0277,biology,Biology,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Biology_0339,biology,Biology,10th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0041,chemistry,Chemistry,10th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0110,chemistry,Chemistry,10th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0111,chemistry,Chemistry,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0132,chemistry,Chemistry,10th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0191,chemistry,Chemistry,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0194,chemistry,Chemistry,10th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0280,chemistry,Chemistry,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0322,chemistry,Chemistry,10th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0336,chemistry,Chemistry,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0374,chemistry,Chemistry,10th,B,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Chemistry_0388,chemistry,Chemistry,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0062,math-ii,Math-II,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0102,math-ii,Math-II,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0139,math-ii,Math-II,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0326,math-ii,Math-II,10th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0347,math-ii,Math-II,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0357,math-ii,Math-II,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Math-II_0367,math-ii,Math-II,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Math_0032,math,Math,10th,B,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Math_0044,math,Math,10th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Math_0186,math,Math,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Math_0271,math,Math,10th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Math_0324,math,Math,10th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0021,physics,Physics,10th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0036,physics,Physics,10th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0045,physics,Physics,10th,A,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0055,physics,Physics,10th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0084,physics,Physics,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0106,physics,Physics,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0130,physics,Physics,10th,D,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0150,physics,Physics,10th,B,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0198,physics,Physics,10th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0280,physics,Physics,10th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_10th-Physics_0296,physics,Physics,10th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0034,biology-ii,Biology-II,12th,B,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0049,biology-ii,Biology-II,12th,C,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0119,biology-ii,Biology-II,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0122,biology-ii,Biology-II,12th,A,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0128,biology-ii,Biology-II,12th,B,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0179,biology-ii,Biology-II,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0203,biology-ii,Biology-II,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0247,biology-ii,Biology-II,12th,B,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0287,biology-ii,Biology-II,12th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0321,biology-ii,Biology-II,12th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-II_0325,biology-ii,Biology-II,12th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0039,biology-i,Biology-I,12th,C,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0042,biology-i,Biology-I,12th,D,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0056,biology-i,Biology-I,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0077,biology-i,Biology-I,12th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0160,biology-i,Biology-I,12th,B,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0181,biology-i,Biology-I,12th,C,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0218,biology-i,Biology-I,12th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0222,biology-i,Biology-I,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0265,biology-i,Biology-I,12th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0277,biology-i,Biology-I,12th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Biology-I_0283,biology-i,Biology-I,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0013,chemistry-ii,Chemistry-II,12th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0054,chemistry-ii,Chemistry-II,12th,A,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0067,chemistry-ii,Chemistry-II,12th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0117,chemistry-ii,Chemistry-II,12th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0194,chemistry-ii,Chemistry-II,12th,A,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0228,chemistry-ii,Chemistry-II,12th,C,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0235,chemistry-ii,Chemistry-II,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0240,chemistry-ii,Chemistry-II,12th,B,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0294,chemistry-ii,Chemistry-II,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0305,chemistry-ii,Chemistry-II,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-II_0354,chemistry-ii,Chemistry-II,12th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0028,chemistry-i,Chemistry-I,12th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0037,chemistry-i,Chemistry-I,12th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0140,chemistry-i,Chemistry-I,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0174,chemistry-i,Chemistry-I,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0190,chemistry-i,Chemistry-I,12th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0218,chemistry-i,Chemistry-I,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0227,chemistry-i,Chemistry-I,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0260,chemistry-i,Chemistry-I,12th,D,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0286,chemistry-i,Chemistry-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0303,chemistry-i,Chemistry-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Chemistry-I_0328,chemistry-i,Chemistry-I,12th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-II_0043,math-ii,Math-II,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-II_0214,math-ii,Math-II,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-II_0230,math-ii,Math-II,12th,D,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-II_0234,math-ii,Math-II,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0029,math-i,Math-I,12th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0088,math-i,Math-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0120,math-i,Math-I,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0186,math-i,Math-I,12th,A,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0187,math-i,Math-I,12th,B,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0202,math-i,Math-I,12th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0218,math-i,Math-I,12th,A,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0310,math-i,Math-I,12th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0326,math-i,Math-I,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0342,math-i,Math-I,12th,C,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Math-I_0383,math-i,Math-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0037,physics-ii,Physics-II,12th,B,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0046,physics-ii,Physics-II,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0085,physics-ii,Physics-II,12th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0088,physics-ii,Physics-II,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0131,physics-ii,Physics-II,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0195,physics-ii,Physics-II,12th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0213,physics-ii,Physics-II,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0219,physics-ii,Physics-II,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0267,physics-ii,Physics-II,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0290,physics-ii,Physics-II,12th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-II_0292,physics-ii,Physics-II,12th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0008,physics-i,Physics-I,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0079,physics-i,Physics-I,12th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0106,physics-i,Physics-I,12th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0109,physics-i,Physics-I,12th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0133,physics-i,Physics-I,12th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0157,physics-i,Physics-I,12th,A,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0214,physics-i,Physics-I,12th,B,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0253,physics-i,Physics-I,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0254,physics-i,Physics-I,12th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0256,physics-i,Physics-I,12th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_12th-Physics-I_0289,physics-i,Physics-I,12th,D,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Math_0031,math,Math,8th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Math_0062,math,Math,8th,D,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Math_0072,math,Math,8th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Math_0085,math,Math,8th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Math_0167,math,Math,8th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Math_0190,math,Math,8th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Science_0014,science,Science,8th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Science_0024,science,Science,8th,C,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Science_0042,science,Science,8th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Science_0062,science,Science,8th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Science_0078,science,Science,8th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Science_0086,science,Science,8th,A,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Science_0098,science,Science,8th,A,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Science_0127,science,Science,8th,B,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Science_0153,science,Science,8th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Science_0159,science,Science,8th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen2.5-7B 8-bit,Qwen/Qwen2.5-7B-Instruct,benqa,mcq,choice,benqa_8th-Science_0202,science,Science,8th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0181,math,,six,সময় কমে যায়,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0182,math,,six,৬০০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0183,math,,six,৩০ দিন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0184,math,,six,১২০০০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0185,math,,six,২০০ কেজি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0186,math,,six,২২ ১/২ দিন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0187,math,,six,১৪০ জন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0188,math,,six,১৫ ঘণ্টা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0189,math,,six,৬ জন পুরুষ,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0226,math,,six,২৫০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0227,math,,six,৭.৫ কিমি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0228,math,,six,২/৫,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0229,math,,six,1.5,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0230,math,,six,20%,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0231,math,,six,২০ টাকা,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0232,math,,six,২০০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0233,math,,six,৭ দিন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0234,math,,six,৬ দিন,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0236,math,,six,১২ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0237,math,,six,৬৪ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0518,math,,seven,১৫০ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0519,math,,seven,৭৫০০ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0521,math,,seven,৭০ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0522,math,,seven,১৭৬ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0526,math,,seven,৩০ বর্গ মিটার,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0531,math,,seven,৫ মেট্রিক টন ৫০৭ কেজি ৭০০ গ্রাম,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0532,math,,seven,১ মেট্রিক টন ৭৫০ কেজি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0533,math,,seven,৬৬৬ মেট্রিক টন ৬৬৬ কেজি ৬৬৬ গ্রাম (প্রায়),all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0538,math,,seven,৩৮৪ বর্গ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0539,math,,seven,১৪৭ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0540,math,,seven,২১ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0541,math,,seven,৪৪৪ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0542,math,,seven,৩৪০০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0549,math,,seven,৪৫০ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0550,math,,seven,২২৫৬.২৫ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0552,math,,seven,৪৫০০ বর্গগজ,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0553,math,,seven,১১২৫টি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0557,math,,seven,৯৩০ টাকা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0558,math,,seven,২০ মিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_0559,math,,seven,১৬০০ বর্গমিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1684,math,,Eight,"১২, ১২, ৩ বছর",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1685,math,,Eight,দুইজনের বয়স সমান,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1686,math,,Eight,প্রতেকে পাবে ৫/৬ আপেল।অর্থাৎ ১টি আপেলের অর্ধেক +১টি আপেলের ১/৩ ভাগ।,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1687,math,,Eight,"কাঠালের ওজন ৩ কিলোগ্রাম , তরমুজের ওজন ৪ কিলোগ্রাম",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1688,math,,Eight,"বাবুর্চী কাটে ৭০ মিনিটে ২১০টি পেঁয়াজ, সহকারী কাটে ১৯০টি পেঁয়াজ ৯৫ মিনিটে",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1690,math,,Eight,"সেন্টুর ছিল ১০টি, মিন্টুর ছিল ১৪টি খেলনা গাড়ি",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1691,math,,Eight,প্রথমে ৩ লিটারের পাত্রে ৩ লিটার দুধ নিয়ে তা ৫ লিটারের পাত্রে ঢালতে হবে। এবারও একইভাবে আবারও ৩ লিটার দুধ নিয়ে ৫ লিটারের পাত্রে আছে আরো ঢালতে হবে যতক্ষণ না ৫ লিটারের পাত্রটি পূর্ণ হয়। পাত্রটি পূর্ণ হওয়ার পর যে অবশিষ্ট দুধ ৩ লিটারের পাত্রে থেকে যাবে তার পরিমাণ ১ লিটার।,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1692,math,,Eight,"১জন পুরুষ, ৫ জন মহিলা এবং ১৪ জন শিশু",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1693,math,,Eight,24,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1694,math,,Eight,১ মিনিট,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1695,math,,Eight,"নারিকেল গাছ 60টি, আম গাছ ৪৫টি, বট গাছ ৩৬টি, ফুলের গাছ ৩৯টি",all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1696,math,,Eight,০.১৮ লিটার অথবা ১.৮ লিটার,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1697,math,,Eight,70,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1698,math,,Eight,১৩ টা,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1699,math,,Eight,132,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,banglamath,short_answer,short_answer,banglamath_1703,math,,Eight,৩৬টি,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Biology_0057,biology,Biology,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Biology_0090,biology,Biology,10th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Biology_0128,biology,Biology,10th,A,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Biology_0143,biology,Biology,10th,C,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Biology_0149,biology,Biology,10th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Biology_0156,biology,Biology,10th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Biology_0188,biology,Biology,10th,A,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Biology_0197,biology,Biology,10th,D,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Biology_0213,biology,Biology,10th,A,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Biology_0215,biology,Biology,10th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Biology_0277,biology,Biology,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Biology_0339,biology,Biology,10th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Chemistry_0041,chemistry,Chemistry,10th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Chemistry_0110,chemistry,Chemistry,10th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Chemistry_0111,chemistry,Chemistry,10th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Chemistry_0132,chemistry,Chemistry,10th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Chemistry_0191,chemistry,Chemistry,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Chemistry_0194,chemistry,Chemistry,10th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Chemistry_0280,chemistry,Chemistry,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Chemistry_0322,chemistry,Chemistry,10th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Chemistry_0336,chemistry,Chemistry,10th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Chemistry_0374,chemistry,Chemistry,10th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Chemistry_0388,chemistry,Chemistry,10th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Math-II_0062,math-ii,Math-II,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Math-II_0102,math-ii,Math-II,10th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Math-II_0139,math-ii,Math-II,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Math-II_0326,math-ii,Math-II,10th,C,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Math-II_0347,math-ii,Math-II,10th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Math-II_0357,math-ii,Math-II,10th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Math-II_0367,math-ii,Math-II,10th,C,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Math_0032,math,Math,10th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Math_0044,math,Math,10th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Math_0186,math,Math,10th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Math_0271,math,Math,10th,D,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Math_0324,math,Math,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Physics_0021,physics,Physics,10th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Physics_0036,physics,Physics,10th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Physics_0045,physics,Physics,10th,A,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Physics_0055,physics,Physics,10th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Physics_0084,physics,Physics,10th,D,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Physics_0106,physics,Physics,10th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Physics_0130,physics,Physics,10th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Physics_0150,physics,Physics,10th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Physics_0198,physics,Physics,10th,D,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Physics_0280,physics,Physics,10th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_10th-Physics_0296,physics,Physics,10th,D,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-II_0034,biology-ii,Biology-II,12th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-II_0049,biology-ii,Biology-II,12th,C,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-II_0119,biology-ii,Biology-II,12th,C,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-II_0122,biology-ii,Biology-II,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-II_0128,biology-ii,Biology-II,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-II_0179,biology-ii,Biology-II,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-II_0203,biology-ii,Biology-II,12th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-II_0247,biology-ii,Biology-II,12th,B,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-II_0287,biology-ii,Biology-II,12th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-II_0321,biology-ii,Biology-II,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-II_0325,biology-ii,Biology-II,12th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-I_0039,biology-i,Biology-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-I_0042,biology-i,Biology-I,12th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-I_0056,biology-i,Biology-I,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-I_0077,biology-i,Biology-I,12th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-I_0160,biology-i,Biology-I,12th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-I_0181,biology-i,Biology-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-I_0218,biology-i,Biology-I,12th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-I_0222,biology-i,Biology-I,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-I_0265,biology-i,Biology-I,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-I_0277,biology-i,Biology-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Biology-I_0283,biology-i,Biology-I,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-II_0013,chemistry-ii,Chemistry-II,12th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-II_0054,chemistry-ii,Chemistry-II,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-II_0067,chemistry-ii,Chemistry-II,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-II_0117,chemistry-ii,Chemistry-II,12th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-II_0194,chemistry-ii,Chemistry-II,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-II_0228,chemistry-ii,Chemistry-II,12th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-II_0235,chemistry-ii,Chemistry-II,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-II_0240,chemistry-ii,Chemistry-II,12th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-II_0294,chemistry-ii,Chemistry-II,12th,C,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-II_0305,chemistry-ii,Chemistry-II,12th,D,banglish_only_correct,False,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-II_0354,chemistry-ii,Chemistry-II,12th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-I_0028,chemistry-i,Chemistry-I,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-I_0037,chemistry-i,Chemistry-I,12th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-I_0140,chemistry-i,Chemistry-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-I_0174,chemistry-i,Chemistry-I,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-I_0190,chemistry-i,Chemistry-I,12th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-I_0218,chemistry-i,Chemistry-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-I_0227,chemistry-i,Chemistry-I,12th,D,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-I_0260,chemistry-i,Chemistry-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-I_0286,chemistry-i,Chemistry-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-I_0303,chemistry-i,Chemistry-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Chemistry-I_0328,chemistry-i,Chemistry-I,12th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-II_0043,math-ii,Math-II,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-II_0214,math-ii,Math-II,12th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-II_0230,math-ii,Math-II,12th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-II_0234,math-ii,Math-II,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-I_0029,math-i,Math-I,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-I_0088,math-i,Math-I,12th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-I_0120,math-i,Math-I,12th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-I_0186,math-i,Math-I,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-I_0187,math-i,Math-I,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-I_0202,math-i,Math-I,12th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-I_0218,math-i,Math-I,12th,A,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-I_0310,math-i,Math-I,12th,B,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-I_0326,math-i,Math-I,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-I_0342,math-i,Math-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Math-I_0383,math-i,Math-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-II_0037,physics-ii,Physics-II,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-II_0046,physics-ii,Physics-II,12th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-II_0085,physics-ii,Physics-II,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-II_0088,physics-ii,Physics-II,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-II_0131,physics-ii,Physics-II,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-II_0195,physics-ii,Physics-II,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-II_0213,physics-ii,Physics-II,12th,D,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-II_0219,physics-ii,Physics-II,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-II_0267,physics-ii,Physics-II,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-II_0290,physics-ii,Physics-II,12th,B,bangla_only_correct,True,False,False,True,False,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-II_0292,physics-ii,Physics-II,12th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-I_0008,physics-i,Physics-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-I_0079,physics-i,Physics-I,12th,C,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-I_0106,physics-i,Physics-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-I_0109,physics-i,Physics-I,12th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-I_0133,physics-i,Physics-I,12th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-I_0157,physics-i,Physics-I,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-I_0214,physics-i,Physics-I,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-I_0253,physics-i,Physics-I,12th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-I_0254,physics-i,Physics-I,12th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-I_0256,physics-i,Physics-I,12th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_12th-Physics-I_0289,physics-i,Physics-I,12th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Math_0031,math,Math,8th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Math_0062,math,Math,8th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Math_0072,math,Math,8th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Math_0085,math,Math,8th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Math_0167,math,Math,8th,C,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Math_0190,math,Math,8th,B,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Science_0014,science,Science,8th,D,bangla_banglish_correct_english_wrong,True,True,False,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Science_0024,science,Science,8th,C,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Science_0042,science,Science,8th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Science_0062,science,Science,8th,D,all_correct,True,True,True,False,False,False,False,True,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Science_0078,science,Science,8th,C,banglish_english_correct_bangla_wrong,False,True,True,False,False,False,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Science_0086,science,Science,8th,A,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Science_0098,science,Science,8th,A,all_wrong,False,False,False,False,False,False,False,False,True
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Science_0127,science,Science,8th,B,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Science_0153,science,Science,8th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Science_0159,science,Science,8th,B,english_only_correct,False,False,True,False,True,True,False,False,False
+Qwen3-4B,Qwen/Qwen3-4B-Instruct-2507,benqa,mcq,choice,benqa_8th-Science_0202,science,Science,8th,C,bangla_english_correct_banglish_wrong,True,False,True,True,True,True,True,False,False

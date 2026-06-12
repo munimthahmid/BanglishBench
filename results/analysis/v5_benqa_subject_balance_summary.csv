@@ -1,0 +1,7 @@
+model,comparison,baseline_variant,baseline_label,candidate_variant,candidate_label,n,subjects,baseline_correct,candidate_correct,baseline_micro_accuracy,candidate_micro_accuracy,micro_delta,baseline_subject_macro_accuracy,candidate_subject_macro_accuracy,subject_macro_delta,subject_macro_ci95_low,subject_macro_ci95_high,subjects_negative,subjects_positive,subjects_zero,gains,losses,iterations,seed
+Qwen2.5-3B,banglish_minus_bangla,bangla,Bangla,banglish_clean,Reviewed Banglish,144,13,49,41,0.3403,0.2847,-0.0556,0.3397,0.2867,-0.053,-0.1521,0.042,7,5,1,15,23,10000,20260532
+Qwen2.5-3B,banglish_minus_english,english,English,banglish_clean,Reviewed Banglish,144,13,66,41,0.4583,0.2847,-0.1736,0.4598,0.2867,-0.1731,-0.2728,-0.0682,9,2,2,15,40,10000,20260533
+Qwen2.5-7B 8-bit,banglish_minus_bangla,bangla,Bangla,banglish_clean,Reviewed Banglish,144,13,60,47,0.4167,0.3264,-0.0903,0.4167,0.3252,-0.0915,-0.1684,-0.0157,8,3,2,19,32,10000,20260534
+Qwen2.5-7B 8-bit,banglish_minus_english,english,English,banglish_clean,Reviewed Banglish,144,13,86,47,0.5972,0.3264,-0.2708,0.5962,0.3252,-0.271,-0.3847,-0.1609,11,0,2,13,52,10000,20260535
+Qwen3-4B,banglish_minus_bangla,bangla,Bangla,banglish_clean,Reviewed Banglish,144,13,76,47,0.5278,0.3264,-0.2014,0.5286,0.3269,-0.2017,-0.2856,-0.1119,12,1,0,8,37,10000,20260536
+Qwen3-4B,banglish_minus_english,english,English,banglish_clean,Reviewed Banglish,144,13,82,47,0.5694,0.3264,-0.2431,0.5711,0.3269,-0.2442,-0.3427,-0.1304,12,1,0,13,48,10000,20260537

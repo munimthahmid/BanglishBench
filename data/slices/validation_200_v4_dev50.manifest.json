@@ -1,0 +1,57 @@
+{
+  "created_at_utc": "2026-05-27T19:50:43.177038+00:00",
+  "dev": {
+    "counts_by_dataset": {
+      "banglamath": 14,
+      "benqa": 36
+    },
+    "counts_by_stratum": {
+      "banglamath:Eight": 5,
+      "banglamath:seven": 5,
+      "banglamath:six": 4,
+      "benqa:Biology": 3,
+      "benqa:Biology-I": 3,
+      "benqa:Biology-II": 3,
+      "benqa:Chemistry": 3,
+      "benqa:Chemistry-I": 3,
+      "benqa:Chemistry-II": 3,
+      "benqa:Math": 3,
+      "benqa:Math-I": 3,
+      "benqa:Math-II": 3,
+      "benqa:Physics": 3,
+      "benqa:Physics-I": 2,
+      "benqa:Physics-II": 2,
+      "benqa:Science": 2
+    },
+    "items": 50
+  },
+  "dev_output": "data/slices/validation_200_v4_dev50.jsonl",
+  "input": "data/slices/validation_200_v4.jsonl",
+  "seed": 20260528,
+  "test": {
+    "counts_by_dataset": {
+      "banglamath": 42,
+      "benqa": 108
+    },
+    "counts_by_stratum": {
+      "banglamath:Eight": 11,
+      "banglamath:seven": 15,
+      "banglamath:six": 16,
+      "benqa:Biology": 9,
+      "benqa:Biology-I": 8,
+      "benqa:Biology-II": 8,
+      "benqa:Chemistry": 8,
+      "benqa:Chemistry-I": 8,
+      "benqa:Chemistry-II": 8,
+      "benqa:Math": 8,
+      "benqa:Math-I": 8,
+      "benqa:Math-II": 8,
+      "benqa:Physics": 8,
+      "benqa:Physics-I": 9,
+      "benqa:Physics-II": 9,
+      "benqa:Science": 9
+    },
+    "items": 150
+  },
+  "test_output": "data/slices/validation_200_v4_test150.jsonl"
+}

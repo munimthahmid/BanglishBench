@@ -1,0 +1,4 @@
+section,model,n,bangla_raw_signature,banglish_raw_signature,english_raw_signature,alt_raw_signature_any,alt_raw_signature_both,alt_correct_any,banglish_retains_alt_raw_signature,banglish_drops_alt_raw_signature,banglish_correct_given_alt_raw_signature,banglish_wrong_without_raw_number_given_alt_raw_signature,banglish_meta_given_alt_raw_signature,banglish_raw_signature_given_both_alt_raw,banglish_correct_given_both_alt_raw,banglish_correct_given_alt_correct
+model_summary,Qwen2.5-3B,56,10,1,10,12,8,7,1,11,0,0,0,1,0,0
+model_summary,Qwen2.5-7B 8-bit,56,16,5,20,24,12,10,4,20,0,0,0,4,0,0
+model_summary,Qwen3-4B,56,19,10,24,24,19,6,8,16,2,4,9,8,2,2

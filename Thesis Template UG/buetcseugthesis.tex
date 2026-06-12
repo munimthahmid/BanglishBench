@@ -1,0 +1,31 @@
+
+\documentclass[12pt,notitlepage,oneside]{report}
+
+\usepackage{buetcseugthesis}
+
+% This thesis currently contains no algorithm environments.
+\suppresslistofalgorithms
+
+% Allow long artifact paths and model names to wrap without changing the template.
+\makeatletter
+\g@addto@macro\UrlBreaks{\do\_\do\-}
+\makeatother
+\def\UrlFont{\footnotesize\ttfamily}
+\setlength{\emergencystretch}{3em}
+\setlength{\headheight}{27.1pt}
+
+\begin{document}
+
+\input{chapters/01_introduction.tex}
+\input{chapters/02_related_work.tex}
+\input{chapters/03_benchmark_and_protocol.tex}
+\input{chapters/04_main_results_and_robustness.tex}
+\input{chapters/05_failure_analysis.tex}
+\input{chapters/06_frontier_and_scale_boundary.tex}
+\input{chapters/07_mitigation_attempts.tex}
+\input{chapters/08_discussion_limitations_artifacts.tex}
+\input{chapters/09_conclusion.tex}
+
+\input{buetcseugthesisbibliography.tex}
+
+\end{document}

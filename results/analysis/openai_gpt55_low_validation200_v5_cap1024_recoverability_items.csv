@@ -1,0 +1,21 @@
+request_id,id,dataset,answer_type,variant,gold,parsed,secondary_parsed,secondary_reason,raw_excerpt
+banglamath_0185::banglish_clean::baseline,banglamath_0185,banglamath,short_answer,banglish_clean,২০০ কেজি,200 keji,200 keji,short_extended_unit,200 keji
+banglamath_0185::english::baseline,banglamath_0185,banglamath,short_answer,english,২০০ কেজি,200 kg,200 kg,short_extended_unit,200 kg
+banglamath_0187::english::baseline,banglamath_0187,banglamath,short_answer,english,১৪০ জন,140,140,short_numeric_only,140
+banglamath_0188::english::baseline,banglamath_0188,banglamath,short_answer,english,১৫ ঘণ্টা,15 hours per day,15 hours per day,short_numeric_only,15 hours per day
+banglamath_0189::english::baseline,banglamath_0189,banglamath,short_answer,english,৬ জন পুরুষ,6 men,6 men,short_numeric_only,6 men
+banglamath_0226::banglish_clean::baseline,banglamath_0226,banglamath,short_answer,banglish_clean,২৫০ টাকা,250,250,short_numeric_only,250
+banglamath_0226::english::baseline,banglamath_0226,banglamath,short_answer,english,২৫০ টাকা,250,250,short_numeric_only,250
+banglamath_0227::english::baseline,banglamath_0227,banglamath,short_answer,english,৭.৫ কিমি,7.5 km,7.5 km,short_extended_unit,7.5 km
+banglamath_0518::english::baseline,banglamath_0518,banglamath,short_answer,english,১৫০ মিটার,150 meters,150 meters,short_extended_unit,150 meters
+banglamath_0521::english::baseline,banglamath_0521,banglamath,short_answer,english,৭০ মিটার,70 meters,70 meters,short_extended_unit,70 meters
+banglamath_0540::english::baseline,banglamath_0540,banglamath,short_answer,english,২১ মিটার,21 meters,21 meters,short_extended_unit,21 meters
+banglamath_0552::english::baseline,banglamath_0552,banglamath,short_answer,english,৪৫০০ বর্গগজ,4500 square yards,4500 square yards,short_extended_unit,4500 square yards
+banglamath_0553::banglish_clean::baseline,banglamath_0553,banglamath,short_answer,banglish_clean,১১২৫টি,1125,1125,short_numeric_only,1125
+banglamath_0553::english::baseline,banglamath_0553,banglamath,short_answer,english,১১২৫টি,1125,1125,short_numeric_only,1125
+banglamath_0558::english::baseline,banglamath_0558,banglamath,short_answer,english,২০ মিটার,20 meters,20 meters,short_extended_unit,20 meters
+banglamath_1693::banglish_clean::baseline,banglamath_1693,banglamath,short_answer,banglish_clean,24,x = 24,x = 24,short_numeric_only,"সংখ্যাটি ২৪ হিসাব: ধরি, সংখ্যাটি = x x/3 + x/4 = 14 (4x + 3x)/12 = 14 7x/12 = 14 x = 14 × 12 ÷ 7 x = 24"
+banglamath_1698::bangla::baseline,banglamath_1698,banglamath,short_answer,bangla,১৩ টা,১৩টি,১৩টি,short_numeric_only,১৩টি
+banglamath_1698::banglish_clean::baseline,banglamath_1698,banglamath,short_answer,banglish_clean,১৩ টা,১৩টি,১৩টি,short_numeric_only,১৩টি
+banglamath_1698::english::baseline,banglamath_1698,banglamath,short_answer,english,১৩ টা,13,13,short_numeric_only,13
+banglamath_1703::english::baseline,banglamath_1703,banglamath,short_answer,english,৩৬টি,36,36,short_numeric_only,36

@@ -1,0 +1,54 @@
+request_id,id,dataset,answer_type,variant,gold,parsed,secondary_parsed,secondary_reason,raw_excerpt
+banglamath_0182::banglish_clean::baseline,banglamath_0182,banglamath,short_answer,banglish_clean,৬০০ টাকা,600,600,short_numeric_only,600
+banglamath_0183::banglish_clean::baseline,banglamath_0183,banglamath,short_answer,banglish_clean,৩০ দিন,30,30,short_numeric_only,30
+banglamath_0183::english::baseline,banglamath_0183,banglamath,short_answer,english,৩০ দিন,30,30,short_numeric_only,30
+banglamath_0184::banglish_clean::baseline,banglamath_0184,banglamath,short_answer,banglish_clean,১২০০০ টাকা,12000,12000,short_numeric_only,12000
+banglamath_0184::english::baseline,banglamath_0184,banglamath,short_answer,english,১২০০০ টাকা,12000,12000,short_numeric_only,12000
+banglamath_0185::banglish_clean::baseline,banglamath_0185,banglamath,short_answer,banglish_clean,২০০ কেজি,200,200,short_numeric_only,200
+banglamath_0185::english::baseline,banglamath_0185,banglamath,short_answer,english,২০০ কেজি,200 kg,200 kg,short_extended_unit,"To find the amount of rice needed to last 45 days for the same 10 people, we can set up a proportion since the number of people remains constant. Let $x$ be the amount of rice n..."
+banglamath_0187::bangla::baseline,banglamath_0187,banglamath,short_answer,bangla,১৪০ জন,১৪০,১৪০,short_numeric_only,১৪০
+banglamath_0187::banglish_clean::baseline,banglamath_0187,banglamath,short_answer,banglish_clean,১৪০ জন,140,140,short_numeric_only,140
+banglamath_0187::english::baseline,banglamath_0187,banglamath,short_answer,english,১৪০ জন,140,140,short_numeric_only,140
+banglamath_0188::banglish_clean::baseline,banglamath_0188,banglamath,short_answer,banglish_clean,১৫ ঘণ্টা,15,15,short_numeric_only,"To find the number of hours needed, we can use the work formula: $\text{Men}_1 \times \text{Hours}_1 \times \text{Days}_1 = \text{Men}_2 \times \text{Hours}_2 \times \text{Days}..."
+banglamath_0188::english::baseline,banglamath_0188,banglamath,short_answer,english,১৫ ঘণ্টা,15,15,short_numeric_only,"To find the number of hours per day, we can use the concept of man-hours. First, calculate the total man-hours required to complete the job: $$\text{Total Man-Hours} = 25 \text{..."
+banglamath_0189::bangla::baseline,banglamath_0189,banglamath,short_answer,bangla,৬ জন পুরুষ,৬ জন,৬ জন,short_numeric_only,৬ জন
+banglamath_0189::banglish_clean::baseline,banglamath_0189,banglamath,short_answer,banglish_clean,৬ জন পুরুষ,6,6,short_numeric_only,6
+banglamath_0189::english::baseline,banglamath_0189,banglamath,short_answer,english,৬ জন পুরুষ,6,6,short_numeric_only,6
+banglamath_0226::bangla::baseline,banglamath_0226,banglamath,short_answer,bangla,২৫০ টাকা,২৫০,২৫০,short_numeric_only,২৫০
+banglamath_0226::banglish_clean::baseline,banglamath_0226,banglamath,short_answer,banglish_clean,২৫০ টাকা,250,250,short_numeric_only,250
+banglamath_0226::english::baseline,banglamath_0226,banglamath,short_answer,english,২৫০ টাকা,250,250,short_numeric_only,250
+banglamath_0227::banglish_clean::baseline,banglamath_0227,banglamath,short_answer,banglish_clean,৭.৫ কিমি,7.5 kimi,7.5 kimi,short_extended_unit,7.5 kimi
+banglamath_0227::english::baseline,banglamath_0227,banglamath,short_answer,english,৭.৫ কিমি,7.5 km,7.5 km,short_extended_unit,7.5 km
+banglamath_0231::banglish_clean::baseline,banglamath_0231,banglamath,short_answer,banglish_clean,২০ টাকা,20,20,short_numeric_only,20
+banglamath_0232::banglish_clean::baseline,banglamath_0232,banglamath,short_answer,banglish_clean,২০০ টাকা,200,200,short_numeric_only,200
+banglamath_0233::banglish_clean::baseline,banglamath_0233,banglamath,short_answer,banglish_clean,৭ দিন,7,7,short_numeric_only,7
+banglamath_0233::english::baseline,banglamath_0233,banglamath,short_answer,english,৭ দিন,7,7,short_numeric_only,7
+banglamath_0234::banglish_clean::baseline,banglamath_0234,banglamath,short_answer,banglish_clean,৬ দিন,6,6,short_numeric_only,6
+banglamath_0234::english::baseline,banglamath_0234,banglamath,short_answer,english,৬ দিন,6,6,short_numeric_only,6
+banglamath_0236::english::baseline,banglamath_0236,banglamath,short_answer,english,১২ টাকা,12,12,short_numeric_only,12
+banglamath_0518::banglish_clean::baseline,banglamath_0518,banglamath,short_answer,banglish_clean,১৫০ মিটার,150 mitar,150 mitar,short_extended_unit,150 mitar
+banglamath_0518::english::baseline,banglamath_0518,banglamath,short_answer,english,১৫০ মিটার,150 meters,150 meters,short_extended_unit,150 meters
+banglamath_0521::banglish_clean::baseline,banglamath_0521,banglamath,short_answer,banglish_clean,৭০ মিটার,70 mitar,70 mitar,short_extended_unit,70 mitar
+banglamath_0521::english::baseline,banglamath_0521,banglamath,short_answer,english,৭০ মিটার,70 meters,70 meters,short_extended_unit,70 meters
+banglamath_0540::banglish_clean::baseline,banglamath_0540,banglamath,short_answer,banglish_clean,২১ মিটার,21 meter,21 meter,short_extended_unit,21 meter
+banglamath_0540::english::baseline,banglamath_0540,banglamath,short_answer,english,২১ মিটার,21 meters,21 meters,short_extended_unit,21 meters
+banglamath_0542::banglish_clean::baseline,banglamath_0542,banglamath,short_answer,banglish_clean,৩৪০০ টাকা,3400,3400,short_numeric_only,3400
+banglamath_0542::english::baseline,banglamath_0542,banglamath,short_answer,english,৩৪০০ টাকা,3400,3400,short_numeric_only,"To find the total cost of the fencing, we first need to calculate the perimeter of the garden (including the path). The dimensions of the garden are 44 meters by 24 meters. The..."
+banglamath_0552::banglish_clean::baseline,banglamath_0552,banglamath,short_answer,banglish_clean,৪৫০০ বর্গগজ,4500 bargo goj,4500 bargo goj,short_extended_unit,4500 bargo goj
+banglamath_0552::english::baseline,banglamath_0552,banglamath,short_answer,english,৪৫০০ বর্গগজ,4500 square yards,4500 square yards,short_extended_unit,4500 square yards
+banglamath_0553::bangla::baseline,banglamath_0553,banglamath,short_answer,bangla,১১২৫টি,১১২৫,১১২৫,short_numeric_only,১১২৫
+banglamath_0553::banglish_clean::baseline,banglamath_0553,banglamath,short_answer,banglish_clean,১১২৫টি,1125,1125,short_numeric_only,1125
+banglamath_0553::english::baseline,banglamath_0553,banglamath,short_answer,english,১১২৫টি,1125,1125,short_numeric_only,1125
+banglamath_0557::banglish_clean::baseline,banglamath_0557,banglamath,short_answer,banglish_clean,৯৩০ টাকা,930,930,short_numeric_only,930
+banglamath_0558::english::baseline,banglamath_0558,banglamath,short_answer,english,২০ মিটার,20 meters,20 meters,short_extended_unit,20 meters
+banglamath_1698::bangla::baseline,banglamath_1698,banglamath,short_answer,bangla,১৩ টা,১৩,১৩,short_numeric_only,১৩
+banglamath_1698::banglish_clean::baseline,banglamath_1698,banglamath,short_answer,banglish_clean,১৩ টা,13,13,short_numeric_only,13
+banglamath_1698::english::baseline,banglamath_1698,banglamath,short_answer,english,১৩ টা,13,13,short_numeric_only,13
+banglamath_1703::bangla::baseline,banglamath_1703,banglamath,short_answer,bangla,৩৬টি,৩৬,৩৬,short_numeric_only,৩৬
+banglamath_1703::banglish_clean::baseline,banglamath_1703,banglamath,short_answer,banglish_clean,৩৬টি,36,36,short_numeric_only,36
+banglamath_1703::english::baseline,banglamath_1703,banglamath,short_answer,english,৩৬টি,36,36,short_numeric_only,36
+benqa_10th-Biology_0277::english::baseline,benqa_10th-Biology_0277,benqa,choice,english,C,,C,choice_markdown_recovery,"To find the correct answer, let's analyze the information given in the stem: 1. **Identify the virus:** The disease mentioned is ""mosaic disease on tobacco leaves,"" which is cau..."
+benqa_10th-Chemistry_0111::banglish_clean::baseline,benqa_10th-Chemistry_0111,benqa,choice,banglish_clean,D,,D,choice_markdown_recovery,"To find the group of the element with the electron configuration $1s^2 2s^2 2p^2$: 1. The total number of electrons is $2 + 2 + 2 = 6$, which corresponds to Carbon (C). 2. For e..."
+benqa_10th-Math_0186::banglish_clean::baseline,benqa_10th-Math_0186,benqa,choice,banglish_clean,C,,C,choice_markdown_recovery,To find the quadrant of the intersection point of the two equations: 1. We are given $x = -4$. 2. Substitute $x = -4$ into the first equation: $2(-4) + y = 1$ $-8 + y = 1$ $y =...
+benqa_12th-Biology-II_0247::bangla::baseline,benqa_12th-Biology-II_0247,benqa,choice,bangla,B,,B,choice_markdown_recovery,"To find the probability of having a deaf-mute (মূক ও বধির) child from the cross $DdEe \times ddEE$: In genetics, deaf-mutism (congenital mutism) is often governed by duplicate r..."
+benqa_12th-Chemistry-II_0228::banglish_clean::baseline,benqa_12th-Chemistry-II_0228,benqa,choice,banglish_clean,C,,C,choice_markdown_recovery,"To find the correct option, let's analyze the given chemical reaction: $$\text{Ni}(s) + 2\text{Ag}^{+}(aq) \rightarrow \text{Ni}^{2+}(aq) + 2\text{Ag}(s)$$ 1. **i. Ni jarit hoy..."

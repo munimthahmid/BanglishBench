@@ -1,0 +1,13 @@
+split,model,prompt_mode,dataset,variant,n,unique_items,correct,accuracy,parsed_empty,mean_seconds,total_seconds
+dev,microsoft/Phi-3.5-mini-instruct,baseline,banglamath,bangla,14,14,0,0.0,0,1.6026,22.4367
+dev,microsoft/Phi-3.5-mini-instruct,baseline,banglamath,banglish_clean,14,14,0,0.0,0,1.0386,14.5407
+dev,microsoft/Phi-3.5-mini-instruct,baseline,banglamath,english,14,14,2,0.1429,0,5.6413,78.9779
+dev,microsoft/Phi-3.5-mini-instruct,baseline,benqa,bangla,36,36,5,0.1389,0,1.0998,39.5934
+dev,microsoft/Phi-3.5-mini-instruct,baseline,benqa,banglish_clean,36,36,7,0.1944,0,1.0639,38.3022
+dev,microsoft/Phi-3.5-mini-instruct,baseline,benqa,english,36,36,17,0.4722,0,3.2775,117.9896
+test,microsoft/Phi-3.5-mini-instruct,baseline,banglamath,bangla,42,42,1,0.0238,0,2.0831,87.4901
+test,microsoft/Phi-3.5-mini-instruct,baseline,banglamath,banglish_clean,42,42,0,0.0,0,1.0477,44.0036
+test,microsoft/Phi-3.5-mini-instruct,baseline,banglamath,english,42,42,11,0.2619,0,3.771,158.3833
+test,microsoft/Phi-3.5-mini-instruct,baseline,benqa,bangla,108,108,32,0.2963,1,1.2387,133.7828
+test,microsoft/Phi-3.5-mini-instruct,baseline,benqa,banglish_clean,108,108,33,0.3056,1,1.632,176.2583
+test,microsoft/Phi-3.5-mini-instruct,baseline,benqa,english,108,108,50,0.463,3,3.6515,394.3669

@@ -1,0 +1,7 @@
+metric,label,n,correct,accuracy,ci95_low,ci95_high,candidate_only,baseline_only,both_correct,both_wrong,parsed_empty
+variant_accuracy,bangla,974,820,0.841889,,,,,,,0
+variant_accuracy,banglish_clean,974,699,0.717659,,,,,,,0
+variant_accuracy,english,974,825,0.847023,,,,,,,0
+paired_gap,banglish_minus_bangla,974,,-0.124230,-0.150924,-0.097536,38,159,661,116,
+paired_gap,banglish_minus_english,974,,-0.129363,-0.159138,-0.098563,53,179,646,96,
+paired_gap,english_minus_bangla,974,,0.005133,-0.016427,0.026694,60,55,765,94,

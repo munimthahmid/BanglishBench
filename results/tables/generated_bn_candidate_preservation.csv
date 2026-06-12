@@ -1,0 +1,12 @@
+Generator,Protection,Dataset,Target view,n,Hard fails,Option failures,Digit failures,Formula failures,Extra answer markers,Latin fragment warnings,Decision
+phonetic-bangla 1.0.0,raw,benqa,generated_bn,36,36,36,0,23,0,0,Reject for routing
+bnbphoneticparser 0.1.5,raw,benqa,generated_bn,36,36,36,0,23,0,0,Reject for routing
+phonetic-bangla 1.0.0,legacy protected v1; historical answer-audit input,benqa,generated_bn,36,20,0,0,20,0,0,Reject for routing
+bnbphoneticparser 0.1.5,legacy protected v1; historical answer-audit input,benqa,generated_bn,36,22,0,0,22,0,0,Reject for routing
+phonetic-bangla 1.0.0,expanded protected v2,benqa,generated_bn,36,16,0,0,16,0,0,Reject for routing
+bnbphoneticparser 0.1.5,expanded protected v2,benqa,generated_bn,36,16,0,0,16,0,0,Reject for routing
+phonetic-bangla 1.0.0,reviewed-v5 expanded protected v2,benqa,generated_bn,36,16,0,0,16,0,0,Reject for routing
+bnbphoneticparser 0.1.5,reviewed-v5 expanded protected v2,benqa,generated_bn,36,16,0,0,16,0,0,Reject for routing
+phonetic-bangla 1.0.0,reviewed-v5 formulaish protected v3,benqa,generated_bn,36,0,0,0,0,0,0,Gate-passing; answer audit complete
+bnbphoneticparser 0.1.5,reviewed-v5 formulaish protected v3,benqa,generated_bn,36,0,0,0,0,0,0,Gate-passing; answer audit complete
+fms-byte/banglish_to_bangla MBART,expanded protected line segments,benqa,generated_bn,36,15,0,0,15,0,7,Reject for routing

@@ -1,0 +1,7 @@
+check,status,detail
+session_numbers_consecutive,ok,found=[] expected=[]
+planned_row_ids_unique,ok,no duplicates
+planned_ids_cover_pending_queue,ok,pending=0 planned_unique=0
+packet_readme_exists,ok,reports/validation200_v5_review_session_packets/README.md
+packet_file_set,ok,packets=0
+resume_session_set,ok,resume_sessions=[] plan_sessions=[]

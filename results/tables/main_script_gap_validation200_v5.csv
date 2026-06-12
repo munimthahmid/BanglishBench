@@ -1,0 +1,4 @@
+Model,Slice,Bangla,Reviewed Banglish,English,Banglish-Bangla,Banglish-English,Interpretation
+Qwen2.5-3B,validation_200_v5,54/200,41/200,71/200,"-6.5 pts, CI [-13.0, 0.0]","-15.0 pts, CI [-22.0, -7.5]",Point deficit remains; all-200 CI reaches zero. Historical v3 and strict-197 checks remain negative.
+Qwen2.5-7B 8-bit,validation_200_v5,65/200,47/200,94/200,"-9.0 pts, CI [-16.0, -2.0]","-23.5 pts, CI [-31.0, -16.0]",Reviewed gap remains reliable at the stronger Qwen2.5 scaling point.
+Qwen3-4B,validation_200_v5,80/200,49/200,88/200,"-15.5 pts, CI [-22.0, -9.0]","-19.5 pts, CI [-27.0, -12.0]",Strongest reviewed open-model gap.

@@ -1,0 +1,13 @@
+model,prompt_mode,dataset,variant,tokenizer,n,correct,accuracy,mean_hf_tokens_correct,mean_hf_tokens_wrong,corr_correct_vs_hf_tokens,corr_correct_vs_tokens_per_word
+Qwen/Qwen2.5-3B-Instruct,baseline,banglamath,bangla,Qwen/Qwen3-4B-Instruct-2507,56,5,0.0893,66.8,119.4118,-0.2175,-0.2363
+Qwen/Qwen2.5-3B-Instruct,baseline,banglamath,banglish_clean,Qwen/Qwen3-4B-Instruct-2507,56,0,0.0,,50.6786,0.0,0.0
+Qwen/Qwen2.5-3B-Instruct,baseline,banglamath,english,Qwen/Qwen3-4B-Instruct-2507,56,5,0.0893,23.2,37.7647,-0.3527,0.0799
+Qwen/Qwen2.5-3B-Instruct,baseline,benqa,bangla,Qwen/Qwen3-4B-Instruct-2507,144,49,0.3403,131.0612,125.1684,0.0538,0.0522
+Qwen/Qwen2.5-3B-Instruct,baseline,benqa,banglish_clean,Qwen/Qwen3-4B-Instruct-2507,144,38,0.2639,87.9737,74.5755,0.2061,0.1021
+Qwen/Qwen2.5-3B-Instruct,baseline,benqa,english,Qwen/Qwen3-4B-Instruct-2507,144,66,0.4583,61.697,73.3846,-0.2268,-0.0203
+Qwen/Qwen3-4B-Instruct-2507,baseline,banglamath,bangla,Qwen/Qwen3-4B-Instruct-2507,56,4,0.0714,45.5,120.0385,-0.2782,-0.5236
+Qwen/Qwen3-4B-Instruct-2507,baseline,banglamath,banglish_clean,Qwen/Qwen3-4B-Instruct-2507,56,1,0.0179,28.0,51.0909,-0.1131,-0.336
+Qwen/Qwen3-4B-Instruct-2507,baseline,banglamath,english,Qwen/Qwen3-4B-Instruct-2507,56,6,0.1071,25.3333,37.8,-0.3274,0.1821
+Qwen/Qwen3-4B-Instruct-2507,baseline,benqa,bangla,Qwen/Qwen3-4B-Instruct-2507,144,76,0.5278,123.9474,130.7794,-0.0658,0.0105
+Qwen/Qwen3-4B-Instruct-2507,baseline,benqa,banglish_clean,Qwen/Qwen3-4B-Instruct-2507,144,45,0.3125,79.3333,77.5556,0.0288,0.1867
+Qwen/Qwen3-4B-Instruct-2507,baseline,benqa,english,Qwen/Qwen3-4B-Instruct-2507,144,82,0.5694,62.5366,75.2903,-0.2459,0.0837

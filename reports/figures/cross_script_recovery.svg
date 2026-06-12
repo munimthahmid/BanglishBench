@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="490.0" y="32.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#24292f">Cross-Script Recovery Signals</text>
+<text x="20.0" y="255.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#24292f">Accuracy (%)</text>
+<line x1="80" y1="440.0" x2="940" y2="440.0" stroke="#d8dee4" stroke-width="1"/>
+<text x="68.0" y="444.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#24292f">0</text>
+<line x1="80" y1="378.3" x2="940" y2="378.3" stroke="#d8dee4" stroke-width="1"/>
+<text x="68.0" y="382.3" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#24292f">10</text>
+<line x1="80" y1="316.7" x2="940" y2="316.7" stroke="#d8dee4" stroke-width="1"/>
+<text x="68.0" y="320.7" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#24292f">20</text>
+<line x1="80" y1="255.0" x2="940" y2="255.0" stroke="#d8dee4" stroke-width="1"/>
+<text x="68.0" y="259.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#24292f">30</text>
+<line x1="80" y1="193.3" x2="940" y2="193.3" stroke="#d8dee4" stroke-width="1"/>
+<text x="68.0" y="197.3" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#24292f">40</text>
+<line x1="80" y1="131.7" x2="940" y2="131.7" stroke="#d8dee4" stroke-width="1"/>
+<text x="68.0" y="135.7" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#24292f">50</text>
+<line x1="80" y1="70.0" x2="940" y2="70.0" stroke="#d8dee4" stroke-width="1"/>
+<text x="68.0" y="74.0" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#24292f">60</text>
+<line x1="80" y1="440.0" x2="940" y2="440.0" stroke="#30363d" stroke-width="1.4"/>
+<line x1="80" y1="70" x2="80" y2="440" stroke="#30363d" stroke-width="1.4"/>
+<rect x="172.3" y="313.6" width="31.0" height="126.4" fill="#e76f51" rx="2"/>
+<text x="187.8" y="307.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#24292f">20.5</text>
+<rect x="206.3" y="288.9" width="31.0" height="151.1" fill="#6d597a" rx="2"/>
+<text x="221.8" y="282.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#24292f">24.5</text>
+<rect x="240.3" y="134.8" width="31.0" height="305.2" fill="#8ab17d" rx="2"/>
+<text x="255.8" y="128.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#24292f">49.5</text>
+<text x="223.3" y="468.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#24292f">Qwen2.5-3B</text>
+<text x="223.3" y="486.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#24292f"></text>
+<rect x="459.0" y="295.1" width="31.0" height="144.9" fill="#e76f51" rx="2"/>
+<text x="474.5" y="289.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#24292f">23.5</text>
+<rect x="493.0" y="221.1" width="31.0" height="218.9" fill="#6d597a" rx="2"/>
+<text x="508.5" y="215.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#24292f">35.5</text>
+<rect x="527.0" y="85.4" width="31.0" height="354.6" fill="#8ab17d" rx="2"/>
+<text x="542.5" y="79.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#24292f">57.5</text>
+<text x="510.0" y="468.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#24292f">Qwen2.5-7B 8-bit</text>
+<text x="510.0" y="486.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#24292f"></text>
+<rect x="745.7" y="288.9" width="31.0" height="151.1" fill="#e76f51" rx="2"/>
+<text x="761.2" y="282.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#24292f">24.5</text>
+<rect x="779.7" y="205.7" width="31.0" height="234.3" fill="#6d597a" rx="2"/>
+<text x="795.2" y="199.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#24292f">38.0</text>
+<rect x="813.7" y="107.0" width="31.0" height="333.0" fill="#8ab17d" rx="2"/>
+<text x="829.2" y="101.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#24292f">54.0</text>
+<text x="796.7" y="468.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#24292f">Qwen3-4B</text>
+<text x="796.7" y="486.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="400" fill="#24292f"></text>
+<rect x="80" y="514" width="14" height="14" fill="#e76f51" rx="2"/>
+<text x="100.0" y="525.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#24292f">Banglish</text>
+<rect x="235" y="514" width="14" height="14" fill="#6d597a" rx="2"/>
+<text x="255.0" y="525.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#24292f">Agreement route</text>
+<rect x="390" y="514" width="14" height="14" fill="#8ab17d" rx="2"/>
+<text x="410.0" y="525.0" text-anchor="start" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#24292f">Oracle</text>
+</svg>

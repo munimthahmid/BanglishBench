@@ -1,0 +1,2 @@
+label,n,left_correct,right_correct,left_accuracy,right_accuracy,delta_right_minus_left,ci95_low,ci95_high,bootstrap_p_opposite_direction,left_filter,right_filter,key_columns,samples,seed
+qwen3_1_7b_nothink_validation200_v4_banglish_minus_english,200,61,36,0.305,0.18,-0.125,-0.2,-0.05,0.0005,model=Qwen/Qwen3-1.7B;variant=english;prompt_mode=baseline,model=Qwen/Qwen3-1.7B;variant=banglish_clean;prompt_mode=baseline,id,10000,42

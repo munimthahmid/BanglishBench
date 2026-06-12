@@ -1,0 +1,193 @@
+model,dataset,comparison,left_script,right_script,cluster_key,n,left_correct,right_correct,delta_right_minus_left,gains,losses
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:eight,16,0,0,0.0,0,0
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:seven,20,2,0,-0.1,0,2
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:six,20,3,0,-0.15,0,3
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology,12,5,0,-0.4167,0,5
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology-I,11,3,2,-0.0909,0,1
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology-II,11,3,4,0.0909,2,1
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry,11,3,4,0.0909,1,0
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry-I,11,4,2,-0.1818,0,2
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry-II,11,2,5,0.2727,5,2
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math,11,5,3,-0.1818,1,3
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math-I,11,3,3,0.0,1,1
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math-II,11,6,5,-0.0909,0,1
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics,11,5,4,-0.0909,1,2
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics-I,11,4,5,0.0909,2,1
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics-II,11,2,3,0.0909,2,1
+Qwen2.5-3B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Science,11,4,1,-0.2727,0,3
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,banglamath:eight,16,0,0,0.0,0,0
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,banglamath:seven,20,1,0,-0.05,0,1
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,banglamath:six,20,4,0,-0.2,0,4
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Biology,12,3,0,-0.25,0,3
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Biology-I,11,7,2,-0.4545,1,6
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Biology-II,11,6,4,-0.1818,1,3
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry,11,7,4,-0.2727,0,3
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry-I,11,5,2,-0.2727,0,3
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry-II,11,6,5,-0.0909,2,3
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Math,11,8,3,-0.4545,1,6
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Math-I,11,2,3,0.0909,1,0
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Math-II,11,3,5,0.1818,3,1
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Physics,11,7,4,-0.2727,1,4
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Physics-I,11,5,5,0.0,1,1
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Physics-II,11,3,3,0.0,3,3
+Qwen2.5-3B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Science,11,4,1,-0.2727,1,4
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology,12,5,0,-0.4167,0,5
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology-I,11,3,2,-0.0909,0,1
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology-II,11,3,4,0.0909,2,1
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry,11,3,4,0.0909,1,0
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry-I,11,4,2,-0.1818,0,2
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry-II,11,2,5,0.2727,5,2
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math,11,5,3,-0.1818,1,3
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math-I,11,3,3,0.0,1,1
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math-II,11,6,5,-0.0909,0,1
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics,11,5,4,-0.0909,1,2
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics-I,11,4,5,0.0909,2,1
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics-II,11,2,3,0.0909,2,1
+Qwen2.5-3B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Science,11,4,1,-0.2727,0,3
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Biology,12,3,0,-0.25,0,3
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Biology-I,11,7,2,-0.4545,1,6
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Biology-II,11,6,4,-0.1818,1,3
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry,11,7,4,-0.2727,0,3
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry-I,11,5,2,-0.2727,0,3
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry-II,11,6,5,-0.0909,2,3
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Math,11,8,3,-0.4545,1,6
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Math-I,11,2,3,0.0909,1,0
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Math-II,11,3,5,0.1818,3,1
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Physics,11,7,4,-0.2727,1,4
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Physics-I,11,5,5,0.0,1,1
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Physics-II,11,3,3,0.0,3,3
+Qwen2.5-3B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Science,11,4,1,-0.2727,1,4
+Qwen2.5-3B,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:eight,16,0,0,0.0,0,0
+Qwen2.5-3B,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:seven,20,2,0,-0.1,0,2
+Qwen2.5-3B,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:six,20,3,0,-0.15,0,3
+Qwen2.5-3B,banglamath,banglish_minus_english,English,Reviewed Banglish,banglamath:eight,16,0,0,0.0,0,0
+Qwen2.5-3B,banglamath,banglish_minus_english,English,Reviewed Banglish,banglamath:seven,20,1,0,-0.05,0,1
+Qwen2.5-3B,banglamath,banglish_minus_english,English,Reviewed Banglish,banglamath:six,20,4,0,-0.2,0,4
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:eight,16,0,0,0.0,0,0
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:seven,20,2,0,-0.1,0,2
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:six,20,3,0,-0.15,0,3
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology,12,5,6,0.0833,2,1
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology-I,11,6,2,-0.3636,2,6
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology-II,11,6,5,-0.0909,2,3
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry,11,3,1,-0.1818,1,3
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry-I,11,5,2,-0.2727,0,3
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry-II,11,5,4,-0.0909,2,3
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math,11,5,2,-0.2727,0,3
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math-I,11,5,6,0.0909,2,1
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math-II,11,2,2,0.0,1,1
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics,11,4,5,0.0909,2,1
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics-I,11,6,5,-0.0909,2,3
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics-II,11,3,2,-0.0909,1,2
+Qwen2.5-7B 8-bit,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Science,11,5,5,0.0,2,2
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,banglamath:eight,16,1,0,-0.0625,0,1
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,banglamath:seven,20,1,0,-0.05,0,1
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,banglamath:six,20,6,0,-0.3,0,6
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Biology,12,9,6,-0.25,1,4
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Biology-I,11,8,2,-0.5455,1,7
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Biology-II,11,6,5,-0.0909,3,4
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry,11,6,1,-0.4545,0,5
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry-I,11,7,2,-0.4545,0,5
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry-II,11,9,4,-0.4545,0,5
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Math,11,9,2,-0.6364,1,8
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Math-I,11,6,6,0.0,1,1
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Math-II,11,2,2,0.0,1,1
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Physics,11,8,5,-0.2727,0,3
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Physics-I,11,6,5,-0.0909,2,3
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Physics-II,11,4,2,-0.1818,1,3
+Qwen2.5-7B 8-bit,all,banglish_minus_english,English,Reviewed Banglish,benqa:Science,11,6,5,-0.0909,2,3
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology,12,5,6,0.0833,2,1
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology-I,11,6,2,-0.3636,2,6
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology-II,11,6,5,-0.0909,2,3
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry,11,3,1,-0.1818,1,3
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry-I,11,5,2,-0.2727,0,3
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry-II,11,5,4,-0.0909,2,3
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math,11,5,2,-0.2727,0,3
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math-I,11,5,6,0.0909,2,1
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math-II,11,2,2,0.0,1,1
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics,11,4,5,0.0909,2,1
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics-I,11,6,5,-0.0909,2,3
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics-II,11,3,2,-0.0909,1,2
+Qwen2.5-7B 8-bit,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Science,11,5,5,0.0,2,2
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Biology,12,9,6,-0.25,1,4
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Biology-I,11,8,2,-0.5455,1,7
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Biology-II,11,6,5,-0.0909,3,4
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry,11,6,1,-0.4545,0,5
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry-I,11,7,2,-0.4545,0,5
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry-II,11,9,4,-0.4545,0,5
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Math,11,9,2,-0.6364,1,8
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Math-I,11,6,6,0.0,1,1
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Math-II,11,2,2,0.0,1,1
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Physics,11,8,5,-0.2727,0,3
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Physics-I,11,6,5,-0.0909,2,3
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Physics-II,11,4,2,-0.1818,1,3
+Qwen2.5-7B 8-bit,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Science,11,6,5,-0.0909,2,3
+Qwen2.5-7B 8-bit,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:eight,16,0,0,0.0,0,0
+Qwen2.5-7B 8-bit,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:seven,20,2,0,-0.1,0,2
+Qwen2.5-7B 8-bit,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:six,20,3,0,-0.15,0,3
+Qwen2.5-7B 8-bit,banglamath,banglish_minus_english,English,Reviewed Banglish,banglamath:eight,16,1,0,-0.0625,0,1
+Qwen2.5-7B 8-bit,banglamath,banglish_minus_english,English,Reviewed Banglish,banglamath:seven,20,1,0,-0.05,0,1
+Qwen2.5-7B 8-bit,banglamath,banglish_minus_english,English,Reviewed Banglish,banglamath:six,20,6,0,-0.3,0,6
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:eight,16,2,2,0.0,0,0
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:seven,20,0,0,0.0,0,0
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:six,20,2,0,-0.1,0,2
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology,12,5,3,-0.1667,2,4
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology-I,11,6,3,-0.2727,0,3
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology-II,11,6,1,-0.4545,0,5
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry,11,7,4,-0.2727,0,3
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry-I,11,7,5,-0.1818,1,3
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry-II,11,7,2,-0.4545,1,6
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math,11,5,2,-0.2727,0,3
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math-I,11,5,4,-0.0909,0,1
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math-II,11,6,8,0.1818,2,0
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics,11,8,6,-0.1818,1,3
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics-I,11,6,4,-0.1818,0,2
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics-II,11,3,2,-0.0909,0,1
+Qwen3-4B,all,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Science,11,5,3,-0.1818,1,3
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,banglamath:eight,16,2,2,0.0,0,0
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,banglamath:seven,20,1,0,-0.05,0,1
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,banglamath:six,20,3,0,-0.15,0,3
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Biology,12,4,3,-0.0833,2,3
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Biology-I,11,6,3,-0.2727,1,4
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Biology-II,11,4,1,-0.2727,1,4
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry,11,8,4,-0.3636,1,5
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry-I,11,9,5,-0.3636,0,4
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry-II,11,8,2,-0.5455,2,8
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Math,11,6,2,-0.3636,0,4
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Math-I,11,5,4,-0.0909,1,2
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Math-II,11,5,8,0.2727,3,0
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Physics,11,9,6,-0.2727,1,4
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Physics-I,11,6,4,-0.1818,0,2
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Physics-II,11,4,2,-0.1818,0,2
+Qwen3-4B,all,banglish_minus_english,English,Reviewed Banglish,benqa:Science,11,8,3,-0.4545,1,6
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology,12,5,3,-0.1667,2,4
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology-I,11,6,3,-0.2727,0,3
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Biology-II,11,6,1,-0.4545,0,5
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry,11,7,4,-0.2727,0,3
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry-I,11,7,5,-0.1818,1,3
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Chemistry-II,11,7,2,-0.4545,1,6
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math,11,5,2,-0.2727,0,3
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math-I,11,5,4,-0.0909,0,1
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Math-II,11,6,8,0.1818,2,0
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics,11,8,6,-0.1818,1,3
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics-I,11,6,4,-0.1818,0,2
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Physics-II,11,3,2,-0.0909,0,1
+Qwen3-4B,benqa,banglish_minus_bangla,Bangla,Reviewed Banglish,benqa:Science,11,5,3,-0.1818,1,3
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Biology,12,4,3,-0.0833,2,3
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Biology-I,11,6,3,-0.2727,1,4
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Biology-II,11,4,1,-0.2727,1,4
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry,11,8,4,-0.3636,1,5
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry-I,11,9,5,-0.3636,0,4
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Chemistry-II,11,8,2,-0.5455,2,8
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Math,11,6,2,-0.3636,0,4
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Math-I,11,5,4,-0.0909,1,2
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Math-II,11,5,8,0.2727,3,0
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Physics,11,9,6,-0.2727,1,4
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Physics-I,11,6,4,-0.1818,0,2
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Physics-II,11,4,2,-0.1818,0,2
+Qwen3-4B,benqa,banglish_minus_english,English,Reviewed Banglish,benqa:Science,11,8,3,-0.4545,1,6
+Qwen3-4B,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:eight,16,2,2,0.0,0,0
+Qwen3-4B,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:seven,20,0,0,0.0,0,0
+Qwen3-4B,banglamath,banglish_minus_bangla,Bangla,Reviewed Banglish,banglamath:six,20,2,0,-0.1,0,2
+Qwen3-4B,banglamath,banglish_minus_english,English,Reviewed Banglish,banglamath:eight,16,2,2,0.0,0,0
+Qwen3-4B,banglamath,banglish_minus_english,English,Reviewed Banglish,banglamath:seven,20,1,0,-0.05,0,1
+Qwen3-4B,banglamath,banglish_minus_english,English,Reviewed Banglish,banglamath:six,20,3,0,-0.15,0,3

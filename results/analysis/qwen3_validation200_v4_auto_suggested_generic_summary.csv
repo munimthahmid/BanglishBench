@@ -1,0 +1,10 @@
+group,n,baseline_correct,candidate_correct,delta_candidate_minus_baseline,ci95_low,ci95_high,bootstrap_p_opposite_direction,gains,losses,same_correct,same_wrong,samples,seed
+overall,200,47,48,0.005,0.0,0.015,0.3645,1,0,47,152,10000,42
+split=test,150,32,33,0.0067,0.0,0.02,0.3665,1,0,32,117,10000,43
+dataset=banglamath,56,1,1,0.0,0.0,0.0,1.0,0,0,1,55,10000,44
+split=test;dataset=banglamath,42,1,1,0.0,0.0,0.0,1.0,0,0,1,41,10000,45
+split=dev,50,15,15,0.0,0.0,0.0,1.0,0,0,15,35,10000,46
+split=dev;dataset=banglamath,14,0,0,0.0,0.0,0.0,1.0,0,0,0,14,10000,47
+dataset=benqa,144,46,47,0.0069,0.0,0.0208,0.3712,1,0,46,97,10000,48
+split=dev;dataset=benqa,36,15,15,0.0,0.0,0.0,1.0,0,0,15,21,10000,49
+split=test;dataset=benqa,108,31,32,0.0093,0.0,0.0278,0.3611,1,0,31,76,10000,50

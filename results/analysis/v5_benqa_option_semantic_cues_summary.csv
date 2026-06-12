@@ -1,0 +1,26 @@
+section,model,baseline_variant,scope,scope_label,n,D_composite,D_math_or_numeric,D_all_none_both,D_semantic_cue,D_no_semantic_cue,D_unique_composite,D_unique_math_or_numeric,any_composite,all_composite,correct,pred_D,baseline_label,correct_non_d_to_wrong_D
+item_features,all_items,,all,All BEnQA items,144,25,72,0,97,47,0,0,25,23,,,,
+model_cue_bucket,Qwen2.5-3B,,D_composite,D is composite,25,,,,,,,,,,10,22,,
+model_cue_bucket,Qwen2.5-3B,,D_math_or_numeric,D is numeric/formula-like,72,,,,,,,,,,23,8,,
+model_cue_bucket,Qwen2.5-3B,,D_semantic_cue,D has any semantic cue,97,,,,,,,,,,33,30,,
+model_cue_bucket,Qwen2.5-3B,,D_no_semantic_cue,D has no semantic cue,47,,,,,,,,,,8,9,,
+switch_cue_bucket,Qwen2.5-3B,bangla,correct_non_d_D_semantic_cue,"Correct non-D baseline, D has cue",24,,,,,,,,,,,,Bangla,5
+switch_cue_bucket,Qwen2.5-3B,bangla,correct_non_d_D_no_semantic_cue,"Correct non-D baseline, D has no cue",11,,,,,,,,,,,,Bangla,1
+switch_cue_bucket,Qwen2.5-3B,english,correct_non_d_D_semantic_cue,"Correct non-D baseline, D has cue",28,,,,,,,,,,,,English,6
+switch_cue_bucket,Qwen2.5-3B,english,correct_non_d_D_no_semantic_cue,"Correct non-D baseline, D has no cue",20,,,,,,,,,,,,English,2
+model_cue_bucket,Qwen2.5-7B 8-bit,,D_composite,D is composite,25,,,,,,,,,,8,15,,
+model_cue_bucket,Qwen2.5-7B 8-bit,,D_math_or_numeric,D is numeric/formula-like,72,,,,,,,,,,23,6,,
+model_cue_bucket,Qwen2.5-7B 8-bit,,D_semantic_cue,D has any semantic cue,97,,,,,,,,,,31,21,,
+model_cue_bucket,Qwen2.5-7B 8-bit,,D_no_semantic_cue,D has no semantic cue,47,,,,,,,,,,16,4,,
+switch_cue_bucket,Qwen2.5-7B 8-bit,bangla,correct_non_d_D_semantic_cue,"Correct non-D baseline, D has cue",33,,,,,,,,,,,,Bangla,7
+switch_cue_bucket,Qwen2.5-7B 8-bit,bangla,correct_non_d_D_no_semantic_cue,"Correct non-D baseline, D has no cue",21,,,,,,,,,,,,Bangla,3
+switch_cue_bucket,Qwen2.5-7B 8-bit,english,correct_non_d_D_semantic_cue,"Correct non-D baseline, D has cue",42,,,,,,,,,,,,English,10
+switch_cue_bucket,Qwen2.5-7B 8-bit,english,correct_non_d_D_no_semantic_cue,"Correct non-D baseline, D has no cue",27,,,,,,,,,,,,English,1
+model_cue_bucket,Qwen3-4B,,D_composite,D is composite,25,,,,,,,,,,8,24,,
+model_cue_bucket,Qwen3-4B,,D_math_or_numeric,D is numeric/formula-like,72,,,,,,,,,,28,49,,
+model_cue_bucket,Qwen3-4B,,D_semantic_cue,D has any semantic cue,97,,,,,,,,,,36,73,,
+model_cue_bucket,Qwen3-4B,,D_no_semantic_cue,D has no semantic cue,47,,,,,,,,,,11,38,,
+switch_cue_bucket,Qwen3-4B,bangla,correct_non_d_D_semantic_cue,"Correct non-D baseline, D has cue",26,,,,,,,,,,,,Bangla,15
+switch_cue_bucket,Qwen3-4B,bangla,correct_non_d_D_no_semantic_cue,"Correct non-D baseline, D has no cue",18,,,,,,,,,,,,Bangla,15
+switch_cue_bucket,Qwen3-4B,english,correct_non_d_D_semantic_cue,"Correct non-D baseline, D has cue",31,,,,,,,,,,,,English,19
+switch_cue_bucket,Qwen3-4B,english,correct_non_d_D_no_semantic_cue,"Correct non-D baseline, D has no cue",23,,,,,,,,,,,,English,18

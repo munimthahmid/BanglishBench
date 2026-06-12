@@ -1,0 +1,17 @@
+field,pattern_name,id,snippet
+banglish_clean,tb_virama_b,benqa_10th-Physics_0280,tamar rodhokotb konoti? A. 1.6 \times 10^{-8}\Omega m B
+banglish_clean,tb_virama_b,benqa_10th-Physics_0084,sthir obosthan theke somotborone bostur jekono somoyer beg bostur o
+banglish_clean,tb_virama_b,benqa_12th-Math-II_0230,5 ekok durotbe A o B bindute kriyarot 9 ebong 5 ekok 
+banglish_clean,oja_loanword,benqa_10th-Biology_0215,C_{6}H_{12}O_{6}\xarrowright{enojaim}C_{3}H_{4}O_{3} uddipoker prokriyati-
+banglish_clean,ksh_heavy,banglamath_1688,e ke kototi penyaj ketechhil ar kar kotokshon somoy legechhil? Return only the fina
+banglish_clean,ksh_heavy,benqa_10th-Chemistry_0041,r kon tothyoti sothik? A. C_{2}H_{4} opeksha C_{2}H{6} odhik sokriy B. CH_{4} kshar
+banglish_clean,ksh_heavy,banglamath_1694,lomba ekoti setu pari dite trenotir kotokshon somoy lagobe? Return only the final a
+banglish_clean,ksh_heavy,banglamath_0522,ar choora rasta thakole rastabade jomir kshetrofol kot Return only the final answer
+banglish_clean,ksh_heavy,benqa_12th-Physics-I_0254,mohakorsh kshetr prabolyer matrar kshetre konoti soth
+banglish_clean,ksh_heavy,benqa_10th-Chemistry_0336,- i. CO_{2} ii. omlodhormi iii. bayu opeksha bhari nicher konoti sothik? A. i o ii 
+banglish_clean,ksh_heavy,benqa_12th-Biology-I_0283,penper ring spot roger lokshon holo- i. patar botay pani bheja sobuj
+banglish_clean,ksh_heavy,benqa_12th-Biology-II_0034,kshudrantrer kshudr ongsh konoti? A. pailor
+banglish_noisy,tb_virama_b,benqa_10th-Physics_0280,tamar rodhokotb konoti? A. 1.6 \times 10^{-8}\Omega m B
+banglish_noisy,tb_virama_b,benqa_10th-Physics_0084,sthir obosthan theke somotborone bostur jekono somoyer beg bostur o
+banglish_noisy,tb_virama_b,benqa_12th-Math-II_0230,5 ekok durotbe A o B bindute kriyarot 9 ebong 5 ekok 
+banglish_noisy,oja_loanword,benqa_10th-Biology_0215,C_{6}H_{12}O_{6}\xarrowright{enojaim}C_{3}H_{4}O_{3} uddipoker prokriyati-

@@ -1,0 +1,8 @@
+field,pattern_name,regex,items,occurrences
+banglish_clean,tb_virama_b,tb,3,3
+banglish_clean,boij_scientific,boij,0,0
+banglish_clean,oja_loanword,oja,2,2
+banglish_clean,khady_sanskritized,khady,0,0
+banglish_clean,ksh_heavy,ksh,24,28
+banglish_clean,db_cluster,\bdb,0,0
+banglish_clean,jn_cluster,jn,0,0

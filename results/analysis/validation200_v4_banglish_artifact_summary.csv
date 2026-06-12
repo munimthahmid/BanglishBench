@@ -1,0 +1,15 @@
+field,pattern_name,regex,items,occurrences
+banglish_clean,tb_virama_b,tb,4,4
+banglish_clean,boij_scientific,boij,0,0
+banglish_clean,oja_loanword,oja,2,2
+banglish_clean,khady_sanskritized,khady,0,0
+banglish_clean,ksh_heavy,ksh,41,48
+banglish_clean,db_cluster,\bdb,0,0
+banglish_clean,jn_cluster,jn,0,0
+banglish_noisy,tb_virama_b,tb,4,4
+banglish_noisy,boij_scientific,boij,0,0
+banglish_noisy,oja_loanword,oja,2,2
+banglish_noisy,khady_sanskritized,khady,0,0
+banglish_noisy,ksh_heavy,ksh,0,0
+banglish_noisy,db_cluster,\bdb,0,0
+banglish_noisy,jn_cluster,jn,0,0

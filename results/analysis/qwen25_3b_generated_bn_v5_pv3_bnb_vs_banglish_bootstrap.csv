@@ -1,0 +1,2 @@
+label,n,left_correct,right_correct,left_accuracy,right_accuracy,delta_right_minus_left,ci95_low,ci95_high,bootstrap_p_opposite_direction,left_filter,right_filter,key_columns,samples,seed
+qwen25_v5_pv3_bnb_vs_banglish,36,9,9,0.25,0.25,0.0,-0.1944,0.1944,0.5553,variant=banglish_clean,variant=generated_bn_bnb_protected_v3,id,10000,42
